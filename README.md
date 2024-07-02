@@ -44,3 +44,41 @@
     <strong>CGPA 3.98/4.00</strong>
   </div>
 </div>
+
+
+
+
+## RESEARCH EXPERIENCE
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>Department of AI (Sungkyunkwan University)</strong><br>
+    <em>Teaching Assistant</em><br>
+    <ul>
+      <li>Assisted professors with curriculum planning and preparation for undergraduate and graduate AI courses.</li>
+      <li>Held office hours to support and mentor students, addressing their academic queries and concerns.</li>
+      <li>Facilitated group discussions and study sessions to enhance student collaborative learning.</li>
+    </ul>
+  </div>
+  <div style="text-align: right;">
+    South Korea<br>
+    Jul'24 – Present
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>South-East Engineering College (Affiliated by Rajshahi University)</strong><br>
+    <em>Lecturer (part-time)</em><br>
+    <ul>
+      <li>Lecture planning, preparation, and presentation.</li>
+      <li>Checking and assessing students’ assignments.</li>
+      <li>Keep in touch with other teachers and students.</li>
+    </ul>
+  </div>
+  <div style="text-align: right;">
+    Bangladesh<br>
+    Jan'19 - Dec'20
+  </div>
+</div>
