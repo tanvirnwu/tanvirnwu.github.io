@@ -32,7 +32,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   
   <style>
     button:hover {
-      background-color: #0066ff !important; /* Blue background on hover */
+      background-color: #1a75ff !important; /* Blue background on hover */
       color: #ffffff !important; /* White text on hover */
     }
   </style>
