@@ -45,7 +45,7 @@ header_pages:
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <div style="text-align: center; position: relative; display: inline-block;">
-    <button onclick="toggleDropdown()" style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <button onclick="toggleDropdown()" style="padding: 10px 40px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
       Menu
     </button>
     <div id="myDropdown" style="display: none; position: absolute; background-color: #0066ff; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); border-radius: 5px; z-index: 1; min-width: 160px;">
