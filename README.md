@@ -237,7 +237,7 @@
       <h2 style="margin-top: 20px;"></h2>
       Foundation of User Experience (UX) Design (19 hours)<br>
       <h2 style="margin-top: 20px;"></h2>
-      Modern Computer Vision with PyTorch<br>
+      Modern Computer Vision with PyTorch<br><br>
       <h2 style="margin-top: 20px;"></h2>
       Python Deep Learning Projects<br>
       <h2 style="margin-top: 20px;"></h2>
