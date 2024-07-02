@@ -1,3 +1,15 @@
+<header>
+  <h1>Resume</h1>
+  <nav>
+    <ul style="list-style-type: none; padding: 0;">
+      <li style="display: inline; margin-right: 10px;"><a href="/">Home</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/projects/">Projects</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/about/">About</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 ## Md Tanvir Islam
 -----------------------------
 <div style="text-align: justify;">
