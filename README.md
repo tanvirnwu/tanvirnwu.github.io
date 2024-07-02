@@ -57,7 +57,7 @@
 
 
 <br><br>
-## RESEARCH EXPERIENCE
+## Research Experience
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -86,7 +86,7 @@
 
 
 <br><br>
-## TEACHING EXPERIENCE
+## Teaching Experience
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -114,7 +114,7 @@
 
 
 <br><br>
-## PUBLICATIONS
+## Publications
 -----------------------------
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
@@ -155,7 +155,7 @@
 
 
 <br><br>
-## PROJECTS
+## Projects
 -----------------------------
 
 <div style="margin-top: 20px;">
@@ -204,7 +204,7 @@
 
 
 <br><br>
-## TRAINING
+## Training
 -----------------------------
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between;">
@@ -272,7 +272,7 @@
 
 
 <br><br>
-## SCHOLARSHIPS
+## Scholarships
 -----------------------------
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -313,7 +313,7 @@
 
 
 <br><br>
-## PRACTICING SKILLS
+## Practicing Skills
 -----------------------------
 
 <div style="margin-top: 20px;">
@@ -357,7 +357,7 @@
 
 
 <br><br>
-## OTHER ACTIVITIES
+## Other Activities
 -----------------------------
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
