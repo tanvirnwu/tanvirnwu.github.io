@@ -31,7 +31,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   
   <style>
     button:hover {
-      background-color: #470C6C !important; /* Purple background on hover */
+      background-color: #0066ff !important; /* Purple background on hover */
       color: #ffffff !important; /* White text on hover */
     }
   </style>
