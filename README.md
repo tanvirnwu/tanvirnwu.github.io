@@ -172,27 +172,6 @@
 </ul>
 
 
-
-<br>
-## SKILLS
------------------------------
-<ul style="list-style-type: disc; margin-top: 20px;">
-  <li style="margin-bottom: 10px;">
-    <strong>Language:</strong> Bengali (Native), English (IELTS: 7.0), Korean (TOPIK: 4).
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Programming:</strong> Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch. Database: MySQL
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Visualization tools:</strong> Power BI, Adobe Photoshop, Adobe Illustrator, Figma.
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Others:</strong> Overleaf, Weka, Microsoft Suites, PyCharm, Jupyter
-  </li>
-</ul>
-
-
-
 <br>
 ## TRAINING
 -----------------------------
@@ -261,7 +240,6 @@
 
 
 
-
 <br>
 ## SCHOLARSHIPS
 -----------------------------
@@ -300,6 +278,27 @@
     </div>
   </div>
 </div>
+
+
+
+<br>
+## SKILLS PRACTICING
+-----------------------------
+<ul style="list-style-type: disc; margin-top: 20px;">
+  <li style="margin-bottom: 10px;">
+    <strong>Language:</strong> Bengali (Native), English (IELTS: 7.0), Korean (TOPIK: 4).
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Programming:</strong> Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch. Database: MySQL
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Visualization tools:</strong> Power BI, Adobe Photoshop, Adobe Illustrator, Figma.
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Others:</strong> Overleaf, Weka, Microsoft Suites, PyCharm, Jupyter
+  </li>
+</ul>
+
 
 
 
