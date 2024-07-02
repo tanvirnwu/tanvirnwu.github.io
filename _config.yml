@@ -13,7 +13,9 @@ github_username: tanvirnwu
 header_pages: 
   - about.md
 
-
+github:
+  is_project_page: false
+  
 # description: > # your text below (remove <br> elements if you don't need line breaks)
 #   <div style="text-align: center;">
 #     <a href="https://example.com" style="text-decoration: none;" target="_blank">
