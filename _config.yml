@@ -4,7 +4,23 @@ logo: /assets/tanvir.jpg
 
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br><br>
-  <a href="https://www.linkedin.com/in/tanvirislamnwu/"> <img src="https://img.shields.io/badge/LinkedIn-blue?logo=LinkedIn"> </a> 
-  <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+  <br>
+  <div style="text-align: center;">
+  <a href="https://example.com" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+      Button 1
+    </button>
+  </a>
+  <a href="https://example.com" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+      Button 2
+    </button>
+  </a>
+</div>
+
+<style>
+  button:hover {
+    opacity: 0.8;
+  }
+</style>
 
