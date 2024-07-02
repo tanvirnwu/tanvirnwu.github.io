@@ -3,8 +3,8 @@
     <ul style="list-style-type: none; padding: 0;">
       <li style="display: inline; margin-right: 10px;"><a href="/"><strong>Home</strong></a></li>
       <li style="display: inline; margin-right: 10px;"><a href="/projects/"><strong>Home</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>Home3</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Home4</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>Home</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Home</strong></a></li>
     </ul>
   </nav>
 </header>
