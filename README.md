@@ -142,11 +142,11 @@
    <strong>Total:</strong> 2
   </div>
 </div>
-<h2 style="margin-top: 30;"></h2>
-<div style="margin-top: 20px;">
+<h2 style="margin-top: 20;"></h2>
+<!-- <div style="margin-top: 20px;">
   <strong>Book Chapter</strong><br>
   Brain Networks in Neuroscience: Personalization Unveiled Via Artificial Intelligence. In Brain Networks in Neuroscience: Personalization Unveiled Via Artificial Intelligence. [Editor(s) Name(s)]. [Publisher], [Year]. ISBN: [ISBN number].
-</div>
+</div> -->
 
 <div style="margin-top: 20px; text-align: right;">
   <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank">More: Google Scholar</a>
