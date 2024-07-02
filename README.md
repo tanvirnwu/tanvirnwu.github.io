@@ -228,7 +228,6 @@
   <div style="display: flex; justify-content: space-between;">
     <div>
       <strong>Self Learning</strong><br>
-      <em>Courses and books I completed myself for growing my knowledge.</em><br>
         Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
         Python for Data Science, AI & Development (25 hours)<br>
         PyTorch for Deep Learning Bootcamp (52 hours)<br>
@@ -238,14 +237,14 @@
         Advanced Deep Learning with Python
     </div>
     <div style="text-align: right;">
-      Online/Books<be><br><br><br>
-      Udemy — Sept 2019<br>
-      IBM — Mar 2024<br>
-      Udemy — Mar 2024<br>
-      Google — Oct 2021<br>
-      Book by V Kishore Ayyadevara<br>
-      Book by Matthew Lamons<br>
-      Book by Ivan Vasilev
+      Online/Books<be><br><br>
+      Udemy — Sept 2019<br><br>
+      IBM — Mar 2024<br><br>
+      Udemy — Mar 2024<br><br>
+      Google — Oct 2021<br><br>
+      Book by V Kishore Ayyadevara<br><br>
+      Book by Matthew Lamons<br><br>
+      Book by Ivan Vasilev<br>
     </div>
   </div>
 </div>
