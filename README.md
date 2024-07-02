@@ -252,13 +252,10 @@
       Udemy — Mar 2024<br>
       <h2 style="margin-top: 20px;"></h2>
       Google — Oct 2021<br><br> <h2 style="margin-top: 20px;"></h2>
-      Book by V Kishore Ayyadevara<br><h2 style="margin-top: 20px;"></h2>
-      Book by Matthew Lamons<br><h2 style="margin-top: 20px;"></h2>
+      Book by V Kishore Ayyadevara<h2 style="margin-top: 20px;"></h2>
+      Book by Matthew Lamons<h2 style="margin-top: 20px;"></h2>
       Book by Ivan Vasilev
     </div>
-  </div>
-    
-
   </div>
 </div>
 
