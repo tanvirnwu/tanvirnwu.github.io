@@ -47,8 +47,8 @@ github: # For removing the "View My GitHub Profile" Link
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <div style="text-align: center; position: relative; display: inline-block;">
-    <button onclick="toggleDropdown()" style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-      <strong>Menu</strong>
+    <button onclick="toggleDropdown()" style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); font-weight: bold;">
+      Menu
     </button>
     <div id="myDropdown" style="display: none; position: absolute; background-color: white; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); border-radius: 5px; z-index: 1; min-width: 160px;">
       <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block; border-bottom: 1px solid #f1f1f1;">Portfolio</a>
