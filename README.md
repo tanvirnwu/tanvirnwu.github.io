@@ -1,7 +1,7 @@
-<header style="background-color: white; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); padding: 20px;">
-  <nav>
-    <ul style="list-style-type: none; padding: 0;">
-      <li style="display: inline; margin-right: 10px;"><a href="/"><strong>Home2</strong></a></li>
+<header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 0; position: relative;">
+  <nav style="margin: 0; padding: 0;">
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+      <li style="display: inline; margin-right: 10px;"><a href="/"><strong>Home</strong></a></li>
       <li style="display: inline; margin-right: 10px;"><a href="/projects/"><strong>Projects</strong></a></li>
       <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>About</strong></a></li>
       <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Contact</strong></a></li>
