@@ -188,6 +188,8 @@
   </li>
 </ul>
 
+
+
 <br>
 ## TRAINING
 -----------------------------
@@ -224,7 +226,6 @@
     <div>
       <strong>Self Learning</strong><br>
       <em>Courses and books I completed myself for growing my knowledge.</em><br>
-      <div style="margin-left: 20px;">
         Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
         Python for Data Science, AI & Development (25 hours)<br>
         PyTorch for Deep Learning Bootcamp (52 hours)<br>
@@ -232,10 +233,9 @@
         Modern Computer Vision with PyTorch<br>
         Python Deep Learning Projects<br>
         Advanced Deep Learning with Python
-      </div>
     </div>
     <div style="text-align: right;">
-      Online/Books<be><br>
+      Online/Books<be><br><br><br>
       Udemy — Sept 2019<br>
       IBM — Mar 2024<br>
       Udemy — Mar 2024<br>
