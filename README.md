@@ -1,12 +1,12 @@
 # MD Tanvir Islam
---
+-----------------------------
 <div style="text-align: center;">
   tanvirnwu@g.skku.edu -- (+82) 010-2845-4666 -- <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
 </div>
 
-
+-----------------------------
 ## Education
---
+-----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Sungkyunkwan University</strong>, South Korea<br>
@@ -47,8 +47,9 @@
 
 
 
-
+-----------------------------
 ## RESEARCH EXPERIENCE
+-----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Department of AI (Sungkyunkwan University)</strong><br>
