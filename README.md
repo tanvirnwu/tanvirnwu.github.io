@@ -10,7 +10,7 @@
 --
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Sungkyunkwan University</strong>, Republic of Korea<br>
+    <strong>Sungkyunkwan University</strong>, South Korea<br>
     MSc. in Computer Science and Engineering<br>
 
   </div>
@@ -24,7 +24,7 @@
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Pai Chai University</strong>, Republic of Korea<br>
+    <strong>Pai Chai University</strong>, South Korea<br>
     Korean Language Training<br>
   </div>
   <div style="text-align: right;">
@@ -37,12 +37,11 @@
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>North Western University</strong>, Khulna, Bangladesh<br>
-    Bachelor of Science in Computer Science and Engineering<br>
-    Thesis title: Diabetes Mellitus Prediction using Machine Learning Techniques.
+    <strong>North Western University</strong>, Bangladesh<br>
+    BSc. in Computer Science and Engineering<br>
   </div>
   <div style="text-align: right;">
-    Jan 2015 - Jan 2019<br>
+    Jan'15 - Jan'19<br>
     <strong>CGPA 3.98/4.00</strong>
   </div>
 </div>
