@@ -56,7 +56,6 @@ description: > # your text below (remove <br> elements if you don't need line br
       <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Publications</a>
     </div>
   </div>
-  # 0066ff
   
   <style>
     button:hover {
