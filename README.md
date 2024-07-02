@@ -1,7 +1,7 @@
 # MD Tanvir Islam
 -----------------------------
 <div style="text-align: center;">
-  tanvirnwu@g.skku.edu -- (+82) 010-2845-4666 -- <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
+  tanvirnwu@g.skku.edu -- (+82) 010-2845-4666 -- <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a><br>
 </div>
 
 -----------------------------
@@ -14,12 +14,11 @@
 
   </div>
   <div style="text-align: right;">
-    Feb 2023 - Feb 2025 (Expected)<br>
+    Feb'23 - Feb'25 (Expected)<br>
     <strong>CGPA 4.25/4.50</strong>
   </div>
 </div>
 
-<br>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -32,7 +31,6 @@
   </div>
 </div>
 
-<br>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -47,7 +45,7 @@
 
 
 
------------------------------
+<br>
 ## RESEARCH EXPERIENCE
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
@@ -61,7 +59,6 @@
   </div>
 </div>
 
-<br>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
