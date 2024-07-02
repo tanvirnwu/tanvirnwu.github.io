@@ -249,11 +249,11 @@
       <h2 style="margin-top: 20px;"></h2>
       IBM — Mar'24 <br><br> 
       <h2 style="margin-top: 20px;"></h2>
-      Udemy — Mar 2024<br><br>
+      Udemy — Mar 2024<br>
       <h2 style="margin-top: 20px;"></h2>
       Google — Oct 2021<br><br> <h2 style="margin-top: 20px;"></h2>
-      Book by V Kishore Ayyadevara<br><br> <h2 style="margin-top: 20px;"></h2>
-      Book by Matthew Lamons<br><br> <h2 style="margin-top: 20px;"></h2>
+      Book by V Kishore Ayyadevara<br><h2 style="margin-top: 20px;"></h2>
+      Book by Matthew Lamons<br><h2 style="margin-top: 20px;"></h2>
       Book by Ivan Vasilev
     </div>
   </div>
@@ -268,4 +268,35 @@
 <br>
 ## SCHOLARSHIPS
 -----------------------------
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>16th Korean Language Society Scholarship</strong>, Pai Chai University, South Korea
+    </div>
+    <div style="text-align: right;">
+      Dec'23
+    </div>
+  </div>
 
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Global Korea Scholarship (GKS)</strong>, NIIED, South Korea
+    </div>
+    <div style="text-align: right;">
+      Aug'22 – Present
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Tuition Fee Waiver and Stipend</strong>, North Western University, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Dec'14
+    </div>
+  </div>
+</div>
