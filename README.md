@@ -1,10 +1,10 @@
-<header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 0px;">
+<header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 5px; margin-bottom: 0px;">
   <nav>
     <ul style="list-style-type: none; padding: 0;">
       <li style="display: inline; margin-right: 10px;"><a href="/"><strong>Home</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/projects/"><strong>Projects</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>About</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Contact</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/projects/"><strong>Home</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>Home</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Home</strong></a></li>
     </ul>
   </nav>
   <br><br>
