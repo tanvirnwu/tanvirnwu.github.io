@@ -157,7 +157,7 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Journal Papers:</strong> <br> AEJ (IF: 6.8, Q1), EAAI <em>(IF: 8.0, Q1), <br> IEEE Access (IF: 3.9, Q1) (On review)
+    <strong>Journal Papers:</strong> <br> AEJ (IF: 6.8, Q1), EAAI (IF: 8.0, Q1), <br> IEEE Access (IF: 3.9, Q1) (On review)
   </div>
   <div style="text-align: right;">
     <strong>Total:</strong> 3
