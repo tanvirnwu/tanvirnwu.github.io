@@ -26,6 +26,13 @@ description: > # your text below (remove <br> elements if you don't need line br
         Download CV
       </button>
     </a>
+
+     <a href="https://example.com" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+        Publications
+      </button>
+    </a>
+    
   </div>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   
