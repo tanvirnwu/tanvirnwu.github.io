@@ -1,15 +1,10 @@
 # MD Tanvir Islam
 --
-**Email:** tanvirnwu@g.skku.edu  
-**Phone:** (+82) 010-2845-4666  
-**Location:** Suwon-si, Gyeonggi-do, Republic of Korea  
-**Links:** [LinkedIn](#) | [Google Scholar](#)
---
----
-layout: page
-title: Education
-permalink: /education/
----
+<div style="text-align: center;">
+  tanvirnwu@g.skku.edu -- (+82) 010-2845-4666 -- Suwon-si, Gyeonggi-do, Republic of Korea <br>
+  [LinkedIn](https://www.linkedin.com/in/tanvirislamnwu/) | [Google Scholar](https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en)
+</div>
+
 
 ## Education
 --
