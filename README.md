@@ -169,7 +169,6 @@
 
 <h2 style="margin-top: 20px;"></h2>
 
-<div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>HazeSpace2M</strong><br>
@@ -181,7 +180,6 @@
 
   <h2 style="margin-top: 20px;"></h2>
 
-<div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>LightCDC</strong><br>
@@ -193,7 +191,6 @@
 
 <h2 style="margin-top: 20px;"></h2>
 
-<div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>RoBERTaGCN</strong><br>
@@ -203,7 +200,7 @@
     </div>
   </div>
 </div>
-</div>
+
 
 <br>
 ## TRAINING
