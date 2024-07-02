@@ -1,9 +1,9 @@
-# title: Resume
+title: Md Tanvir Islam
 theme: jekyll-theme-minimal
 
 logo: /assets/tanvir.jpg
 
 
-navigation:
-  - title: Home
-    url: https://www.overleaf.com/project
+# navigation:
+#   - title: Home
+#     url: https://www.overleaf.com/project
