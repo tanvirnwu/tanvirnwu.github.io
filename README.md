@@ -276,7 +276,7 @@
     </div>
   </div>
 
-  <br>
+<h2 style="margin-top: 20px;"></h2>
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
@@ -288,7 +288,7 @@
     </div>
   </div>
 
-  <br>
+<h2 style="margin-top: 20px;"></h2>
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
@@ -319,19 +319,7 @@
     </div>
   </div>
 
-  <br>
-
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div>
-      <strong>Arranging Community-based Events</strong><br>
-      <em> Khulna University, Bangladesh</em>
-    </div>
-    <div style="text-align: right;">
-      Oct 2017
-    </div>
-  </div>
-
-  <br>
+<h2 style="margin-top: 20px;"></h2>
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
@@ -343,7 +331,7 @@
     </div>
   </div>
 
-  <br>
+<h2 style="margin-top: 20px;"></h2>
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
@@ -355,7 +343,7 @@
     </div>
   </div>
 
-  <br>
+<h2 style="margin-top: 20px;"></h2>
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
@@ -367,7 +355,7 @@
     </div>
   </div>
 
-  <br>
+<h2 style="margin-top: 20px;"></h2>
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
