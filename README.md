@@ -225,19 +225,19 @@
 
  <h2 style="margin-top: 30;"></h2>
 
-  <div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <div>
       <strong>Self Learning</strong><br>
+      <em>Online/Books</em><br>
+      Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
+      Python for Data Science, AI & Development (25 hours)
     </div>
     <div style="text-align: right;">
-      Online/Books<br>
+      <br><br>
+      Udemy — Sept 2019<br><br> 
+      IBM — Mar 2024
     </div>
-    <div style="display: flex; justify-content: space-between;">
-        Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
-    </div>
-    <div style="text-align: right;">
-      Udemy — Sept 2019<br>
-    </div>
+  </div>
     
 
   </div>
