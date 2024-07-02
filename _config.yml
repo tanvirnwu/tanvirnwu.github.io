@@ -10,8 +10,7 @@ github_username: tanvirnwu
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
-header_pages:
-  - about.md
+header_pages: - about.md
 
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
