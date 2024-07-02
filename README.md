@@ -1,9 +1,8 @@
 # MD Tanvir Islam
 -----------------------------
 <div style="text-align: center;">
-  tanvirnwu@g.skku.edu -- (+82) 010-2845-4666 -- <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a><br>
+  tanvirnwu@g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a><br>
 </div>
-
 -----------------------------
 ## Education
 -----------------------------
@@ -19,6 +18,7 @@
   </div>
 </div>
 
+<h2 style="margin-top: 30;"></h2>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -30,6 +30,9 @@
     <strong>TOPIK Level 4</strong>
   </div>
 </div>
+
+
+<h2 style="margin-top: 50;"></h2>
 
 
 <div style="display: flex; justify-content: space-between;">
