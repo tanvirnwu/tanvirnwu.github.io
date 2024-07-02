@@ -126,8 +126,48 @@ Suwon-si, Gyeonggi-do, Republic of Korea
 </div>
 
 
+<be>
+-------------
 ## RESEARCH PUBLICATIONS
 
 ---------------
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>Journal Papers:</strong> AEJ <em>(IF: 6.8, Q1)</em>, EAAI <em>(IF: 8.0, Q1)</em>, IEEE Access <em>(IF: 3.9, Q1)</em> <em>(On review)</em> 
+  </div>
+  <div style="text-align: right;">
+    Total: 3
+  </div>
+</div>
 
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>Conference Papers:</strong> ACCV'24, ACM MM'24 <em>(On review)</em>, ICICC, IJCCI, ICCCNT, ICICSIOT <em>(Published)</em> 
+  </div>
+  <div style="text-align: right;">
+    Total: 13
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>Patents:</strong> USA <em>(On review)</em>, UK <em>(Published)</em> 
+  </div>
+  <div style="text-align: right;">
+    Total: 2
+  </div>
+</div>
+
+<br>
+
+<strong>Book Chapter</strong><br>
+Brain Networks in Neuroscience: Personalization Unveiled Via Artificial Intelligence. In Brain Networks in Neuroscience: Personalization Unveiled Via Artificial Intelligence. [Editor(s) Name(s)]. [Publisher], [Year]. ISBN: [ISBN number].
+
+<br><br>
+
+<a href="https://scholar.google.com" target="_blank">More: Google Scholar</a>
 
