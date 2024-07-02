@@ -28,11 +28,11 @@ description: > # your text below (remove <br> elements if you don't need line br
     </button>
   </a>
   </div>
-
+  
   <style>
     button:hover {
-      background-color: #470C6C; /* Light gray background on hover */
-      color: #ffffff; /* Blue text on hover */
+      background-color: #470C6C !important; /* Purple background on hover */
+      color: #ffffff !important; /* White text on hover */
     }
   </style>
 
