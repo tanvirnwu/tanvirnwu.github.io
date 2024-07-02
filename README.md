@@ -228,26 +228,25 @@
   <div style="display: flex; justify-content: space-between;">
     <div>
       <strong>Self Learning</strong><br>
-        Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
-        Python for Data Science, AI & Development (25 hours)<br>
-        PyTorch for Deep Learning Bootcamp (52 hours)<br>
-        Foundation of User Experience (UX) Design (19 hours)<br>
-        Modern Computer Vision with PyTorch<br>
-        Python Deep Learning Projects<br>
-        Advanced Deep Learning with Python
     </div>
     <div style="text-align: right;">
-      Online/Books<be><br><br>
-      Udemy — Sept 2019<br><br>
-      IBM — Mar 2024<br><br>
-      Udemy — Mar 2024<br><br>
-      Google — Oct 2021<br><br>
-      Book by V Kishore Ayyadevara<br><br>
-      Book by Matthew Lamons<br><br>
-      Book by Ivan Vasilev<br>
+      Online/Books<br>
     </div>
+    <div style="display: flex; justify-content: space-between;">
+        Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
+    </div>
+    <div style="text-align: right;">
+      Udemy — Sept 2019<br>
+    </div>
+    
+
   </div>
 </div>
 
 
+
+
+<br>
+## SCHOLARSHIPS
+-----------------------------
 
