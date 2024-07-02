@@ -99,7 +99,7 @@
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>South-East Engineering College (Affiliated by Rajshahi University)</strong><br>
+    <strong>South-East Engineering College <br>(Affiliated by Rajshahi University)</strong><br>
     <em>Lecturer (part-time)</em><br>
   </div>
   <div style="text-align: right;">
