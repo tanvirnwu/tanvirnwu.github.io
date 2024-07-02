@@ -1,11 +1,12 @@
 <div style="text-align: justify;">
   Md Tanvir Islam is a dedicated scholar pursuing his Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU) in the Republic of Korea. With a strong foundation from completing his Bachelor's degree in the same field in 2019, he has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS) in 2021, a fully funded scholarship offered by the Korean government. Currently, as a master's research student, he is an esteemed member of the Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab), focusing his research on Computational Bioinformatics and Computer Vision. Md Tanvir Islam's passion for innovative applications of computer science is evident through his published research papers at reputable conferences.
+  <h2 style="margin-top: 20px;"></h2>
 </div>
 
 -----------------------------
 <div style="text-align: center;">
   tanvirnwu@g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
-  <h2 style="margin-top: 20;"></h2>
+  <h2 style="margin-top: 20px;"></h2>
 </div>
 -----------------------------
 ## Education
