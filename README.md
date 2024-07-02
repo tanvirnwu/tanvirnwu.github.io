@@ -1,17 +1,3 @@
-<style>
-  .container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .left-column {
-    flex: 1;
-    margin-right: 20px;
-  }
-  .right-column {
-    flex: 2;
-  }
-</style>
-
 ---
 layout: home
 title: Home
