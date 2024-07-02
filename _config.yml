@@ -6,4 +6,10 @@ logo: /assets/tanvir.jpg
 
 navigation:
   - title: Home
-    url: https://www.overleaf.com/project
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
