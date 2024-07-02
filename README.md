@@ -30,7 +30,7 @@
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Pai Chai University</strong>, South Korea<br>
-    Korean Language Training<br>
+    Korean Culture and Language Training<br>
   </div>
   <div style="text-align: right;">
     Mar'22 - Feb'23<br>
