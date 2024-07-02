@@ -149,7 +149,7 @@
 </div>
 
 <div style="margin-top: 20px; text-align: right;">
-  <a href="https://scholar.google.com" target="_blank">More: Google Scholar</a>
+  <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank">More: Google Scholar</a>
 </div>
 
 
@@ -219,7 +219,7 @@
     </div>
     <div style="text-align: right;">
       Bangladesh<br>
-      Feb 2018
+      Feb'18
     </div>
   </div>
 
@@ -249,9 +249,9 @@
       <h2 style="margin-top: 20px;"></h2>
       IBM — Mar'24 <br><br> 
       <h2 style="margin-top: 20px;"></h2>
-      Udemy — Mar 2024<br>
+      Udemy — Mar'24<br>
       <h2 style="margin-top: 20px;"></h2>
-      Google — Oct 2021<br><br> <h2 style="margin-top: 20px;"></h2>
+      Google — Oct'21<br><br> <h2 style="margin-top: 20px;"></h2>
       Book by V Kishore Ayyadevara<h2 style="margin-top: 20px;"></h2>
       Book by Matthew Lamons<h2 style="margin-top: 20px;"></h2>
       Book by Ivan Vasilev
@@ -315,7 +315,7 @@
       <em> Khulna Cat Society, Khulna, Bangladesh</em>
     </div>
     <div style="text-align: right;">
-      July 2016 - Present
+      Jul'16 - Present
     </div>
   </div>
 
@@ -327,7 +327,7 @@
       <em>Pai Chai University, Daejeon, South Korea</em>
     </div>
     <div style="text-align: right;">
-      Dec 2022
+      Dec'22
     </div>
   </div>
 
@@ -339,7 +339,7 @@
       <em> NIT Agartala, India</em>
     </div>
     <div style="text-align: right;">
-      Dec 2019
+      Dec'19
     </div>
   </div>
 
@@ -351,7 +351,7 @@
       <em>Khulna, Bangladesh</em>  
     </div>
     <div style="text-align: right;">
-      Dec 2016
+      Dec'16
     </div>
   </div>
 
@@ -363,7 +363,7 @@
       <em> Khulna University, Bangladesh</em>  
     </div>
     <div style="text-align: right;">
-      Oct 2017
+      Oct'17
     </div>
   </div>
 </div>
