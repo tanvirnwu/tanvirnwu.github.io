@@ -157,7 +157,7 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Journal Papers:</strong> <br> AEJ (IF: 6.8, Q1)</em>, EAAI <em>(IF: 8.0, Q1), <br> IEEE Access (IF: 3.9, Q1)</em> <em>(On review)
+    <strong>Journal Papers:</strong> <br> AEJ (IF: 6.8, Q1), EAAI <em>(IF: 8.0, Q1), <br> IEEE Access (IF: 3.9, Q1) (On review)
   </div>
   <div style="text-align: right;">
     <strong>Total:</strong> 3
@@ -166,7 +166,7 @@ window.onscroll = function() {
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Conference Papers:</strong> <br> ACCV'24, ACM MM'24 (On review), ICICC,  <br> IJCCI, ICCCNT, ICICSIOT (Published)
+    <strong>Conference Papers:</strong> <br>ACCV'24, ACM MM'24 (On review), ICICC,  <br> IJCCI, ICCCNT, ICICSIOT (Published)
   </div>
   <div style="text-align: right;">
     <strong>Total:</strong> 13
