@@ -282,23 +282,43 @@
 
 
 <br>
-## SKILLS PRACTICING
+## PRACTICING SKILLS
 -----------------------------
-<ul style="list-style-type: disc; margin-top: 20px;">
-  <li style="margin-bottom: 10px;">
-    <strong>Language:</strong> Bengali (Native), English (IELTS: 7.0), Korean (TOPIK: 4).
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Programming:</strong> Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch. Database: MySQL
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Visualization tools:</strong> Power BI, Adobe Photoshop, Adobe Illustrator, Figma.
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Others:</strong> Overleaf, Weka, Microsoft Suites, PyCharm, Jupyter
-  </li>
-</ul>
 
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Languages</strong><br>
+      Bengali (Native), English (IELTS: 7.0), Korean (TOPIK: 4).
+    </div>
+  </div>
+
+<h2 style="margin-top: 20px;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Programming</strong><br>
+      Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch. Database: MySQL
+    </div>
+  </div>
+
+<h2 style="margin-top: 20px;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Visualization Tools</strong><br>
+      Power BI, Adobe Photoshop, Adobe Illustrator, Figma.
+    </div>
+  </div>
+
+ <h2 style="margin-top: 20px;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Others</strong><br>
+      Overleaf, Weka, Microsoft Suites, PyCharm, Jupyter
+    </div>
+  </div>
 
 
 
