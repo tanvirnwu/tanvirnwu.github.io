@@ -1,4 +1,4 @@
-# MD Tanvir Islam
+![image](https://github.com/tanvirnwu/tanvirnwu.github.io/assets/61131849/216a3f29-140b-4af1-9dfb-bb1bde37d74e)# MD Tanvir Islam
 -----------------------------
 <div style="text-align: center;">
   tanvirnwu@g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
@@ -130,7 +130,7 @@
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Patents:</strong> USA <em>(On review)</em>, UK <em>(Published)</em> 
+    <strong>Patents:</strong><br> USA <em>(On review)</em>, UK <em>(Published)</em> 
   </div>
   <div style="text-align: right;">
    <strong>Total:</strong> 2
