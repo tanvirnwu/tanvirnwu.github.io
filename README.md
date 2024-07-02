@@ -156,20 +156,57 @@
 <br>
 ## PROJECTS
 -----------------------------
-<ul style="list-style-type: disc; margin-top: 20px;">
-  <li style="margin-bottom: 10px;">
-    <strong>TD-LLIE:</strong> We developed a novel low-light image enhancement (LLIE) method based on the transformer and diffusion model that outperforms the SOTA LLIE methods testing on real-life low-light images.
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>HazeSpace2M:</strong> We introduce a novel and diverse hazy dataset with 2 million hazy images of 10 distinct levels. Besides, we also propose a novel framework for single-image dehazing that improves the performance of the SOTA dehazing models.
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>LightCDC:</strong> We produce a processed dataset for damaged crop classification and propose a custom lightweight CNN model for crop damage classification, which achieves 92% accuracy.
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>RoBERTaGCN:</strong> RoBERTaGCN is a method to detect fake news in the Bengali language and achieve superior accuracy benchmarking against the various datasets and methods.
-  </li>
-</ul>
+
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>TD-LLIE</strong><br>
+      <div style="text-align: justify;">
+        We developed a novel low-light image enhancement (LLIE) method based on the transformer and diffusion model that outperforms the SOTA LLIE methods testing on real-life low-light images.
+        <h2 style="margin-top: 20px;"></h2>
+      </div>
+    </div>
+  </div>
+
+<h2 style="margin-top: 20px;"></h2>
+
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>HazeSpace2M</strong><br>
+      <div style="text-align: justify;">
+        We introduce a novel and diverse hazy dataset with 2 million hazy images of 10 distinct levels. Besides, we also propose a novel framework for single-image dehazing that improves the performance of the SOTA dehazing models.
+        <h2 style="margin-top: 20px;"></h2>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="margin-top: 20px;"></h2>
+
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>LightCDC</strong><br>
+      <div style="text-align: justify;">
+        We produce a processed dataset for damaged crop classification and propose a custom lightweight CNN model for crop damage classification, which achieves 92% accuracy.
+        <h2 style="margin-top: 20px;"></h2>
+      </div>
+    </div>
+  </div>
+
+<h2 style="margin-top: 20px;"></h2>
+
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>RoBERTaGCN</strong><br>
+      <div style="text-align: justify;">
+        RoBERTaGCN is a method to detect fake news in the Bengali language and achieve superior accuracy benchmarking against the various datasets and methods.
+        <h2 style="margin-top: 20px;"></h2>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <br>
