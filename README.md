@@ -4,10 +4,10 @@
 tanvirnwu@g.skku.edu — (82) 010-2845-4666 — LinkedIn — Google Scholar <br>
 Suwon-si, Gyeonggi-do, Republic of Korea
 </div>
-------
+------------------
 
 ## EDUCATION
-------
+------------------
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -52,7 +52,7 @@ Suwon-si, Gyeonggi-do, Republic of Korea
 
 
 ## RESEARCH EXPERIENCE
----
+------------------
 
 
 <div style="display: flex; justify-content: space-between;">
@@ -90,7 +90,7 @@ Suwon-si, Gyeonggi-do, Republic of Korea
 
 
 ## TEACHING EXPERIENCE
-------------
+------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Department of AI (Sungkyunkwan University)</strong><br>
@@ -127,10 +127,10 @@ Suwon-si, Gyeonggi-do, Republic of Korea
 
 
 <be>
--------------
+------------------
 ## RESEARCH PUBLICATIONS
 
----------------
+------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Journal Papers:</strong> AEJ <em>(IF: 6.8, Q1)</em>, EAAI <em>(IF: 8.0, Q1)</em>, IEEE Access <em>(IF: 3.9, Q1)</em> <em>(On review)</em> 
