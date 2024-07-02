@@ -268,7 +268,8 @@
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>16th Korean Language Society Scholarship</strong>, Pai Chai University, South Korea
+      <strong>16th Korean Language Society Scholarship</strong> <br> 
+      <em>Pai Chai University, South Korea</em>
     </div>
     <div style="text-align: right;">
       Dec'23
@@ -279,7 +280,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Global Korea Scholarship (GKS)</strong>, NIIED, South Korea
+      <strong>Global Korea Scholarship (GKS)</strong><br>
+      <em>NIIED, South Korea</em>
     </div>
     <div style="text-align: right;">
       Aug'22 – Present
@@ -290,7 +292,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Tuition Fee Waiver and Stipend</strong>, North Western University, Bangladesh
+      <strong>Tuition Fee Waiver and Stipend</strong><br>
+      <em>North Western University, Bangladesh</em>
     </div>
     <div style="text-align: right;">
       Dec'14
