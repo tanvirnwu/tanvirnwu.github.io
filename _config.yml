@@ -8,25 +8,30 @@ author:
 
 github_username: tanvirnwu
 
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - about.md
+
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
   <div style="text-align: center;">
-  <a href="https://example.com" style="text-decoration: none;">
-    <button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
-      Button 1
-    </button>
-  </a>
-  <a href="https://example.com" style="text-decoration: none;">
-    <button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
-      Button 2
-    </button>
-  </a>
-</div>
+    <a href="https://example.com" style="text-decoration: none;">
+      <button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+        Button 1
+      </button>
+    </a>
+    <a href="https://example.com" style="text-decoration: none;">
+      <button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+        Button 2
+      </button>
+    </a>
+  </div>
 
-<style>
-  button:hover {
-    opacity: 0.8;
-  }
-</style>
+  <style>
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
 
