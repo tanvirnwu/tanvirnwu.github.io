@@ -48,3 +48,43 @@ Suwon-si, Gyeonggi-do, Republic of Korea
     <strong>CGPA 3.98/4.00</strong>
   </div>
 </div>
+
+
+
+## RESEARCH EXPERIENCE
+---
+
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>VIS2KNOW Lab</strong><br>
+    <em>Research Assistant</em><br>
+    <ul>
+      <li>Lead data curation and analysis for research on AI-synthesized image detection, single image dehazing, and low-light image enhancement.</li>
+      <li>Developed algorithms and frameworks for single image dehazing and detecting AI-synthesized images, contributing to advancements in image forensics and quality improvement.</li>
+      <li>As the outcome of the research, our 5 papers are now under review by top-tier international journals and conferences such as ACM MM, ACCV, AEJ, EAAI, and IEEE Access.</li>
+    </ul>
+  </div>
+  <div style="text-align: right;">
+    Seoul, Republic of Korea<br>
+    July 2023 – Ongoing
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong>CSHI-RLab</strong><br>
+    <em>Research Assistant</em><br>
+    <ul>
+      <li>Collected real-life datasets to perform research using various machine-learning techniques and published several papers at different international conferences, which achieved around <strong>100 citations</strong> so far.</li>
+    </ul>
+  </div>
+  <div style="text-align: right;">
+    Khulna, Bangladesh<br>
+    July 2018 – Aug 2021
+  </div>
+</div>
+
+
