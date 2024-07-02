@@ -11,6 +11,7 @@
   <h2 style="margin-top: 20px;"></h2>
 </div>
 -----------------------------
+<br>
 ## Education
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
@@ -55,7 +56,7 @@
 
 
 
-<br>
+<br><br>
 ## RESEARCH EXPERIENCE
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
@@ -84,7 +85,7 @@
 
 
 
-<br>
+<br><br>
 ## TEACHING EXPERIENCE
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
@@ -112,7 +113,7 @@
 </div>
 
 
-<br>
+<br><br>
 ## PUBLICATIONS
 -----------------------------
 
@@ -153,7 +154,7 @@
 </div>
 
 
-<br>
+<br><br>
 ## PROJECTS
 -----------------------------
 
@@ -202,7 +203,7 @@
 </div>
 
 
-<br>
+<br><br>
 ## TRAINING
 -----------------------------
 <div style="margin-top: 20px;">
@@ -270,7 +271,7 @@
 
 
 
-<br>
+<br><br>
 ## SCHOLARSHIPS
 -----------------------------
 <div style="margin-top: 20px;">
@@ -311,7 +312,7 @@
 
 
 
-<br>
+<br><br>
 ## PRACTICING SKILLS
 -----------------------------
 
@@ -355,7 +356,7 @@
 
 
 
-<br>
+<br><br>
 ## OTHER ACTIVITIES
 -----------------------------
 <div style="margin-top: 20px;">
