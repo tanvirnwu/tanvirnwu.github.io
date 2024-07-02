@@ -1,24 +1,36 @@
-<header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: -20px;">
+<header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 20px;">
   <nav>
     <ul style="list-style-type: none; padding: 0;">
       <li style="display: inline; margin-right: 10px;"><a href="/"><strong>Home</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/projects/"><strong>Home</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>Home</strong></a></li>
-      <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Home</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/projects/"><strong>Projects</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/about/"><strong>About</strong></a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="/contact/"><strong>Contact</strong></a></li>
     </ul>
   </nav>
 </header>
 
 
 
-
 <!-- Add the button here -->
-<button onclick="scrollToTop()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Top</button>
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 <script>
-function scrollToTop() {
-  window.scrollTo({top: 0, behavior: 'smooth'});
+function scrollToPosition() {
+  if (window.pageYOffset === 0) {
+    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+  } else {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 }
+
+window.onscroll = function() {
+  const scrollButton = document.getElementById('scrollButton');
+  if (window.pageYOffset === 0) {
+    scrollButton.innerHTML = '&#8595;'; // Down arrow
+  } else {
+    scrollButton.innerHTML = '&#8593;'; // Up arrow
+  }
+};
 </script>
 
 
