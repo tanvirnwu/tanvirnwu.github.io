@@ -239,7 +239,7 @@
       <h2 style="margin-top: 20px;"></h2>
       Modern Computer Vision with PyTorch<br><br>
       <h2 style="margin-top: 20px;"></h2>
-      Python Deep Learning Projects<br>
+      Python Deep Learning Projects<br><br>
       <h2 style="margin-top: 20px;"></h2>
       Advanced Deep Learning with Python
     </div>
@@ -297,6 +297,79 @@
     </div>
     <div style="text-align: right;">
       Dec'14
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<br>
+## OTHER ACTIVITIES
+-----------------------------
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Volunteering to Rescue Animals</strong>, Khulna Cat Society, Khulna, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      July 2016 - Present
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Arranging Community-based Events</strong>, Khulna University, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Oct 2017
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Kimchi Making Event Volunteered</strong>, Pai Chai University, Daejeon, Republic of Korea
+    </div>
+    <div style="text-align: right;">
+      Dec 2022
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Paper Presentation in ICCISIoT Conference</strong>, NIT Agartala, India
+    </div>
+    <div style="text-align: right;">
+      Dec 2019
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>NWU Inter-university Programming and Gaming Contest</strong>, Khulna, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Dec 2016
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Participation in CSE Fest</strong>, Khulna University, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Oct 2017
     </div>
   </div>
 </div>
