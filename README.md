@@ -165,3 +165,87 @@
   </li>
 </ul>
 
+
+
+<br>
+## SKILLS
+-----------------------------
+<ul style="list-style-type: disc; margin-top: 20px;">
+  <li style="margin-bottom: 10px;">
+    <strong>Language:</strong> Bengali (Native), English (IELTS: 7.0), Korean (TOPIK: 4).
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Programming:</strong> Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch. Database: MySQL
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Visualization tools:</strong> Power BI, Adobe Photoshop, Adobe Illustrator, Figma.
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Others:</strong> Overleaf, Weka, Microsoft Suites, PyCharm, Jupyter
+  </li>
+</ul>
+
+<br>
+## TRAINING
+-----------------------------
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+      <strong>LICT Top-up IT Training on Java</strong><br>
+      <em>Bangladesh Computer Council (Certified by George Washington University, Washington, D.C.)</em><br>
+      <div style="margin-left: 20px;">
+        Training Duration: 300 hours<br>
+        The training includes 240 hours of technical skills such as Java, HTML, CSS, JavaScript, Bootstrap, and MVC Pattern, and 60 hours of other soft skills like presentation and communication.
+      </div>
+    </div>
+    <div style="text-align: right;">
+      Khulna, Bangladesh<br>
+      Aug 2019 – Sept 2019
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+      <strong>Google Bangladesh Android StudyJam</strong><br>
+      <em>ICT Division, GDG Dhaka, Google Developers</em><br>
+      <div style="margin-left: 20px;">
+        Training Duration: 225 hours, Topic: Android Application Development<br>
+        It was a complete Android app development course where I had to submit regular assignments and mini-projects throughout the training period. It ended up with a complete Android app development project.
+      </div>
+    </div>
+    <div style="text-align: right;">
+      Khulna, Bangladesh<br>
+      Feb 2018
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+      <strong>Self Learning</strong><br>
+      <em>Courses and books I completed myself for growing my knowledge.</em><br>
+      <div style="margin-left: 20px;">
+        Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
+        Python for Data Science, AI & Development (25 hours)<br>
+        PyTorch for Deep Learning Bootcamp (52 hours)<br>
+        Foundation of User Experience (UX) Design (19 hours)<br>
+        Modern Computer Vision with PyTorch<br>
+        Python Deep Learning Projects<br>
+        Advanced Deep Learning with Python
+      </div>
+    </div>
+    <div style="text-align: right;">
+      Online/Books<br>
+      Udemy — Sept 2019<br>
+      IBM — Mar 2024<br>
+      Udemy — Mar 2024<br>
+      Google — Oct 2021<br>
+      Book by V Kishore Ayyadevara<br>
+      Book by Matthew Lamons<br>
+      Book by Ivan Vasilev
+    </div>
+  </div>
+</div>
