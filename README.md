@@ -112,19 +112,19 @@
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Journal Papers:</strong> AEJ <em>(IF: 6.8, Q1)</em>, EAAI <em>(IF: 8.0, Q1)</em>, IEEE Access <em>(IF: 3.9, Q1)</em> <em>(On review)</em> 
+    <strong>Journal Papers:</strong> <br> AEJ <em>(IF: 6.8, Q1)</em>, EAAI <em>(IF: 8.0, Q1)</em>, <br> IEEE Access <em>(IF: 3.9, Q1)</em> <em>(On review)</em> 
   </div>
   <div style="text-align: right;">
-    Total: 3
+    <strong>Total:</strong> 3
   </div>
 </div>
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Conference Papers:</strong> ACCV'24, ACM MM'24 <em>(On review)</em>, ICICC, IJCCI, ICCCNT, ICICSIOT <em>(Published)</em> 
+    <strong>Conference Papers:</strong> <br> ACCV'24, ACM MM'24 <em>(On review)</em>, ICICC,  <br> IJCCI, ICCCNT, ICICSIOT <em>(Published)</em> 
   </div>
   <div style="text-align: right;">
-    Total: 13
+    <strong>Total:</strong> 13
   </div>
 </div>
 <h2 style="margin-top: 30;"></h2>
@@ -133,7 +133,7 @@
     <strong>Patents:</strong> USA <em>(On review)</em>, UK <em>(Published)</em> 
   </div>
   <div style="text-align: right;">
-    Total: 2
+   <strong>Total:</strong> 2
   </div>
 </div>
 <h2 style="margin-top: 30;"></h2>
