@@ -311,7 +311,8 @@
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Volunteering to Rescue Animals</strong>, Khulna Cat Society, Khulna, Bangladesh
+      <strong>Volunteering to Rescue Animals</strong><br>
+      <em> Khulna Cat Society, Khulna, Bangladesh</em>
     </div>
     <div style="text-align: right;">
       July 2016 - Present
@@ -322,7 +323,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Arranging Community-based Events</strong>, Khulna University, Bangladesh
+      <strong>Arranging Community-based Events</strong><br>
+      <em> Khulna University, Bangladesh</em>
     </div>
     <div style="text-align: right;">
       Oct 2017
@@ -333,7 +335,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Kimchi Making Event Volunteered</strong>, Pai Chai University, Daejeon, Republic of Korea
+      <strong>Kimchi Making Event Volunteered</strong><br>
+      <em>Pai Chai University, Daejeon, South Korea</em>
     </div>
     <div style="text-align: right;">
       Dec 2022
@@ -344,7 +347,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Paper Presentation in ICCISIoT Conference</strong>, NIT Agartala, India
+      <strong>Paper Presentation in ICCISIoT Conference</strong><br>
+      <em> NIT Agartala, India</em>
     </div>
     <div style="text-align: right;">
       Dec 2019
@@ -355,7 +359,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>NWU Inter-university Programming and Gaming Contest</strong>, Khulna, Bangladesh
+      <strong>NWU Inter-university Programming and Gaming Contest</strong><br>
+      <em>Khulna, Bangladesh</em>  
     </div>
     <div style="text-align: right;">
       Dec 2016
@@ -366,7 +371,8 @@
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Participation in CSE Fest</strong>, Khulna University, Bangladesh
+      <strong>Participation in CSE Fest</strong><br>
+      <em> Khulna University, Bangladesh</em>  
     </div>
     <div style="text-align: right;">
       Oct 2017
