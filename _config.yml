@@ -2,6 +2,12 @@ theme: jekyll-theme-minimal
 
 logo: /assets/tanvir.jpg
 
+author:
+  name: Tanvir
+  email: <tanvirnwu@g.skku.edu>
+
+github_username: tanvirnwu
+
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
