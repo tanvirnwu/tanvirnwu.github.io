@@ -1,4 +1,4 @@
-![image](https://github.com/tanvirnwu/tanvirnwu.github.io/assets/61131849/216a3f29-140b-4af1-9dfb-bb1bde37d74e)# MD Tanvir Islam
+
 -----------------------------
 <div style="text-align: center;">
   tanvirnwu@g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
@@ -145,4 +145,23 @@
 <div style="margin-top: 20px; text-align: right;">
   <a href="https://scholar.google.com" target="_blank">More: Google Scholar</a>
 </div>
+
+
+<br>
+## PROJECTS
+-----------------------------
+<ul style="list-style-type: disc; margin-top: 20px;">
+  <li style="margin-bottom: 10px;">
+    <strong>TD-LLIE:</strong> We developed a novel low-light image enhancement (LLIE) method based on the transformer and diffusion model that outperforms the SOTA LLIE methods testing on real-life low-light images.
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>HazeSpace2M:</strong> We introduce a novel and diverse hazy dataset with 2 million hazy images of 10 distinct levels. Besides, we also propose a novel framework for single-image dehazing that improves the performance of the SOTA dehazing models.
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>LightCDC:</strong> We produce a processed dataset for damaged crop classification and propose a custom lightweight CNN model for crop damage classification, which achieves 92% accuracy.
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>RoBERTaGCN:</strong> RoBERTaGCN is a method to detect fake news in the Bengali language and achieve superior accuracy benchmarking against the various datasets and methods.
+  </li>
+</ul>
 
