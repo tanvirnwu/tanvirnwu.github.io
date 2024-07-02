@@ -192,10 +192,8 @@ Md Tanvir Islam is a dedicated scholar pursuing his Master's degree in Computer 
   <div style="display: flex; justify-content: space-between;">
     <div>
       <strong>LICT Top-up IT Training on Java</strong><br>
-      <em>Bangladesh Computer Council (Certified by George Washington University, Washington, D.C.)</em><br>
-      <div style="margin-left: 30px;">
-        The training includes 240 hours of technical skills such as Java, HTML, CSS, JavaScript, Bootstrap, and MVC Pattern, and 60 hours of other soft skills like presentation and communication.
-      </div>
+      <em>Bangladesh Computer Council <br>(Certified by George Washington University, Washington, D.C.)</em><br>
+      The training includes 240 hours of technical skills such as Java, HTML, CSS, JavaScript, Bootstrap, and MVC Pattern and 60 hours of other soft skills like presentation and communication
     </div>
     <div style="text-align: right;">
       Bangladesh<br>
