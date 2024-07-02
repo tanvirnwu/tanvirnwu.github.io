@@ -16,15 +16,15 @@ header_pages:
 
 description: > # your text below (remove <br> elements if you don't need line breaks)
   
-  <div style="text-align: center;">
-  <a href="https://example.com" style="text-decoration: none;">
+ <div style="text-align: center;">
+  <a href="https://example.com" style="text-decoration: none;" target="_blank">
     <button style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-      Button 1
+      Portfolio
     </button>
   </a>
-  <a href="https://example.com" style="text-decoration: none;">
+  <a href="https://example.com" style="text-decoration: none;" target="_blank">
     <button style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-      Button 2
+      Download CV
     </button>
   </a>
   </div>
@@ -32,10 +32,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   
   <style>
     button:hover {
-      background-color: #0066ff !important; /* Purple background on hover */
+      background-color: #0066ff !important; /* Blue background on hover */
       color: #ffffff !important; /* White text on hover */
     }
   </style>
+
 
 
 
