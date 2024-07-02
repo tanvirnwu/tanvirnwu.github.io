@@ -7,7 +7,7 @@
 
 -----------------------------
 <div style="text-align: center;">
-  tanvirnwu@g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
+  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en">Google Scholar</a>
   <h2 style="margin-top: 20px;"></h2>
 </div>
 -----------------------------
