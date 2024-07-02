@@ -193,25 +193,24 @@
     <div>
       <strong>LICT Top-up IT Training on Java</strong><br>
       <em>Bangladesh Computer Council (Certified by George Washington University, Washington, D.C.)</em><br>
-      <div style="margin-left: 20px;">
-        Training Duration: 300 hours<br>
+      <div style="margin-left: 30px;">
         The training includes 240 hours of technical skills such as Java, HTML, CSS, JavaScript, Bootstrap, and MVC Pattern, and 60 hours of other soft skills like presentation and communication.
       </div>
     </div>
     <div style="text-align: right;">
-      Khulna, Bangladesh<br>
-      Aug 2019 – Sept 2019
+      Bangladesh<br>
+      Aug'19 – Sept'19
     </div>
   </div>
 
-  <br>
+<h2 style="margin-top: 30;"></h2>
 
   <div style="display: flex; justify-content: space-between;">
     <div>
       <strong>Google Bangladesh Android StudyJam</strong><br>
       <em>ICT Division, GDG Dhaka, Google Developers</em><br>
       <div style="margin-left: 20px;">
-        Training Duration: 225 hours, Topic: Android Application Development<br>
+        Training Duration: 225 hours, Topic: Android Application Development<be>
         It was a complete Android app development course where I had to submit regular assignments and mini-projects throughout the training period. It ended up with a complete Android app development project.
       </div>
     </div>
@@ -221,7 +220,7 @@
     </div>
   </div>
 
-  <br>
+ <h2 style="margin-top: 30;"></h2>
 
   <div style="display: flex; justify-content: space-between;">
     <div>
@@ -238,7 +237,7 @@
       </div>
     </div>
     <div style="text-align: right;">
-      Online/Books<br>
+      Online/Books<be><br>
       Udemy — Sept 2019<br>
       IBM — Mar 2024<br>
       Udemy — Mar 2024<br>
@@ -246,6 +245,115 @@
       Book by V Kishore Ayyadevara<br>
       Book by Matthew Lamons<br>
       Book by Ivan Vasilev
+    </div>
+  </div>
+</div>
+
+
+<br>
+## SCHOLARSHIPS
+-----------------------------
+
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>16th Korean Language Society Scholarship</strong>, Pai Chai University, Republic of Korea
+    </div>
+    <div style="text-align: right;">
+      Dec 2023
+    </div>
+  </div>
+
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Global Korea Scholarship (GKS)</strong>, NIIED, Republic of Korea
+    </div>
+    <div style="text-align: right;">
+      Aug 2022 – Present
+    </div>
+  </div>
+
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Tuition Fee Waiver and Stipend</strong>, North Western University, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Dec 2014
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+## OTHER ACTIVITIES
+-----------------------------
+<div style="margin-top: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Volunteering to Rescue Animals</strong>, Khulna Cat Society, Khulna, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      July 2016 - Present
+    </div>
+  </div>
+  
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Arranging Community-based Events</strong>, Khulna University, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Oct 2017
+    </div>
+  </div>
+
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Kimchi Making Event Volunteered</strong>, Pai Chai University, Daejeon, Republic of Korea
+    </div>
+    <div style="text-align: right;">
+      Dec 2022
+    </div>
+  </div>
+
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Paper Presentation in ICCISIoT Conference</strong>, NIT Agartala, India
+    </div>
+    <div style="text-align: right;">
+      Dec 2019
+    </div>
+  </div>
+
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>NWU Inter-university Programming and Gaming Contest</strong>, Khulna, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Dec 2016
+    </div>
+  </div>
+
+<h2 style="margin-top: 30;"></h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <strong>Participation in CSE Fest</strong>, Khulna University, Bangladesh
+    </div>
+    <div style="text-align: right;">
+      Oct 2017
     </div>
   </div>
 </div>
