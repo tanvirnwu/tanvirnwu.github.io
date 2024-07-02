@@ -1,3 +1,4 @@
+<!--
 <header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 0; position: relative;">
   <nav style="margin: 0; padding: 0;">
     <ul style="list-style-type: none; padding: 0; margin: 0;">
@@ -8,7 +9,7 @@
     </ul>
   </nav>
 </header>
-
+-->
 
 
 <!-- Add the button here -->
