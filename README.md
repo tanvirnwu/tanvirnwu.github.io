@@ -218,7 +218,7 @@
         It was a complete Android app development course of 225 hours, where I had to submit regular assignments and mini-projects throughout the training period. It ended up with a complete Android app development project.
     </div>
     <div style="text-align: right;">
-      Khulna, Bangladesh<br>
+      Bangladesh<br>
       Feb 2018
     </div>
   </div>
@@ -230,12 +230,31 @@
       <strong>Self Learning</strong><br>
       <em>Online/Books</em><br>
       Python for Data Science and Machine Learning Bootcamp (22.5 hours)<br>
-      Python for Data Science, AI & Development (25 hours)
+      <h2 style="margin-top: 20px;"></h2>
+      Python for Data Science, AI & Development (25 hours)<br>
+      <h2 style="margin-top: 20px;"></h2>
+      PyTorch for Deep Learning Bootcamp (52 hours)<br>
+      <h2 style="margin-top: 20px;"></h2>
+      Foundation of User Experience (UX) Design (19 hours)<br>
+      <h2 style="margin-top: 20px;"></h2>
+      Modern Computer Vision with PyTorch<br>
+      <h2 style="margin-top: 20px;"></h2>
+      Python Deep Learning Projects<br>
+      <h2 style="margin-top: 20px;"></h2>
+      Advanced Deep Learning with Python
     </div>
     <div style="text-align: right;">
       <br><br>
-      Udemy — Sept 2019<br><br> 
-      IBM — Mar 2024
+      Udemy — Sept'19<br><br> 
+      <h2 style="margin-top: 20px;"></h2>
+      IBM — Mar'24 <br><br> 
+      <h2 style="margin-top: 20px;"></h2>
+      Udemy — Mar 2024<br><br>
+      <h2 style="margin-top: 20px;"></h2>
+      Google — Oct 2021<br><br> <h2 style="margin-top: 20px;"></h2>
+      Book by V Kishore Ayyadevara<br><br> <h2 style="margin-top: 20px;"></h2>
+      Book by Matthew Lamons<br><br> <h2 style="margin-top: 20px;"></h2>
+      Book by Ivan Vasilev
     </div>
   </div>
     
