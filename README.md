@@ -32,7 +32,7 @@
 </div>
 
 
-<h2 style="margin-top: 50;"></h2>
+<h2 style="margin-top: 30;"></h2>
 
 
 <div style="display: flex; justify-content: space-between;">
@@ -62,7 +62,7 @@
   </div>
 </div>
 
-
+<h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>CSHI-RLab</strong><br>
@@ -91,7 +91,7 @@
   </div>
 </div>
 
-<br>
+<h2 style="margin-top: 30;"></h2>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -103,3 +103,10 @@
     Jan'19 - Dec'20
   </div>
 </div>
+
+
+<be>
+## PUBLICATIONS
+-----------------------------
+
+
