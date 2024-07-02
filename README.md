@@ -61,7 +61,7 @@
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>VIS2KNOW Lab</strong><br>
-    <em>Research Assistant</em><br>
+    Research Assistant<br>
   </div>
   <div style="text-align: right;">
     Seoul, Republic of Korea<br>
@@ -73,7 +73,7 @@
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>CSHI-RLab</strong><br>
-    <em>Research Assistant</em><br>
+    Research Assistant<br>
   </div>
   <div style="text-align: right;">
     Khulna, Bangladesh<br>
@@ -90,7 +90,7 @@
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Department of AI (Sungkyunkwan University)</strong><br>
-    <em>Teaching Assistant</em><br>
+    Teaching Assistant<br>
   </div>
   <div style="text-align: right;">
     South Korea<br>
@@ -103,7 +103,7 @@
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>South-East Engineering College <br>(Affiliated by Rajshahi University)</strong><br>
-    <em>Lecturer (part-time)</em><br>
+    Lecturer (part-time)<br>
   </div>
   <div style="text-align: right;">
     Bangladesh<br>
@@ -247,7 +247,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>16th Korean Language Society Scholarship</strong> <br> 
-      <em>Pai Chai University, South Korea</em>
+      Pai Chai University, South Korea
     </div>
     <div style="text-align: right;">
       Dec'23
@@ -259,7 +259,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Global Korea Scholarship (GKS)</strong><br>
-      <em>NIIED, South Korea</em>
+      NIIED, South Korea
     </div>
     <div style="text-align: right;">
       Aug'22 – Present
@@ -271,7 +271,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Tuition Fee Waiver and Stipend</strong><br>
-      <em>North Western University, Bangladesh</em>
+      North Western University, Bangladesh
     </div>
     <div style="text-align: right;">
       Dec'14
@@ -311,7 +311,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Volunteering to Rescue Animals</strong><br>
-      <em> Khulna Cat Society, Khulna, Bangladesh</em>
+      Khulna Cat Society, Khulna, Bangladesh
     </div>
     <div style="text-align: right;">
       Jul'16 - Present
@@ -323,7 +323,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Kimchi Making Event Volunteered</strong><br>
-      <em>Pai Chai University, Daejeon, South Korea</em>
+      Pai Chai University, Daejeon, South Korea
     </div>
     <div style="text-align: right;">
       Dec'22
@@ -335,7 +335,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Paper Presentation in ICCISIoT Conference</strong><br>
-      <em> NIT Agartala, India</em>
+      NIT Agartala, India
     </div>
     <div style="text-align: right;">
       Dec'19
@@ -347,7 +347,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>NWU Inter-university Programming and Gaming Contest</strong><br>
-      <em>Khulna, Bangladesh</em>  
+      Khulna, Bangladesh 
     </div>
     <div style="text-align: right;">
       Dec'16
@@ -359,7 +359,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Participation in CSE Fest</strong><br>
-      <em> Khulna University, Bangladesh</em>  
+      Khulna University, Bangladesh 
     </div>
     <div style="text-align: right;">
       Oct'17
