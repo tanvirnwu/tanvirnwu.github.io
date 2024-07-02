@@ -15,9 +15,9 @@ permalink: /education/
 --
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Sungkyunkwan University</strong>, Suwon-si, Republic of Korea<br>
-    Masters of Science in Computer Science and Engineering<br>
-    Thesis title: HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing.
+    <strong>Sungkyunkwan University</strong>, Republic of Korea<br>
+    MSc. in Computer Science and Engineering<br>
+
   </div>
   <div style="text-align: right;">
     Feb 2023 - Feb 2025 (Expected)<br>
@@ -29,12 +29,11 @@ permalink: /education/
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Pai Chai University</strong>, Daejeon, Republic of Korea<br>
+    <strong>Pai Chai University</strong>, Republic of Korea<br>
     Korean Language Training<br>
-    Studied Korean Language and Culture till level 4 and certified by Pai Chai University.
   </div>
   <div style="text-align: right;">
-    March 2022 - Feb 2023<br>
+    Mar'22 - Feb'23<br>
     <strong>TOPIK Level 4</strong>
   </div>
 </div>
