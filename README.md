@@ -200,7 +200,7 @@
     </div>
     <div style="text-align: right;">
       Bangladesh<br>
-      Aug'19 – Sept'19
+      Aug'19 – Sep'19
     </div>
   </div>
 
@@ -210,10 +210,7 @@
     <div>
       <strong>Google Bangladesh Android StudyJam</strong><br>
       <em>ICT Division, GDG Dhaka, Google Developers</em><br>
-      <div style="margin-left: 20px;">
-        Training Duration: 225 hours, Topic: Android Application Development<be>
-        It was a complete Android app development course where I had to submit regular assignments and mini-projects throughout the training period. It ended up with a complete Android app development project.
-      </div>
+        It was a complete Android app development course of 225 hours, where I had to submit regular assignments and mini-projects throughout the training period. It ended up with a complete Android app development project.
     </div>
     <div style="text-align: right;">
       Khulna, Bangladesh<br>
