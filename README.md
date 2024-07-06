@@ -60,7 +60,7 @@ window.onscroll = function() {
   </div>
   <div style="text-align: right;">
     Feb'23 - Feb'25 (Expected)<br>
-    <strong>CGPA 4.25/4.50</strong>
+    <strong>CGPA 4.14/4.50</strong>
   </div>
 </div>
 
