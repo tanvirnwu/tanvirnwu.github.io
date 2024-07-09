@@ -9,7 +9,7 @@ title: Publications
 
 ## SCI/SCIE/IF Journal Articles (50)
 
-1. **Khan Muhammad** and Sung Wook Baik, [Intelligent and Energy-Efficient Data Prioritization in Green Smart Cities: Current Challenges and Future Directions](https://link-to-paper1.com), *IEEE Communications Magazine*, Volume: 57, Issue: 2, pages: 60 - 65, 2019. [IF: 9.270, Q1]
+1. Md Tanvir Islam and M. Raihan et al. (2020, July). Typical and non-typical diabetes disease prediction using random forest algorithm. In 2020 11th International conference on computing, communication and networking technologies (ICCCNT) (pp. 1-6). IEEE.
    <a href="/assets/papers/TOPIK.pdf" target="_blank">
      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" class="pdf-icon">
    </a>
