@@ -12,39 +12,11 @@ github_username: tanvirnwu
 # in order as they should show up.
 header_pages: 
   - about.md
+  - publications.md
 
 github: # For removing the "View My GitHub Profile" Link 
   is_project_page: false
   
-# description: > # your text below (remove <br> elements if you don't need line breaks)
-#   <div style="text-align: center;">
-#     <a href="https://example.com" style="text-decoration: none;" target="_blank">
-#       <button style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-#         Portfolio
-#       </button>
-#     </a>
-#     <a href="https://example.com" style="text-decoration: none;" target="_blank">
-#       <button style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-#         Download CV
-#       </button>
-#     </a>
-
-#      <a href="https://example.com" style="text-decoration: none;" target="_blank">
-#       <button style="padding: 10px 20px; font-size: 16px; color: black; background-color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-#         Publications
-#       </button>
-#     </a>
-    
-#   </div>
-#   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  
-#   <style>
-#     button:hover {
-#       background-color: #0066ff !important; /* Blue background on hover */
-#       color: #ffffff !important; /* White text on hover */
-#     }
-#   </style>
-
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <div style="text-align: center; position: relative; display: inline-block;">
     <button onclick="toggleDropdown()" style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); font-weight: bold;">
@@ -53,14 +25,22 @@ description: > # your text below (remove <br> elements if you don't need line br
     <div id="myDropdown" style="display: none; position: absolute; background-color: white; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); border-radius: 5px; z-index: 1; min-width: 160px;">
       <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block; border-bottom: 1px solid #f1f1f1;">Portfolio</a>
       <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block; border-bottom: 1px solid #f1f1f1;">Download CV</a>
-      <a href="pages/publications.md" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Publications</a>
+      <a href="/publications" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Publications</a>
     </div>
   </div>
-  
+  <br>
+  <div style="text-align: center;">
+    <a href="/publications" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); font-weight: bold;">
+        View Publications
+      </button>
+    </a>
+  </div>
+
   <style>
     button:hover {
-      background-color: white !important; /* Blue background on hover */
-      color: #000000 !important; /* White text on hover */
+      background-color: white !important; /* White background on hover */
+      color: #0066ff !important; /* Blue text on hover */
     }
 
     a:hover {
@@ -103,13 +83,3 @@ description: > # your text below (remove <br> elements if you don't need line br
       }
     }
   </script>
-
-
-
-
-
-
-
-
-
-
