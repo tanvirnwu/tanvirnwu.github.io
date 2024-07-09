@@ -14,21 +14,6 @@ title: Publications
      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" class="pdf-icon">
    </a>
 
-2. **Khan Muhammad**, Salman Khan, and Sung Wook Baik, [Efficient Fire Detection from Videos of Uncertain Environment](https://link-to-paper2.com), *IEEE Transactions on Industrial Informatics*, 2019 (In Press). [IF: 5.43, Q1]
-   <a href="/public/papers/paper2.pdf" target="_blank">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" class="pdf-icon">
-   </a>
-
-3. Amin Ullah, **Khan Muhammad**, and Sung Wook Baik, [Activity Recognition using Temporal Optical Flow Convolutional Features and Multi-Layer LSTM](https://link-to-paper3.com), *IEEE Transactions on Industrial Electronics*, 2019 (In Press). [IF: 7.05, Q1]
-   <a href="/public/papers/paper3.pdf" target="_blank">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" class="pdf-icon">
-   </a>
-
-4. Muhammad Sajjad, Ijaz UL Haq, **Khan Muhammad**, and Sung Wook Baik, [Robust Image Hashing for Efficient Authentication in Industrial IoT Applications](https://link-to-paper4.com), *IEEE Transactions on Industrial Informatics*, 2018 (Reject and Resubmit). [IF: 5.43, Q1]
-   <a href="/public/papers/paper4.pdf" target="_blank">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" class="pdf-icon">
-   </a>
-
 <!-- Add more publications as needed -->
 
 <style>
