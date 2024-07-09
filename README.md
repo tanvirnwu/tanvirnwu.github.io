@@ -199,7 +199,7 @@ window.onscroll = function() {
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>TD-LLIE</strong><br>
+      <strong>TriFuse</strong><br>
       <div style="text-align: justify;">
         We developed a novel low-light image enhancement (LLIE) method based on the transformer and diffusion model that outperforms the SOTA LLIE methods testing on real-life low-light images.
       </div>
