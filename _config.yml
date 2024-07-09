@@ -26,8 +26,14 @@ description: >
       <a href="/pages/publications" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Publications</a>
     </div>
   </div>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+  <br>
+  <div style="text-align: center;">
+    <a href="/pages/publications" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); font-weight: bold;">
+        New Publications
+      </button>
+    </a>
+  </div>
 
   <style>
     button:hover {
