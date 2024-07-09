@@ -4,8 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
-# Publications aa
- 
+# Publications All
+
 **Disclaimer Notice:** Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
 ## SCI/SCIE/IF Journal Articles (50)
