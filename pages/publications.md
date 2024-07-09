@@ -5,40 +5,41 @@ title: Publications
 
 # Publications
 
-Welcome to my publications page! Here you can find all my published papers with links to the full texts.
+**Disclaimer Notice:** Please note that all the papers are archived for personal use only. And you are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
-## Research Papers
+## SCI/SCIE/IF Journal Articles (50)
 
-<div style="margin-top: 20px;">
-  <div style="border-left: 5px solid #6c757d; padding: 10px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0;">Paper Title 1</h3>
-    <p><strong>Authors:</strong> Author1, Author2, Author3</p>
-    <p><strong>Published in:</strong> Journal Name, Year</p>
-    <p><strong>Abstract:</strong> A brief summary of the paper goes here. It should be concise and informative.</p>
-    <a href="https://link-to-the-paper.com" target="_blank" style="text-decoration: none; color: #007bff;">Read Full Paper</a>
-  </div>
+1. **Khan Muhammad** and Sung Wook Baik, [Intelligent and Energy-Efficient Data Prioritization in Green Smart Cities: Current Challenges and Future Directions](https://link-to-paper1.com), *IEEE Communications Magazine*, Volume: 57, Issue: 2, pages: 60 - 65, 2019. [IF: 9.270, Q1]
+   ![PDF](https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg)
 
-  <div style="border-left: 5px solid #6c757d; padding: 10px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0;">Paper Title 2</h3>
-    <p><strong>Authors:</strong> Author1, Author2, Author3</p>
-    <p><strong>Published in:</strong> Journal Name, Year</p>
-    <p><strong>Abstract:</strong> A brief summary of the paper goes here. It should be concise and informative.</p>
-    <a href="https://link-to-the-paper.com" target="_blank" style="text-decoration: none; color: #007bff;">Read Full Paper</a>
-  </div>
+2. **Khan Muhammad**, Salman Khan, and Sung Wook Baik, [Efficient Fire Detection from Videos of Uncertain Environment](https://link-to-paper2.com), *IEEE Transactions on Industrial Informatics*, 2019 (In Press). [IF: 5.43, Q1]
+   ![PDF](https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg)
 
-  <!-- Add more papers as needed -->
+3. Amin Ullah, **Khan Muhammad**, and Sung Wook Baik, [Activity Recognition using Temporal Optical Flow Convolutional Features and Multi-Layer LSTM](https://link-to-paper3.com), *IEEE Transactions on Industrial Electronics*, 2019 (In Press). [IF: 7.05, Q1]
+   ![PDF](https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg)
 
-</div>
+4. Muhammad Sajjad, Ijaz UL Haq, **Khan Muhammad**, and Sung Wook Baik, [Robust Image Hashing for Efficient Authentication in Industrial IoT Applications](https://link-to-paper4.com), *IEEE Transactions on Industrial Informatics*, 2018 (Reject and Resubmit). [IF: 5.43, Q1]
+   ![PDF](https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg)
+
+<!-- Add more publications as needed -->
 
 <style>
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    color: #333;
   }
 
   h1 {
     text-align: center;
     color: #343a40;
+  }
+
+  h2 {
+    color: #343a40;
+    margin-top: 30px;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
   }
 
   h3 {
@@ -49,7 +50,25 @@ Welcome to my publications page! Here you can find all my published papers with 
     color: #495057;
   }
 
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
   a:hover {
-    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  .publication {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #6c757d;
+  }
+
+  .pdf-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
   }
 </style>
