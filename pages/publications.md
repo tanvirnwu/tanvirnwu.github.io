@@ -23,13 +23,13 @@ Please note that all the papers are archived for personal use only. You are lega
 5. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/8944552" target="_blank">"An empirical study to predict diabetes mellitus using K-means and hierarchical clustering techniques"</a> 10th International Conference on Computing, Communication and Networking Technologies (ICCCNT). IEEE, 2019.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
-3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+6. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/8944499" target="_blank">"Identification of cyanide within hollow core photonics crystal fiber"</a> 10th International Conference on Computing, Communication and Networking Technologies (ICCCNT). IEEE, 2019.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
-3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+7. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/8944883" target="_blank">"Safeguard: A prototype of an application programming interface to save the disaster affected people"</a> 10th International Conference on Computing, Communication and Networking Technologies (ICCCNT). IEEE, 2019.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
-3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+8. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://dl.acm.org/doi/abs/10.1145/3377049.3377130?casa_token=EDZhblNvSMMAAAAA:gcpQ1EBAnzkRNX14-VRuKP_xP48677tdg3ROTyMd27V4BMuxPXBsvHQ0owKvg--4bqdrEI2-J8zFLw" target="_blank">"A machine learning approach to identify the correlation and association among the students' educational behavior"</a> Proceedings of the International Conference on Computing Advancements. 2020.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
 3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
