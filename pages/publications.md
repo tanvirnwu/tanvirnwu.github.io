@@ -14,14 +14,20 @@ Please note that all the papers are archived for personal use only. You are lega
 2. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"PaperTitle"</a> ConferenceJournal
    <a href="PDFurlLINK" target="_blank"><img src="https://www.vhv.rs/dpng/d/521-5217636_downloadable-pdf-button-png-hd-image-download-pdf.png" class="pdf-icon"></a>
 
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"PaperTitle"</a> ConferenceJournal
+   <a href="PDFurlLINK" target="_blank"><img src="https://www.vhv.rs/dpng/d/420-4201052_download-pdf-button-png-transparent-png-pdf-download.png" class="pdf-icon"></a>
+
+4. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"PaperTitle"</a> ConferenceJournal
+   <a href="PDFurlLINK" target="_blank"><img src="https://www.yamunamachine.com/download/PDF_Download.jpg" class="pdf-icon"></a>
+
 
 
 <!-- Add more publications as needed -->
 
 <style>
   .pdf-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
     margin-left: 5px;
   }
