@@ -8,16 +8,14 @@ author:
 
 github_username: tanvirnwu
 
-# If you want to link only specific pages in your header, use this and add the path to the pages
-# in order as they should show up.
 header_pages: 
   - about.md
   - pages/publications.md
 
-github: # For removing the "View My GitHub Profile" Link 
+github: 
   is_project_page: false
   
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description: >
   <div style="text-align: center; position: relative; display: inline-block;">
     <button onclick="toggleDropdown()" style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); font-weight: bold;">
       Menu
@@ -29,11 +27,18 @@ description: > # your text below (remove <br> elements if you don't need line br
     </div>
   </div>
   <br>
+  <div style="text-align: center;">
+    <a href="/pages/publications" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 16px; color: white; background-color: #0066ff; border: none; border-radius: 5px; cursor: pointer; margin: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); font-weight: bold;">
+        View Publications
+      </button>
+    </a>
+  </div>
 
   <style>
     button:hover {
-      background-color: white !important; /* White background on hover */
-      color: #0066ff !important; /* Blue text on hover */
+      background-color: white !important; 
+      color: #0066ff !important; 
     }
 
     a:hover {
@@ -63,7 +68,6 @@ description: > # your text below (remove <br> elements if you don't need line br
       }
     }
 
-    // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
       if (!event.target.matches('button')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
