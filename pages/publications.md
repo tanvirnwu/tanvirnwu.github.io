@@ -29,8 +29,8 @@ Please note that all the papers are archived for personal use only. You are lega
 
 <style>
   .pdf-icon {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     vertical-align: middle;
     margin-left: 5px;
   }
