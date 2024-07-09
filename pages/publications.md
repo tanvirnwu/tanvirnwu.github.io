@@ -18,7 +18,7 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="PDFurlLINK" target="_blank"><img src="https://www.vhv.rs/dpng/d/420-4201052_download-pdf-button-png-transparent-png-pdf-download.png" class="pdf-icon"></a>
 
 4. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"PaperTitle"</a> ConferenceJournal
-   <a href="PDFurlLINK" target="_blank"><img src="https://www.yamunamachine.com/download/PDF_Download.jpg" class="pdf-icon"></a>
+   <a href="PDFurlLINK" target="_blank"><img src="https://github.com/tanvirnwu/tanvirnwu.github.io/blob/3081c19f7ba3ab118f117c229dea53775b789442/assets/papers/TOPIK.pdf" class="pdf-icon"></a>
 
 
 
