@@ -53,7 +53,7 @@ description: > # your text below (remove <br> elements if you don't need line br
     <div id="myDropdown" style="display: none; position: absolute; background-color: white; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); border-radius: 5px; z-index: 1; min-width: 160px;">
       <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block; border-bottom: 1px solid #f1f1f1;">Portfolio</a>
       <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block; border-bottom: 1px solid #f1f1f1;">Download CV</a>
-      <a href="https://example.com" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Publications</a>
+      <a href="pages/publications.md" target="_blank" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Publications</a>
     </div>
   </div>
   
