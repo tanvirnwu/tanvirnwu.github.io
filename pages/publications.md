@@ -32,13 +32,13 @@ Please note that all the papers are archived for personal use only. You are lega
 8. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://dl.acm.org/doi/abs/10.1145/3377049.3377130?casa_token=EDZhblNvSMMAAAAA:gcpQ1EBAnzkRNX14-VRuKP_xP48677tdg3ROTyMd27V4BMuxPXBsvHQ0owKvg--4bqdrEI2-J8zFLw" target="_blank">"A machine learning approach to identify the correlation and association among the students' educational behavior"</a> Proceedings of the International Conference on Computing Advancements. 2020.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
-3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+9. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
-3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+10. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/8944528" target="_blank">"An empirical study on diabetes mellitus prediction for typical and non-typical cases using machine learning approaches"</a> 10th International Conference on Computing, Communication and Networking Technologies (ICCCNT). IEEE, 2019.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
-3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+11. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. Springer Singapore, 2021.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
 3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
