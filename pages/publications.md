@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: Publications
 ---
 
 # Publications
 
-**Disclaimer Notice:** Please note that all the papers are archived for personal use only. And you are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
+**Disclaimer Notice:** Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
 ## SCI/SCIE/IF Journal Articles (50)
 
@@ -24,42 +24,7 @@ title: Publications
 <!-- Add more publications as needed -->
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-
-  h1 {
-    text-align: center;
-    color: #343a40;
-  }
-
-  h2 {
-    color: #343a40;
-    margin-top: 30px;
-    border-bottom: 2px solid #e9ecef;
-    padding-bottom: 10px;
-  }
-
-  h3 {
-    color: #343a40;
-  }
-
-  p {
-    color: #495057;
-  }
-
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .publication {
+  .publications {
     margin-bottom: 20px;
     padding-left: 10px;
     border-left: 5px solid #6c757d;
