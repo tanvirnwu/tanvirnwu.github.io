@@ -17,9 +17,36 @@ Please note that all the papers are archived for personal use only. You are lega
 3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-3666-3_37" target="_blank">"Diabetes Mellitus Prediction Using Ensemble Machine Learning Techniques"</a> International Conference on Computational Intelligence, Security and Internet of Things. Singapore: Springer Singapore, 2019.
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
    
+4. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225662" target="_blank">"Human behavior analysis using association rule mining techniques"</a> 11th International conference on computing, communication and networking technologies (ICCCNT). IEEE, 2020.
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+5. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/8944552" target="_blank">"An empirical study to predict diabetes mellitus using K-means and hierarchical clustering techniques"</a> 10th International Conference on Computing, Communication and Networking Technologies (ICCCNT). IEEE, 2019.
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
 3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
-   
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
+3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
+   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+
 3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="ConferenceLINK" target="_blank">"PaperTitle"</a> ConferenceJournalNAME
    <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
