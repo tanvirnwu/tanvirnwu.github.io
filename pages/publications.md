@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Publications
-permalink: /publications/
 ---
 
-# Publications All
+# Publications no permalink
 
 **Disclaimer Notice:** Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
