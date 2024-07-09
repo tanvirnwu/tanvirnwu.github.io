@@ -9,7 +9,7 @@ title: Publications
 
 ## SCI/SCIE/IF Journal Articles (50)
 
-1. Md Tanvir Islam and M. Raihan et al. (2020, July). Typical and non-typical diabetes disease prediction using random forest algorithm. In 2020 11th International conference on computing, communication and networking technologies (ICCCNT) (pp. 1-6). IEEE.
+1. <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank"> "Typical and non-typical diabetes disease prediction using random forest algorithm."</a> 2020 11th International conference on computing, communication and networking technologies (ICCCNT). IEEE, 2020.
    <a href="/assets/papers/TOPIK.pdf" target="_blank">
      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" class="pdf-icon">
    </a>
