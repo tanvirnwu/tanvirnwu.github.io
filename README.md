@@ -241,6 +241,10 @@ window.onscroll = function() {
 </div>
 
 
+
+
+
+
 <br><br>
 ## Training
 -----------------------------
@@ -309,6 +313,10 @@ window.onscroll = function() {
 
 
 
+
+
+
+
 <br><br>
 ## Scholarships
 -----------------------------
@@ -350,6 +358,11 @@ window.onscroll = function() {
 
 
 
+
+
+
+
+
 <br><br>
 ## Practicing Skills
 -----------------------------
@@ -367,7 +380,7 @@ window.onscroll = function() {
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Programming</strong><br>
-      Python; Frameworks: PyTorch, PySpark, Keras; Database: MySQL
+      Python; Frameworks: PyTorch, PySpark, Keras; Database: PostgreSQL
     </div>
   </div>
 
