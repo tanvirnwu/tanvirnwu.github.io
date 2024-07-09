@@ -2,6 +2,31 @@
 layout: default
 title: Publications
 ---
+
+<!-- Add the button here -->
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+
+<script>
+function scrollToPosition() {
+  if (window.pageYOffset === 0) {
+    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+  } else {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+}
+
+window.onscroll = function() {
+  const scrollButton = document.getElementById('scrollButton');
+  if (window.pageYOffset === 0) {
+    scrollButton.innerHTML = '&#8595;'; // Down arrow
+  } else {
+    scrollButton.innerHTML = '&#8593;'; // Up arrow
+  }
+};
+</script>
+
+
+
 ### This page is under construction...
 # Disclaimer 
 Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
