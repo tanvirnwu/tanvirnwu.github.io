@@ -367,7 +367,7 @@ window.onscroll = function() {
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
       <strong>Programming</strong><br>
-      Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch. Database: MySQL
+      Python; Frameworks: PyTorch, PySpark, Keras; Database: MySQL
     </div>
   </div>
 
