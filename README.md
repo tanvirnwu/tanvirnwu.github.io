@@ -175,7 +175,7 @@ window.onscroll = function() {
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
   <div>
-    <strong>Patents:</strong><br> USA (On review), UK (Published) 
+    <strong>Patents:</strong><br> USA (On review), <a href="https://www.registered-design.service.gov.uk/find/6370394" target="_blank">UK (Published)</a>
   </div>
   <div style="text-align: right;">
    <strong>Total:</strong> 2
