@@ -111,7 +111,7 @@ window.onscroll = function() {
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between;">
   <div> 
-    <a href="https://www.linkedin.com/company/cshiresearchlab/" target="_blank"><strong>CSHI-RLab</strong></a><br>
+    <a href="https://www.researchgate.net/lab/CSHI-RLab-M-Raihan" target="_blank"><strong>CSHI-RLab</strong></a><br>
     Research Assistant<br>
   </div>
   <div style="text-align: right;">
