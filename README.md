@@ -54,7 +54,7 @@ window.onscroll = function() {
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Sungkyunkwan University</strong>, South Korea<br>
+    <a href="https://www.skku.edu/eng/index.do" target="_blank"><strong>Sungkyunkwan University</strong></a>, South Korea<br>
     MSc. in Computer Science and Engineering<br>
 
   </div>
@@ -68,7 +68,7 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Pai Chai University</strong>, South Korea<br>
+    <a href="https://www.pcu.ac.kr/kor" target="_blank"><strong>Pai Chai University</strong></a>, South Korea<br>
     Korean Culture and Language Training<br>
   </div>
   <div style="text-align: right;">
@@ -83,7 +83,7 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>North Western University</strong>, Bangladesh<br>
+    <a href="https://nwu.ac.bd/" target="_blank"><strong>North Western University</strong></a>, Bangladesh<br>
     BSc. in Computer Science and Engineering<br>
   </div>
   <div style="text-align: right;">
