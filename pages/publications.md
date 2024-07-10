@@ -26,9 +26,7 @@ window.onscroll = function() {
 </script>
 
 
-
-### This page is under construction...
-# Disclaimer 
+## Disclaimer 
 Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
 
