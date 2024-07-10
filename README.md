@@ -99,7 +99,8 @@ window.onscroll = function() {
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>VIS2KNOW Lab</strong><br>
+    <a href="https://www.researchgate.net/lab/Visual-Analytics-for-Knowledge-Laboratory-VIS2KNOW-Lab-Khan-Muhammad" target="_blank"><strong>VIS2KNOW Lab</strong></a>
+<br>
     Research Assistant<br>
   </div>
   <div style="text-align: right;">
