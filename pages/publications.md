@@ -41,7 +41,7 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/373328971_Diabetes_Mellitus_Prediction_using_Different_Ensemble_Machine_Learning_Approaches/links/64e622d240289f7a0faeefe9/Diabetes-Mellitus-Prediction-using-Different-Ensemble-Machine-Learning-Approaches.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
    
 3. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-3666-3_37" target="_blank">"Diabetes Mellitus Prediction Using Ensemble Machine Learning Techniques"</a> International Conference on Computational Intelligence, Security and Internet of Things. Singapore: Springer Singapore, 2019.
-   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+   <a href="https://link.springer.com/chapter/10.1007/978-981-15-3666-3_37" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
    
 4. M. Raihan and <strong>Md Tanvir Islam</strong> <a href="https://ieeexplore.ieee.org/abstract/document/9225662" target="_blank">"Human behavior analysis using association rule mining techniques"</a> 11th International conference on computing, communication and networking technologies (ICCCNT). IEEE, 2020.
    <a href="https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/344695418_Human_Behavior_Analysis_using_Association_Rule_Mining_Techniques/links/64e61e8a0acf2e2b520d7a6c/Human-Behavior-Analysis-using-Association-Rule-Mining-Techniques.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
@@ -62,10 +62,10 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="https://d1wqtxts1xzle7.cloudfront.net/61823414/120200118-98333-w040ke-libre.pdf?1579372384=&response-content-disposition=inline%3B+filename%3DAn_Empirical_Study_on_Diabetes_Mellitus.pdf&Expires=1720577247&Signature=RV8HoluhW73rk1RyMz4mLJmuI~VhNI4VJAn92EaxayUnec6LEYPEoC8FoSynOeDeAMaFei0QhypxoYfX-hLQnz2bKWHzYZp5tJhBiwJXOEQif--i-nNlK2T-c3ak6S5OdjRpkJqvAUS4ivsQMrmnfmjG7jOY4S8-FGdQdr1OCQwlIXtjavDg955a8Ib2sA0n7I~epfwNpfkT6xG-8r1g4VpMAZJ955h38eig1onpX7IzPj5PbC7LAslkDIJFpIMzdXBteO5HeS5dV4hvmFYqhQLzn5Ic4ycecmyEnd7VhVdZSXF5yZAdthbFO0tjyUAF3swxBCNMPGCLfi7~s945Uw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
 10. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. Springer Singapore, 2021.
-   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+   <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
 11. M Raihan, Nasif Alvi, and <strong>Md Tanvir Islam</strong> <a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_7" target="_blank">"Diabetes mellitus risk prediction using artificial neural network"</a> Proceedings of International Joint Conference on Computational Intelligence: IJCCI 2019. Singapore: Springer Singapore, 2020.
-   <a href="PDFurlLINK" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+   <a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_7" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 
 
 
