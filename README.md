@@ -99,8 +99,7 @@ window.onscroll = function() {
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="https://www.researchgate.net/lab/Visual-Analytics-for-Knowledge-Laboratory-VIS2KNOW-Lab-Khan-Muhammad" target="_blank"><strong>VIS2KNOW Lab</strong></a>
-<br>
+    <a href="https://www.researchgate.net/lab/Visual-Analytics-for-Knowledge-Laboratory-VIS2KNOW-Lab-Khan-Muhammad" target="_blank"><strong>VIS2KNOW Lab</strong></a><br>
     Research Assistant<br>
   </div>
   <div style="text-align: right;">
@@ -111,8 +110,8 @@ window.onscroll = function() {
 
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between;">
-  <div>
-    <strong>CSHI-RLab</strong><br>
+  <div> 
+    <a href="https://www.linkedin.com/company/cshiresearchlab/" target="_blank"><strong>CSHI-RLab</strong></a><br>
     Research Assistant<br>
   </div>
   <div style="text-align: right;">
@@ -414,7 +413,7 @@ window.onscroll = function() {
 <div style="margin-top: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>Volunteering to Rescue Animals</strong><br>
+      <a href="https://www.linkedin.com/company/cshiresearchlab/" target="_blank"><strong>Volunteering to Rescue Animals</strong></a><br>
       Khulna Cat Society, Khulna, Bangladesh
     </div>
     <div style="text-align: right;">
