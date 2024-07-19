@@ -210,7 +210,7 @@ window.onscroll = function() {
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <strong>[HazeSpace2M](https://github.com/tanvirnwu/HazeSpace2M)</strong><br>
+      <strong><a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M</a></strong><br>
       <div style="text-align: justify;">
         We introduce a novel and diverse hazy dataset with 2 million hazy images of 10 distinct levels. Besides, we also propose a novel framework for single-image dehazing that improves the performance of the SOTA dehazing models.
       </div>
