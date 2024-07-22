@@ -82,12 +82,12 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="https://nwu.ac.bd/" target="_blank"><strong>North Western University</strong></a>, Bangladesh<br>
-    BSc. in Computer Science and Engineering<br>
+    <strong>BSc. in Computer Science and Engineering</strong><br>
+    <a href="https://nwu.ac.bd/" target="_blank">North Western University</a>, Bangladesh<br>
   </div>
   <div style="text-align: right;">
-    Jan'15 - Jan'19<br>
-    <strong>CGPA 3.98/4.00</strong>
+    <strong>CGPA 3.98/4.00</strong><br>
+    Jan'15 - Jan'19
   </div>
 </div>
 
