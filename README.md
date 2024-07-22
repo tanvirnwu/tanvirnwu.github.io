@@ -59,7 +59,7 @@ window.onscroll = function() {
   </div>
   <div style="text-align: right;">
     <strong>CGPA 4.14/4.50</strong><br>
-    Feb'23 - Feb'25 (Expected)
+    Feb'23 - Feb'25 (Expected)<br>
   </div>
 </div>
 
@@ -67,12 +67,12 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="https://www.pcu.ac.kr/kor" target="_blank"><strong>Pai Chai University</strong></a>, South Korea<br>
     Korean Culture and Language Training<br>
+    <a href="https://www.pcu.ac.kr/kor" target="_blank"><strong>Pai Chai University</strong></a>, South Korea<br>
   </div>
   <div style="text-align: right;">
-    Mar'22 - Feb'23<br>
-    <strong>TOPIK Level 4</strong>
+    <strong>TOPIK Level 4</strong><br>
+    Mar'22 - Feb'23
   </div>
 </div>
 
