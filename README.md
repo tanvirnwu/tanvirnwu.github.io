@@ -55,7 +55,7 @@ window.onscroll = function() {
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>MSc. in Computer Science and Engineering<br></strong>
-    <a href="https://www.skku.edu/eng/index.do" target="_blank">Sungkyunkwan University</a>, South Korea<br>
+    <a href="https://www.skku.edu/eng/index.do" target="_blank">Sungkyunkwan University, South Korea</a><br>
   </div>
   <div style="text-align: right;">
     <strong>CGPA 4.14/4.50</strong><br>
@@ -67,12 +67,12 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    Korean Culture and Language Training<br>
-    <a href="https://www.pcu.ac.kr/kor" target="_blank"><strong>Pai Chai University</strong></a>, South Korea<br>
+    <strong>Korean Culture and Language Training</strong><br>
+    <a href="https://www.pcu.ac.kr/kor" target="_blank">Pai Chai University</a>, South Korea<br>
   </div>
   <div style="text-align: right;">
-    <strong>TOPIK Level 4</strong><br>
-    Mar'22 - Feb'23
+    Mar'22 - Feb'23<br>
+    <strong>TOPIK Level 4</strong>
   </div>
 </div>
 
