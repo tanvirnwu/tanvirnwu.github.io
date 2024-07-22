@@ -102,8 +102,8 @@ window.onscroll = function() {
     <a href="https://www.researchgate.net/lab/Visual-Analytics-for-Knowledge-Laboratory-VIS2KNOW-Lab-Khan-Muhammad" target="_blank">VIS2KNOW Lab</a><br>
   </div>
   <div style="text-align: right;">
-    Jul'23 – Present
-    Seoul, Republic of Korea<br>
+    Jul'23 – Present<br>
+    Seoul, Republic of Korea
   </div>
 </div>
 
