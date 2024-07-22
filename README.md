@@ -68,11 +68,11 @@ window.onscroll = function() {
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Korean Culture and Language Training</strong><br>
-    <a href="https://www.pcu.ac.kr/kor" target="_blank">Pai Chai University</a>, South Korea<br>
+    <a href="https://www.pcu.ac.kr/kor" target="_blank">Pai Chai University, South Korea</a><br>
   </div>
   <div style="text-align: right;">
-    Mar'22 - Feb'23<br>
-    <strong>TOPIK Level 4</strong>
+    <strong>TOPIK Level 4</strong><br>
+    Mar'22 - Feb'23
   </div>
 </div>
 
@@ -83,7 +83,7 @@ window.onscroll = function() {
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>BSc. in Computer Science and Engineering</strong><br>
-    <a href="https://nwu.ac.bd/" target="_blank">North Western University</a>, Bangladesh<br>
+    <a href="https://nwu.ac.bd/" target="_blank">North Western University, Bangladesh</a><br>
   </div>
   <div style="text-align: right;">
     <strong>CGPA 3.98/4.00</strong><br>
@@ -140,12 +140,12 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    South-East Engineering College <br>(Affiliated by Rajshahi University)<br>
     <strong>Lecturer (part-time)</strong><br>
+    South-East Engineering College <br>(Affiliated by Rajshahi University)<br>
   </div>
   <div style="text-align: right;">
-    Jan'19 - Dec'20<br>
-    Bangladesh
+    Bangladesh<br>
+    Jan'19 - Dec'20
   </div>
 </div>
 
