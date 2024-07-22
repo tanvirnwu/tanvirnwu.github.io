@@ -98,24 +98,24 @@ window.onscroll = function() {
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="https://www.researchgate.net/lab/Visual-Analytics-for-Knowledge-Laboratory-VIS2KNOW-Lab-Khan-Muhammad" target="_blank"><strong>VIS2KNOW Lab</strong></a><br>
-    Research Assistant<br>
+    <strong>Research Assistant</strong><br>
+    <a href="https://www.researchgate.net/lab/Visual-Analytics-for-Knowledge-Laboratory-VIS2KNOW-Lab-Khan-Muhammad" target="_blank">VIS2KNOW Lab</a><br>
   </div>
   <div style="text-align: right;">
-    Seoul, Republic of Korea<br>
     Jul'23 – Present
+    Seoul, Republic of Korea<br>
   </div>
 </div>
 
 <h2 style="margin-top: 30;"></h2>
 <div style="display: flex; justify-content: space-between;">
-  <div> 
-    <a href="https://www.researchgate.net/lab/CSHI-RLab-M-Raihan" target="_blank"><strong>CSHI-RLab</strong></a><br>
-    Research Assistant<br>
+  <div>
+    <strong>Research Assistant</strong><br>
+    <a href="https://www.researchgate.net/lab/CSHI-RLab-M-Raihan" target="_blank">CSHI-RLab</a><br>
   </div>
   <div style="text-align: right;">
-    Khulna, Bangladesh<br>
-    Jul'18 – Aug'21
+    Jul'18 – Aug'21<br>
+    Khulna, Bangladesh
   </div>
 </div>
 
@@ -127,8 +127,8 @@ window.onscroll = function() {
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Department of AI (Sungkyunkwan University)</strong><br>
-    Teaching Assistant<br>
+    <strong>Teaching Assistant</strong><br>
+    Department of AI (Sungkyunkwan University)<br>
   </div>
   <div style="text-align: right;">
     South Korea<br>
@@ -140,12 +140,12 @@ window.onscroll = function() {
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>South-East Engineering College <br>(Affiliated by Rajshahi University)</strong><br>
-    Lecturer (part-time)<br>
+    South-East Engineering College <br>(Affiliated by Rajshahi University)<br>
+    <strong>Lecturer (part-time)</strong><br>
   </div>
   <div style="text-align: right;">
-    Bangladesh<br>
-    Jan'19 - Dec'20
+    Jan'19 - Dec'20<br>
+    Bangladesh
   </div>
 </div>
 
