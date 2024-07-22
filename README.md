@@ -53,14 +53,13 @@ window.onscroll = function() {
 ## Education
 -----------------------------
 <div style="display: flex; justify-content: space-between;">
-  <div>
-    <a href="https://www.skku.edu/eng/index.do" target="_blank"><strong>Sungkyunkwan University</strong></a>, South Korea<br>
-    MSc. in Computer Science and Engineering<br>
-
-  </div>
   <div style="text-align: right;">
     Feb'23 - Feb'25 (Expected)<br>
     <strong>CGPA 4.14/4.50</strong>
+  </div>
+  <div>
+    <a href="https://www.skku.edu/eng/index.do" target="_blank"><strong>Sungkyunkwan University</strong></a>, South Korea<br>
+    MSc. in Computer Science and Engineering<br>
   </div>
 </div>
 
