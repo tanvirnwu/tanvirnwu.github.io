@@ -31,10 +31,11 @@ Please note that all the papers are archived for personal use only. You are lega
 
 
 ## Papers
-
-1. <strong>Md Tanvir Islam</strong> and Nasir Rahim <a href="" target="_blank">"HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing"</a> In Proceedings of the 32nd <strong>ACM International Conference on Multimedia (BK IF: 4.0)</strong>, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3664647.3681382
+### ACM Multimedia (Acceptance rate: 26% | BK Impact Factor: 4.0 | Google h-index: 101)
+1. <strong>Md Tanvir Islam</strong> and Nasir Rahim <a href="" target="_blank">"HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing"</a> In Proceedings of the 32nd ACM International Conference on Multimedia, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3664647.3681382
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
-   
+
+### Others
 1. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. Springer Singapore, 2021.
    <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
    
