@@ -37,7 +37,7 @@ Please note that all the papers are archived for personal use only. You are lega
 
 
 #### Alexandria Engineering Journal [IF: 6.2, Q]
-1. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad, "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a>
+1. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad, "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(In review (2024))</strong>
 
 ### Others
 1. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. Springer Singapore, 2021.
