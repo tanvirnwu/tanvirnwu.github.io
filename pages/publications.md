@@ -36,8 +36,14 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Accepted)</strong>
 
 
-#### Alexandria Engineering Journal [IF: 6.2, Q]
-1. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(In review (2024))</strong>
+#### Alexandria Engineering Journal [IF: 6.2, Q1]
+1. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(In review)</strong>
+
+
+#### Engineering Applications of Artificial Intelligence [IF: 7.5, Q1]
+1. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="[https://www.sciencedirect.com/journal/alexandria-engineering-journal](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(In review)</strong>
+
+
 
 ### Others
 1. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. Springer Singapore, 2021.
