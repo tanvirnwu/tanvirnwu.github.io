@@ -36,9 +36,9 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Accepted)</strong>
 
 #### AAAI'25 [Acceptance rate: 23% | BK IF: 4.0 | h-index: 220]
-1. <strong>Md Tanvir Islam</strong> and Shehzad Ali "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(In review)</strong>
+1. Shehzad Ali and <strong>Md Tanvir Islam</strong> "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(In review)</strong>
 
-#### Asian Conference on Computer Vision (ACCV 2024) [BK IF: 1]
+#### ACCV'24 [Acceptance rate: 28% | BK IF: 1.0]
 1. <strong>Md Tanvir Islam</strong> and Inazamamul Alam "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(In review)</strong>
 
 #### Alexandria Engineering Journal [Acceptance rate: 26% | IF: 6.2, Q1]
