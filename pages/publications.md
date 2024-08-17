@@ -27,67 +27,6 @@ window.onscroll = function() {
 
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizontal Buttons</title>
-    <style>
-        .button-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .button-container a {
-            display: inline-block;
-            margin: 0 15px;
-            padding: 10px 20px;
-            font-size: 16px;
-            color: #fff;
-            background-color: #007bff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .button-container a:hover {
-            background-color: #0056b3;
-        }
-
-        section {
-            margin: 50px 0;
-        }
-    </style>
-</head>
-<body>
-
-<div class="button-container">
-    <a href="#papers-accepted">Papers</a>
-    <a href="#patents">Patents</a>
-    <a href="#book-chapters">Book Chapters</a>
-</div>
-
-<!-- Sections that the buttons will scroll to -->
-<section id="papers-accepted">
-    <h2>Papers Accepted</h2>
-    <!-- Content for Papers Accepted -->
-</section>
-
-<section id="patents">
-    <h2>Patents</h2>
-    <!-- Content for Patents -->
-</section>
-
-<section id="book-chapters">
-    <h2>Book Chapters</h2>
-    <!-- Content for Book Chapters -->
-</section>
-
-</body>
-</html>
-
-
-
 ## Disclaimer 
 Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders. See my patents and papers.
 
