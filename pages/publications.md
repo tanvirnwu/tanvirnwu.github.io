@@ -43,6 +43,8 @@ Please note that all the papers are archived for personal use only. You are lega
 
 1. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="[https://www.sciencedirect.com/journal/alexandria-engineering-journal](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1)</strong>
 
+1. <strong>Md Tanvir Islam</strong> and Samiull Bari "Accurate Prediction of Thyroid Cancer Recurrence using Advanced Machine Learning" <a href="https://confmiet.org/" target="_blank">2nd International Conference on Machine Intelligence and Emerging Technologies (MIET 2024)</a> <strong>(Scopus Indexed | Double Peer Blind Review)</strong>
+
 
 ### Papers Published
 1. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. <strong>Springer Singapore</strong>, 2021.
