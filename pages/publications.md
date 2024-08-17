@@ -31,7 +31,7 @@ Please note that all the papers are archived for personal use only. You are lega
 
 
 ### Papers Accepted
-1. <strong>Md Tanvir Islam</strong> and Nasir Rahim <a href="" target="_blank">"HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing"</a> In Proceedings of the 32nd ACM International Conference on Multimedia, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3664647.3681382
+1. <strong>Md Tanvir Islam</strong> and Nasir Rahim "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM International Conference on Multimedia</a>, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3664647.3681382
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Acceptance rate: 26% | BK IF: 4.0 | h-index: 101)</strong>
 
 ### Papers Under Review
