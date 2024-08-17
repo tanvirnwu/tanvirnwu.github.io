@@ -85,10 +85,7 @@ Please note that all the papers are archived for personal use only. You are lega
 
 
 
-### Patents
 
-#### Published
-#### Under Review
 
 
 
