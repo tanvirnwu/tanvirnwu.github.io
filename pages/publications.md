@@ -35,13 +35,13 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Acceptance rate: 26% | BK IF: 4.0 | h-index: 101 | Accepted)</strong>
 
 ### Papers Under Review
-1. Shehzad Ali and <strong>Md Tanvir Islam</strong> "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(Acceptance rate: 23%, BK IF: 4.0 | h-index: 220 | In review)</strong>
+1. Shehzad Ali and <strong>Md Tanvir Islam</strong> "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(Acceptance rate: 23% | BK IF: 4.0 | h-index: 220)</strong>
 
-1. <strong>Md Tanvir Islam</strong> and Inazamamul Alam "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(Acceptance rate: 28% | BK IF: 1.0 | In review)</strong>
+1. <strong>Md Tanvir Islam</strong> and Inazamamul Alam "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(Acceptance rate: 28% | BK IF: 1.0)</strong>
 
-1. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(IF: 6.2, Q1 | In review)</strong>
+1. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(IF: 6.2, Q1)</strong>
 
-1. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="[https://www.sciencedirect.com/journal/alexandria-engineering-journal](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1 | In review)</strong>
+1. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="[https://www.sciencedirect.com/journal/alexandria-engineering-journal](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1)</strong>
 
 
 ### Papers Published
