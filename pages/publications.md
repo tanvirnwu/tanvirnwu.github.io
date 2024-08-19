@@ -47,7 +47,7 @@ Please note that all the papers are archived for personal use only. You are lega
 
 5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="[https://www.sciencedirect.com/journal/alexandria-engineering-journal](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1)</strong>
 
-6. <strong>Mejbah Ahammad</strong> and Md Tanvir Islam "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(IF: 3.4)</strong>
+6. Mejbah Ahammad and <strong>Md Tanvir Islam</strong> "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(IF: 3.4)</strong>
 
 
 #### Published
