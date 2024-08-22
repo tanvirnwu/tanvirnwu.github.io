@@ -45,7 +45,7 @@ window.onscroll = function() {
 
 -----------------------------
 <div style="text-align: center;">
-  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
+  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" target="_blank">Latest Resume</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
   <h2 style="margin-top: 20px;"></h2>
 </div>
 -----------------------------
