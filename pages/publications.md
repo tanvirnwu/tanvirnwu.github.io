@@ -31,12 +31,13 @@ window.onscroll = function() {
 Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
 ### Papers
-
+-------------
 #### Accepted
 -------------
 1. <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM International Conference on Multimedia</a>, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3664647.3681382
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Acceptance rate: 26% | BK IF: 4.0 | h-index: 101)</strong>
-
+   
+-------------
 #### Under Review
 -------------
 2. Shehzad Ali and <strong>Md Tanvir Islam</strong>, Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(Acceptance rate: 23% | BK IF: 4.0 | h-index: 220)</strong>
@@ -53,6 +54,7 @@ Please note that all the papers are archived for personal use only. You are lega
 7. <strong>Md Tanvir Islam*</strong> and Samiul Bari "Accurate Prediction of Thyroid Cancer Recurrence using Advanced Machine Learning" <a href="https://confmiet.org/index.php" target="_blank">MIET 2024</a> <strong>(Scopus Indexed double peer blind review conference)</strong>
 
 
+-------------
 #### Published During My Undergrature
 -------------
 7. <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. <strong>Springer Singapore</strong>, 2021.
