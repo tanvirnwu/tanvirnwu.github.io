@@ -59,7 +59,7 @@ window.onscroll = function() {
     <a href="https://www.skku.edu/eng/index.do" target="_blank">Sungkyunkwan University, South Korea</a><br>
   </div>
   <div style="text-align: right;">
-    <strong>CGPA 4.14/4.50</strong><br>
+    <strong>CGPA 4.19/4.50</strong><br>
     Feb'23 - Feb'25 (Expected)<br>
   </div>
 </div>
