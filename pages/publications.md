@@ -47,7 +47,8 @@ Please note that all the papers are archived for personal use only. You are lega
 
 
 6. Mejbah Ahammad and <strong>Md Tanvir Islam</strong> "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(IF: 3.4)</strong>
-7. <strong>Md Tanvir Islam</strong> AND Samiul Bari "Accurate Prediction of Thyroid Cancer Recurrence using Advanced Machine Learning" <a href="https://confmiet.org/index.php" target="_blank">MIET 2024</a> <strong>(Scopus Indexed double peer blind review conference)</strong>
+
+7. <strong>Md Tanvir Islam*</strong> and Samiul Bari "Accurate Prediction of Thyroid Cancer Recurrence using Advanced Machine Learning" <a href="https://confmiet.org/index.php" target="_blank">MIET 2024</a> <strong>(Scopus Indexed double peer blind review conference)</strong>
 
 
 #### Published
