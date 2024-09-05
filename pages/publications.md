@@ -38,7 +38,7 @@ Please note that all the papers are archived for personal use only. You are lega
    <a href="/assets/papers/HazeSpace2M.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Acceptance rate: 26% | BK IF: 4.0 | h-index: 101)</strong>
 
 
-2. Mejbah Ahammad and <strong>Md Tanvir Islam</strong> "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(IF: 3.4, Q1)</strong>
+2. Mejbah Ahammad, AL Sani, Khalilur, <strong>Md Tanvir Islam</strong> and Muztafizur "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(IF: 3.4, Q1)</strong>
 
 3. <strong>Md Tanvir Islam*</strong> and Samiul Bari "Accurate Prediction of Thyroid Cancer Recurrence using Advanced Machine Learning" <a href="https://confmiet.org/index.php" target="_blank">MIET 2024</a> <strong>(Scopus Indexed double peer blind review conference)</strong>
 -------------
