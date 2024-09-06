@@ -47,7 +47,7 @@ Please note that all the papers are archived for personal use only. You are lega
 -------------
 2. Shehzad Ali and <strong>Md Tanvir Islam</strong>, Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(Acceptance rate: 23% | BK IF: 4.0 | h-index: 220)</strong>
 
-3. <strong>Md Tanvir Islam</strong> and Inazamamul Alam, Khan Muhammad* "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(Acceptance rate: 28% | BK IF: 1.0 | Rebuttal is completed)</strong>
+3. <strong>Md Tanvir Islam</strong> and Inzamamul Alam, Simon S. Woo, Saeed Anwar, Khan Muhammad* "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(Acceptance rate: 28% | BK IF: 1.0 | Rebuttal is completed)</strong>
 
 4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(IF: 6.2, Q1 | Revision submitted)</strong>
 
