@@ -72,11 +72,15 @@ window.onscroll = function() {
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea</p>
------------------------------
-### BIO
-  
------------------------------
+<hr>
+<div style="text-align: center;">
+  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" target="_blank">Latest Resume</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
+  <h2 style="margin-top: 20px;"></h2>
+</div>
 
+<hr>
+### BIO
+<hr>
 <p style="text-align: justify;">I am Md Tanvir Islam, an AI researcher with a strong focus on computer vision, deep learning, and machine learning. I am pursuing my Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU), South Korea, where I am also a Research Assistant at the VIS2KNOW Lab under the supervision of Professor Khan Muhammad.
 <br>
 My research interests lie at the intersection of AI and real-world applications, particularly image and video processing. My work involves developing advanced algorithms for image dehazing, low-light image enhancement, and AI-synthesized image detection. These efforts have resulted in multiple publications in top-tier conferences such as ACM Multimedia and ACCV and several patents under review by the US Patent Office.
@@ -88,9 +92,4 @@ Before joining SKKU, I completed my Bachelor's in Computer Science and Engineeri
 I am constantly exploring new challenges and opportunities to expand my expertise in AI. Looking ahead, I aspire to pursue a Ph.D. and advance the frontiers of AI research, focusing on creating impactful solutions for real-world problems, particularly in healthcare, autonomous systems, and smart environments.
 <br>
 Thank you for visiting my website! Please explore my research work, publications, and projects, and do not hesitate to contact me if you would like to collaborate or discuss potential research opportunities.</p>
------------------------------
-<div style="text-align: center;">
-  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" target="_blank">Latest Resume</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
-  <h2 style="margin-top: 20px;"></h2>
-</div>
------------------------------
+<hr>
