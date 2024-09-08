@@ -15,8 +15,6 @@
   </nav>
 </header>
 
-
-
 <style>
   /* CSS styles for hover effect */
   a:hover {
@@ -24,6 +22,7 @@
     color: white; /* White text on hover */
   }
 </style>
+
 
 
 <!-- Add the button here -->
