@@ -90,7 +90,7 @@ window.onscroll = function() {
 
 
 
-<hr style="margin-top: 85px;">
+<hr style="margin-top: 55px;">
 <h3 style="margin-top: 0px;"><strong>Disclaimer</strong><br></h3>
 Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
