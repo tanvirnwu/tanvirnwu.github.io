@@ -1,7 +1,10 @@
+
+<!-- 
 ---
 layout: default
 title: Publications
 ---
+-->
 
 <!-- Add the button here -->
 <button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
