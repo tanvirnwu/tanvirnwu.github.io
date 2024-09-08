@@ -41,12 +41,6 @@ window.onscroll = function() {
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea</p>
------------------------------
-<div style="text-align: center;">
-  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" target="_blank">Latest Resume</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
-  <h2 style="margin-top: 20px;"></h2>
-</div>
------------------------------
 
 -----------------------------
 <div style="text-align: justify;">
@@ -54,4 +48,8 @@ Sungkyunkwan University, Republic of Korea</p>
   <h2 style="margin-top: 20px;"></h2>
 </div>
 -----------------------------
-
+<div style="text-align: center;">
+  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" target="_blank">Latest Resume</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
+  <h2 style="margin-top: 20px;"></h2>
+</div>
+-----------------------------
