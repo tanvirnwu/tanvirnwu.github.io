@@ -37,11 +37,13 @@ window.onscroll = function() {
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 #### Md Tanvir Islam
 MS Candidate | Research Fellow | Teaching Assistant
 VIS2KNOW Lab, Department of Computer Science and Engineering
 Sungkyunkwan University, Republic of Korea
+
 -----------------------------
 <div style="text-align: justify;">
   Md Tanvir Islam is a dedicated scholar pursuing his Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU) in the Republic of Korea. With a strong foundation from completing his Bachelor's degree in the same field in 2019, he has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS) in 2021, a fully funded scholarship offered by the Korean government. Currently, as a master's research student, he is an esteemed member of the Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab), focusing his research on Computational Bioinformatics and Computer Vision. Md Tanvir Islam's passion for innovative applications of computer science is evident through his published research papers at reputable conferences.
