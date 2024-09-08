@@ -7,7 +7,7 @@
         </a>
       </li>
       <li style="margin-right: 0px;">
-        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 8px 10px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
           <strong>View Resume</strong>
         </a>
       </li>
@@ -56,7 +56,7 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 80px;"><strong>Md Tanvir Islam</strong><br>
+<p style="margin-top: 55px;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea</p>
