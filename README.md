@@ -2,13 +2,13 @@
   <nav style="margin: 0; padding: 0; height: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin-right: 15px;">
-        <a href="/" style="color: black; text-decoration: none; padding: 5px 12px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+        <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 5px 12px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
           <strong>Publications</strong>
         </a>
       </li>
       <li style="margin-right: 15px;">
-        <a href="/projects/" style="color: black; text-decoration: none; padding: 5px 11px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
-          <strong>Resume</strong>
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 5px 11px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+          <strong>View Resume</strong>
         </a>
       </li>
     </ul>
