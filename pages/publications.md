@@ -1,12 +1,3 @@
-
-<!-- 
----
-layout: default
-title: Publications
----
--->
-
-
 <header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
   <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
