@@ -1,4 +1,4 @@
-<header style="background-color: #fcfcfc; box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1); padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
+<header style="background-color: #ebf5fb; box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1); padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
   <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin: 0 15px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Added margin-right: 5px here -->
