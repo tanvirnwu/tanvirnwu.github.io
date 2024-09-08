@@ -18,10 +18,15 @@
 <style>
   /* CSS styles for hover effect */
   a:hover {
-    background-color: blue; /* Blue background on hover */
+    background-color: #0066ff; /* Blue background on hover */
     color: white; /* White text on hover */
   }
+
+  a:hover strong {
+    color: white; /* Ensure bold text inside links also turns white */
+  }
 </style>
+
 
 
 
