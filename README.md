@@ -1,12 +1,12 @@
 <header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 0; margin-bottom: 0; position: relative; height: 40px; border-radius: 4px; display: flex; align-items: center;">
   <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
-      <li style="margin-right: 0; padding: 0;">
+      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 10px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Publications</strong>
         </a>
       </li>
-      <li style="margin-right: 0; padding: 0;">
+      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 10px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>View Resume</strong>
         </a>
@@ -27,13 +27,16 @@
   }
 
   li {
-    margin-right: 5px; /* Reduce space between buttons */
+    margin: 0; /* Remove margin from list items */
+    padding: 0; /* Remove padding from list items */
   }
 
   a {
     display: inline-block; /* Make the anchor display as a block to fill its parent */
+    height: 100%; /* Ensure the link fills the parent's height */
   }
 </style>
+
 
 
 
