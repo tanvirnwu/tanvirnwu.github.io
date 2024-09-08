@@ -35,14 +35,13 @@ window.onscroll = function() {
 </script>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-#### Md Tanvir Islam
-MS Candidate | Research Fellow | Teaching Assistant
-VIS2KNOW Lab, Department of Computer Science and Engineering
-Sungkyunkwan University, Republic of Korea
+
+<p style="margin-top: 50px;"><strong>Md Tanvir Islam</strong><br>
+MS Candidate | Research Fellow | Teaching Assistant<br>
+VIS2KNOW Lab, Department of Computer Science and Engineering<br>
+Sungkyunkwan University, Republic of Korea</p>
+
 
 -----------------------------
 <div style="text-align: justify;">
