@@ -6,7 +6,7 @@
           <strong>Publications</strong>
         </a>
       </li>
-      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
+      <li style="margin: 0; padding: 0; display: flex; align-items: right;">
         <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>View Resume</strong>
         </a>
