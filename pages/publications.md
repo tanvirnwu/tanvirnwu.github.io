@@ -6,29 +6,6 @@ title: Publications
 ---
 -->
 
-<!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
-
-<script>
-function scrollToPosition() {
-  if (window.pageYOffset === 0) {
-    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-  } else {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-}
-
-window.onscroll = function() {
-  const scrollButton = document.getElementById('scrollButton');
-  if (window.pageYOffset === 0) {
-    scrollButton.innerHTML = '&#8595;'; // Down arrow
-  } else {
-    scrollButton.innerHTML = '&#8593;'; // Up arrow
-  }
-};
-</script>
-
-
 
 <header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
   <nav style="margin: 0; padding: 0; width: 100%;">
@@ -68,6 +45,30 @@ window.onscroll = function() {
     height: 100%; /* Ensure the link fills the parent's height */
   }
 </style>
+
+
+
+<!-- Add the button here -->
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+
+<script>
+function scrollToPosition() {
+  if (window.pageYOffset === 0) {
+    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+  } else {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+}
+
+window.onscroll = function() {
+  const scrollButton = document.getElementById('scrollButton');
+  if (window.pageYOffset === 0) {
+    scrollButton.innerHTML = '&#8595;'; // Down arrow
+  } else {
+    scrollButton.innerHTML = '&#8593;'; // Up arrow
+  }
+};
+</script>
 
 
 
