@@ -31,12 +31,12 @@ window.onscroll = function() {
   <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+        <a href="https://tanvirnwu.github.io/" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>About Tanvir</strong>
         </a>
       </li>
       <li style="margin: 0; padding: 0; display: flex; align-items: center;">
-        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Download Resume</strong>
         </a>
       </li>
@@ -95,8 +95,8 @@ window.onscroll = function() {
 
 
 
-<hr style="margin-top: 80px;">
-<h3 style="margin-top: 80px;"><strong>Disclaimer</strong><br></h3>
+<hr style="margin-top: 85px;">
+<h3 style="margin-top: 0px;"><strong>Disclaimer</strong><br></h3>
 Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
 
 -------------
