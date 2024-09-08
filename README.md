@@ -71,10 +71,8 @@ window.onscroll = function() {
 <p style="margin-top: 65px;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
-Sungkyunkwan University, Republic of Korea
-Email: tanvirnwu[@]g.skku.edu</p>
-<hr>
-
+Sungkyunkwan University, Republic of Korea<br>
+<strong>Email:</strong> tanvirnwu[@]g.skku.edu</p>
 
 <hr>
 ### Bio
