@@ -1,5 +1,5 @@
 
-<header style="background-color: white; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); padding: 15px; margin-bottom: 0; position: relative;">
+<header style="background-color: blue; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); padding: 15px; margin-bottom: 0; position: relative;">
   <nav style="margin: 0; padding: 0;">
     <ul style="list-style-type: none; padding: 0; margin: 0;">
       <li style="display: inline; margin-right: 15px;"><a href="/"><strong>Home</strong></a></li>
