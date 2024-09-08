@@ -68,7 +68,7 @@ window.onscroll = function() {
 
 
 
-
+<hr>
 <p style="margin-top: 65px;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
