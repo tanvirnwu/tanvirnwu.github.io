@@ -2,12 +2,12 @@
   <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin-right: 0; padding: 0;">
-        <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
+        <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 10px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Publications</strong>
         </a>
       </li>
       <li style="margin-right: 0; padding: 0;">
-        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 10px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>View Resume</strong>
         </a>
       </li>
@@ -65,7 +65,7 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 55px;"><strong>Md Tanvir Islam</strong><br>
+<p style="margin-top: 65px;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea</p>
