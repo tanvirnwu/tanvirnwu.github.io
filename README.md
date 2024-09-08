@@ -75,7 +75,7 @@ Sungkyunkwan University, Republic of Korea</p>
 -----------------------------
 <h4 style="margin-top: 0px;"><strong>Bio</strong><br>
 -----------------------------
-<p>I am Md Tanvir Islam, an AI researcher with a strong focus on computer vision, deep learning, and machine learning. I am pursuing my Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU), South Korea, where I am also a Research Assistant at the VIS2KNOW Lab under the supervision of Professor Khan Muhammad.
+<p style="text-align: justify;">I am Md Tanvir Islam, an AI researcher with a strong focus on computer vision, deep learning, and machine learning. I am pursuing my Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU), South Korea, where I am also a Research Assistant at the VIS2KNOW Lab under the supervision of Professor Khan Muhammad.
 
 My research interests lie at the intersection of AI and real-world applications, particularly image and video processing. My work involves developing advanced algorithms for image dehazing, low-light image enhancement, and AI-synthesized image detection. These efforts have resulted in multiple publications in top-tier conferences such as ACM Multimedia and ACCV and several patents under review by the US Patent Office.
 
