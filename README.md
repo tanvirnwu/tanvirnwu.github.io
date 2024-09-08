@@ -1,4 +1,4 @@
-<header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 0px; margin-bottom: 0; position: relative; height: 40px; border-radius: 8px;">
+<header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 0px; margin-bottom: 0; position: relative; height: 25px; border-radius: 4px;">
   <nav style="margin: 0; padding: 0; height: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin-right: 15px;">
