@@ -71,15 +71,13 @@ window.onscroll = function() {
 <p style="margin-top: 65px;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
-Sungkyunkwan University, Republic of Korea</p>
+Sungkyunkwan University, Republic of Korea
+Email: tanvirnwu[@]g.skku.edu</p>
 <hr>
-<div style="text-align: center;">
-  tanvirnwu[@]g.skku.edu | <a href="https://www.linkedin.com/in/tanvirislamnwu/" target="_blank">LinkedIn</a> | <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" target="_blank">Latest Resume</a> | <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">Publications</a>
-  <h2 style="margin-top: 20px;"></h2>
-</div>
+
 
 <hr>
-### BIO
+### Bio
 <hr>
 <p style="text-align: justify;">I am Md Tanvir Islam, an AI researcher with a strong focus on computer vision, deep learning, and machine learning. I am pursuing my Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU), South Korea, where I am also a Research Assistant at the VIS2KNOW Lab under the supervision of Professor Khan Muhammad.
 <br>
