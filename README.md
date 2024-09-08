@@ -1,4 +1,4 @@
-<header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 0; margin-bottom: 0; position: relative; height: 60px;">
+<header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 15; margin-bottom: 0; position: relative; height: 60px;">
   <nav style="margin: 0; padding: 0; height: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin-right: 15px;"><a href="/" style="color: white; text-decoration: none;"><strong>Home</strong></a></li>
