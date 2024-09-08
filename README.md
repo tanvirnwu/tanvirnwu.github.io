@@ -79,14 +79,14 @@ Sungkyunkwan University, Republic of Korea<br>
 <hr>
 <p style="text-align: justify;">I am Md Tanvir Islam, an AI researcher with a strong focus on computer vision, deep learning, and machine learning. I am pursuing my Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU), South Korea, where I am also a Research Assistant at the VIS2KNOW Lab under the supervision of <a href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad.</a>
 
-<br>
+<br><br>
 My research interests lie at the intersection of AI and real-world applications, particularly image and video processing. My work involves developing advanced algorithms for image dehazing, low-light image enhancement, and AI-synthesized image detection. These efforts have resulted in multiple publications in top-tier conferences such as ACM Multimedia and ACCV and several patents under review by the US Patent Office.
-<br>
+<br><br>
 In addition to my research, I have gained experience as a Teaching Assistant at SKKU, where I helped design and deliver course materials and mentored undergraduate students. I am passionate about knowledge-sharing and collaborative learning, which has allowed me to grow as a researcher and a mentor.
-<br>
+<br><br>
 Before joining SKKU, I completed my Bachelor's in Computer Science and Engineering from North Western University, Bangladesh, where I developed a strong foundation in machine learning and data analysis. Throughout my academic journey, I have been fortunate to receive prestigious awards, including the Global Korea Scholarship (GKS). I have actively contributed to the AI community through research projects and collaborations.
-<br>
+<br><br>
 I am constantly exploring new challenges and opportunities to expand my expertise in AI. Looking ahead, I aspire to pursue a Ph.D. and advance the frontiers of AI research, focusing on creating impactful solutions for real-world problems, particularly in healthcare, autonomous systems, and smart environments.
-<br>
+<br><br>
 Thank you for visiting my website! Please explore my research work, publications, and projects, and do not hesitate to contact me if you would like to collaborate or discuss potential research opportunities.</p>
 <hr>
