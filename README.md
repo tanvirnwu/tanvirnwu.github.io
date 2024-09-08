@@ -73,7 +73,7 @@ MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea</p>
 -----------------------------
-<p><strong>Bio</strong><br>
+### BIO
   
 -----------------------------
 
