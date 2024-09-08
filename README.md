@@ -1,13 +1,13 @@
-<header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 0px; margin-bottom: 0; position: relative; height: 30px; border-radius: 4px;">
-  <nav style="margin: 0; padding: 0; height: 100%;">
+<header style="background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 0; margin-bottom: 0; position: relative; height: 40px; border-radius: 4px; display: flex; align-items: center;">
+  <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
-      <li style="margin-right: 15px;">
-        <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+      <li style="margin-right: 0; padding: 0;">
+        <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Publications</strong>
         </a>
       </li>
-      <li style="margin-right: 0px;">
-        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 8px 10px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+      <li style="margin-right: 0; padding: 0;">
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 8px 15px; border-radius: 4px; transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>View Resume</strong>
         </a>
       </li>
@@ -25,7 +25,16 @@
   a:hover strong {
     color: white; /* Ensure bold text inside links also turns white */
   }
+
+  li {
+    margin-right: 5px; /* Reduce space between buttons */
+  }
+
+  a {
+    display: inline-block; /* Make the anchor display as a block to fill its parent */
+  }
 </style>
+
 
 
 
