@@ -17,6 +17,13 @@
 
 
 
+<style>
+  /* CSS styles for hover effect */
+  a:hover {
+    background-color: blue; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+</style>
 
 
 <!-- Add the button here -->
