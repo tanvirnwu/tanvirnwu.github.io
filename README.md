@@ -37,7 +37,7 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 150px;"><strong>Md Tanvir Islam</strong><br>
+<p style="margin-top: 80px;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea</p>
