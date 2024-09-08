@@ -2,22 +2,22 @@
   <nav style="margin: 0; padding: 0; height: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
       <li style="margin-right: 15px;">
-        <a href="/" style="color: black; text-decoration: none; padding: 5px 10px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+        <a href="/" style="color: black; text-decoration: none; padding: 5px 12px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
           <strong>Home</strong>
         </a>
       </li>
       <li style="margin-right: 15px;">
-        <a href="/projects/" style="color: black; text-decoration: none; padding: 5px 10px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+        <a href="/projects/" style="color: black; text-decoration: none; padding: 5px 11px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
           <strong>Projects</strong>
         </a>
       </li>
       <li style="margin-right: 15px;">
-        <a href="/about/" style="color: black; text-decoration: none; padding: 5px 10px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+        <a href="/about/" style="color: black; text-decoration: none; padding: 5px 13px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
           <strong>About</strong>
         </a>
       </li>
       <li style="margin-right: 15px;">
-        <a href="/contact/" style="color: black; text-decoration: none; padding: 5px 10px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
+        <a href="/contact/" style="color: black; text-decoration: none; padding: 5px 14px; border-radius: 4px; transition: background-color 0.3s, color 0.3s;">
           <strong>Contact</strong>
         </a>
       </li>
