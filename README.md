@@ -35,9 +35,7 @@ window.onscroll = function() {
 </script>
 
 
-
-##
-##
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ## Bio
 -----------------------------
 <div style="text-align: justify;">
