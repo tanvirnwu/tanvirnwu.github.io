@@ -1,4 +1,4 @@
-<!--
+
 <header style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 0; position: relative;">
   <nav style="margin: 0; padding: 0;">
     <ul style="list-style-type: none; padding: 0; margin: 0;">
@@ -9,7 +9,7 @@
     </ul>
   </nav>
 </header>
--->
+
 
 <!-- Add the button here -->
 <button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
