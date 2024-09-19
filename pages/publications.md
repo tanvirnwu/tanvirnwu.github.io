@@ -96,6 +96,7 @@ Please note that all the papers are archived for personal use only. You are lega
 
 -------------
 <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author 
+
 -------------
 ### Accepted Papers (2024)
 -------------
