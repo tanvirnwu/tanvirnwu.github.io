@@ -92,7 +92,7 @@ window.onscroll = function() {
 
 <hr style="margin-top: 55px;">
 <h4 style="margin-top: 0px;"><strong>Disclaimer</strong><br></h4>
-Please note that all the papers are archived for personal use only. You are legally forbidden to reproduce or distribute them without explicit permission of the copyright holders.
+All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
 
 -------------
 <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author 
