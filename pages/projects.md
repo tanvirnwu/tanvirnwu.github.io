@@ -48,18 +48,18 @@
 <div style="margin-top: 54px; display: flex; justify-content: flex-start;">
 
   <!-- Project Summary Container -->
-  <div style="display: flex; gap: 20px;">
+  <div style="display: flex; gap: 20px; width: 100%;">
 
     <!-- Left Column: Image and GitHub Information -->
-    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+    <div style="flex: 0.35; display: flex; flex-direction: column; gap: 20px;">
       
       <!-- Image Box -->
-      <div style="width: 300px; height: 200px;">
+      <div style="width: 100%; height: 200px;">
         <img src="https://tanvirnwu.github.io/assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
       </div>
       
       <!-- GitHub and ACCV Info Box -->
-      <div style="border: 2px solid green; padding: 20px; width: 300px; height: auto; text-align: center;">
+      <div style="border: 2px solid green; padding: 20px; width: 100%; height: auto; text-align: center;">
         <p><strong>Accepted by ACCV 2024</strong></p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="20" height="20"> <strong>Code/Dataset</strong></p>
       </div>
@@ -67,7 +67,7 @@
     </div>
 
     <!-- Right Column: Project Summary and Button -->
-    <div style="flex: 2; display: flex; flex-direction: column; gap: 20px;">
+    <div style="flex: 0.65; display: flex; flex-direction: column; gap: 20px;">
       
       <!-- Project Summary Box -->
       <div style="border: 2px solid black; padding: 20px; width: 100%; height: 200px;">
