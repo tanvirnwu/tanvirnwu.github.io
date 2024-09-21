@@ -83,7 +83,7 @@
       <div style="border: 0px solid green; padding: 0px; width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: left;">
         <p style="margin: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15">ACCV 2024</p>
        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15">
-      <a href="your-link-here" target="_blank" style="text-decoration: none; color: black;">Code & Dataset</a>
+      <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank" style="text-decoration: none; color: black;">Code & Dataset</a>
       </div>
     </div>
 
@@ -92,7 +92,7 @@
       
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
-      <h3>Title of the project</h3>
+      <h3>HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing</h3>
       <p style="margin-top: 5px;">
       This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I 
       will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I will write a brief of the project. The          height of this box will adjust automatically based on the length of the text.
