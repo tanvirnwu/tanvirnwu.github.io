@@ -19,6 +19,28 @@
   </nav>
 </header>
 
+<style>
+  /* CSS styles for hover effect */
+  a:hover {
+    background-color: #0066ff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+
+  a:hover strong {
+    color: white; /* Ensure bold text inside links also turns white */
+  }
+
+  li {
+    margin: 0; /* Remove any unnecessary margin */
+    padding: 0; /* Remove padding from list items */
+  }
+
+  a {
+    display: inline-block; /* Make the anchor display as a block to fill its parent */
+    height: 100%; /* Ensure the link fills the parent's height */
+  }
+</style>
+
 
 
 <hr style="margin-top: 55px;">
