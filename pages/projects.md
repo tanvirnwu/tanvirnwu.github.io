@@ -59,7 +59,7 @@
       </div>
       
       <!-- GitHub and ACCV Info Box -->
-      <div style="border: 2px solid green; padding: 5px; width: 100%; height: 150px; display: flex; flex-direction: column; justify-content: center;">
+      <div style="border: 2px solid green; padding: 5px; width: 100%; height: 150px; display: flex; flex-direction: column; justify-content: left;">
         <p style="margin: 0;"><strong>Accepted by ACCV 2024</strong></p>
         <p style="margin: 0;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15"> <strong>Code/Dataset</strong></p>
       </div>
