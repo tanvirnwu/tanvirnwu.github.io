@@ -75,13 +75,13 @@ Sungkyunkwan University, Republic of Korea<br>
 <strong>Email:</strong> tanvirnwu[@]g.skku.edu</p>
 <!-- Add the LinkedIn and Google Scholar icons and links -->
 <p>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE" target="_blank" style="text-decoration: none; color: black;">
+  <a href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20" style="vertical-align: middle;">
     <strong> LinkedIn</strong>
   </a>
   &nbsp;|&nbsp;
-  <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google Scholar" width="20" height="20" style="vertical-align: middle;">
+  <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
+    <img src="https://static-00.iconduck.com/assets.00/google-scholar-icon-2048x2048-sjbhklt7.png" alt="Google Scholar" width="20" height="20" style="vertical-align: middle;">
     <strong> Google Scholar</strong>
   </a>
 </p>
