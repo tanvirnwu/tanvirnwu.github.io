@@ -66,7 +66,7 @@
 
 <hr>
 <!-- Parent Container with Top Margin -->
-<div style="margin-top: 54px; display: flex; justify-content: flex-start;">
+<div style="margin-top: 60px; display: flex; justify-content: flex-start;">
 
   <!-- Project Summary Container -->
   <div style="display: flex; gap: 20px; width: 100%;">
