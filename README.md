@@ -66,6 +66,11 @@ window.onscroll = function() {
 };
 </script>
 
+<hr style="margin-top: 55px;">
+<p style="margin-top: 0px;"><strong>Md Tanvir Islam</strong><br>
+MS Candidate | Research Fellow | Teaching Assistant<br>
+VIS2KNOW Lab, Department of Computer Science and Engineering<br>
+Sungkyunkwan University, Republic of Korea<br>
 <hr>
 <!-- Add the LinkedIn and Google Scholar icons and links -->
 <p>
@@ -73,17 +78,18 @@ window.onscroll = function() {
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="20" height="20" style="vertical-align: middle;">
     <strong> tanvirnwu[@]g.skku.edu</strong>
   </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;|&nbsp;
   <a href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20" style="vertical-align: middle;">
     <strong> LinkedIn</strong>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;|&nbsp;
   <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
     <img src="https://static-00.iconduck.com/assets.00/google-scholar-icon-2048x2048-sjbhklt7.png" alt="Google Scholar" width="20" height="20" style="vertical-align: middle;">
     <strong> Google Scholar</strong>
   </a>
 </p>
+
 <hr>
 
 ### Bio
