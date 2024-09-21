@@ -99,7 +99,7 @@
       </div>
       
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -10px; width: 70%; height:20px; text-align: center;">
+      <div style="margin-top: -30px; width: 70%; height:20px; text-align: center;">
         <a href="#" class="custom-button"><strong>Read Full Paper →</strong></a>
       </div>      
     </div>
