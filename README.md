@@ -73,8 +73,21 @@ MS Candidate | Research Fellow | Teaching Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Republic of Korea<br>
 <strong>Email:</strong> tanvirnwu[@]g.skku.edu</p>
+<!-- Add the LinkedIn and Google Scholar icons and links -->
+<p>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE" target="_blank" style="text-decoration: none; color: black;">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20" style="vertical-align: middle;">
+    <strong> LinkedIn</strong>
+  </a>
+  &nbsp;|&nbsp;
+  <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank" style="text-decoration: none; color: black;">
+    <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google Scholar" width="20" height="20" style="vertical-align: middle;">
+    <strong> Google Scholar</strong>
+  </a>
+</p>
 
 <hr>
+
 ### Bio
 <hr>
 <p style="text-align: justify;">I am Md Tanvir Islam, an AI researcher with a strong focus on computer vision, deep learning, and machine learning. I am pursuing my Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU), South Korea, where I am also a Research Assistant at the VIS2KNOW Lab under the supervision of <a href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad.</a>
