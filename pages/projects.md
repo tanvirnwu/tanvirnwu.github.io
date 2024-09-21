@@ -81,8 +81,8 @@
       
       <!-- GitHub and ACCV Info Box -->
       <div style="border: 0px solid green; padding: 0px; width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: left;">
-        <p style="margin: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/3966/3966787.png" alt="GitHub Icon" width="15" height="15"> <strong>ACCV 2024</strong></p>
-        <p style="margin: 5px;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15"> <strong>Code/Dataset</strong></p>
+        <p style="margin: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/3966/3966787.png" alt="GitHub Icon" width="15" height="15">ACCV 2024</p>
+        <p style="margin: 5px;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15"> Code & Dataset</p>
       </div>
     </div>
 
