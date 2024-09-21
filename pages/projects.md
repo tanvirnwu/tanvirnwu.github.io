@@ -71,11 +71,11 @@
   <!-- Project Summary Container -->
   <div style="display: flex; gap: 20px; width: 100%;">
     <!-- Left Column: Image and GitHub Information -->
-    <div style="flex: 0.35; display: flex; flex-direction: column; gap: 20px;"> 
-      <!-- Image Box -->
+    <div style="flex: 0.2; display: flex; flex-direction: column; gap: 20px;"> 
+      <!-- Image Box
       <div style="width: 100%; height: 150px;">
         <img src="https://tanvirnwu.github.io/assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
-      </div>      
+      </div>     --> 
       <!-- GitHub and ACCV Info Box -->
       <div style="border: 0px solid green; padding: 0px; width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: left;">
         <p style="margin: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15">ACCV 2024</p>
@@ -84,7 +84,7 @@
       </div>
     </div>
     <!-- Right Column: Project Summary and Button -->
-    <div style="flex: 0.65; display: flex; flex-direction: column; gap: 20px;">
+    <div style="flex: 0.8; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
       <h3>HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing</h3>
