@@ -1,7 +1,8 @@
+<!-- Header Section -->
 <header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
   <nav style="margin: 0; padding: 0; width: 100%;">
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
+      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>About</strong>
         </a>
@@ -9,7 +10,8 @@
       <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/pages/publications" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Publications</strong>
-        </a></li>
+        </a>
+      </li>
       <li style="margin: 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Resume</strong>
@@ -39,10 +41,24 @@
     display: inline-block; /* Make the anchor display as a block to fill its parent */
     height: 100%; /* Ensure the link fills the parent's height */
   }
+
+  /* Common button styling for the header and Read Full Paper */
+  .custom-button {
+    color: black;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    text-align: center;
+  }
+
+  .custom-button:hover {
+    background-color: #0066ff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
 </style>
-
-
-
 
 <!-- Parent Container with Top Margin -->
 <div style="margin-top: 54px; display: flex; justify-content: flex-start;">
@@ -59,7 +75,7 @@
       </div>
       
       <!-- GitHub and ACCV Info Box -->
-      <div style="border: 2px solid green; padding: 5px; width: 100%; height: 150px; display: flex; flex-direction: column; justify-content: left;">
+      <div style="border: 2px solid green; padding: 5px; width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: left;">
         <p style="margin: 0;"><strong>Accepted by ACCV 2024</strong></p>
         <p style="margin: 0;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15"> <strong>Code/Dataset</strong></p>
       </div>
@@ -75,8 +91,8 @@
       </div>
       
       <!-- Read Full Paper Button -->
-      <div style="border: 2px solid black; padding: 15px; width: 100%; text-align: center; cursor: pointer;">
-        <a href="#" style="text-decoration: none; color: black;"><strong>Read Full Paper →</strong></a>
+      <div style="width: 100%; text-align: center;">
+        <a href="#" class="custom-button"><strong>Read Full Paper →</strong></a>
       </div>
       
     </div>
@@ -85,12 +101,6 @@
   
 </div>
 
-
-
-
-
-
-
 <hr style="margin-top: 55px;">
-<p style="margin-top: 0px;"><strong>Under construction...</strong><br>
+<p style="margin-top: 0px;"><strong>Under construction...</strong><br></p>
 <hr>
