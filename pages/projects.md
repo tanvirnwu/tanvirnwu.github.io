@@ -44,38 +44,43 @@
 
 
 
-<!-- Project Summary Container -->
-<div style="display: flex; gap: 20px;">
+<!-- Parent Container with Top Margin -->
+<div style="margin-top: 54px; display: flex; justify-content: flex-start;">
 
-  <!-- Left Column: Image and GitHub Information -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
-    
-    <!-- Image Box -->
-    <div style="width: 300px; height: 200px;">
-      <img src="assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
-    </div>
-    
-    <!-- GitHub and ACCV Info Box -->
-    <div style="border: 2px solid green; padding: 20px; width: 300px; height: auto; text-align: center;">
-      <p><strong>Accepted by ACCV 2024</strong></p>
-      <p><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="20" height="20"> <strong>Code/Dataset</strong></p>
-    </div>
-    
-  </div>
+  <!-- Project Summary Container -->
+  <div style="display: flex; gap: 20px;">
 
-  <!-- Right Column: Project Summary and Button -->
-  <div style="flex: 2; display: flex; flex-direction: column; gap: 20px;">
-    
-    <!-- Project Summary Box -->
-    <div style="border: 2px solid black; padding: 20px; width: 100%; height: 200px;">
-      <p>This will be a plain text box where I will write a brief of the project</p>
+    <!-- Left Column: Image and GitHub Information -->
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+      
+      <!-- Image Box -->
+      <div style="width: 300px; height: 200px;">
+        <img src="assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      
+      <!-- GitHub and ACCV Info Box -->
+      <div style="border: 2px solid green; padding: 20px; width: 300px; height: auto; text-align: center;">
+        <p><strong>Accepted by ACCV 2024</strong></p>
+        <p><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="20" height="20"> <strong>Code/Dataset</strong></p>
+      </div>
+      
     </div>
-    
-    <!-- Read Full Paper Button -->
-    <div style="border: 2px solid black; padding: 15px; width: 100%; text-align: center; cursor: pointer;">
-      <a href="#" style="text-decoration: none; color: black;"><strong>Read Full Paper →</strong></a>
+
+    <!-- Right Column: Project Summary and Button -->
+    <div style="flex: 2; display: flex; flex-direction: column; gap: 20px;">
+      
+      <!-- Project Summary Box -->
+      <div style="border: 2px solid black; padding: 20px; width: 100%; height: 200px;">
+        <p>This will be a plain text box where I will write a brief of the project</p>
+      </div>
+      
+      <!-- Read Full Paper Button -->
+      <div style="border: 2px solid black; padding: 15px; width: 100%; text-align: center; cursor: pointer;">
+        <a href="#" style="text-decoration: none; color: black;"><strong>Read Full Paper →</strong></a>
+      </div>
+      
     </div>
-    
+
   </div>
   
 </div>
