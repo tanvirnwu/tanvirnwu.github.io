@@ -64,7 +64,7 @@
 
 
 <!-- Parent Container with Top Margin -->
-<div style="margin-top: 60px; display: flex; justify-content: flex-start;">
+<div style="margin-top: 70px; display: flex; justify-content: flex-start;">
     <!-- Right Column: Project Summary and Button -->
     <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
@@ -82,16 +82,13 @@
     </div>
 </div>
 
-<hr style="margin-top: 40px;">
-
-
-
+<hr style="margin-top: 60px;">
 
 
 
 
 <!-- Parent Container with Top Margin -->
-<div style="margin-top: 40px; display: flex; justify-content: flex-start;">
+<div style="margin-top: 30px; display: flex; justify-content: flex-start;">
     <!-- Right Column: Project Summary and Button -->
     <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
@@ -109,5 +106,5 @@
     </div>
 </div>
 
-<hr style="margin-top: 40px;">
+<hr style="margin-top: 60px;">
 
