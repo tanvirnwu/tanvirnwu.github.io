@@ -67,27 +67,12 @@
 <hr>
 <!-- Parent Container with Top Margin -->
 <div style="margin-top: 60px; display: flex; justify-content: flex-start;">
-
-  <!-- Project Summary Container -->
-  <div style="display: flex; gap: 20px; width: 100%;">
-    <!-- Left Column: Image and GitHub Information -->
-    <div style="flex: 0.2; display: flex; flex-direction: column; gap: 20px;"> 
-      <!-- Image Box
-      <div style="width: 100%; height: 150px;">
-        <img src="https://tanvirnwu.github.io/assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
-      </div>     --> 
-      <!-- GitHub and ACCV Info Box -->
-      <div style="border: 0px solid green; padding: 0px; width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: left;">
-        <p style="margin: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15">ACCV 2024</p>
-       <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15">
-      <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank" style="text-decoration: none; color: black;">Code & Dataset</a>
-      </div>
-    </div>
     <!-- Right Column: Project Summary and Button -->
-    <div style="flex: 0.8; display: flex; flex-direction: column; gap: 20px;">
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
       <h3>HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing</h3>
+      <p style="margin: 1px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15">ACCV 2024</p>
       <p style="margin-top: 3px;">
       The HazeSpace2M paper introduces a large-scale dataset with over 2 million images, aimed at improving single-image dehazing through haze type classification. The dataset includes 10 levels of haze intensity across multiple scenes, such as outdoor, street, farmland, and satellite, featuring three types of haze: Fog, Cloud, and Environmental Haze. By classifying haze types first, the proposed method applies specialized dehazing algorithms, enhancing image clarity. Benchmarking results show that haze-specific dehazing significantly improves the performance of dehazing models compared to general methods, setting new standards in haze-aware image restoration​
       </p>
