@@ -91,9 +91,10 @@
     <div style="flex: 0.65; display: flex; flex-direction: column; gap: 20px;">
       
       <!-- Project Summary Box -->
-      <div style="border: 2px solid black; padding: 20px; width: 100%; height: 200px;">
-        <p>This will be a plain text box where I will write a brief of the project</p>
+      <div style="border: 2px solid black; padding: 20px; width: 100%;">
+      <p>This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text.</p>
       </div>
+
       
       <!-- Read Full Paper Button -->
       <div style="width: 100%; height:15px; text-align: center;">
