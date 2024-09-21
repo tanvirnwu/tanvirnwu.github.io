@@ -92,7 +92,9 @@
       
       <!-- Project Summary Box -->
       <div style="border: 2px solid black; padding: 20px; width: 100%;">
-      <p>This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text.</p>
+      <p>
+      This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text.
+      </p>
       </div>
       
       <!-- GitHub and ACCV Info Box -->
