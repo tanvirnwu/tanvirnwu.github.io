@@ -94,7 +94,12 @@
       <div style="border: 2px solid black; padding: 20px; width: 100%;">
       <p>This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text.</p>
       </div>
-
+      
+      <!-- GitHub and ACCV Info Box -->
+      <div style="border: 2px solid green; padding: 5px; width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: left;">
+        <p style="margin: 0;"><strong>Accepted by ACCV 2024</strong></p>
+        <p style="margin: 0;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="15" height="15"> <strong>Code/Dataset</strong></p>
+      </div>
       
       <!-- Read Full Paper Button -->
       <div style="width: 100%; height:20px; text-align: center;">
