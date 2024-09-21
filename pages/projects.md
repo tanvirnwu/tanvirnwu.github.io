@@ -48,10 +48,12 @@
 
   <!-- Left Column: Image and GitHub Information -->
   <div style="display: flex; flex-direction: column; gap: 20px;">
+    
     <!-- Image Box -->
-    <div style="border: 2px solid green; padding: 20px; width: 300px; height: 200px; display: flex; align-items: center; justify-content: center;">
-      <p style="text-align: center;">I want to display an image<br>In this block</p>
+    <div style="width: 300px; height: 200px;">
+      <img src="[your-image-url-here.jpg](https://www.researchgate.net/publication/343148504/figure/fig1/AS:960092006543360@1605915180239/An-example-of-single-image-dehazing-a-Input-hazy-image-b-Result-of-AOD-Net-17-c.jpg)" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
+    
     <!-- GitHub and ACCV Info Box -->
     <div style="border: 2px solid green; padding: 20px; width: 300px; height: auto; text-align: center;">
       <p><strong>Accepted by ACCV 2024</strong></p>
@@ -62,10 +64,12 @@
 
   <!-- Right Column: Project Summary and Button -->
   <div style="display: flex; flex-direction: column; gap: 20px;">
+    
     <!-- Project Summary Box -->
     <div style="border: 2px solid black; padding: 20px; width: 400px; height: 200px;">
       <p>This will be a plain text box where I will write a brief of the project</p>
     </div>
+    
     <!-- Read Full Paper Button -->
     <div style="border: 2px solid black; padding: 15px; width: 400px; text-align: center; cursor: pointer;">
       <a href="#" style="text-decoration: none; color: black;"><strong>Read Full Paper →</strong></a>
