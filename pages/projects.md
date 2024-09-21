@@ -55,7 +55,7 @@
       
       <!-- Image Box -->
       <div style="width: 300px; height: 200px;">
-        <img src="assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="https://tanvirnwu.github.io/assets/icons/PDF_Icon.png" alt="Project Image" style="width: 100%; height: 100%; object-fit: cover;">
       </div>
       
       <!-- GitHub and ACCV Info Box -->
