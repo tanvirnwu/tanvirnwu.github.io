@@ -67,12 +67,12 @@ window.onscroll = function() {
 </script>
 
 <hr>
-<!-- Add the Email, LinkedIn, and Google Scholar icons and links -->
+<!-- Add the LinkedIn and Google Scholar icons and links -->
 <p>
-  <a href="mailto:tanvirnwu@g.skku.edu" target="_blank" style="text-decoration: none; color: black;">
+  <span style="vertical-align: middle;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="20" height="20" style="vertical-align: middle;">
-    <strong> Email</strong>
-  </a>
+    <strong> tanvirnwu[@]g.skku.edu</strong>
+  </span>
   &nbsp;|&nbsp;
   <a href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20" style="vertical-align: middle;">
@@ -84,7 +84,6 @@ window.onscroll = function() {
     <strong> Google Scholar</strong>
   </a>
 </p>
-
 <hr>
 
 ### Bio
