@@ -70,7 +70,7 @@
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
       <h3>HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing</h3>
-      <p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><i>Accepted by ACM Multimedia 2024, Australia</i></p>
+      <p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><I> Accepted by ACM Multimedia 2024, Australia</i></p>
       <p style="text-align: justify; margin-top: 3px;">
       The HazeSpace2M paper introduces a large-scale dataset with over 2 million images aimed at improving single-image dehazing through haze-type classification. The dataset includes 10 levels of haze intensity across multiple scenes, such as outdoor, street, farmland, and satellite, featuring three types of haze: Fog, Cloud, and Environmental Haze. By classifying haze types first, the proposed method applies specialized dehazing algorithms, enhancing image clarity. Benchmarking results show that haze-specific dehazing significantly improves the performance of dehazing models compared to general methods, setting new standards in haze-aware image restoration.
       </p>
@@ -94,7 +94,7 @@
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
       <h3>LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond</h3>
-      <p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><i>Accepted by Asian Conference on Computer Vision (ACCV 2024), Vietnam</i></p>
+      <p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><I> Accepted by Asian Conference on Computer Vision (ACCV 2024), Vietnam</i></p>
       <p style="text-align: justify; margin-top: 3px;">
       This paper introduces a new dataset, LoLI-Street, comprising 33k paired low-light and well-exposed street images, crucial for training low-light image enhancement (LLIE) models in real-world conditions, particularly for autonomous vehicles. It also proposes a new LLIE model, "TriFuse," which integrates transformers and diffusion techniques for more effective noise reduction and image enhancement. The dataset and model are benchmarked against state-of-the-art methods, demonstrating superior performance in enhancing low-light images and improving object detection in autonomous driving and surveillance systems.
       </p>
