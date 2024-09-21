@@ -92,18 +92,17 @@
       
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
-      <h4>Title of the project<\h4>
-      <p>
-      This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text.
+      <h3>Title of the project</h3>
+      <p style="margin-top: 5px;">
+      This will be a plain text box where I will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I 
+      will write a brief of the project. The height of this box will adjust automatically based on the length of the text. This will be a plain text box where I will write a brief of the project. The          height of this box will adjust automatically based on the length of the text.
       </p>
       </div>
-      
       
       <!-- Read Full Paper Button -->
       <div style="width: 70%; height:20px; text-align: center;">
         <a href="#" class="custom-button"><strong>Read Full Paper →</strong></a>
-      </div>
-      
+      </div>      
     </div>
 
   </div>
