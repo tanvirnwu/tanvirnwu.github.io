@@ -78,7 +78,7 @@
       </p>
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; color: #F5F5F5;">
+      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; background-color: #E8E8E8; ">
         <a href="https://tanvirnwu.github.io/assets/papers/HazeSpace2M.pdf" class="custom-button" target="_blank"><strong>Read Full Paper →</strong></a>
       </div>      
     </div>
@@ -100,7 +100,7 @@
       </p>
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; background-color: #F5F5F5; ">
+      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; background-color: #E8E8E8; ">
         <a href="https://tanvirnwu.github.io/assets/papers/LoLI-Street_ACCV_2024.pdf" class="custom-button" target="_blank"><strong>Read Full Paper →</strong></a>
       </div>      
     </div>
