@@ -61,7 +61,7 @@
 </style>
 
 
-<h2 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h2>
+<h3 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h3>
 <hr>
 
 
@@ -100,7 +100,7 @@
       </p>
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center;">
+      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; color: blue; ">
         <a href="https://tanvirnwu.github.io/assets/papers/LoLI-Street_ACCV_2024.pdf" class="custom-button" target="_blank"><strong>Read Full Paper →</strong></a>
       </div>      
     </div>
