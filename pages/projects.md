@@ -108,6 +108,3 @@
 
 <hr style="margin-top: 60px;">
 
-
-### Synthetic Image Classification
-----------------------------------
