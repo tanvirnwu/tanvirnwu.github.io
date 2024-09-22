@@ -61,20 +61,20 @@
 
     /* Common button styling for the header and Read Full Paper */
   .button {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 9px 15px;
     border-radius: 4px;
-     background-color: #F5F5F5; 
-    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+     background-color: #267CB9; 
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
     transition: background-color 0.3s, color 0.3s;
     display: block;
     text-align: center;
   }
 
   .button:hover {
-    background-color: #267CB9; /* Blue background on hover (Blue: #0066ff)*/
-    color: white; /* White text on hover */
+    background-color: white; /* Blue background on hover (Blue: #0066ff)*/
+    color: black; /* White text on hover */
   }
 </style>
 
