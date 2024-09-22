@@ -85,7 +85,7 @@
 </div>
 
 
-<hr style="margin-top: 30px;">
+<hr style="margin-top: 60px;">
 
 <!-- Parent Container with Top Margin -->
 <div style="margin-top: 30px; display: flex; justify-content: flex-start;">
