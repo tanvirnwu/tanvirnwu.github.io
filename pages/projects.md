@@ -61,8 +61,8 @@
 </style>
 
 
-### Image Enhancement 
----------------------
+### Image Enhancement
+-----------------------
 
 
 <!-- Parent Container with Top Margin -->
@@ -110,3 +110,6 @@
 
 <hr style="margin-top: 60px;">
 
+
+### Synthetic Image Classification
+----------------------------------
