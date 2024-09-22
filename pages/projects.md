@@ -85,6 +85,8 @@
 </div>
 
 
+<hr style="margin-top: 30px;">
+
 <!-- Parent Container with Top Margin -->
 <div style="margin-top: 30px; display: flex; justify-content: flex-start;">
     <!-- Right Column: Project Summary and Button -->
