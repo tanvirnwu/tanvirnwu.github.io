@@ -61,7 +61,7 @@
 </style>
 
 
-<h3style="margin-top: 60px;">Image Enhancement</h3>
+<h3 style="margin-top: 60px;">Image Enhancement</h3>
 <hr>
 
 
