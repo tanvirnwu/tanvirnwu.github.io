@@ -84,8 +84,10 @@
     </div>
 </div>
 
-<hr style="margin-top: 60px;">
 
+<hr style="margin-top: 55px;">
+<h4 style="margin-top: 0px;"><strong>Image Enhancement</strong><br></h4>
+<hr>
 
 
 
