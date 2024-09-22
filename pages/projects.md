@@ -55,7 +55,7 @@
   }
 
   .custom-button:hover {
-    background-color: #0066ff; /* Blue background on hover */
+    background-color: #267CB9; /* Blue background on hover (Blue: #0066ff)*/
     color: white; /* White text on hover */
   }
 </style>
@@ -100,7 +100,7 @@
       </p>
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; color: blue; ">
+      <div style="margin-top: -28px; width: 50%; height:20px; text-align: center; background-color: #F5F5F5; ">
         <a href="https://tanvirnwu.github.io/assets/papers/LoLI-Street_ACCV_2024.pdf" class="custom-button" target="_blank"><strong>Read Full Paper →</strong></a>
       </div>      
     </div>
