@@ -61,8 +61,8 @@
 </style>
 
 
-### Image Enhancement
------------------------
+<h3style="margin-top: 60px;">Image Enhancement</h3>
+<hr>
 
 
 <!-- Parent Container with Top Margin -->
