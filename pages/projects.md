@@ -58,7 +58,26 @@
     background-color: #267CB9; /* Blue background on hover (Blue: #0066ff)*/
     color: white; /* White text on hover */
   }
+
+    /* Common button styling for the header and Read Full Paper */
+  .button {
+    color: black;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 4px;
+     background-color: #E8E8E8; 
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    text-align: center;
+  }
+
+  .button:hover {
+    background-color: #F5F5F5; /* Blue background on hover (Blue: #0066ff)*/
+    color: white; /* White text on hover */
+  }
 </style>
+
 
 
 <h3 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h3>
@@ -78,8 +97,8 @@
       </p>
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 35%; height:20px; text-align: center; background-color: #E8E8E8;">
-        <a href="https://tanvirnwu.github.io/assets/papers/HazeSpace2M.pdf" class="custom-button" target="_blank">Full Paper →</a>
+      <div style="margin-top: -28px; width: 35%; height:20px; text-align: center;">
+        <a href="https://tanvirnwu.github.io/assets/papers/HazeSpace2M.pdf" class="button" target="_blank">Full Paper →</a>
       </div>      
     </div>
 </div>
@@ -100,8 +119,8 @@
       </p>
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 35%; height:20px; text-align: center; background-color: #E8E8E8;">
-        <a href="https://tanvirnwu.github.io/assets/papers/LoLI-Street_ACCV_2024.pdf" class="custom-button" target="_blank">Full Paper →</a>
+      <div style="margin-top: -28px; width: 35%; height:20px; text-align: center;">
+        <a href="https://tanvirnwu.github.io/assets/papers/LoLI-Street_ACCV_2024.pdf" class="button" target="_blank">Full Paper →</a>
       </div>      
     </div>
 </div>
