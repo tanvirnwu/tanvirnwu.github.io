@@ -65,7 +65,7 @@
     text-decoration: none;
     padding: 9px 15px;
     border-radius: 4px;
-     background-color: #E8E8E8; 
+     background-color: #F5F5F5; 
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, color 0.3s;
     display: block;
@@ -73,7 +73,7 @@
   }
 
   .button:hover {
-    background-color: #F5F5F5; /* Blue background on hover (Blue: #0066ff)*/
+    background-color: #267CB9; /* Blue background on hover (Blue: #0066ff)*/
     color: white; /* White text on hover */
   }
 </style>
