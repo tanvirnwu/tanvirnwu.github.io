@@ -61,7 +61,7 @@
 </style>
 
 
-<h2 style="margin-top: 60px; color: blue;">Image Enhancement</h2>
+<h2 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h2>
 <hr>
 
 
