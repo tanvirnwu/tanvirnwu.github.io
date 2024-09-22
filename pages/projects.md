@@ -61,12 +61,12 @@
 </style>
 
 
-<h3 style="margin-top: 60px;">Image Enhancement</h3>
+<h2 style="margin-top: 60px; color: blue;">Image Enhancement</h2>
 <hr>
 
 
 <!-- Parent Container with Top Margin -->
-<div style="margin-top: 30px; display: flex; justify-content: flex-start;">
+<div style="margin-top: 20px; display: flex; justify-content: flex-start;">
     <!-- Right Column: Project Summary and Button -->
     <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
@@ -83,12 +83,6 @@
       </div>      
     </div>
 </div>
-
-
-<hr style="margin-top: 55px;">
-<h4 style="margin-top: 0px;"><strong>Image Enhancement</strong><br></h4>
-<hr>
-
 
 
 <!-- Parent Container with Top Margin -->
