@@ -22,7 +22,7 @@
 <style>
   /* CSS styles for hover effect */
   a:hover {
-    background-color: #0066ff; /* Blue background on hover */
+    background-color: #267CB9; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
