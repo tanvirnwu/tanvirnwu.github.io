@@ -117,9 +117,9 @@ All papers are for personal use only. Reproduction or distribution without permi
 -------------
 2. Shehzad Ali and <strong>Md Tanvir Islam</strong>, Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">AAAI Conference on Artificial Intelligence</a> <strong>(Acceptance rate: 23% | BK IF: 4.0 | h-index: 220)</strong>
 <br><br>
-4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(IF: 6.2, Q1 | Revision submitted)</strong>
+4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | IF: 6.2, Q1 | Revision submitted)</strong>
 <br><br>
-5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil, Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1 | Revision submitted)</strong>
+5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil, Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
 <br><br>
 <hr>
 ### Papers Published (2019 - 2020)
