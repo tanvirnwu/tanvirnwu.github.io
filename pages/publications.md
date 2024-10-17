@@ -119,7 +119,7 @@ All papers are for personal use only. Reproduction or distribution without permi
 <br><br>
 4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(IF: 6.2, Q1 | Revision submitted)</strong>
 <br><br>
-5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil, Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1)</strong>
+5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil, Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(IF: 7.5, Q1 | Revision submitted)</strong>
 <br><br>
 <hr>
 ### Papers Published (2019 - 2020)
