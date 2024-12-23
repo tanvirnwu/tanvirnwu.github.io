@@ -117,9 +117,9 @@ All papers are for personal use only. Reproduction or distribution without permi
 <hr>
 ### Papers Under Review (2024)
 -------------
-2. Shehzad Ali and <strong>Md Tanvir Islam</strong>, Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="" target="_blank">Yet to Submit</a> 
-<br><br>
 5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil, Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
+<br><br>
+2. Shehzad Ali and <strong>Md Tanvir Islam</strong>, Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="" target="_blank">Yet to Submit</a> 
 <br><br>
 <hr>
 ### Papers Published (2019 - 2020)
