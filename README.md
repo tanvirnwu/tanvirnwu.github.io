@@ -78,15 +78,6 @@ Sungkyunkwan University, Suwon, Republic of Korea<br>
 <hr>
 
 
-<h3>About Tanvir</h3>
-<hr>
-<p style="text-align: justify;">
-  Md Tanvir Islam is currently pursuing his Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he is also a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad.</a>. With a strong foundation from completing his Bachelor's degree in the same field in 2019, he has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS) in 2021, a fully funded scholarship offered by the Korean government. Based on his excellent academic and research performance, he was awarded the \textit{``Academic Excellence Award Winner''} among the GKS scholars in 2024 by the NIIED,  Government of South Korea. Currently, as a master's research student, he is an esteemed member of the Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab), focusing his research on multiple emerging topics such as computational bioinformatics, image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as \textit{``ACM Multimedia (ACM MM), Asian Conference on Computer Vision (ACCV), Alexandria Engineering Journal and Engineering Application of Artificial Intelligence''}. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his published research papers at reputable venues.
-<br><br>
- In addition, he has also gained experience as a Teaching Assistant at SKKU, where I helped design and deliver course materials and mentored undergraduate students. I am passionate about knowledge-sharing and collaborative learning, which has allowed me to grow as a researcher and a mentor.
-  <br><br>
-Thank you for visiting my website! Please explore my <a href="https://tanvirnwu.github.io/pages/publications" target="_blank">research works and publications</a>, and do not hesitate to contact me if you would like to collaborate or discuss potential research opportunities.</p>
-<hr>
 
 <h3>About Tanvir</h3>
   <hr>
