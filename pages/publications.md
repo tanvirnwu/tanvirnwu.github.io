@@ -99,16 +99,16 @@ window.onscroll = function() {
 All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
 
 -------------
-<strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author 
+<strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author 
 
 -------------
 ### Accepted Papers (2024)
 -------------
-4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | IF: 6.2, Q1, Top 10%)</strong>
+4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | AR: 13%, IF: 6.2, Q1, Top 10%)</strong>
 <br><br>
 1. <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a>, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681382" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(Acceptance rate: 26% | BK IF: 4.0 | Rank: A+)</strong>
 <br><br>
-2. <strong>Md Tanvir Islam</strong> and Inzamamul Alam, Simon S. Woo, Saeed Anwar, IK Hyun Lee, Khan Muhammad* "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(Acceptance rate: 32% | BK IF: 1.0 | Rank: B)</strong><a href="https://openaccess.thecvf.com/content/ACCV2024/html/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.html" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+2. <strong>Md Tanvir Islam</strong> and Inzamamul Alam, Simon S. Woo, Saeed Anwar, IK Hyun Lee, Khan Muhammad* "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(AR: 32% | BK IF: 1.0 | Rank: B)</strong><a href="https://openaccess.thecvf.com/content/ACCV2024/html/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.html" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 <br><br>
 3. Mejbah Ahammad, AL Sani, Khalilur, <strong>Md Tanvir Islam</strong> and Muztafizur "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(SCIE | IF: 3.4, Q1)</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10677406/" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
 <br><br>
