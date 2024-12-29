@@ -104,7 +104,7 @@ All papers are for personal use only. Reproduction or distribution without permi
 -------------
 ### Accepted Papers (2024)
 -------------
-4. <strong>Md Tanvir Islam</strong> Ik Hyun Leeb, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | AR: 13% | Top 10% | IF: 6.2, Q1)</strong>
+4. <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | AR: 13% | Top 10% | IF: 6.2, Q1)</strong>
 <br><br>
 1. <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a>, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681382" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(AR: 26% | BK IF: 4.0 | Rank: A+)</strong>
 <br><br>
@@ -117,10 +117,11 @@ All papers are for personal use only. Reproduction or distribution without permi
 <hr>
 ### Papers Under Review (2024)
 -------------
-5. <strong>Md Tanvir Islam</strong> and Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
+5. <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "LightCDC: A Lightweight Crop Damage Classification model using ShuffleNetV2" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
 <br><br>
 2. Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="" target="_blank">Yet to Submit</a> 
 <br><br>
+5. <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">IEEE Transactions on Artificial Intelligence.</a> <strong>(SCIE | IF: 1.7, Q1)</strong>
 <hr>
 ### Papers Published (2019 - 2020)
 -------------
