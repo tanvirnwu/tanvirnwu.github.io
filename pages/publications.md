@@ -119,9 +119,12 @@ All papers are for personal use only. Reproduction or distribution without permi
 -------------
 5. <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
 <br><br>
-5. <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">IEEE Transactions on Artificial Intelligence.</a> <strong>(SCIE | IF: 1.7, Q1)</strong>
+5. Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammade* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">EAlexandria Engineering Journal.</a> <strong>(SCIE | IF: 6.2, Q1)</strong>
 <br><br>
-2. Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="" target="_blank">Yet to Submit</a> 
+5. <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
+IEEE Transactions on Medical Imaging.</a> <strong>(SCIE | IF: 8.9, Q1)</strong>
+<br><br>
+2. Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="" target="_blank">Preparing for IJCAI 2025</a> 
 <hr>
 ### Papers Published (2019 - 2020)
 -------------
