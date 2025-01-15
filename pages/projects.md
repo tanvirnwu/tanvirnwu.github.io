@@ -22,6 +22,7 @@
 </header>
 
 <style>
+  
   /* CSS styles for hover effect */
   a:hover {
     background-color: #267CB9; /* Blue background on hover */
@@ -37,7 +38,7 @@
     padding: 0; /* Remove padding from list items */
   }
 
-  a {
+  a {color:#6A5ACD;
     display: inline-block; /* Make the anchor display as a block to fill its parent */
     height: 100%; /* Ensure the link fills the parent's height */
   }
