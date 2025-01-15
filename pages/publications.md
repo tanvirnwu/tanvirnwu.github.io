@@ -15,13 +15,15 @@
       text-align: left;
       outline: none;
       font-size: 16px;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, color 0.3s ease;
       margin-bottom: 5px;
       width: 100%;
       box-sizing: border-box; /* Ensures padding does not affect width */
+      display: block;
     }
     .accordion:hover {
-      background-color: #ddd;
+      background-color: #267CB9; /* Blue background on hover */
+      color: white; /* White text on hover */
     }
     .accordion.active {
       background-color: #267CB9;
@@ -52,106 +54,78 @@
       vertical-align: middle;
       margin-left: 5px;
     }
+
+    /* Navigation Menu Styling */
+    header {
+      background-color: white;
+      padding: 0;
+      margin-bottom: 0;
+      position: relative;
+      height: 36px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+    }
+    nav {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    li {
+      margin: 0 20px 0 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      padding: 9px 15px;
+      border-radius: 4px;
+      box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s, color 0.3s;
+      display: block;
+    }
+    a:hover {
+      background-color: #267CB9; /* Blue background on hover */
+      color: white; /* White text on hover */
+    }
+    a:hover strong {
+      color: white; /* Ensure bold text inside links also turns white */
+    }
   </style>
 </head>
 <body>
 
-
-<header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
-  <nav style="margin: 0; padding: 0; width: 100%;">
-    <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a href="https://tanvirnwu.github.io/">
           <strong>About</strong>
         </a>
       </li>
-      <li style="margin: 0; padding: 0 20px 0 0; display: flex; align-items: center;">
-        <a href="https://tanvirnwu.github.io/pages/projects" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+      <li>
+        <a href="https://tanvirnwu.github.io/pages/projects">
           <strong>Projects</strong>
-        </a></li>
-      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
-        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+        </a>
+      </li>
+      <li>
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf">
           <strong>Resume</strong>
         </a>
       </li>
     </ul>
   </nav>
 </header>
-
-<style>
-  /* CSS styles for hover effect */
-  a:hover {
-    background-color: #267CB9; /* Blue background on hover */
-    color: white; /* White text on hover */
-  }
-
-  a:hover strong {
-    color: white; /* Ensure bold text inside links also turns white */
-  }
-
-  li {
-    margin: 0; /* Remove any unnecessary margin */
-    padding: 0; /* Remove padding from list items */
-  }
-
-  a {
-    display: inline-block; /* Make the anchor display as a block to fill its parent */
-    height: 100%; /* Ensure the link fills the parent's height */
-  }
-</style>
-
-
-
-<!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
-
-<script>
-function scrollToPosition() {
-  if (window.pageYOffset === 0) {
-    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-  } else {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-}
-
-window.onscroll = function() {
-  const scrollButton = document.getElementById('scrollButton');
-  if (window.pageYOffset === 0) {
-    scrollButton.innerHTML = '&#8595;'; // Down arrow
-  } else {
-    scrollButton.innerHTML = '&#8593;'; // Up arrow
-  }
-};
-</script>
-
-
-
-
-
-<!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
-
-
-<script>
-function scrollToPosition() {
-  if (window.pageYOffset === 0) {
-    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-  } else {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-}
-
-window.onscroll = function() {
-  const scrollButton = document.getElementById('scrollButton');
-  if (window.pageYOffset === 0) {
-    scrollButton.innerHTML = '&#8595;'; // Down arrow
-  } else {
-    scrollButton.innerHTML = '&#8593;'; // Up arrow
-  }
-};
-</script>
-
-
 
 <h4 style="margin-top: 60px;"><strong>Disclaimer</strong><br></h4>
 All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
