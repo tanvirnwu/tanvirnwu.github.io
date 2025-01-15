@@ -22,7 +22,15 @@
 </header>
 
 <style>
-  
+  .urls {
+      color: #6A5ACD;
+    }
+    .urls:hover {
+      background-color: #ffffff;
+      color: #6A5ACD;
+      font-weight:normal;
+    }
+
   /* CSS styles for hover effect */
   a:hover {
     background-color: #267CB9; /* Blue background on hover */
