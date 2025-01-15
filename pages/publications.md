@@ -7,7 +7,7 @@
       font-family: Arial, sans-serif;
     }
     .accordion {
-      background-color: #6A5ACD;
+      background-color: #007bff;
       color: white;
       cursor: pointer;
       padding: 12px;
