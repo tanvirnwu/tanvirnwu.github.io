@@ -166,21 +166,21 @@ All papers are for personal use only. Reproduction or distribution without permi
 <button class="accordion">Under Review/Ongoing (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-1. <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
+<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
 <hr>
-2. <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
+<strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
 IEEE Transactions on Medical Imaging.</a> <strong>(SCIE | IF: 8.9, Q1)</strong>
 <hr>
-3. Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammade* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | IF: 6.2, Q1)</strong>
+Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammade* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | IF: 6.2, Q1)</strong>
 <hr>
-4. Safkat Shahrier Swapnil, <strong>Md Tanvir Islam</strong> Sandip Kumar Sarkarb, Md Tanvir Islamc and Khan Muhammadd* "MsIFRN: A Multi-Sensor Information Fusion Framework for High-Speed Robot
+Safkat Shahrier Swapnil, <strong>Md Tanvir Islam</strong> Sandip Kumar Sarkarb, Md Tanvir Islamc and Khan Muhammadd* "MsIFRN: A Multi-Sensor Information Fusion Framework for High-Speed Robot
 Navigation" <a href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Preparing for Information Fusion (SCIE | IF: 14, Q1 | Top 2%)</a> 
 <hr>
-5. Farhan Ahmeda, <strong>Md Tanvir Islam</strong> Yi June-hoa and Khan Muhammad* "Deep Learning for Intelligent Fire Scene Analysis: Where We Stand and What is Next?" <a href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Preparing for Information Fusion (SCIE | IF: 14, Q1 | Top 2%)</a> 
+Farhan Ahmeda, <strong>Md Tanvir Islam</strong> Yi June-hoa and Khan Muhammad* "Deep Learning for Intelligent Fire Scene Analysis: Where We Stand and What is Next?" <a href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Preparing for Information Fusion (SCIE | IF: 14, Q1 | Top 2%)</a> 
 <hr>
-6. Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://www.ijcai.org/" target="_blank">Preparing for IJCAI 2025 (BK: 4 | Rank: A)</a> 
+Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a href="https://www.ijcai.org/" target="_blank">Preparing for IJCAI 2025 (BK: 4 | Rank: A)</a> 
 <hr>
-7. Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder Activity Recognition Dataset for Home Security and Surveillance" <a href="https://www.ijcai.org/" target="_blank">Preparing for IJCAI 2025 (BK: 4 | Rank: A)</a> 
+Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder Activity Recognition Dataset for Home Security and Surveillance" <a href="https://www.ijcai.org/" target="_blank">Preparing for IJCAI 2025 (BK: 4 | Rank: A)</a> 
 <hr>
   </div>
   <div class="publication">
