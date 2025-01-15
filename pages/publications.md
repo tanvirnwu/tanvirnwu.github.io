@@ -56,6 +56,14 @@
       vertical-align: middle;
       margin-left: 5px;
     }
+    a {
+      color: #6A5ACD;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #483D8B; /* Slightly darker shade for hover */
+    }
   </style>
 </head>
 <body>
