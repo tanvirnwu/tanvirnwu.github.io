@@ -44,8 +44,8 @@
       display: block;
     }
     .publication {
-  font-size: 11px;
-  margin-bottom: 8px;
+  font-size: 12px;
+  margin-bottom: 5px;
 }
     .publication + .publication {
       margin-top: 10px;
