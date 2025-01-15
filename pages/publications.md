@@ -81,11 +81,11 @@
 <hr style="margin-top: 55px;">
 <h4 style="margin-top: 0px;"><strong>Disclaimer</strong><br></h4>
 All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
+<br>
+-------------<br>
+<strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author <br>
 
--------------
-<strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author 
-
--------------
+------------- <br>
 
 <!-- Accordion sections -->
 <button class="accordion active">Under Review/Ongoing (2025)</button>
@@ -97,7 +97,7 @@ All papers are for personal use only. Reproduction or distribution without permi
     <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">IEEE Transactions on Medical Imaging.</a> <strong>(Science Citation Index Expanded | Impact Factor: 8.9, Q1)</strong>
   </div>
 </div>
-
+<br>
 <button class="accordion">Papers Published (2024)</button>
 <div class="panel">
   <div class="publication">
@@ -107,7 +107,7 @@ All papers are for personal use only. Reproduction or distribution without permi
     <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a> <strong>(Acceptance Rate: 26% | Brain Korea Impact Factor: 4.0 | Rank: A+)</strong>
   </div>
 </div>
-
+<br>
 <button class="accordion">Papers Published (2019 - 2020)</button>
 <div class="panel">
   <div class="publication">
