@@ -57,7 +57,13 @@
       margin-left: 5px;
     }
 
-
+  a {
+      color: #6A5ACD;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none; /* No hover effect for links */
+    }
   </style>
 </head>
 <body>
