@@ -23,7 +23,7 @@
   a{color:#6A5ACD;}
   /* CSS styles for hover effect */
   a:hover {
-    background-color: #267CB9; /* Blue background on hover */
+    background-color: #6A5ACD; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
@@ -40,6 +40,14 @@
     display: inline-block; /* Make the anchor display as a block to fill its parent */
     height: 100%; /* Ensure the link fills the parent's height */
   }
+    .urls {
+      color: #6A5ACD;
+    }
+    .urls:hover {
+      background-color: #ffffff;
+      color: #6A5ACD;
+      font-weight:normal;
+    }
 </style>
 
 
@@ -83,7 +91,7 @@ Sungkyunkwan University, Suwon, Republic of Korea<br>
 <h3>About Tanvir</h3>
   <hr>
   <p>
-    Md Tanvir Islam is currently pursuing his Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he is also a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad</a>. With a strong foundation from completing his Bachelor's degree in the same field in 2019, he has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS) in 2021, a fully funded scholarship offered by the Korean government. Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> among the GKS scholars in 2024 by the NIIED, Government of South Korea. Currently, as a master's research student, he is an esteemed member of the Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab), focusing his research on multiple emerging topics such as computational bioinformatics, image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i>``ACM Multimedia (ACM MM), Asian Conference on Computer Vision (ACCV), Alexandria Engineering Journal and Engineering Application of Artificial Intelligence''</i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his published research papers at reputable venues.
+    Md Tanvir Islam is currently pursuing his Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he is also a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad</a>. With a strong foundation from completing his Bachelor's degree in the same field in 2019, he has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS) in 2021, a fully funded scholarship offered by the Korean government. Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> among the GKS scholars in 2024 by the NIIED, Government of South Korea. Currently, as a master's research student, he is an esteemed member of the Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab), focusing his research on multiple emerging topics such as computational bioinformatics, image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i>``ACM Multimedia (ACM MM), Asian Conference on Computer Vision (ACCV), Alexandria Engineering Journal and Engineering Application of Artificial Intelligence''</i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his published research papers at reputable venues.
     <br><br>
     In addition, he has also gained experience as a Teaching Assistant at SKKU, where he assisted to design and deliver course materials and mentored undergraduate students. He is passionate about knowledge-sharing and collaborative learning, which has allowed him to grow as a researcher and a mentor.
     <br>
@@ -98,12 +106,12 @@ Sungkyunkwan University, Suwon, Republic of Korea<br>
     <strong> tanvirnwu[@]g.skku.edu</strong>
   </span>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
+  <a  class="urls" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="18" height="18" style="vertical-align: middle;">
     <strong> LinkedIn</strong>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
+  <a class="urls" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
     <img src="https://static-00.iconduck.com/assets.00/google-scholar-icon-2048x2048-sjbhklt7.png" alt="Google Scholar" width="18" height="18" style="vertical-align: middle;">
     <strong> Google Scholar</strong>
   </a>
