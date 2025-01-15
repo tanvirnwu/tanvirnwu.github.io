@@ -194,16 +194,27 @@ Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder
 
 
 
+
+
 <button class="accordion">Papers Published (2024)</button>
 <div class="panel">
   <div class="publication">
-    <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(Science Citation Index Expanded | Acceptance Rate: 13% | Rank: 4.7% | Impact Factor: 6.2, Q1)</strong>
-  </div>
-  <div class="publication">
-    <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a> <strong>(Acceptance Rate: 26% | Brain Korea Impact Factor: 4.0 | Rank: A+)</strong>
+    <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <a href="https://www.sciencedirect.com/science/article/pii/S111001682401617X?via%3Dihub" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(SCIE | AR: 13% | Rank: 4.7% | IF: 6.2, Q1)</strong>
+    <hr>
+    <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a>, October 28-November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages. <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681382" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> <strong>(AR: 26% | BK IF: 4.0 | Rank: A+)</strong>
+    <hr>
+    <strong>Md Tanvir Islam</strong> and Inzamamul Alam, Simon S. Woo, Saeed Anwar, IK Hyun Lee, Khan Muhammad* "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond" <a href="https://accv2024.org/" target="_blank">Asian Conference on Computer Vision (ACCV 2024)</a> <strong>(AR: 32% | BK IF: 1.0 | Rank: B)</strong><a href="https://openaccess.thecvf.com/content/ACCV2024/html/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.html" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+    <hr>
+    Mejbah Ahammad, AL Sani, Khalilur, <strong>Md Tanvir Islam</strong> and Muztafizur "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks" <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a> <strong>(SCIE | IF: 3.4, Q1)</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10677406/" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a>
+    <hr>
+    <strong>Md Tanvir Islam*</strong> and Samiul Bari "A Novel Feature Selection Pipeline for Accurate Thyroid Cancer Recurrence Prediction" <a href="https://confmiet.org/index.php" target="_blank">MIET 2024 (Scopus Indexed double peer blind review conference).</a>
+<hr>
   </div>
 </div>
 <br>
+
+
+
 <button class="accordion">Papers Published (2019 - 2020)</button>
 <div class="panel">
   <div class="publication">
@@ -213,6 +224,9 @@ Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder
     <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"Typical and non-typical diabetes disease prediction using random forest algorithm."</a> 2020 11th International conference on computing, communication and networking technologies (ICCCNT). <strong>Institute of Electrical and Electronics Engineers</strong>, 2020.
   </div>
 </div>
+
+
+
 
 <script>
   const accordions = document.querySelectorAll('.accordion');
