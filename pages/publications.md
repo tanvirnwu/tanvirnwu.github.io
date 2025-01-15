@@ -62,7 +62,8 @@
       text-decoration: none;
     }
     .urls:hover {
-      text-decoration: none; /* No hover effect for links */
+      background-color: #ffffff;
+      color: #6A5ACD;
     }
   </style>
 </head>
