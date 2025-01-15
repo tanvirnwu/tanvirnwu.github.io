@@ -224,7 +224,7 @@ Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder
 
 
 
-<button class="accordion">Papers Published (2019 - 2020)</button>
+<button class="accordion">Papers Published (2019 - 2021)</button>
 <div class="panel">
   <div class="publication">
   <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. <strong>Springer Singapore</strong>, 2021.
