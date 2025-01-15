@@ -158,9 +158,9 @@ window.onscroll = function() {
 
 
 <h4 style="margin-top: 65px;"><strong>Disclaimer</strong></h4>
-<P></P>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</P>
+<P>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</P>
 <hr>
-<P></P><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding</P><br>
+<P><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding</P><br>
 <hr><br>
 
 <!-- Accordion sections -->
