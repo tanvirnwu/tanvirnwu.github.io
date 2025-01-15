@@ -172,9 +172,9 @@ window.onscroll = function() {
 <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
 IEEE Transactions on Medical Imaging (SCIE | IF: 8.9, Q1).</a>
 <hr>
-Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammade* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal (SCIE | IF: 6.2, Q1).</a>
+Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammad* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal (SCIE | IF: 6.2, Q1).</a>
 <hr>
-Safkat Shahrier Swapnil, <strong>Md Tanvir Islam</strong> Sandip Kumar Sarkarb, Md Tanvir Islamc and Khan Muhammadd* "MsIFRN: A Multi-Sensor Information Fusion Framework for High-Speed Robot
+Safkat Shahrier Swapnil, <strong>Md Tanvir Islam</strong> Sandip Kumar Sarkarb, Md Tanvir Islamc and Khan Muhammad* "MsIFRN: A Multi-Sensor Information Fusion Framework for High-Speed Robot
 Navigation" <a href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Preparing for Information Fusion (SCIE | IF: 14, Q1 | Top 2%)</a> 
 <hr>
 Farhan Ahmeda, <strong>Md Tanvir Islam</strong> Yi June-hoa and Khan Muhammad* "Deep Learning for Intelligent Fire Scene Analysis: Where We Stand and What is Next?" <a href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Preparing for Information Fusion (SCIE | IF: 14, Q1 | Top 2%)</a> 
