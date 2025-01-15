@@ -56,9 +56,7 @@
       vertical-align: middle;
       margin-left: 5px;
     }
-    a {
-      color: #6A5ACD;
-    }
+
 
   </style>
 </head>
