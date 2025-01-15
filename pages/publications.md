@@ -77,6 +77,16 @@
 </header>
 
 
+
+<hr style="margin-top: 55px;">
+<h4 style="margin-top: 0px;"><strong>Disclaimer</strong><br></h4>
+All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
+
+-------------
+<strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author 
+
+-------------
+
 <!-- Accordion sections -->
 <button class="accordion active">Under Review/Ongoing (2025)</button>
 <div class="panel default-open">
