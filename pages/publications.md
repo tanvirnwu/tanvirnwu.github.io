@@ -10,11 +10,11 @@
       background-color: #6A5ACD;
       color: white;
       cursor: pointer;
-      padding: 14px;
+      padding: 12px;
       border: none;
       text-align: left;
       outline: none;
-      font-size: 14px;
+      font-size: 12px;
       transition: background-color 0.3s ease;
       margin-bottom: 5px;
       width: 100%;
