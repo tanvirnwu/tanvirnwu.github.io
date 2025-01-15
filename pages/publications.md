@@ -31,17 +31,17 @@
       padding: 0 15px;
       display: none;
       overflow: hidden;
-      background-color: #f1f1f1;
-      border-left: 2px solid #267CB9;
-      border-right: 2px solid #267CB9;
-      border-bottom: 2px solid #267CB9;
+      background-color: #E8F3F9;
+      border-left: 1px solid #E8F3F9;
+      border-right: 1px solid #E8F3F9;
+      border-bottom: 1px solid #E8F3F9;
       margin-bottom: 10px;
     }
     .panel.default-open {
       display: block;
     }
     .publication {
-      margin-bottom: 10px;
+      margin-bottom: 9px;
     }
     .publication + .publication {
       margin-top: 10px;
