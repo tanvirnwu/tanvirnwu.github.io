@@ -43,8 +43,9 @@
       display: block;
     }
     .publication {
-      margin-bottom: 8px;
-    }
+  font-size: 10px; /* Change this to your preferred size, e.g., 16px, 18px */
+  margin-bottom: 8px;
+}
     .publication + .publication {
       margin-top: 10px;
     }
