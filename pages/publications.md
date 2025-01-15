@@ -21,10 +21,10 @@
       box-sizing: border-box; /* Ensures padding does not affect width */
     }
     .accordion:hover {
-      background-color: #ddd;
+      background-color: #6A5ACD;
     }
     .accordion.active {
-      background-color: #267CB9;
+      background-color: #6A5ACD;
       color: white;
     }
     .panel {
