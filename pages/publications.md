@@ -43,7 +43,7 @@
       display: block;
     }
     .publication {
-  font-size: 10px; /* Change this to your preferred size, e.g., 16px, 18px */
+  font-size: 11px;
   margin-bottom: 8px;
 }
     .publication + .publication {
