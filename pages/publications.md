@@ -35,6 +35,10 @@
       border-left: 2px solid #267CB9;
       border-right: 2px solid #267CB9;
       border-bottom: 2px solid #267CB9;
+      margin-bottom: 10px;
+    }
+    .panel.default-open {
+      display: block;
     }
     .publication {
       margin-bottom: 10px;
@@ -49,26 +53,48 @@
 </head>
 <body>
 
+<header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
+  <nav style="margin: 0; padding: 0; width: 100%;">
+    <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
+      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;">
+        <a href="https://tanvirnwu.github.io/" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+          <strong>About</strong>
+        </a>
+      </li>
+      <li style="margin: 0; padding: 0 20px 0 0; display: flex; align-items: center;">
+        <a href="https://tanvirnwu.github.io/pages/projects" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+          <strong>Projects</strong>
+        </a>
+      </li>
+      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="color: black; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+          <strong>Resume</strong>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
 <h2>Publications</h2>
 
 <!-- Accordion sections -->
-<button class="accordion">Under Review/Ongoing (2025)</button>
-<div class="panel">
+<button class="accordion active">Under Review/Ongoing (2025)</button>
+<div class="panel default-open">
   <div class="publication">
-    <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
+    <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(Science Citation Index Expanded | Impact Factor: 7.5, Q1 | Revision submitted)</strong>
   </div>
   <div class="publication">
-    <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">IEEE Transactions on Medical Imaging.</a> <strong>(SCIE | IF: 8.9, Q1)</strong>
+    <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">IEEE Transactions on Medical Imaging.</a> <strong>(Science Citation Index Expanded | Impact Factor: 8.9, Q1)</strong>
   </div>
 </div>
 
 <button class="accordion">Papers Published (2024)</button>
 <div class="panel">
   <div class="publication">
-    <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(SCIE | AR: 13% | Rank: 4.7% | IF: 6.2, Q1)</strong>
+    <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal.</a> <strong>(Science Citation Index Expanded | Acceptance Rate: 13% | Rank: 4.7% | Impact Factor: 6.2, Q1)</strong>
   </div>
   <div class="publication">
-    <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a> <strong>(AR: 26% | BK IF: 4.0 | Rank: A+)</strong>
+    <strong>Md Tanvir Islam</strong> and Nasir Rahim, Khan Muhammad* "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing" In Proceedings of the 32nd <a href="https://2024.acmmm.org/" target="_blank">ACM Multimedia</a> <strong>(Acceptance Rate: 26% | Brain Korea Impact Factor: 4.0 | Rank: A+)</strong>
   </div>
 </div>
 
@@ -78,7 +104,7 @@
     <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48" target="_blank">"An empirical study on diabetes mellitus prediction using apriori algorithm"</a> International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2. <strong>Springer Singapore</strong>, 2021.
   </div>
   <div class="publication">
-    <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"Typical and non-typical diabetes disease prediction using random forest algorithm."</a> 2020 11th International conference on computing, communication and networking technologies (ICCCNT). <strong>IEEE</strong>, 2020.
+    <strong>Md Tanvir Islam</strong> and M. Raihan <a href="https://ieeexplore.ieee.org/abstract/document/9225430" target="_blank">"Typical and non-typical diabetes disease prediction using random forest algorithm."</a> 2020 11th International conference on computing, communication and networking technologies (ICCCNT). <strong>Institute of Electrical and Electronics Engineers</strong>, 2020.
   </div>
 </div>
 
