@@ -10,11 +10,11 @@
       background-color: #6A5ACD;
       color: white;
       cursor: pointer;
-      padding: 15px;
+      padding: 10px;
       border: none;
       text-align: left;
       outline: none;
-      font-size: 16px;
+      font-size: 12px;
       transition: background-color 0.3s ease;
       margin-bottom: 5px;
       width: 100%;
@@ -43,7 +43,7 @@
       display: block;
     }
     .publication {
-      margin-bottom: 9px;
+      margin-bottom: 8px;
     }
     .publication + .publication {
       margin-top: 10px;
