@@ -41,6 +41,9 @@
     .publication {
       margin-bottom: 10px;
     }
+    .publication + .publication {
+      margin-top: 10px;
+    }
     .pdf-icon {
       width: 20px;
       height: 20px;
@@ -73,7 +76,6 @@
   </nav>
 </header>
 
-<h2>Publications</h2>
 
 <!-- Accordion sections -->
 <button class="accordion active">Under Review/Ongoing (2025)</button>
