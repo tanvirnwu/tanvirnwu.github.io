@@ -80,7 +80,6 @@
 
 <h4 style="margin-top: 60px;"><strong>Disclaimer</strong><br></h4>
 All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
-<br>
 <hr><br>
 <strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding <br>
 <hr><br>
