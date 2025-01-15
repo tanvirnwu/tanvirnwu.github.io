@@ -31,11 +31,12 @@
       padding: 0 15px;
       display: none;
       overflow: hidden;
-      background-color: #E8F3F9;
-      border-left: 1px solid #E8F3F9;
-      border-right: 1px solid #E8F3F9;
-      border-bottom: 1px solid #E8F3F9;
+      background-color: #FFFFFF;
+      border-left: 0px solid #FFFFFF;
+      border-right: 0px solid #FFFFFF;
+      border-bottom: 0px solid #FFFFFF;
       margin-bottom: 10px;
+      margin-top: 5px;
     }
     .panel.default-open {
       display: block;
