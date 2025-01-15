@@ -15,6 +15,7 @@
       text-align: left;
       outline: none;
       font-size: 12px;
+      font-weight: bold;
       transition: background-color 0.3s ease;
       margin-bottom: 5px;
       width: 100%;
