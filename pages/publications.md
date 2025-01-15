@@ -15,15 +15,13 @@
       text-align: left;
       outline: none;
       font-size: 16px;
-      transition: background-color 0.3s ease, color 0.3s ease;
+      transition: background-color 0.3s ease;
       margin-bottom: 5px;
       width: 100%;
       box-sizing: border-box; /* Ensures padding does not affect width */
-      display: block;
     }
     .accordion:hover {
-      background-color: #267CB9; /* Blue background on hover */
-      color: white; /* White text on hover */
+      background-color: #ddd;
     }
     .accordion.active {
       background-color: #267CB9;
@@ -54,8 +52,28 @@
       vertical-align: middle;
       margin-left: 5px;
     }
-
-    /* Navigation Menu Styling */
+    /* Button and Navigation Menu Styling */
+    .button,
+    .accordion {
+      color: black;
+      text-decoration: none;
+      padding: 9px 15px;
+      border-radius: 4px;
+      box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s, color 0.3s;
+      text-align: center;
+      display: inline-block;
+    }
+    .button:hover,
+    .accordion:hover {
+      background-color: #267CB9;
+      color: white;
+    }
+    .button {
+      display: block;
+      width: auto;
+      margin: 10px 0;
+    }
     header {
       background-color: white;
       padding: 0;
