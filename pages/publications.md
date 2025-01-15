@@ -23,11 +23,11 @@
     }
     .accordion:hover {
       background-color: #E9E8F9;
-      color: black;
+      color: #6A5ACD;
     }
     .accordion.active {
       background-color: #E9E8F9;
-      color: black;
+      color: #6A5ACD;
     }
     .panel {
       padding: 0 15px;
