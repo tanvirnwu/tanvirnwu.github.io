@@ -57,11 +57,11 @@
       margin-left: 5px;
     }
 
-  a {
+  .urls {
       color: #6A5ACD;
       text-decoration: none;
     }
-    a:hover {
+    .urls:hover {
       text-decoration: none; /* No hover effect for links */
     }
   </style>
@@ -175,7 +175,7 @@ All papers are for personal use only. Reproduction or distribution without permi
 <button class="accordion">Under Review/Ongoing (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Revision submitted).</a> 
+<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Revision submitted).</a> 
 <hr>
 <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
 IEEE Transactions on Medical Imaging (SCIE | IF: 8.9, Q1).</a>
