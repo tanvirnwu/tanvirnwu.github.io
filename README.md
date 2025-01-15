@@ -20,6 +20,7 @@
 </header>
 
 <style>
+  a{color:#6A5ACD;}
   /* CSS styles for hover effect */
   a:hover {
     background-color: #267CB9; /* Blue background on hover */
