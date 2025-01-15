@@ -155,7 +155,7 @@ window.onscroll = function() {
 
 
 
-<h4 style="margin-top: 60px;"><strong>Disclaimer</strong><br></h4>
+<h4 style="margin-top: 65px;"><strong>Disclaimer</strong></h4>
 All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.
 <hr>
 <strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding <br>
