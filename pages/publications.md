@@ -163,7 +163,7 @@ All papers are for personal use only. Reproduction or distribution without permi
 <hr><br>
 
 <!-- Accordion sections -->
-<button class="accordion active">Under Review/Ongoing (2025)</button>
+<button class="accordion">Under Review/Ongoing (2025)</button>
 <div class="panel default-open">
   <div class="publication">
 1. <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence.</a> <strong>(SCIE | IF: 7.5, Q1 | Revision submitted)</strong>
