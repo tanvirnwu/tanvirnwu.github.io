@@ -167,7 +167,7 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 65px; font-size:12px;"><strong>Disclaimer:</strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
+<p style="margin-top: 65px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
 <hr>
 <p style="margin-top: 5px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding<br></p>
 <hr><br>
