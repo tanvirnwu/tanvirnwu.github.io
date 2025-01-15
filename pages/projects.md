@@ -33,7 +33,7 @@
 
   /* CSS styles for hover effect */
   a:hover {
-    background-color: #267CB9; /* Blue background on hover */
+    background-color: #6A5ACD; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
