@@ -37,8 +37,8 @@
       border-left: 0px solid #FFFFFF;
       border-right: 0px solid #FFFFFF;
       border-bottom: 0px solid #FFFFFF;
-      margin-bottom: 10px;
-      margin-top: 5px;
+      margin-bottom: 8px;
+      margin-top: 6px;
     }
     .panel.default-open {
       display: block;
@@ -167,7 +167,7 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 65px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
+<p style="margin-top: 70px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
 <p style="margin-top: 5px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author<br></p>
 <hr><br>
 
