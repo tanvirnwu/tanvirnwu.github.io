@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
 
-logo: /assets/tanvir.jpg
+logo: /assets/tanvir.png
 
 author:
-  # name: ""
+  name: Tanvir
   email: <tanvirnwu@g.skku.edu>
 
 github_username: tanvirnwu
