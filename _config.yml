@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 
 logo: /assets/tanvir.jpg
 
+custom_css: /style.css
+
 author:
   name: Tanvir
   email: <tanvirnwu@g.skku.edu>
