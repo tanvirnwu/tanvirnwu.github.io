@@ -81,12 +81,12 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
+<p style=" font-size:13px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
 MS Candidate & Research Assitant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Suwon, Republic of Korea<br></p>
 <hr>
-  <p style= "font-size:10px; color:#343434;">
+  <p style= "font-size:12px; color:#343434;">
     Md Tanvir Islam is currently pursuing his Master's degree in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he is also a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad</a>. With a strong foundation from completing his Bachelor's degree in the same field in 2019, he has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS) in 2021, a fully funded scholarship offered by the Korean government. Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> among the GKS scholars in 2024 by the NIIED, Government of South Korea. Currently, as a master's research student, he is an esteemed member of the Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab), focusing his research on multiple emerging topics such as computational bioinformatics, image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i>``ACM Multimedia (ACM MM), Asian Conference on Computer Vision (ACCV), Alexandria Engineering Journal and Engineering Application of Artificial Intelligence''</i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his published research papers at reputable venues.
     <br><br>
     In addition, he has also gained experience as a Teaching Assistant at SKKU, where he assisted to design and deliver course materials and mentored undergraduate students. He is passionate about knowledge-sharing and collaborative learning, which has allowed him to grow as a researcher and a mentor.
