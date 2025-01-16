@@ -14,7 +14,7 @@
       border: none;
       text-align: left;
       outline: none;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       transition: background-color 0.3s ease;
       margin-bottom: 5px;
@@ -44,7 +44,7 @@
       display: block;
     }
     .publication {
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 5px;
 }
     .publication + .publication {
