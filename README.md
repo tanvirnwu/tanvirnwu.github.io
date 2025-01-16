@@ -32,6 +32,7 @@
   }
 
   li {
+    color:#343434;
     margin: 0; /* Remove any unnecessary margin */
     padding: 0; /* Remove padding from list items */
   }
@@ -96,7 +97,7 @@ Sungkyunkwan University, Suwon, Republic of Korea<br></p>
 
 
 <!-- Add the LinkedIn and Google Scholar icons and links -->
-<p style="font-size:13px; color:black;">
+<p style="font-size:13px; color:#343434;">
   <span style="vertical-align: middle;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
      tanvirnwu[@]g.skku.edu
