@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 logo: /assets/tanvir.jpg
 
 author:
-  name: Tanvir
+  # name: ""
   email: <tanvirnwu@g.skku.edu>
 
 github_username: tanvirnwu
