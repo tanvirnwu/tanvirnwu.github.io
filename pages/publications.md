@@ -39,6 +39,7 @@
       border-bottom: 0px solid #FFFFFF;
       margin-bottom: 8px;
       margin-top: 6px;
+      color: #343434;
     }
     .panel.default-open {
       display: block;
@@ -65,6 +66,7 @@
       color: #6A5ACD;
       font-weight:normal;
     }
+    p{color:#343434}
   </style>
 </head>
 <body>
