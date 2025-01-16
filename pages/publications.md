@@ -105,7 +105,8 @@
     color: white; /* Ensure bold text inside links also turns white */
   }
 
-  li {color:#343434;
+  li {
+    color:#343434;
     margin: 0; /* Remove any unnecessary margin */
     padding: 0; /* Remove padding from list items */
   }
