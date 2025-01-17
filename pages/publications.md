@@ -173,12 +173,31 @@ window.onscroll = function() {
 <p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author<br></p>
 <hr>
 
+
+
+
+
+
 <!-- Accordion sections -->
-<button class="accordion">Under Review/Ongoing (2025)</button>
+<button class="accordion">Accepted Papers (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Revision submitted).</a> 
+<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Accepted).</a> 
 <hr>
+  </div>
+  <div class="publication">
+    
+  </div>
+</div>
+<br>
+
+
+
+
+<!-- Accordion sections -->
+<button class="accordion">Under Review/Ongoing (2025)</button>
+<div class="panel">
+  <div class="publication">
 <strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a  class ="urls" href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
 IEEE Transactions on Medical Imaging (SCIE | IF: 8.9, Q1).</a>
 <hr>
@@ -201,6 +220,9 @@ Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder
   </div>
 </div>
 <br>
+
+
+
 
 
 
