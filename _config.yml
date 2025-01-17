@@ -5,7 +5,7 @@ title: " "
 # description: [A short description of your site's purpose]
 show_downloads: [false]
 github:
-  zip_url: http://example.com/download.zip
+  zip_url: https://fb.com/
   another_url: https://fb.com/
   
 logo: /assets/tanvir5.png
