@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 # title: "&nbsp;"
 title: " "
 # description: [A short description of your site's purpose]
-show_downloads: [false]
+# show_downloads: [false]
 github:
   zip_url: https://fb.com/
   another_url: https://fb.com/
