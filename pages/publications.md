@@ -144,31 +144,6 @@ window.onscroll = function() {
 
 
 
-<!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
-
-
-<script>
-function scrollToPosition() {
-  if (window.pageYOffset === 0) {
-    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-  } else {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-}
-
-window.onscroll = function() {
-  const scrollButton = document.getElementById('scrollButton');
-  if (window.pageYOffset === 0) {
-    scrollButton.innerHTML = '&#8595;'; // Down arrow
-  } else {
-    scrollButton.innerHTML = '&#8593;'; // Up arrow
-  }
-};
-</script>
-
-
-
 <p style="margin-top: 70px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
 <p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author<br></p>
 <hr>
