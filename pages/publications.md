@@ -182,7 +182,7 @@ window.onscroll = function() {
 <button class="accordion">Accepted Papers (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, and Asif Karim* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Accepted).</a> 
+<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim*, Niusha Shafiabady, and Mehedi Hasan* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Accepted).</a> 
 <hr>
   </div>
   <div class="publication">
