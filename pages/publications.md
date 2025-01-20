@@ -145,8 +145,7 @@ window.onscroll = function() {
 
 
 <p style="margin-top: 70px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
-<p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | 
-  |<strong><sup>*</sup></strong>Corresponding Author<br> |  <strong><sup>1</sup></strong>Equal Contributions<br></p>
+<p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong><sup>1</sup></strong>Equal Contributions | <strong><sup>*</sup></strong>Corresponding Author | <strong>BK:</strong> Brain Korea | <strong>AR:</strong> Acceptance Rate <br></p>
 <hr>
 
 
