@@ -154,10 +154,10 @@ window.onscroll = function() {
 
 
 <!-- Accordion sections -->
-<button class="accordion">Accepted Papers (2025)</button>
+<button class="accordion">Recent Papers (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-     <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a  class ="urls" href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal (SCIE | AR: 13% | Rank: 4.7% | IF: 6.2, Q1).</a> <a href="https://www.sciencedirect.com/science/article/pii/S111001682401617X?via%3Dihub" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
+     <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Ahmed Ibrahim Alzahranic, Khan Muhammad* "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification" <a  class ="urls" href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal (SCIE | AR: 13% | Rank: 4.7% | IF: 6.2, Q1 | Published).</a> <a href="https://www.sciencedirect.com/science/article/pii/S111001682401617X?via%3Dihub" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
     <hr>
  <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim*, Niusha Shafiabady, and Md. Mehedi Hassan* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Accepted).</a> 
 <hr>
