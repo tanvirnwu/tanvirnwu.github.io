@@ -145,7 +145,7 @@ window.onscroll = function() {
 
 
 <p style="margin-top: 70px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
-<p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author<br></p>
+<p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong>AR:</strong> Acceptance Rate  | <strong>BK:</strong> Brain Korea | <strong>IF:</strong> Impact Factor | <strong>*</strong>Corresponding Author<br> |  <strong>†</strong>Equal Contributions<br></p>
 <hr>
 
 
@@ -157,8 +157,9 @@ window.onscroll = function() {
 <button class="accordion">Accepted Papers (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim*, Niusha Shafiabady, and Md. Mehedi Hassan* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Accepted).</a> 
+ <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim*, Niusha Shafiabady, and Md. Mehedi Hassan* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Accepted).</a> 
 <hr>
+Inzamamul ALam†, <strong>Md Tanvir Islam†</strong>, and Simon S.Woo* "SADRE: Saliency-Aware Diffusion Reconstruction for Effective Invisible Watermark Removal" <a  class ="urls" href="https://www2025.thewebconf.org/short-papers" target="_blank">The Web Conference (WWW) 2025 (Rank A | Accepted).</a> <hr>
   </div>
   <div class="publication">
     
