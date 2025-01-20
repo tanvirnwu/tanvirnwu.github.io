@@ -82,7 +82,7 @@ window.onscroll = function() {
 
 
 <p style=" font-size:14px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
-MS Candidate & Research Assitant<br>
+MS Candidate & Research Assistant<br>
 VIS2KNOW Lab, Department of Computer Science and Engineering<br>
 Sungkyunkwan University, Suwon, Republic of Korea<br></p>
 <hr>
