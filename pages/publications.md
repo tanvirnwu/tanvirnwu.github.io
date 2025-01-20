@@ -174,7 +174,7 @@ Inzamamul ALam<sup>1</sup>, <strong>Md Tanvir Islam<sup>1</sup></strong>, and Si
 <button class="accordion">Under Review/Ongoing (2025)</button>
 <div class="panel">
   <div class="publication">
-<strong>Md Tanvir Islam*</strong>, Faiyaz Fahim, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a  class ="urls" href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
+<strong>Md Tanvir Islam<sup>1, *</sup></strong>, Faiyaz Fahim<sup>1</sup>, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a  class ="urls" href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
 IEEE Transactions on Medical Imaging (SCIE | IF: 8.9, Q1 | Under Review).</a>
 <hr>
 Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammad* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a  class ="urls" href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal (SCIE | IF: 6.2, Q1 | Top 4% | Under Review).</a>
