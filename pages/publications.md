@@ -180,6 +180,7 @@ Inzamamul ALam<sup>1</sup>, <strong>Md Tanvir Islam<sup>1</sup></strong>, and Si
 <strong>Md Tanvir Islam<sup>1, *</sup></strong>, Faiyaz Fahim<sup>1</sup>, and Abdullah Al Ghalib "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO" <a  class ="urls" href="https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence" target="_blank">
 IEEE Transactions on Medical Imaging (SCIE | IF: 8.9, Q1 | Under Review).</a>
 <hr>
+    <!--
 Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Leec, Mohammad Hijjid, Khan Muhammad* "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition" <a  class ="urls" href="https://www.sciencedirect.com/journal/alexandria-engineering-journal" target="_blank">Alexandria Engineering Journal (SCIE | IF: 6.2, Q1 | Top 4% | Under Review).</a>
 <hr>
 Safkat Shahrier Swapnil, <strong>Md Tanvir Islam</strong> Sandip Kumar Sarkarb, Md Tanvir Islamc and Khan Muhammad* "MsIFRN: A Multi-Sensor Information Fusion Framework for High-Speed Robot
@@ -190,7 +191,7 @@ Farhan Ahmeda, <strong>Md Tanvir Islam</strong> Yi June-hoa and Khan Muhammad* "
 Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "CHILD: Child Hazardous Indoor Labeled Dataset for Activity Recognition" <a  class ="urls" href="https://www.ijcai.org/" target="_blank">Preparing for IJCAI 2025 (BK: 4 | Rank: A)</a> 
 <hr>
 Shehzad Ali, <strong>Md Tanvir Islam</strong> and Khan Muhammad* "IARD: Intruder Activity Recognition Dataset for Home Security and Surveillance" <a  class ="urls" href="https://www.ijcai.org/" target="_blank">Preparing for IJCAI 2025 (BK: 4 | Rank: A)</a> 
-    <hr>
+    <hr> -->
   </div>
   <div class="publication">
     
