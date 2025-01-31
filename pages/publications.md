@@ -162,7 +162,7 @@ window.onscroll = function() {
     <hr>
  <strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim*, Niusha Shafiabady, and Md. Mehedi Hassan* "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling" <a  class ="urls" href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence (SCIE | IF: 7.5, Q1 | Published).</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197625001174?dgcid=coauthor" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
 <hr>
-Inzamamul ALam<sup>1</sup>, <strong>Md Tanvir Islam<sup>1</sup></strong>, and Simon S.Woo* "SADRE: Saliency-Aware Diffusion Reconstruction for Effective Invisible Watermark Removal" <a  class ="urls" href="https://www2025.thewebconf.org/short-papers" target="_blank">The Web Conference (WWW) 2025 (BK: 3 | Rank A | Accepted).</a> <hr>
+Inzamamul ALam<sup>1</sup>, <strong>Md Tanvir Islam</strong>, and Simon S.Woo* "SADRE: Saliency-Aware Diffusion Reconstruction for Effective Invisible Watermark Removal" <a  class ="urls" href="https://www2025.thewebconf.org/short-papers" target="_blank">The Web Conference (WWW) 2025 (BK: 3 | Rank A | Accepted).</a> <hr>
   </div>
   <div class="publication">
     
