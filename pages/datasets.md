@@ -1,3 +1,79 @@
+<header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
+  <nav style="margin: 0; padding: 0; width: 100%;">
+    <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
+
+      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;">
+        <a href="https://tanvirnwu.github.io/" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+          <strong>About</strong>
+        </a>
+        
+      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
+        <a href="https://tanvirnwu.github.io/pages/publications" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+          <strong>Publications</strong>
+        </a>
+      </li>
+        
+      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
+        <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
+          <strong>Resume</strong>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  a{color:#6A5ACD;}
+  /* CSS styles for hover effect */
+  a:hover {
+    background-color: #6A5ACD; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+
+  a:hover strong {
+    color: white; /* Ensure bold text inside links also turns white */
+  }
+
+  li {
+    margin: 0; /* Remove any unnecessary margin */
+    padding: 0; /* Remove padding from list items */
+  }
+
+  a {
+    display: inline-block; /* Make the anchor display as a block to fill its parent */
+    height: 100%; /* Ensure the link fills the parent's height */
+  }
+    .urls {
+      color: #6A5ACD;
+    }
+    .urls:hover {
+      background-color: #ffffff;
+      color: #6A5ACD;
+      font-weight:normal;
+    }
+
+  .bibtex-container {
+  background-color: #E2E3F4;
+  font-size: 8px;
+  border-left: 4px solid #6A5ACD;
+  font-family: monospace;
+  padding: 10px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  max-height: 0;
+  transition: max-height 0.4s ease-in-out, visibility 0.4s;
+  display: block;
+  visibility: hidden;
+}
+
+.bibtex-container.show {
+  max-height: 200px;
+  visibility: visible;
+}
+</style>
+
+
+
 <!-- Header Section -->
 <header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
   <nav style="margin: 0; padding: 0; width: 100%;">
@@ -19,18 +95,9 @@
       </li>
     </ul>
   </nav>
-</header>
+</header> 
 
 <style>
-  .urls {
-      color: #6A5ACD;
-    }
-    .urls:hover {
-      background-color: #ffffff;
-      color: #6A5ACD;
-      font-weight:normal;
-    }
-
   /* CSS styles for hover effect */
   a:hover {
     background-color: #6A5ACD; /* Blue background on hover */
@@ -46,55 +113,11 @@
     padding: 0; /* Remove padding from list items */
   }
 
-  a {color:#6A5ACD;
+  a {
     display: inline-block; /* Make the anchor display as a block to fill its parent */
     height: 100%; /* Ensure the link fills the parent's height */
   }
-
-  /* Common button styling for the header and Read Full Paper */
-  .custom-button {
-    color: black;
-    text-decoration: none;
-    padding: 9px 15px;
-    border-radius: 4px;
-    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, color 0.3s;
-    display: block;
-    text-align: center;
-  }
-
-  .custom-button:hover {
-    background-color: #267CB9; /* Blue background on hover (Blue: #0066ff)*/
-    color: white; /* White text on hover */
-  }
-
-    /* Common button styling for the header and Read Full Paper */
-  .button {
-    color: white;
-    text-decoration: none;
-    padding: 9px 15px;
-    border-radius: 4px;
-     background-color: #267CB9; 
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
-    transition: background-color 0.3s, color 0.3s;
-    display: block;
-    text-align: center;
-  }
-
-  .button:hover {
-    background-color: white; /* Blue background on hover (Blue: #0066ff)*/
-    color: black; /* White text on hover */
-  }
-a{color:#6A5ACD;}
-  .urls {
-      color: #6A5ACD;
-    }
-    .urls:hover {
-      background-color: #ffffff;
-      color: #6A5ACD;
-      font-weight:normal;
-    }
-    p{color:#343434}
+  
   .bibtex-container {
   background-color: #E2E3F4;
   font-size: 8px;
@@ -114,7 +137,9 @@ a{color:#6A5ACD;}
   visibility: visible;
 }
 
-</style>
+</style> -->
+
+
 
 <script>
   function toggleBibtex() {
@@ -122,6 +147,7 @@ a{color:#6A5ACD;}
     bibtex.classList.toggle("show");
   }
 </script>
+
 
 
 <!--
