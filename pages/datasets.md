@@ -88,27 +88,26 @@
 </style>
 
 
-
+<!--
 <h3 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h3>
-<hr>
+<hr> -->
 
 
 <!-- Parent Container with Top Margin -->
-<div style="margin-top: 20px; display: flex; justify-content: flex-start;">
+<div style="margin-top: 70px; display: flex; justify-content: flex-start;">
     <!-- Right Column: Project Summary and Button -->
     <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
-      <h4>HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing</h4>
+      <h4><a href="https://github.com/tanvirnwu/HazeSpace2M" class="button" target="_blank">HazeSpace2M:</a> Large-scale Single Image Dehazing Dataset</h4>
       <p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><I> Accepted by ACM Multimedia 2024, Australia</i></p>
       <p style="text-align: justify; margin-top: 3px;">
-      The HazeSpace2M paper introduces a large-scale dataset with over 2 million images aimed at improving single-image dehazing through haze-type classification. The dataset includes 10 levels of haze intensity across multiple scenes, such as outdoor, street, farmland, and satellite, featuring three types of haze: Fog, Cloud, and Environmental Haze. By classifying haze types first, the proposed method applies specialized dehazing algorithms, enhancing image clarity. Benchmarking results show that haze-specific dehazing significantly improves the performance of dehazing models compared to general methods, setting new standards in haze-aware image restoration.
+      HazeSpace2M is a collection of over 2 million images designed to enhance dehazing through haze type classification. HazeSpace2M includes diverse scenes with 10 haze intensity levels, featuring Fog, Cloud, and Environmental Haze.
       </p>
+        
       </div>     
       <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 35%; height:20px; text-align: center;">
-        <a href="https://tanvirnwu.github.io/assets/papers/HazeSpace2M.pdf" class="button" target="_blank">Full Paper →</a>
-      </div>      
+        [<a href="https://tanvirnwu.github.io/assets/papers/HazeSpace2M.pdf" class="button" target="_blank">Dataset↓</a>] [Paper] [BibTeX]
     </div>
 </div>
 
