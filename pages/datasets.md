@@ -107,7 +107,7 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> [BibTeX]
+        <h5><a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> [BibTeX] </h5>
     </div>
 </div>
 
