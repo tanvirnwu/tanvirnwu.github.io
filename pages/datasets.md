@@ -72,23 +72,28 @@
   visibility: visible;
 }
 
-  .toggle-button {
+.toggle-button {
   cursor: pointer;
-  color: #6A5ACD;  /* ✅ Keeps color same after clicking */
+  color: #6A5ACD;  /* ✅ Default color */
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  padding: 5px 10px;  /* Optional: Adds some padding for better hover effect */
+  border-radius: 4px;  /* Optional: Adds rounded corners */
 }
 
 .toggle-button:hover {
-  text-decoration: underline;
+  color: white !important;  /* ✅ Turns white on hover */
+  background-color: #6A5ACD;  /* ✅ Adds a background on hover for visibility */
+  text-decoration: none;  /* ✅ Prevents underline on hover */
 }
 
-/* ✅ Prevents color change after clicking */
+/* ✅ Ensures the color stays unchanged after clicking */
 .toggle-button:focus, .toggle-button:active {
-  color: #6A5ACD !important;  /* ✅ Ensures color remains unchanged */
-  outline: none;  /* ✅ Removes the default focus outline */
+  color: #6A5ACD !important;
+  outline: none;
 }
+
 
 </style>
 
