@@ -59,7 +59,7 @@
     }
 
   .bibtex-container {
-    margin-top: -10px;
+    margin-top: -25px;
   background-color: #E2E3F4;
   font-size: 10px;
   color:#343434;
@@ -180,7 +180,7 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        <h5>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>] </h5>
+        <h5>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>]</h5>
 
         <!-- BibTeX Entry (Initially Hidden) -->
 <div id="bibtex-entry" class="bibtex-container">
