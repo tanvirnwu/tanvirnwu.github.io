@@ -175,7 +175,7 @@
       <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">LoLI-Street:</a> Low-light Image Enhancement Dataset</h4>
 
         
-      <p style="text-align: justify; margin-top: -2px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      <p style="text-align: justify; margin-top:-6px; margin-bottom: -12px; font-size:14px; color:#343434;">
       The training consists of 30k, while validation has 3k paired low and high-light images. Moreover, we collected high-resolution videos (4K/8K at 60fps) from various cities under low-light conditions, extracting and manually reviewing frames to create the Real Low-light Testset (RLLT) of our LoLI-Street dataset. We used Photoshop v25.0 to generate the synthetic images of our dataset.</p>
         
       </div>     
