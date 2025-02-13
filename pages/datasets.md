@@ -85,7 +85,33 @@
     background-color: white; /* Blue background on hover (Blue: #0066ff)*/
     color: black; /* White text on hover */
   }
+
+  .bibtex-container {
+  background-color: #fdfde5;
+  border-left: 4px solid #6A5ACD;
+  font-family: monospace;
+  padding: 10px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  max-height: 0;
+  transition: max-height 0.4s ease-in-out, visibility 0.4s;
+  display: block;
+  visibility: hidden;
+}
+
+.bibtex-container.show {
+  max-height: 300px;
+  visibility: visible;
+}
+
 </style>
+
+<script>
+  function toggleBibtex() {
+    var bibtex = document.getElementById("bibtex-entry");
+    bibtex.classList.toggle("show");
+  }
+</script>
 
 
 <!--
@@ -107,7 +133,18 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        <h5>[<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Paper</a>] [BibTeX] </h5>
+        <h5>[<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>] </h5>
+
+        <!-- BibTeX Entry (Initially Hidden) -->
+<div id="bibtex-entry" class="bibtex-container">
+  @inproceedings{Tanvir2024hazespace2m,<br>
+  &nbsp;&nbsp;title={HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing},<br>
+  &nbsp;&nbsp;author={Islam, Md Tanvir and Rahim, Nasir and Anwar, Saeed and Saqib Muhammad},<br>
+  &nbsp;&nbsp;booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},<br>
+  &nbsp;&nbsp;year={2024},<br>
+  &nbsp;&nbsp;doi={10.1145/3664647.3681382}<br>
+  }
+</div>
     </div>
 </div>
 
