@@ -135,7 +135,7 @@
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
       <h4><a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> Large-scale Single Image Dehazing Dataset</h4>
       <!--<p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><I> Accepted by ACM Multimedia 2024, Australia</i></p>-->
-      <p style="text-align: justify; margin-top: 0px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      <p style="text-align: justify; margin-top: -2px; margin-bottom: -12px; font-size:14px; color:#343434;">
       HazeSpace2M is a collection of over 2 million images designed to enhance dehazing through haze type classification. HazeSpace2M includes diverse scenes with 10 haze intensity levels, featuring Fog, Cloud, and Environmental Haze.
       </p>
         
@@ -160,7 +160,7 @@
 
 
 <!-- Parent Container with Top Margin -->
-<div style="margin-top: 6px; display: flex; justify-content: flex-start;">
+<div style="margin-top: 0px; display: flex; justify-content: flex-start;">
     <!-- Right Column: Project Summary and Button -->
     <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
       <!-- Project Summary Box -->
@@ -169,9 +169,8 @@
       <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">LoLI-Street:</a> Low-light Image Enhancement Dataset</h4>
 
         
-      <p style="text-align: justify; margin-top: 0px; margin-bottom: -12px; font-size:14px; color:#343434;">
-      The training consists of 30k, while validation has 3k paired low and high-light images. Moreover, we collected high-resolution videos (4K/8K at 60fps) from various cities under low-light conditions, extracting and manually reviewing frames to create the Real Low-light Testset (RLLT) of our LoLI-Street dataset. We used Photoshop v25.0 to generate the synthetic images of our dataset.
-      </p>
+      <p style="text-align: justify; margin-top: -2px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      The training consists of 30k, while validation has 3k paired low and high-light images. Moreover, we collected high-resolution videos (4K/8K at 60fps) from various cities under low-light conditions, extracting and manually reviewing frames to create the Real Low-light Testset (RLLT) of our LoLI-Street dataset. We used Photoshop v25.0 to generate the synthetic images of our dataset.</p>
         
       </div>     
       <!-- Read Full Paper Button -->
