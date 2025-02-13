@@ -47,8 +47,8 @@
       color: #6A5ACD;
     }
     .urls:hover {
-      background-color: #ffffff;
-      color: #6A5ACD;
+      background-color: #6A5ACD;
+      color: white;
       font-weight:normal;
     }
 
