@@ -71,6 +71,25 @@
   max-height: 150px;
   visibility: visible;
 }
+
+  .toggle-button {
+  cursor: pointer;
+  color: #6A5ACD;  /* ✅ Keeps color same after clicking */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Prevents color change after clicking */
+.toggle-button:focus, .toggle-button:active {
+  color: #6A5ACD !important;  /* ✅ Ensures color remains unchanged */
+  outline: none;  /* ✅ Removes the default focus outline */
+}
+
 </style>
 
 
@@ -79,9 +98,21 @@
 <script>
   function toggleBibtex() {
     var bibtex = document.getElementById("bibtex-entry");
-    bibtex.classList.toggle("show");
+    var bibtexLink = document.querySelector(".toggle-button");
+
+    if (bibtex.classList.contains("show")) {
+      bibtex.style.maxHeight = "0";
+      setTimeout(() => bibtex.classList.remove("show"), 400);
+    } else {
+      bibtex.classList.add("show");
+      bibtex.style.maxHeight = bibtex.scrollHeight + "px";
+    }
+
+    // ✅ Ensures the link color does not change after clicking
+    bibtexLink.style.color = "#6A5ACD";
   }
 </script>
+
 
 
 
