@@ -60,6 +60,7 @@
 
   .bibtex-container {
     margin-top: -25px;
+    margin-bottom: 3px;
   background-color: #E2E3F4;
   font-size: 10px;
   color:#343434;
