@@ -151,24 +151,4 @@
 
 <hr style="margin-top: 60px;">
 
-<!-- Parent Container with Top Margin -->
-<div style="margin-top: 30px; display: flex; justify-content: flex-start;">
-    <!-- Right Column: Project Summary and Button -->
-    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
-      <!-- Project Summary Box -->
-      <div style="border: 0px solid white; padding: 5px; width: 100%;">
-      <h4>LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond</h4>
-      <p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><I> Accepted by Asian Conference on Computer Vision (ACCV 2024), Vietnam</i></p>
-      <p style="text-align: justify; margin-top: 3px;">
-      This paper introduces a new dataset, LoLI-Street, comprising 33k paired low-light and well-exposed street images, crucial for training low-light image enhancement (LLIE) models in real-world conditions, particularly for autonomous vehicles. It also proposes a new LLIE model, "TriFuse," which integrates transformers and diffusion techniques for more effective noise reduction and image enhancement. The dataset and model are benchmarked against state-of-the-art methods, demonstrating superior performance in enhancing low-light images and improving object detection in autonomous driving and surveillance systems.
-      </p>
-      </div>     
-      <!-- Read Full Paper Button -->
-      <div style="margin-top: -28px; width: 35%; height:20px; text-align: center;">
-        <a href="https://tanvirnwu.github.io/assets/papers/LoLI-Street_ACCV_2024.pdf" class="button" target="_blank">Full Paper →</a>
-      </div>      
-    </div>
-</div>
-
-<hr style="margin-top: 60px;">
 
