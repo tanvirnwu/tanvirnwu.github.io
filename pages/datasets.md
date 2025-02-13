@@ -13,7 +13,7 @@
         </a>
       </li>
 
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
+      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center; color: white;"> <!-- Set margin-right to 20px -->
         <a href="https://tanvirnwu.github.io/pages/datasets" class="active-menu">
   <strong>Datasets</strong></a> </li>
         
