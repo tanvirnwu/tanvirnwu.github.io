@@ -107,7 +107,7 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        [<a href="https://tanvirnwu.github.io/assets/papers/HazeSpace2M.pdf" target="_blank">Dataset↓</a>] [Paper] [BibTeX]
+        [<a href="https://huggingface.co/datasets/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [Paper] [BibTeX]
     </div>
 </div>
 
