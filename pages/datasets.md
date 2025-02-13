@@ -54,7 +54,8 @@
 
   .bibtex-container {
   background-color: #E2E3F4;
-  font-size: 8px;
+  font-size: 10px;
+    font-color:#343434;
   border-left: 4px solid #6A5ACD;
   font-family: monospace;
   padding: 10px;
@@ -67,7 +68,7 @@
 }
 
 .bibtex-container.show {
-  max-height: 200px;
+  max-height: 150px;
   visibility: visible;
 }
 </style>
