@@ -109,9 +109,8 @@
 
 
 <script>
-  function toggleBibtex() {
-    var bibtex = document.getElementById("bibtex-entry");
-    var bibtexLink = document.querySelector(".toggle-button");
+  function toggleBibtex(entryId, link) {
+    var bibtex = document.getElementById(entryId);
 
     if (bibtex.classList.contains("show")) {
       bibtex.style.maxHeight = "0";
@@ -121,10 +120,11 @@
       bibtex.style.maxHeight = bibtex.scrollHeight + "px";
     }
 
-    // ✅ Ensures the link color does not change after clicking
-    bibtexLink.style.color = "#6A5ACD";
+    // ✅ Ensure the link color does not change after clicking
+    link.style.color = "#6A5ACD";
   }
 </script>
+
 
 
 
@@ -141,14 +141,16 @@
       <!-- Project Summary Box -->
       <div style="border: 0px solid white; padding: 5px; width: 100%;">
       <h4><a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> Large-scale Single Image Dehazing Dataset</h4>
-      <!--<p style="margin-top:-9px;"><img src="https://cdn-icons-png.flaticon.com/512/4220/4220391.png" alt="Presentation Icon" width="15" height="15"><I> Accepted by ACM Multimedia 2024, Australia</i></p>-->
-      <p style="text-align: justify; margin-top: -2px; margin-bottom: -12px; font-size:14px; color:#343434;">
+
+        
+      <p style="text-align: justify; margin-top: -15px; margin-bottom: -12px; font-size:14px; color:#343434;">
       HazeSpace2M is a collection of over 2 million images designed to enhance dehazing through haze type classification. HazeSpace2M includes diverse scenes with 10 haze intensity levels, featuring Fog, Cloud, and Environmental Haze.
       </p>
         
       </div>     
       <!-- Read Full Paper Button -->
-        <h4>[<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>] </h4>
+        <h4>[<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex('bibtex-entry', this)">BibTeX</a>]
+</h4>
 
         <!-- BibTeX Entry (Initially Hidden) -->
 <div id="bibtex-entry" class="bibtex-container">
@@ -176,15 +178,16 @@
       <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">LoLI-Street:</a> Low-light Image Enhancement Dataset</h4>
 
         
-      <p style="text-align: justify; margin-top:-20px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      <p style="text-align: justify; margin-top:-15px; margin-bottom: -12px; font-size:14px; color:#343434;">
       The training consists of 30k, while validation has 3k paired low and high-light images. Moreover, we collected high-resolution videos (4K/8K at 60fps) from various cities under low-light conditions, extracting and manually reviewing frames to create the Real Low-light Testset (RLLT) of our LoLI-Street dataset. We used Photoshop v25.0 to generate the synthetic images of our dataset.</p>
         
       </div>     
       <!-- Read Full Paper Button -->
-        <h4>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>]</h4>
+        <h4>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex('bibtex-entry2', this)">BibTeX</a>]
+</h4>
 
         <!-- BibTeX Entry (Initially Hidden) -->
-<div id="bibtex-entry" class="bibtex-container">
+<div id="bibtex-entry2" class="bibtex-container">
 @InProceedings{Islam_2024_ACCV,
     author    = {Islam, Md Tanvir and Alam, Inzamamul and Woo, Simon S. and Anwar, Saeed and Lee, IK Hyun and Muhammad, Khan},
     title     = {LoLI-Street: Benchmarking Low-light Image Enhancement and Beyond},
