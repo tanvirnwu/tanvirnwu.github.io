@@ -148,7 +148,7 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        <h5>[<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>] </h5>
+        <h4>[<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>] </h4>
 
         <!-- BibTeX Entry (Initially Hidden) -->
 <div id="bibtex-entry" class="bibtex-container">
@@ -181,7 +181,7 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        <h5>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>]</h5>
+        <h4>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>]</h4>
 
         <!-- BibTeX Entry (Initially Hidden) -->
 <div id="bibtex-entry" class="bibtex-container">
