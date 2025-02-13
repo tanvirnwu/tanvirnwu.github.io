@@ -85,7 +85,16 @@
     background-color: white; /* Blue background on hover (Blue: #0066ff)*/
     color: black; /* White text on hover */
   }
-
+a{color:#6A5ACD;}
+  .urls {
+      color: #6A5ACD;
+    }
+    .urls:hover {
+      background-color: #ffffff;
+      color: #6A5ACD;
+      font-weight:normal;
+    }
+    p{color:#343434}
   .bibtex-container {
   background-color: #E2E3F4;
   font-size: 8px;
