@@ -53,6 +53,7 @@
     }
 
   .bibtex-container {
+    margin-top: -10px;
   background-color: #E2E3F4;
   font-size: 10px;
   color:#343434;
