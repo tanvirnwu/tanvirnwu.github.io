@@ -14,9 +14,10 @@
       </li>
 
       <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/pages/datasets" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
-          <strong>Datasets</strong>
-        </a>
+        <a href="https://tanvirnwu.github.io/pages/datasets" class="dataset-link">
+  <strong>Datasets</strong>
+</a>
+
       </li>
         
       <li style="margin: 0; padding: 0; display: flex; align-items: center;">
@@ -29,6 +30,23 @@
 </header>
 
 <style>
+  .active-menu {
+  font-size: 12px;
+  color: white !important;  /* ✅ Ensures text color stays white */
+  background-color: #6A5ACD; /* ✅ Sets background color */
+  text-decoration: none;
+  padding: 9px 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+  display: block;
+}
+
+.active-menu:hover {
+  background-color: #5548c8; /* ✅ Slightly darker shade on hover */
+}
+
+  
   a{color:#6A5ACD;}
   /* CSS styles for hover effect */
   a:hover {
