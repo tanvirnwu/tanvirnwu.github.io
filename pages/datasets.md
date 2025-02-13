@@ -202,4 +202,39 @@
 
 
 
+<!-- Parent Container with Top Margin -->
+<div style="margin-top: 0px; display: flex; justify-content: flex-start;">
+    <!-- Right Column: Project Summary and Button -->
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+      <!-- Project Summary Box -->
+      <div style="border: 0px solid white; padding: 5px; width: 100%;">
+        
+      <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">CDC:</a> Crop Damage Classification</h4>
+
+        
+      <p style="text-align: justify; margin-top:-15px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      CDC features train set contains 21k images of damaged and non-damaged classes of crops and a testset that contains 2k images each class having 1k images. In total it features 23k images suitable for training and testing models for identifying damaged crops effectively.</p>
+        
+      </div>     
+      <!-- Read Full Paper Button -->
+        <h5>[<a href="https://www.kaggle.com/datasets/tanvirnwu/crop-damage-classification-dataset-cdc-dataset" target="_blank">Dataset</a>] [<a href="https://www.sciencedirect.com/science/article/pii/S0952197625001174" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex('bibtex-entry3', this)">BibTeX</a>]
+</h5>
+
+        <!-- BibTeX Entry (Initially Hidden) -->
+<div id="bibtex-entry3" class="bibtex-container">
+@article{islam2025resource,
+  title={Resource constraint crop damage classification using depth channel shuffling},
+  author={Islam, Md Tanvir and Swapnil, Safkat Shahrier and Billal, Md Masum and Karim, Asif and Shafiabady, Niusha and Hassan, Md Mehedi},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={144},
+  pages={110117},
+  year={2025},
+  publisher={Elsevier}
+}
+</div>
+    </div>
+</div>
+
+
+
 
