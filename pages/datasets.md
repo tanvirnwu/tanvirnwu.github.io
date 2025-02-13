@@ -157,6 +157,40 @@
 </div>
 
 
-<hr style="margin-top: 10px;">
+
+
+<!-- Parent Container with Top Margin -->
+<div style="margin-top: 6px; display: flex; justify-content: flex-start;">
+    <!-- Right Column: Project Summary and Button -->
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+      <!-- Project Summary Box -->
+      <div style="border: 0px solid white; padding: 5px; width: 100%;">
+        
+      <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">LoLI-Street:</a> Low-light Image Enhancement Dataset</h4>
+
+        
+      <p style="text-align: justify; margin-top: 0px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      The training consists of 30k, while validation has 3k paired low and high-light images. Moreover, we collected high-resolution videos (4K/8K at 60fps) from various cities under low-light conditions, extracting and manually reviewing frames to create the Real Low-light Testset (RLLT) of our LoLI-Street dataset. We used Photoshop v25.0 to generate the synthetic images of our dataset.
+      </p>
+        
+      </div>     
+      <!-- Read Full Paper Button -->
+        <h5>[<a href="https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street" target="_blank">Dataset↓</a>] [<a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.pdf" target="_blank">Paper</a>] [<a href="javascript:void(0);" class="toggle-button" onclick="toggleBibtex()">BibTeX</a>] </h5>
+
+        <!-- BibTeX Entry (Initially Hidden) -->
+<div id="bibtex-entry" class="bibtex-container">
+@InProceedings{Islam_2024_ACCV,
+    author    = {Islam, Md Tanvir and Alam, Inzamamul and Woo, Simon S. and Anwar, Saeed and Lee, IK Hyun and Muhammad, Khan},
+    title     = {LoLI-Street: Benchmarking Low-light Image Enhancement and Beyond},
+    booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+    month     = {December},
+    year      = {2024},
+    pages     = {1250-1267}
+}
+</div>
+    </div>
+</div>
+
+
 
 
