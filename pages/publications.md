@@ -82,10 +82,8 @@
         </a>
       </li>
       <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/pages/publications" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
-          <strong>Publications</strong>
-        </a>
-      </li>
+        <a href="https://tanvirnwu.github.io/pages/publications" class="active-menu">
+  <strong>Publications</strong></a> </li>
       <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
         <a href="https://tanvirnwu.github.io/pages/datasets" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
           <strong>Datasets</strong>
@@ -101,6 +99,25 @@
 </header>
 
 <style>
+  .active-menu {
+  font-size: 12px;
+  color: white !important;  /* ✅ Forces text color to stay white */
+  background-color: #6A5ACD;
+  text-decoration: none;
+  padding: 9px 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+  display: block;
+}
+
+.active-menu strong {
+  color: white !important; /* ✅ Forces text inside <strong> to be white */
+}
+
+.active-menu:hover {
+  background-color: #5548c8; /* ✅ Slightly darker shade on hover */
+}
   /* CSS styles for hover effect */
   a:hover {
     background-color: #6A5ACD; /* Blue background on hover */
