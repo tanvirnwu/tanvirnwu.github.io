@@ -58,18 +58,18 @@
   color:#343434;
   border-left: 4px solid #6A5ACD;
   font-family: monospace;
-  padding: 10px;
+  padding: 6px;
   white-space: pre-wrap;
   overflow-x: auto;
   max-height: 0;
   transition: max-height 0.4s ease-in-out, visibility 0.4s;
   display: block;
   visibility: hidden;
-    line-height: 1.1; 
+    line-height: 1.0; 
 }
 
 .bibtex-container.show {
-  max-height: 150px;
+  max-height: 120px;
   visibility: visible;
 }
 
