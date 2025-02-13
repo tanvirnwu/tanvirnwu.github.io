@@ -15,7 +15,7 @@
 
       <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
         <a href="https://tanvirnwu.github.io/pages/datasets" class="active-menu">
-  <strong style="color: white !important;">Datasets</strong></a> </li>
+  <strong>Datasets</strong></a> </li>
         
       <li style="margin: 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
@@ -27,16 +27,21 @@
 </header>
 
 <style>
-  .active-menu {
+
+.active-menu {
   font-size: 12px;
-  color: white !important;  /* ✅ Ensures text color stays white */
-  background-color: #6A5ACD; /* ✅ Sets background color */
+  color: white !important;  /* ✅ Forces text color to stay white */
+  background-color: #6A5ACD;
   text-decoration: none;
   padding: 9px 15px;
   border-radius: 4px;
   box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
   display: block;
+}
+
+.active-menu strong {
+  color: white !important; /* ✅ Forces text inside <strong> to be white */
 }
 
 .active-menu:hover {
