@@ -13,9 +13,9 @@
         </a>
       </li>
 
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center; color: white;"> <!-- Set margin-right to 20px -->
+      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
         <a href="https://tanvirnwu.github.io/pages/datasets" class="active-menu">
-  <strong>Datasets</strong></a> </li>
+  <strong style="color: white !important;">Datasets</strong></a> </li>
         
       <li style="margin: 0; padding: 0; display: flex; align-items: center;">
         <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
