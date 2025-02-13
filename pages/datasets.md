@@ -78,13 +78,12 @@
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  padding: 5px 10px;  /* Optional: Adds some padding for better hover effect */
-  border-radius: 4px;  /* Optional: Adds rounded corners */
+  border-radius: 2px;  /* Optional: Adds rounded corners */
 }
 
 .toggle-button:hover {
-  color: white !important;  /* ✅ Turns white on hover */
-  background-color: #6A5ACD;  /* ✅ Adds a background on hover for visibility */
+  color: #6A5ACD !important;  /* ✅ Turns white on hover */
+  background-color: white;  /* ✅ Adds a background on hover for visibility */
   text-decoration: none;  /* ✅ Prevents underline on hover */
 }
 
