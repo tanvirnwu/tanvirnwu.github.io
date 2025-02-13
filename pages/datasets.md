@@ -107,7 +107,7 @@
         
       </div>     
       <!-- Read Full Paper Button -->
-        [<a href="https://huggingface.co/datasets/tanvirnwu/HazeSpace2M" target="_blank">Dataset↓</a>] [<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681382" target="_blank">Paper</a>] [BibTeX]
+        <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> <a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> [BibTeX]
     </div>
 </div>
 
