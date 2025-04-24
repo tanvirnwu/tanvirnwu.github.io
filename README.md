@@ -134,7 +134,9 @@ window.onscroll = function() {
   <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
   <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
     <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024</strong></li>
-    <li>[Oct 2024] One paper got acceptance from <strong>ACM Multimedia 2024</strong></li>      
+    <li>[Oct 2024] One paper got acceptance from <strong>ACM Multimedia 2024</strong></li>
+  <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea</li>
+  <li>[Mar 2022] Received the prestigious<strong>Global Korea Scholarship (GKS)</strong></li>   
 </ul>
 
 
