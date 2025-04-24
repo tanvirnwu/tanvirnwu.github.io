@@ -114,9 +114,8 @@ window.onscroll = function() {
 
 
 
-<h3 style=" font-size:14px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
-</h3>
-<hr>
+<h2 style=" font-size:18px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
+</h2>
   <p style= "font-size:14px; color:#343434;">
     Md Tanvir Islam is currently pursuing MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he is also a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad</a>. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i><strong>WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence</strong></i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his <a class= "urls" href="https://tanvirnwu.github.io/pages/publications" target="_blank">research outcomes</a> published at reputable venues.
     <br>
@@ -127,10 +126,10 @@ window.onscroll = function() {
 
 <h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
-  <li><strong>Apr 2025:</strong> Our paper titled <i>"Efficient Spiking Transformer for Low-Energy Image Classification"</i> accepted at <strong>WWW 2025</strong>.</li>
-  <li><strong>Mar 2025:</strong> Delivered invited talk on <i>Explainable AI for Scene Understanding</i> at SKKU AI Seminar Series.</li>
-  <li><strong>Feb 2025:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
-  <li><strong>Dec 2024:</strong> Paper accepted in <i>ACM MM 2024</i> on <i>Spiking Neural Networks for Image Enhancement</i>.</li>
+  <li><strong>April 2025:</strong> One paper is accepted at <strong>ICMR 2025</strong>.
+  <li><strong>Jan 2025:</strong> One paper is"</i> accepted at <strong>The Web Conference 2025 (Formally WWW)</strong>
+  <li><strong>Dec 2024:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
+  <li><strong>April 2024:</strong> We registered a <strong>U.S. Patent</strong>.
   <li><strong>Oct 2024:</strong> Published in <i>Alexandria Engineering Journal</i> on <i>Image Dehazing using Deep Attention</i>.</li>
 </ul>
 
