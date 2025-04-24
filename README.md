@@ -132,7 +132,10 @@ window.onscroll = function() {
     <li><strong>Feb 2025:</strong> We registered a <strong>U.S. Patent</strong>.
   <li><strong>Mar 2025:</strong> Published in </strong>Engineering Applications of Artificial Intelligence</strong>.
   <li><strong>Jan 2025:</strong> Published in </strong>Alexandria Engineering Journal</strong>.
-  <li><strong>Dec 2024:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
+  <li><strong>Dec 2024:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.
+    <li><strong>Dec 2024:</strong> One paper got acceptance from <strong>ACCV 2024</strong>
+    <li><strong>Oct 2024:</strong> One paper got acceptance from <strong>ACM Multimedia 2024</strong>
+      
 </ul>
 
 
