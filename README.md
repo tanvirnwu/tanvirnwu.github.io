@@ -127,10 +127,12 @@ window.onscroll = function() {
 <h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
   <li><strong>April 2025:</strong> One paper is accepted at <strong>ICMR 2025</strong>.
-  <li><strong>Jan 2025:</strong> One paper is"</i> accepted at <strong>The Web Conference 2025 (Formally WWW)</strong>
+  <li><strong>Jan 2025:</strong> One paper is accepted at <strong>The Web Conference 2025</strong>
+  <li><strong>April 2025:</strong> We registered a <strong>U.S. Patent</strong>.
+    <li><strong>Feb 2025:</strong> We registered a <strong>U.S. Patent</strong>.
+  <li><strong>Mar 2025:</strong> Published in </strong>Engineering Applications of Artificial Intelligence</strong>.
+  <li><strong>Jan 2025:</strong> Published in </strong>Alexandria Engineering Journal</strong>.
   <li><strong>Dec 2024:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
-  <li><strong>April 2024:</strong> We registered a <strong>U.S. Patent</strong>.
-  <li><strong>Oct 2024:</strong> Published in <i>Alexandria Engineering Journal</i> on <i>Image Dehazing using Deep Attention</i>.</li>
 </ul>
 
 
