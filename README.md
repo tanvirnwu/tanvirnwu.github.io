@@ -126,7 +126,20 @@ Sungkyunkwan University, Suwon, Republic of Korea<br></p>
   <hr>
 
 
+
+<h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
+<ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
+  <li><strong>Apr 2025:</strong> Our paper titled <i>"Efficient Spiking Transformer for Low-Energy Image Classification"</i> accepted at <strong>WWW 2025</strong>.</li>
+  <li><strong>Mar 2025:</strong> Delivered invited talk on <i>Explainable AI for Scene Understanding</i> at SKKU AI Seminar Series.</li>
+  <li><strong>Feb 2025:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
+  <li><strong>Dec 2024:</strong> Paper accepted in <i>ACM MM 2024</i> on <i>Spiking Neural Networks for Image Enhancement</i>.</li>
+  <li><strong>Oct 2024:</strong> Published in <i>Alexandria Engineering Journal</i> on <i>Image Dehazing using Deep Attention</i>.</li>
+</ul>
+
+
+
 <!-- Add the LinkedIn and Google Scholar icons and links -->
+<p style=" font-size:14px; margin-top: 70px; color:#343434;"><strong>Contact</strong><br>
 <p style="font-size:13px; color:#343434;">
   <span style="vertical-align: middle;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
