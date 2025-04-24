@@ -138,12 +138,11 @@ window.onscroll = function() {
   <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea</li>
   <li>[Mar 2022] Received the prestigious<strong>Global Korea Scholarship (GKS)</strong></li>   
   <li>[Dec 2018] Completed graduation with 1<sup>st</sup> Merit Position from NWU, Khulna, Bangladesh.</li>   
-</ul>
-
+</ul>   <hr>
 
 
 <!-- Add the LinkedIn and Google Scholar icons and links -->
-<p style=" font-size:14px; margin-top: 70px; color:#343434;"><strong>Contact</strong><br>
+<p style=" font-size:14px; margin-top: 40px; color:#343434;"><strong>Contact</strong><br>
 <p style="font-size:13px; color:#343434;">
   <span style="vertical-align: middle;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
