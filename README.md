@@ -129,7 +129,7 @@ window.onscroll = function() {
   <li>[April 2025] One paper is accepted at <strong>ICMR 2025</strong>.</li>
   <li>[April 2025] Joined as <strong>Research Intern at Brain AI Lab</strong>, KNU, South Korea.</li>
   <li>[Feb 2025 My 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
-  <li>[Mar 2025] Paper published in <strong>Engineering Applications of Artificial Intelligence</strong>.</li>
+  <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence</strong>.</li>
   <li>[Feb 2025 My 1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong></li>
   <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
