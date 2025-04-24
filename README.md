@@ -127,7 +127,7 @@ window.onscroll = function() {
 <h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
   <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025</strong>.</li>
-  <li>[Apr 2025] Joined as <strong>Research Intern at Brain AI Lab</strong>, KNU, South Korea.</li>
+  <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
   <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence</strong>.</li>
   <li>[Feb 2025  1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
@@ -136,7 +136,7 @@ window.onscroll = function() {
   <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
     <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024</strong></li>
     <li>[Oct 2024] One paper got acceptance from <strong>ACM Multimedia 2024</strong></li>
-  <li>[Feb 2023] <strong>Received scholarship</strong> from Pai Chai University, South Korea</li>
+  <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea</li>
   <li>[Mar 2022] Received the prestigious<strong>Global Korea Scholarship (GKS)</strong></li>   
   <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>   
 </ul>   <hr>
