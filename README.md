@@ -143,7 +143,7 @@ window.onscroll = function() {
 
 
 <!-- Add the LinkedIn and Google Scholar icons and links -->
-<p style=" font-size:14px; margin-top: 40px; color:#343434;"><strong>Contact</strong><br>
+<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">☏ Concat</h3>
 <p style="font-size:13px; color:#343434;">
   <span style="vertical-align: middle;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
