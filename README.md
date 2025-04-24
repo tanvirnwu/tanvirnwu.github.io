@@ -124,14 +124,14 @@ window.onscroll = function() {
 
 
 
-<h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
+<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
   <li><strong>April 2025:</strong> One paper is accepted at <strong>ICMR 2025</strong>.
   <li><strong>Jan 2025:</strong> One paper is accepted at <strong>The Web Conference 2025</strong>
   <li><strong>April 2025:</strong> We registered a <strong>U.S. Patent</strong>.
     <li><strong>Feb 2025:</strong> We registered a <strong>U.S. Patent</strong>.
-  <li><strong>Mar 2025:</strong> Published in </strong>Engineering Applications of Artificial Intelligence</strong>.
-  <li><strong>Jan 2025:</strong> Published in </strong>Alexandria Engineering Journal</strong>.
+  <li><strong>Mar 2025:</strong> Paper published in <strong>Engineering Applications of Artificial Intelligence</strong>.
+  <li><strong>Jan 2025:</strong> Paper published in <strong>Alexandria Engineering Journal</strong>.
   <li><strong>Dec 2024:</strong> Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.
     <li><strong>Dec 2024:</strong> One paper got acceptance from <strong>ACCV 2024</strong>
     <li><strong>Oct 2024:</strong> One paper got acceptance from <strong>ACM Multimedia 2024</strong>
