@@ -128,9 +128,9 @@ window.onscroll = function() {
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
   <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025</strong>.</li>
   <li>[Apr 2025] Joined as <strong>Research Intern at Brain AI Lab</strong>, KNU, South Korea.</li>
-  <li>[Feb 2025] My 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
+  <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence</strong>.</li>
-  <li>[Feb 2025 My 1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
+  <li>[Feb 2025  1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong></li>
   <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
   <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
