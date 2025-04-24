@@ -114,10 +114,8 @@ window.onscroll = function() {
 
 
 
-<p style=" font-size:14px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
-MS Candidate & Research Assistant<br>
-VIS2KNOW Lab, Department of Computer Science and Engineering<br>
-Sungkyunkwan University, Suwon, Republic of Korea<br></p>
+<h3 style=" font-size:14px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
+</h3>
 <hr>
   <p style= "font-size:14px; color:#343434;">
     Md Tanvir Islam is currently pursuing MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he is also a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Professor Khan Muhammad</a>. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i><strong>WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence</strong></i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his <a class= "urls" href="https://tanvirnwu.github.io/pages/publications" target="_blank">research outcomes</a> published at reputable venues.
