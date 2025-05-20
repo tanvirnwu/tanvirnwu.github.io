@@ -183,7 +183,7 @@ window.onscroll = function() {
 <button class="accordion">Published/Accepted Papers (2025)</button>
 <div class="panel default-open">
   <div class="publication">
-    <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Abdul Khader Jilani Saudagar, Abdullah Altameem, Mohammed Abaoud, and Khan Muhammad. "Method for image dehazing of vehicular images." <a  class ="urls" href="https://www.freepatentsonline.com/12277682.html" target="_blank">U.S. Patent No. 12277682</a>, issued April 15, 2025. <a href="https://www.freepatentsonline.com/12277682.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
+    <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Abdul Khader Jilani Saudagar, Abdullah Altameem, Mohammed Abaoud, and Khan Muhammad. "Method for image dehazing of vehicular images." <a  class ="urls" href="https://patents.google.com/patent/US12277682B1/en" target="_blank">U.S. Patent No. 12277682</a>, issued April 15, 2025. <a href="https://patentimages.storage.googleapis.com/1e/71/7b/e48b713f4ca580/US12277682B1.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
     <hr>
     Shehzad Ali, <strong>Md Tanvir Islam</strong>, Minh-Son Dao, Ik Hyun Lee, Shuai Liu, and Khan Muhammad*. "ROAD-6: A Diverse Dataset for Unexpected Hazard Recognition in Autonomous Vehicles." <a  class ="urls" href="https://www.icmr-2025.org/" target="_blank">ACM International Conference on Multimedia Retrieval (Rank B | Accepted)</a> <a href="" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
     <hr>
