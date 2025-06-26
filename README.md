@@ -126,7 +126,7 @@ window.onscroll = function() {
 
 <h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
-  <li>[June 2025] One paper got accepted at ICCV'25 as Co-author.</li>
+  <li>[June 2025] One paper got accepted at <strong>ICCV'25</strong> as Co-author.</li>
   <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025</strong>.</li>
   <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
