@@ -183,6 +183,9 @@ window.onscroll = function() {
 <button class="accordion">Published/Accepted Papers (2025)</button>
 <div class="panel default-open">
   <div class="publication">
+    Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Khan Muhammad, Simon S. Woo. "SpecGuard: Spectral Projection-based Advanced Invisible Watermarking." <a  class ="urls" href="https://iccv.thecvf.com/" target="_blank">International Conference on Computer Vision (ICCV 2025)</a>, Accepted, June 25, 2025. <a href="https://github.com/tanvirnwu/SpecGuard_ICCV_2025" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
+    <hr>
+    
    Abdul Khader Jilani Saudagar, Safkat Shahrier Swapnil, Sandip Kumer Sarker, Arpon Bose Dibya, <strong>Md Tanvir Islam</strong>, Md. Abu-Talha Roni, Hitoun A. Alsagri, Khan Muhammad. "Adaptive speed control for line-following robots and method thereof." <a  class ="urls" href="https://patents.google.com/patent/US12287650B1/en" target="_blank">U.S. Patent No. 12287650B1</a>, issued April 15, 2025. <a href="https://patentimages.storage.googleapis.com/83/0c/e4/d94e916d76bce1/US12287650B1.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
     <hr>
     <strong>Md Tanvir Islam</strong> Ik Hyun Lee, Abdul Khader Jilani Saudagar, Abdullah Altameem, Mohammed Abaoud, and Khan Muhammad. "Method for image dehazing of vehicular images." <a  class ="urls" href="https://patents.google.com/patent/US12277682B1/en" target="_blank">U.S. Patent No. 12277682</a>, issued April 15, 2025. <a href="https://patentimages.storage.googleapis.com/1e/71/7b/e48b713f4ca580/US12277682B1.pdf" target="_blank"><img src="https://raw.githubusercontent.com/tanvirnwu/tanvirnwu.github.io/main/assets/icons/PDF_Icon.png" class="pdf-icon"></a> 
