@@ -126,9 +126,10 @@ window.onscroll = function() {
 
 <h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
-  <li>[June 2025] One paper got accepted at <strong>ICCV'25</strong> as Co-author.</li>
+  <li>[June 2025] Two of our papers are accepted at <strong>ACM MM'25 (Rank A*)</strong>.</li>
+  <li>[June 2025] One paper got accepted at <strong>ICCV'25 (Rank A*)</strong>.</li>
   <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
-  <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025</strong>.</li>
+  <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025  (Rank B)</strong>.</li>
   <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
   <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence</strong>.</li>
@@ -136,8 +137,8 @@ window.onscroll = function() {
   <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong></li>
   <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
   <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
-    <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024</strong></li>
-    <li>[Oct 2024] One paper got acceptance from <strong>ACM Multimedia 2024</strong></li>
+    <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024  (Rank B)</strong></li>
+    <li>[Oct 2024] One paper got acceptance from <strong>ACM MM 2024  (Rank A*)</strong></li>
   <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea</li>
   <li>[Mar 2022] Received the prestigious<strong>Global Korea Scholarship (GKS)</strong></li>   
   <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>   
