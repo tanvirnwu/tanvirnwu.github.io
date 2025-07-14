@@ -140,7 +140,7 @@ window.onscroll = function() {
     <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024  (Rank B)</strong></li>
     <li>[Oct 2024] One paper got acceptance from <strong>ACM MM 2024  (Rank A*)</strong></li>
   <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea</li>
-  <li>[Mar 2022] Received the prestigious<strong>Global Korea Scholarship (GKS)</strong></li>   
+  <li>[Mar 2022] Received the prestigious <strong>Global Korea Scholarship (GKS)</strong></li>   
   <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>   
 </ul>   <hr>
 
