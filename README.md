@@ -150,7 +150,7 @@ window.onscroll = function() {
 <p style="font-size:13px; color:#343434;">
   <span style="vertical-align: middle;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
-     tanvirnwu[@]g.skku.edu
+     tanvirnwu[@]knu.ac.kr
   </span>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a  class="urls" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
@@ -159,7 +159,7 @@ window.onscroll = function() {
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a class="urls" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://static-00.iconduck.com/assets.00/google-scholar-icon-2048x2048-sjbhklt7.png" alt="Google Scholar" width="18" height="18" style="vertical-align: middle;">
+    <img src="https://images.icon-icons.com/2108/PNG/512/google_scholar_icon_130918.png" alt="Google Scholar" width="18" height="18" style="vertical-align: middle;">
     Google Scholar
   </a>
 </p>
