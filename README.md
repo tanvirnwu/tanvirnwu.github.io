@@ -126,6 +126,8 @@ window.onscroll = function() {
 
 <h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
+  <li>[Sept 2025] Registered one <strong>Korean Patent</strong>.</li>
+  <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A*)</strong>.</li>
   <li>[July 2025] Two of our papers are accepted at <strong>ACM MM'25 (Rank A*)</strong>.</li>
   <li>[June 2025] One paper got accepted at <strong>ICCV'25 (Rank A*)</strong>.</li>
   <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
