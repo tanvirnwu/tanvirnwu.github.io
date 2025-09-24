@@ -128,13 +128,14 @@ window.onscroll = function() {
 <ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
   <li>[Sept 2025] Registered one <strong>Korean Patent</strong>.</li>
   <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A*)</strong>.</li>
+  <li>[Aug 2025] One paper published in <strong>Alexandria Engineering Journal (SCIE | IF: 6.8)</strong>.</li>
   <li>[July 2025] Two of our papers are accepted at <strong>ACM MM'25 (Rank A*)</strong>.</li>
   <li>[June 2025] One paper got accepted at <strong>ICCV'25 (Rank A*)</strong>.</li>
   <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025  (Rank B)</strong>.</li>
   <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
   <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
-  <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence</strong>.</li>
+  <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence (SCIE | IF: 8.0)</strong>.</li>
   <li>[Feb 2025  1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
   <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong></li>
   <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
