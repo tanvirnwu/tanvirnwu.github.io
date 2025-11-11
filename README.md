@@ -64,6 +64,11 @@
     color: white; /* Ensure bold text inside links also turns white */
   }
 
+  /* Hide the GitHub profile button rendered by the theme header */
+  a.btn[href*="github.com"] {
+    display: none !important;
+  }
+
   li {
     margin: 0; /* Remove any unnecessary margin */
     padding: 0; /* Remove padding from list items */
@@ -81,6 +86,48 @@
       color: #6A5ACD;
       font-weight:normal;
     }
+
+  .news-year {
+    border: 1px solid #e4e3f7;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    background-color: #f8f8ff;
+  }
+
+  .news-year summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .news-year[open] summary {
+    background-color: #6A5ACD;
+    color: #ffffff;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .news-year[open] summary strong {
+    color: #ffffff;
+  }
+
+  .news-items {
+    list-style: disc;
+    padding: 10px 24px 14px;
+    margin: 0;
+    font-size: 13px;
+    color: #343434;
+    line-height: 1.6;
+  }
+
+  .news-items li {
+    margin-bottom: 4px;
+  }
 </style>
 
 
@@ -125,27 +172,51 @@ window.onscroll = function() {
 
 
 <h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
-<ul style="padding-left: 20px; font-size: 13px; color: #343434; line-height: 1.6;">
-  <li>[Sept 2025] Registered one <strong>Korean Patent</strong>.</li>
-  <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A*)</strong>.</li>
-  <li>[Aug 2025] Paper published in <strong>Alexandria Engineering Journal (SCIE | IF: 6.8)</strong>.</li>
-  <li>[July 2025] Two of our papers are accepted at <strong>ACM MM'25 (Rank A*)</strong>.</li>
-  <li>[June 2025] One paper got accepted at <strong>ICCV'25 (Rank A*)</strong>.</li>
-  <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
-  <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025  (Rank B)</strong>.</li>
-  <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
-  <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
-  <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence (SCIE | IF: 8.0)</strong>.</li>
-  <li>[Feb 2025  1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
-  <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong></li>
-  <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
-  <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
-    <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024  (Rank B)</strong></li>
-    <li>[Oct 2024] One paper got acceptance from <strong>ACM MM 2024  (Rank A*)</strong></li>
-  <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea</li>
-  <li>[Mar 2022] Received the prestigious <strong>Global Korea Scholarship (GKS)</strong></li>   
-  <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>   
-</ul>   <hr>
+<details class="news-year" open>
+  <summary><strong>2025</strong></summary>
+  <ul class="news-items">
+    <li>[Sept 2025] Registered one <strong>Korean Patent</strong>.</li>
+    <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A*)</strong>.</li>
+    <li>[Aug 2025] Paper published in <strong>Alexandria Engineering Journal (SCIE | IF: 6.8)</strong>.</li>
+    <li>[July 2025] Two of our papers are accepted at <strong>ACM MM'25 (Rank A*)</strong>.</li>
+    <li>[June 2025] One paper got accepted at <strong>ICCV'25 (Rank A*)</strong>.</li>
+    <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
+    <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025  (Rank B)</strong>.</li>
+    <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
+    <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
+    <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence (SCIE | IF: 8.0)</strong>.</li>
+    <li>[Feb 2025] 1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
+    <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong>.</li>
+    <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
+  </ul>
+</details>
+<details class="news-year">
+  <summary><strong>2024</strong></summary>
+  <ul class="news-items">
+    <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
+    <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024  (Rank B)</strong>.</li>
+    <li>[Oct 2024] One paper got acceptance from <strong>ACM MM 2024  (Rank A*)</strong>.</li>
+  </ul>
+</details>
+<details class="news-year">
+  <summary><strong>2023</strong></summary>
+  <ul class="news-items">
+    <li>[Feb 2023] Received scholarship from Pai Chai University, South Korea.</li>
+  </ul>
+</details>
+<details class="news-year">
+  <summary><strong>2022</strong></summary>
+  <ul class="news-items">
+    <li>[Mar 2022] Received the prestigious <strong>Global Korea Scholarship (GKS)</strong>.</li>
+  </ul>
+</details>
+<details class="news-year">
+  <summary><strong>2018</strong></summary>
+  <ul class="news-items">
+    <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>
+  </ul>
+</details>
+<hr>
 
 
 <!-- Add the LinkedIn and Google Scholar icons and links -->
