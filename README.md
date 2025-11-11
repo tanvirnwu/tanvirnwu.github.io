@@ -64,6 +64,11 @@
     color: white; /* Ensure bold text inside links also turns white */
   }
 
+  /* Hide the GitHub profile button rendered by the theme header */
+  a.btn[href*="github.com"] {
+    display: none !important;
+  }
+
   li {
     margin: 0; /* Remove any unnecessary margin */
     padding: 0; /* Remove padding from list items */
