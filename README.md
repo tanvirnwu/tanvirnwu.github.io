@@ -175,7 +175,7 @@ window.onscroll = function() {
 <details class="news-year" open>
   <summary><strong>2025</strong></summary>
   <ul class="news-items">
-    <li>[Aug 2025] Registered one <strong>US Patent</strong>.</li>
+    <li>[Dec 2025] Registered one <strong>US Patent</strong>.</li>
     <li>[Nov 2025] One paper is accepted at <strong>WACV'26 (Rank A)</strong>.</li>
     <li>[Sept 2025] Registered one <strong>Korean Patent</strong>.</li>
     <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A)</strong>.</li>
