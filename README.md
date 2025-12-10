@@ -175,27 +175,29 @@ window.onscroll = function() {
 <details class="news-year" open>
   <summary><strong>2025</strong></summary>
   <ul class="news-items">
+    <li>[Aug 2025] Registered one <strong>US Patent</strong>.</li>
+    <li>[Nov 2025] One paper is accepted at <strong>WACV'26 (Rank A)</strong>.</li>
     <li>[Sept 2025] Registered one <strong>Korean Patent</strong>.</li>
-    <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A*)</strong>.</li>
-    <li>[Aug 2025] Paper published in <strong>Alexandria Engineering Journal (SCIE | IF: 6.8)</strong>.</li>
+    <li>[Aug 2025] One paper is accepted at <strong>CIKM'25 (Rank A)</strong>.</li>
+    <li>[Aug 2025] Paper published in <strong>Alexandria Engineering Journal (SCIE | IF: 6.8 | Top 5%)</strong>.</li>
     <li>[July 2025] Two of our papers are accepted at <strong>ACM MM'25 (Rank A*)</strong>.</li>
     <li>[June 2025] One paper got accepted at <strong>ICCV'25 (Rank A*)</strong>.</li>
     <li>[Apr 2025] Our 3<sup>rd</sup> <strong>U.S. Patent</strong> is registered.</li>
-    <li>[Apr 2025] One paper is accepted at <strong>ICMR 2025  (Rank B)</strong>.</li>
+    <li>[Apr 2025] One paper is accepted at <strong>ICMR'25  (Rank B)</strong>.</li>
     <li>[Apr 2025] Joined as Research Intern at Brain AI Lab, KNU, South Korea.</li>
     <li>[Feb 2025] Our 2<sup>nd</sup> <strong>U.S. Patent</strong> is registered.</li>
-    <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence (SCIE | IF: 8.0)</strong>.</li>
+    <li>[Mar 2025] Published in <strong>Engineering Applications of Artificial Intelligence (SCIE | IF: 8.0 | Top 10%)</strong>.</li>
     <li>[Feb 2025] 1<sup>st</sup> <strong>U.S. Patent</strong> is registered.</li>
-    <li>[Jan 2025] One paper is accepted at <strong>The Web Conference 2025</strong>.</li>
-    <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal</strong>.</li>
+    <li>[Jan 2025] One paper is accepted at <strong>The Web Conference, WWW'25 (Rank A*)</strong>.</li>
+    <li>[Jan 2025] Paper published in <strong>Alexandria Engineering Journal (SCIE | IF: 6.8 | Top 5%)</strong>.</li>
   </ul>
 </details>
 <details class="news-year">
   <summary><strong>2024</strong></summary>
   <ul class="news-items">
     <li>[Dec 2024] Received the prestigious <strong>Academic Excellence Award</strong> from NIIED, South Korea.</li>
-    <li>[Dec 2024] One paper got acceptance from <strong>ACCV 2024  (Rank B)</strong>.</li>
-    <li>[Oct 2024] One paper got acceptance from <strong>ACM MM 2024  (Rank A*)</strong>.</li>
+    <li>[Dec 2024] One paper got acceptance from <strong>ACCV'24  (Rank B)</strong>.</li>
+    <li>[Oct 2024] One paper got acceptance from <strong>ACM MM'24  (Rank A*)</strong>.</li>
   </ul>
 </details>
 <details class="news-year">
