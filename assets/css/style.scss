@@ -126,6 +126,20 @@ body {
   box-sizing: border-box;
 }
 
+.news-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: clamp(16px, 4vw, 40px);
+}
+
+.news-heading {
+  font-size: 14px;
+  color: #343434;
+  margin: 0;
+}
+
 /* Profile hero layout */
 .profile-hero {
   display: grid;
