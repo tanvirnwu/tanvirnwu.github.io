@@ -6,17 +6,17 @@ permalink: /pages/projects
 
 <style>
   .urls {
-      color: #6A5ACD;
+      color: #3680E8;
     }
     .urls:hover {
       background-color: #ffffff;
-      color: #6A5ACD;
+      color: #3680E8;
       font-weight:normal;
     }
 
   /* CSS styles for hover effect */
   a:hover {
-    background-color: #6A5ACD; /* Blue background on hover */
+    background-color: #3680E8; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
@@ -29,7 +29,7 @@ permalink: /pages/projects
     padding: 0; /* Remove padding from list items */
   }
 
-  a {color:#6A5ACD;
+  a {color:#3680E8;
     display: inline-block; /* Make the anchor display as a block to fill its parent */
     height: 100%; /* Ensure the link fills the parent's height */
   }
@@ -47,7 +47,7 @@ permalink: /pages/projects
   }
 
   .custom-button:hover {
-    background-color: #267CB9; /* Blue background on hover (Blue: #0066ff)*/
+    background-color: #3680E8; /* Blue background on hover (Blue: #0066ff)*/
     color: white; /* White text on hover */
   }
 
@@ -57,7 +57,7 @@ permalink: /pages/projects
     text-decoration: none;
     padding: 9px 15px;
     border-radius: 4px;
-     background-color: #267CB9; 
+     background-color: #3680E8; 
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
     transition: background-color 0.3s, color 0.3s;
     display: block;
@@ -72,7 +72,7 @@ permalink: /pages/projects
 
 
 
-<h3 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h3>
+<h3 style="margin-top: 70px; color: #3680E8;">Image Enhancement</h3>
 <hr>
 
 
