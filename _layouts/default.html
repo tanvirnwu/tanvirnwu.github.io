@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title | default: site.github.repository_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="site-header">
+        <nav class="site-nav-bar">
+          <div class="nav-inner">
+            <ul class="nav-links">
+              <li><a class="page-link" href="{{ '/' | relative_url }}">About</a></li>
+              {% for path in site.header_pages %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% if my_page %}
+                  <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                {% endif %}
+              {% endfor %}
+              <li>
+                <a class="page-link" href="{{ '/assets/TanvirResume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="page-shell" role="main">
+        <div class="content-inner">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
