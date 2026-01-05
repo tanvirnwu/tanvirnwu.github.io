@@ -1,6 +1,11 @@
----
----
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Inter:wght@400;600;700;800&display=swap");
+@font-face {
+  font-family: "Airbnb Cereal App";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://fonts.cdnfonts.com/s/18056/AirbnbCerealMedium.woff") format("woff");
+}
 @import "{{ site.theme }}";
 
 :root {
@@ -22,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 18px;
   color: #343434;
   background: linear-gradient(135deg, rgba(106, 90, 205, 0.08), rgba(106, 90, 205, 0.04));
@@ -66,16 +71,31 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   box-sizing: border-box;
   background: transparent;
   position: relative;
 }
 
+.nav-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+  left: var(--page-padding);
+}
+
+.nav-brand .nav-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+}
+
 .nav-collections {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   width: 100%;
 }
@@ -86,10 +106,12 @@ body {
   background: transparent;
   color: #343434;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
   padding: 8px 6px;
-  margin-left: auto;
+  margin-left: 0;
+  position: absolute;
+  right: var(--page-padding);
 }
 
 .nav-links {
@@ -100,6 +122,14 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.site-nav-bar,
+.nav-inner,
+.nav-links .page-link,
+.nav-toggle {
+  font-family: "Airbnb Cereal App", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 500;
 }
 
 .nav-links--left {
@@ -115,7 +145,7 @@ body {
 
 .nav-links .page-link {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   color: #343434;
   text-decoration: none;
   border: none;
@@ -534,6 +564,11 @@ figure {
   color: #111827;
 }
 
+.hero-title--exo {
+  font-family: "Exo", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+}
+
 .role-badge {
   align-self: flex-start;
   background: #ffab00;
@@ -561,19 +596,24 @@ figure {
   gap: 12px;
 }
 
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 3px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
+  .skill-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #f4f4f5;
+    color: #1f2937;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    box-shadow: none;
+  }
+
+  .role-badge,
+  .skill-pill {
+    border-radius: 3px;
+  }
 
 .hero-right {
   display: flex;
@@ -640,16 +680,16 @@ figure {
   color: #111827;
 }
 
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  .role-badge {
+    align-self: flex-start;
+    background: #ffab00;
+    color: #111827;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 18px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
   box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
@@ -667,16 +707,16 @@ figure {
   gap: 12px;
 }
 
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
+  .skill-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #f4f4f5;
+    color: #1f2937;
+    font-size: 17px;
+    font-weight: 700;
   border: none;
   box-shadow: none;
 }
@@ -734,15 +774,15 @@ figure {
   color: #111827;
 }
 
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
+  .role-badge {
+    align-self: flex-start;
+    background: #ffab00;
+    color: #111827;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 18px;
+    font-size: 17px;
+    font-weight: 700;
   letter-spacing: 0.02em;
   box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
@@ -761,15 +801,15 @@ figure {
   gap: 12px;
 }
 
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
+  .skill-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #f4f4f5;
+    color: #1f2937;
+    font-size: 17px;
   font-weight: 700;
   border: none;
   box-shadow: none;
@@ -1133,8 +1173,7 @@ body.modal-open {
 
 @media (max-width: 768px) {
   .nav-inner {
-    justify-content: flex-end;
-    flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .nav-toggle {
@@ -1213,4 +1252,10 @@ body.modal-open {
   .content-inner {
     padding: 24px clamp(14px, 6vw, 24px) 52px;
   }
+}
+
+/* Ensure softly rounded hero badges and pills across duplicated definitions */
+.role-badge,
+.skill-pill {
+  border-radius: 3px;
 }

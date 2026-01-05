@@ -115,7 +115,7 @@ window.onscroll = function() {
   </div>
   <div class="hero-left">
     <p class="hero-greeting">Hello!</p>
-    <h1 class="hero-title">This is Tanvir Islam</h1>
+    <h1 class="hero-title hero-title--exo">This is Tanvir!</h1>
     <button class="role-badge" type="button">Research Fellow</button>
     <p class="hero-description">
       Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
