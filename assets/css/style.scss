@@ -1,0 +1,94 @@
+---
+---
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import "{{ site.theme }}";
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Expand global wrapper width while keeping comfortable padding */
+.wrapper {
+  width: 100%;
+  max-width: min(1400px, 96vw);
+  padding-left: clamp(16px, 4vw, 64px);
+  padding-right: clamp(16px, 4vw, 64px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: min(1250px, 96vw);
+    padding-left: clamp(14px, 5vw, 48px);
+    padding-right: clamp(14px, 5vw, 48px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 100%;
+    padding-left: clamp(12px, 5vw, 40px);
+    padding-right: clamp(12px, 5vw, 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-left: clamp(10px, 5vw, 28px);
+    padding-right: clamp(10px, 5vw, 28px);
+  }
+
+  header nav ul {
+    gap: 8px;
+  }
+
+  header nav li {
+    margin-right: 12px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  header nav ul {
+    flex-wrap: wrap;
+  }
+
+  header nav li {
+    margin-right: 10px !important;
+  }
+}
+
+/* Prevent horizontal overflow for embedded media */
+img,
+iframe,
+video,
+embed,
+object {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Basic utility to keep any multi-column flex or grid layouts responsive */
+.flex-grid,
+.grid,
+.columns,
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Preserve existing profile image styling */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
