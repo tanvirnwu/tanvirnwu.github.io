@@ -116,16 +116,16 @@ window.onscroll = function() {
   <div class="hero-left">
     <p class="hero-greeting">Hello!</p>
     <h1 class="hero-title">This is Tanvir Islam</h1>
-    <button class="role-badge" type="button">Data Analyst</button>
+    <button class="role-badge" type="button">Research Fellow</button>
     <p class="hero-description">
       Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
       dashboards, and databases to uncover insights, influence decisions, and build practical solutions for teams and clients.
     </p>
     <div class="skill-pills">
-      <span class="skill-pill">Power BI</span>
-      <span class="skill-pill">Excel</span>
-      <span class="skill-pill">MySQL</span>
-      <span class="skill-pill">Tableau</span>
+      <span class="skill-pill">Computer Vision</span>
+      <span class="skill-pill">Image Enhancement</span>
+      <span class="skill-pill">Multimedia Security</span>
+      <span class="skill-pill">Health Informatics</span>
     </div>
   </div>
 </section>

@@ -420,12 +420,32 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
+}
+
+.skill-pills .skill-pill:nth-child(1) {
+  background: #e8f0fe;
+  color: #1e3a8a;
+}
+
+.skill-pills .skill-pill:nth-child(2) {
+  background: #e6fffa;
+  color: #0f766e;
+}
+
+.skill-pills .skill-pill:nth-child(3) {
+  background: #fff3e0;
+  color: #c2410c;
+}
+
+.skill-pills .skill-pill:nth-child(4) {
+  background: #f3e8ff;
+  color: #6b21a8;
 }
 
 .hero-right {
@@ -495,15 +515,15 @@ figure {
 
 .role-badge {
   align-self: flex-start;
-  background: var(--primary-color);
-  color: #ffffff;
+  background: #ffab00;
+  color: #111827;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
+  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
 .hero-description {
@@ -526,12 +546,12 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
 }
 
 .hero-right {
@@ -601,15 +621,15 @@ figure {
 
 .role-badge {
   align-self: flex-start;
-  background: var(--primary-color);
-  color: #ffffff;
+  background: #ffab00;
+  color: #111827;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
+  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
 .hero-description {
@@ -632,12 +652,12 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
 }
 
 .hero-right {
@@ -695,15 +715,15 @@ figure {
 
 .role-badge {
   align-self: flex-start;
-  background: var(--primary-color);
-  color: #ffffff;
+  background: #ffab00;
+  color: #111827;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
+  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
 .hero-description {
@@ -726,12 +746,12 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
 }
 
 .hero-right {
@@ -787,15 +807,15 @@ figure {
 
 .role-badge {
   align-self: flex-start;
-  background: var(--primary-color);
-  color: #ffffff;
+  background: #ffab00;
+  color: #111827;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
+  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
 .hero-description {
@@ -818,12 +838,12 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
 }
 
 .hero-right {
@@ -896,15 +916,15 @@ figure {
 
 .role-badge {
   align-self: flex-start;
-  background: var(--primary-color);
-  color: #ffffff;
+  background: #ffab00;
+  color: #111827;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
+  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
 .hero-description {
@@ -927,12 +947,12 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
 }
 
 .hero-right {
@@ -999,15 +1019,15 @@ figure {
 
 .role-badge {
   align-self: flex-start;
-  background: var(--primary-color);
-  color: #ffffff;
+  background: #ffab00;
+  color: #111827;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
+  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
 .hero-description {
@@ -1030,12 +1050,12 @@ figure {
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(106, 90, 205, 0.12);
-  color: var(--primary-color);
+  background: #f4f4f5;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 700;
-  border: 1px solid rgba(106, 90, 205, 0.18);
-  box-shadow: 0 12px 28px rgba(106, 90, 205, 0.08);
+  border: none;
+  box-shadow: none;
 }
 
 .hero-right {
@@ -1113,15 +1133,6 @@ body.modal-open {
 @media (max-width: 640px) {
   .nav-links {
     gap: 16px;
-  }
-
-  .nav-links--left,
-  .nav-links--right {
-    width: 100%;
-  }
-
-  .nav-links--right {
-    justify-content: flex-end;
   }
 
   .nav-links--left,
