@@ -21,6 +21,8 @@ body {
   width: 100%;
   max-width: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 }
 
@@ -29,6 +31,12 @@ body {
   width: 100%;
   border-bottom: 1px solid #e6e6e6;
   background: #ffffff;
+  display: block;
+}
+
+.site-header {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .nav-inner {
@@ -121,8 +129,6 @@ body {
   height: auto;
   border-radius: 14px;
   object-fit: cover;
-  border: 3px solid #ccc;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16);
 }
 
 .profile-body {
