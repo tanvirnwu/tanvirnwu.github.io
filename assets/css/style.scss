@@ -868,12 +868,19 @@ figure {
 .portrait-image {
   width: 100%;
   height: auto;
+  border: none;
   border-radius: 0;
   object-fit: contain;
   box-shadow: none;
   background: transparent;
   position: relative;
   z-index: 1;
+}
+
+.portrait-wrapper::before,
+.portrait-blob {
+  content: none;
+  display: none;
 }
 
 /* About hero */
