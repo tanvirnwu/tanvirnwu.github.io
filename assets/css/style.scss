@@ -69,6 +69,10 @@ body {
   font-weight: 600;
   color: #343434;
   text-decoration: none;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+  appearance: none;
   padding: 10px 18px;
   border-radius: 6px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
@@ -148,6 +152,92 @@ figure {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
+}
+
+/* Resume modal */
+.resume-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(12px, 4vw, 24px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+}
+
+.resume-modal.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.resume-modal__dialog {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 38px rgba(0, 0, 0, 0.18);
+  width: min(1100px, 100%);
+  max-height: min(900px, 90vh);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.resume-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.resume-modal__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.resume-modal__close {
+  border: none;
+  background: #f2f2f2;
+  color: #343434;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.resume-modal__close:hover,
+.resume-modal__close:focus {
+  background: #6a5acd;
+  color: #ffffff;
+}
+
+.resume-modal__body {
+  padding: 0;
+  background: #f8f8f8;
+  flex: 1;
+}
+
+.resume-modal__body iframe {
+  border: none;
+  width: 100%;
+  height: 80vh;
+  max-height: min(800px, 80vh);
+  display: block;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {
