@@ -150,7 +150,6 @@ window.onscroll = function() {
   </div>
   <div class="hero-right">
     <div class="portrait-wrapper">
-      <div class="portrait-blob" aria-hidden="true"></div>
       <img src="{{ site.logo | relative_url }}" alt="Portrait of Md Tanvir Islam" class="portrait-image" />
     </div>
   </div>
