@@ -88,6 +88,13 @@ body {
   min-width: 110px;
 }
 
+.nav-links .page-link.is-active,
+.nav-links .page-link.is-active:focus,
+.nav-links .page-link.is-active:hover {
+  background: #f2eefc;
+  color: #343434;
+}
+
 .nav-links .page-link:hover,
 .nav-links .page-link:focus {
   background: #6a5acd;
