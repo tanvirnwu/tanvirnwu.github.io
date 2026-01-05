@@ -103,6 +103,7 @@ body {
   grid-template-columns: var(--profile-width) minmax(0, 1fr);
   align-items: start;
   gap: var(--layout-gap);
+  padding-top: clamp(16px, 3vw, 32px);
   margin-bottom: 32px;
 }
 
