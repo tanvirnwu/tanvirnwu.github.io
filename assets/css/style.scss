@@ -46,6 +46,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .site-header {
@@ -69,6 +70,26 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   background: transparent;
+  position: relative;
+}
+
+.nav-collections {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.nav-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  color: #343434;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 8px 6px;
+  margin-left: auto;
 }
 
 .nav-links {
@@ -1107,6 +1128,51 @@ body.modal-open {
 
   .content-inner {
     padding: 28px clamp(16px, 6vw, 28px) 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-inner {
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav-collections {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 12px var(--page-padding) 16px;
+    background: #ffffff;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+
+  .nav-collections.is-open {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .nav-links--left,
+  .nav-links--right {
+    width: 100%;
+  }
+
+  .nav-links--right {
+    margin-left: 0;
   }
 }
 
