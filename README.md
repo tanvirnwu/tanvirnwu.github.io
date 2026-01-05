@@ -6,7 +6,7 @@ layout: default
   .active-menu {
   font-size: 12px;
   color: white !important;  /* ✅ Forces text color to stay white */
-  background-color: #6A5ACD;
+  background-color: #3680E8;
   text-decoration: none;
   padding: 9px 15px;
   border-radius: 4px;
@@ -20,13 +20,13 @@ layout: default
 }
 
 .active-menu:hover {
-  background-color: #5548c8; /* ✅ Slightly darker shade on hover */
+  background-color: #2f6ac6; /* ✅ Slightly darker shade on hover */
 }
   
-  a{color:#6A5ACD;}
+  a{color:#3680E8;}
   /* CSS styles for hover effect */
   a:hover {
-    background-color: #6A5ACD; /* Blue background on hover */
+    background-color: #3680E8; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
@@ -49,19 +49,19 @@ layout: default
     height: 100%; /* Ensure the link fills the parent's height */
   }
     .urls {
-      color: #6A5ACD;
+      color: #3680E8;
     }
     .urls:hover {
       background-color: #ffffff;
-      color: #6A5ACD;
+      color: #3680E8;
       font-weight:normal;
     }
 
   .news-year {
-    border: 1px solid #e4e3f7;
+    border: 1px solid #d9e6fb;
     border-radius: 6px;
     margin-bottom: 12px;
-    background-color: #f8f8ff;
+    background-color: #f4f8ff;
   }
 
   .news-year summary {
@@ -77,7 +77,7 @@ layout: default
   }
 
   .news-year[open] summary {
-    background-color: #6A5ACD;
+    background-color: #3680E8;
     color: #ffffff;
     border-radius: 6px 6px 0 0;
   }
@@ -107,7 +107,7 @@ layout: default
 
 
 <!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #3680E8; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 
 <script>
