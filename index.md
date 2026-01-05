@@ -205,24 +205,27 @@ window.onscroll = function() {
     </ul>
   </details>
 </section>
-<hr>
-
-
-<!-- Add the LinkedIn and Google Scholar icons and links -->
-<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">☏ Concat</h3>
-<p style="font-size:13px; color:#343434;">
-  <span style="vertical-align: middle;">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
-     tanvirnwu[@]knu.ac.kr
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a  class="urls" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="18" height="18" style="vertical-align: middle;">
-    LinkedIn
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="urls" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://images.icon-icons.com/2108/PNG/512/google_scholar_icon_130918.png" alt="Google Scholar" width="18" height="18" style="vertical-align: middle;">
-    Google Scholar
-  </a>
-</p>
+<section class="contact-section">
+  <hr>
+  <h3 class="contact-heading">☏ Contact</h3>
+  <ul class="contact-list">
+    <li class="contact-item">
+      <span class="contact-icon" aria-hidden="true">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="" width="18" height="18">
+      </span>
+      <span class="contact-text">tanvirnwu[@]knu.ac.kr</span>
+    </li>
+    <li class="contact-item">
+      <span class="contact-icon" aria-hidden="true">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" width="18" height="18">
+      </span>
+      <a class="contact-link" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+    </li>
+    <li class="contact-item">
+      <span class="contact-icon" aria-hidden="true">
+        <img src="https://images.icon-icons.com/2108/PNG/512/google_scholar_icon_130918.png" alt="" width="18" height="18">
+      </span>
+      <a class="contact-link" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" rel="noreferrer noopener">Google Scholar</a>
+    </li>
+  </ul>
+</section>

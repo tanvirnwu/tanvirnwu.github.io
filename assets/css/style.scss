@@ -140,6 +140,50 @@ body {
   margin: 0;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: clamp(20px, 4vw, 48px);
+}
+
+.contact-heading {
+  font-size: 14px;
+  color: #343434;
+  margin: 0;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+  color: #343434;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-icon img {
+  display: block;
+}
+
+.contact-link {
+  color: #3680E8;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  text-decoration: underline;
+}
+
 /* Profile hero layout */
 .profile-hero {
   display: grid;
