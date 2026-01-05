@@ -9,7 +9,7 @@ permalink: /pages/datasets
 .active-menu {
   font-size: 12px;
   color: white !important;  /* ✅ Forces text color to stay white */
-  background-color: #6A5ACD;
+  background-color: #3680E8;
   text-decoration: none;
   padding: 9px 15px;
   border-radius: 4px;
@@ -23,14 +23,14 @@ permalink: /pages/datasets
 }
 
 .active-menu:hover {
-  background-color: #5548c8; /* ✅ Slightly darker shade on hover */
+  background-color: #2f6ac6; /* ✅ Slightly darker shade on hover */
 }
 
   
-  a{color:#6A5ACD;}
+  a{color:#3680E8;}
   /* CSS styles for hover effect */
   a:hover {
-    background-color: #6A5ACD; /* Blue background on hover */
+    background-color: #3680E8; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
@@ -48,10 +48,10 @@ permalink: /pages/datasets
     height: 100%; /* Ensure the link fills the parent's height */
   }
     .urls {
-      color: #6A5ACD;
+      color: #3680E8;
     }
     .urls:hover {
-      background-color: #6A5ACD;
+      background-color: #3680E8;
       color: white;
       font-weight:normal;
     }
@@ -59,10 +59,10 @@ permalink: /pages/datasets
   .bibtex-container {
     margin-top: -30px;
     margin-bottom: 3px;
-  background-color: #E2E3F4;
+  background-color: #dde9fb;
   font-size: 10px;
   color:#343434;
-  border-left: 4px solid #6A5ACD;
+  border-left: 4px solid #3680E8;
   font-family: monospace;
   padding: 6px;
   white-space: pre-wrap;
@@ -81,7 +81,7 @@ permalink: /pages/datasets
 
 .toggle-button {
   cursor: pointer;
-  color: #6A5ACD;  /* ✅ Default color */
+  color: #3680E8;  /* ✅ Default color */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -89,14 +89,14 @@ permalink: /pages/datasets
 }
 
 .toggle-button:hover {
-  color: #6A5ACD !important;  /* ✅ Turns white on hover */
+  color: #3680E8 !important;  /* ✅ Turns white on hover */
   background-color: white;  /* ✅ Adds a background on hover for visibility */
   text-decoration: none;  /* ✅ Prevents underline on hover */
 }
 
 /* ✅ Ensures the color stays unchanged after clicking */
 .toggle-button:focus, .toggle-button:active {
-  color: #6A5ACD !important;
+  color: #3680E8 !important;
   outline: none;
 }
 
@@ -119,7 +119,7 @@ permalink: /pages/datasets
     }
 
     // ✅ Ensure the link color does not change after clicking
-    link.style.color = "#6A5ACD";
+    link.style.color = "#3680E8";
   }
 </script>
 
@@ -128,7 +128,7 @@ permalink: /pages/datasets
 
 
 <!--
-<h3 style="margin-top: 70px; color: #267CB9;">Image Enhancement</h3>
+<h3 style="margin-top: 70px; color: #3680E8;">Image Enhancement</h3>
 <hr> -->
 
 
