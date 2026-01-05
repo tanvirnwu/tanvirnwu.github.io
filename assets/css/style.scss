@@ -38,6 +38,10 @@ body {
 .site-header {
   width: 100%;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: #ffffff;
 }
 
 .nav-inner {
@@ -50,6 +54,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   box-sizing: border-box;
+  background: #ffffff;
 }
 
 .nav-links {
@@ -108,7 +113,7 @@ body {
   grid-template-columns: var(--profile-width) minmax(0, 1fr);
   align-items: start;
   gap: var(--layout-gap);
-  padding-top: clamp(16px, 3vw, 32px);
+  padding-top: clamp(32px, 6vw, 72px);
   margin-bottom: 32px;
 }
 
