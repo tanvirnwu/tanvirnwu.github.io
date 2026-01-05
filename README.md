@@ -3,35 +3,16 @@ layout: default
 ---
 
 <style>
-  .active-menu {
-  font-size: 12px;
-  color: white !important;  /* ✅ Forces text color to stay white */
-  background-color: #3680E8;
-  text-decoration: none;
-  padding: 9px 15px;
-  border-radius: 4px;
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, color 0.3s;
-  display: block;
-}
-
-.active-menu strong {
-  color: white !important; /* ✅ Forces text inside <strong> to be white */
-}
-
-.active-menu:hover {
-  background-color: #2f6ac6; /* ✅ Slightly darker shade on hover */
-}
-  
-  a{color:#3680E8;}
-  /* CSS styles for hover effect */
-  a:hover {
-    background-color: #3680E8; /* Blue background on hover */
-    color: white; /* White text on hover */
+  a {
+    color: #6A5ACD;
+    text-decoration: none;
   }
 
-  a:hover strong {
-    color: white; /* Ensure bold text inside links also turns white */
+  a:hover,
+  a:focus {
+    color: #554cbf;
+    text-decoration: underline;
+    background: transparent;
   }
 
   /* Hide the GitHub profile button rendered by the theme header */
@@ -39,29 +20,23 @@ layout: default
     display: none !important;
   }
 
-  li {
-    margin: 0; /* Remove any unnecessary margin */
-    padding: 0; /* Remove padding from list items */
+  .urls {
+    color: #6A5ACD;
   }
 
-  a {
-    display: inline-block; /* Make the anchor display as a block to fill its parent */
-    height: 100%; /* Ensure the link fills the parent's height */
+  .urls:hover,
+  .urls:focus {
+    background-color: transparent;
+    color: #6A5ACD;
+    font-weight: normal;
+    text-decoration: underline;
   }
-    .urls {
-      color: #3680E8;
-    }
-    .urls:hover {
-      background-color: #ffffff;
-      color: #3680E8;
-      font-weight:normal;
-    }
 
   .news-year {
-    border: 1px solid #d9e6fb;
+    border: 1px solid rgba(106, 90, 205, 0.15);
     border-radius: 6px;
     margin-bottom: 12px;
-    background-color: #f4f8ff;
+    background-color: rgba(106, 90, 205, 0.06);
   }
 
   .news-year summary {
@@ -77,7 +52,7 @@ layout: default
   }
 
   .news-year[open] summary {
-    background-color: #3680E8;
+    background-color: #6A5ACD;
     color: #ffffff;
     border-radius: 6px 6px 0 0;
   }
@@ -107,7 +82,7 @@ layout: default
 
 
 <!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #3680E8; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 
 <script>
@@ -195,24 +170,3 @@ window.onscroll = function() {
     <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>
   </ul>
 </details>
-<hr>
-
-
-<!-- Add the LinkedIn and Google Scholar icons and links -->
-<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">☏ Concat</h3>
-<p style="font-size:13px; color:#343434;">
-  <span style="vertical-align: middle;">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
-     tanvirnwu[@]knu.ac.kr
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a  class="urls" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="18" height="18" style="vertical-align: middle;">
-    LinkedIn
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="urls" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://images.icon-icons.com/2108/PNG/512/google_scholar_icon_130918.png" alt="Google Scholar" width="18" height="18" style="vertical-align: middle;">
-    Google Scholar
-  </a>
-</p>
