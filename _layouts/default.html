@@ -12,16 +12,6 @@
       <header class="site-header">
         <nav class="site-nav-bar">
           <div class="nav-inner">
-            <div class="nav-brand">
-              {% if site.logo %}
-                <a class="brand-logo-link" href="{{ '/' | relative_url }}">
-                  <img src="{{ site.logo | relative_url }}" alt="{{ site.title | default: site.github.repository_name }}" class="brand-logo">
-                </a>
-              {% endif %}
-              {% assign brand_title = site.title | strip | default: site.github.repository_name %}
-              {% if brand_title == '' %}{% assign brand_title = 'About' %}{% endif %}
-              <a class="brand-title" href="{{ '/' | relative_url }}">{{ brand_title }}</a>
-            </div>
             <ul class="nav-links">
               <li><a class="page-link" href="{{ '/' | relative_url }}">About</a></li>
               {% for path in site.header_pages %}
