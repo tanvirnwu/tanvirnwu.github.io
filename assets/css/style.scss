@@ -10,7 +10,7 @@
   --layout-gap: clamp(32px, 4vw, 48px);
   --profile-width: clamp(280px, 30vw, 320px);
   --nav-padding: 7px;
-  --nav-padding-top: 18px;
+  --nav-padding-top: 22px;
 }
 
 html {
@@ -518,7 +518,7 @@ figure {
   background: #ffab00;
   color: #111827;
   border: none;
-  border-radius: 999px;
+  border-radius: 3px;
   padding: 10px 18px;
   font-size: 17px;
   font-weight: 700;
@@ -545,7 +545,7 @@ figure {
   align-items: center;
   justify-content: center;
   padding: 10px 16px;
-  border-radius: 999px;
+  border-radius: 3px;
   background: #f4f4f5;
   color: #1f2937;
   font-size: 17px;
