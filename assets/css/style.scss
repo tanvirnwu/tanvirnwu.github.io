@@ -8,6 +8,7 @@
   --page-padding: clamp(18px, 4vw, 36px);
   --layout-gap: clamp(32px, 4vw, 48px);
   --profile-width: clamp(280px, 30vw, 320px);
+  --nav-padding: 12px;
 }
 
 body {
@@ -42,7 +43,7 @@ body {
 .nav-inner {
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 12px var(--page-padding);
+  padding: var(--nav-padding) var(--page-padding) calc(var(--nav-padding) * 5);
   display: flex;
   align-items: center;
   gap: 16px;
