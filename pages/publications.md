@@ -9,14 +9,14 @@ permalink: /pages/publications
     font-family: Arial, sans-serif;
   }
   .accordion {
-    background-color: #3680E8;
+    background-color: #6A5ACD;
     color: white;
     cursor: pointer;
     padding: 12px;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     transition: background-color 0.3s ease;
     margin-bottom: 5px;
@@ -24,12 +24,12 @@ permalink: /pages/publications
     box-sizing: border-box;
   }
   .accordion:hover {
-    background-color: #E6F0FF;
-    color: #3680E8;
+    background-color: rgba(106, 90, 205, 0.12);
+    color: #6A5ACD;
   }
   .accordion.active {
-    background-color: #E6F0FF;
-    color: #3680E8;
+    background-color: rgba(106, 90, 205, 0.12);
+    color: #6A5ACD;
   }
   .panel {
     padding: 0 15px;
@@ -47,7 +47,7 @@ permalink: /pages/publications
     display: block;
   }
   .publication {
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 5px;
   }
   .publication + .publication {
@@ -60,14 +60,14 @@ permalink: /pages/publications
     margin-left: 5px;
   }
   a {
-    color: #3680E8;
+    color: #6A5ACD;
   }
   .urls {
-    color: #3680E8;
+    color: #6A5ACD;
   }
   .urls:hover {
     background-color: #ffffff;
-    color: #3680E8;
+    color: #6A5ACD;
     font-weight: normal;
   }
   p {
@@ -75,7 +75,7 @@ permalink: /pages/publications
   }
 </style>
 <!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #3680E8; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 <script>
 function scrollToPosition() {
@@ -100,8 +100,8 @@ window.onscroll = function() {
 
 
 
-<p style="margin-top: 70px; font-size:12px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
-<p style="margin-top: 3px; margin-bottom:10px; font-size:12px;"><strong><sup>1</sup></strong>Equal Contributions | <strong><sup>*</sup></strong>Corresponding Author | <strong>BK:</strong> Brain Korea | <strong>AR:</strong> Acceptance Rate <br></p>
+<p style="margin-top: 70px; font-size:16px;"><strong>Disclaimer: </strong>All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
+<p style="margin-top: 3px; margin-bottom:10px; font-size:16px;"><strong><sup>1</sup></strong>Equal Contributions | <strong><sup>*</sup></strong>Corresponding Author | <strong>BK:</strong> Brain Korea | <strong>AR:</strong> Acceptance Rate <br></p>
 <hr>
 
 

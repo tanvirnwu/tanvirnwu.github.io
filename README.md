@@ -3,35 +3,16 @@ layout: default
 ---
 
 <style>
-  .active-menu {
-  font-size: 12px;
-  color: white !important;  /* ✅ Forces text color to stay white */
-  background-color: #3680E8;
-  text-decoration: none;
-  padding: 9px 15px;
-  border-radius: 4px;
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, color 0.3s;
-  display: block;
-}
-
-.active-menu strong {
-  color: white !important; /* ✅ Forces text inside <strong> to be white */
-}
-
-.active-menu:hover {
-  background-color: #2f6ac6; /* ✅ Slightly darker shade on hover */
-}
-  
-  a{color:#3680E8;}
-  /* CSS styles for hover effect */
-  a:hover {
-    background-color: #3680E8; /* Blue background on hover */
-    color: white; /* White text on hover */
+  a {
+    color: #6A5ACD;
+    text-decoration: none;
   }
 
-  a:hover strong {
-    color: white; /* Ensure bold text inside links also turns white */
+  a:hover,
+  a:focus {
+    color: #554cbf;
+    text-decoration: underline;
+    background: transparent;
   }
 
   /* Hide the GitHub profile button rendered by the theme header */
@@ -39,36 +20,30 @@ layout: default
     display: none !important;
   }
 
-  li {
-    margin: 0; /* Remove any unnecessary margin */
-    padding: 0; /* Remove padding from list items */
+  .urls {
+    color: #6A5ACD;
   }
 
-  a {
-    display: inline-block; /* Make the anchor display as a block to fill its parent */
-    height: 100%; /* Ensure the link fills the parent's height */
+  .urls:hover,
+  .urls:focus {
+    background-color: transparent;
+    color: #6A5ACD;
+    font-weight: normal;
+    text-decoration: underline;
   }
-    .urls {
-      color: #3680E8;
-    }
-    .urls:hover {
-      background-color: #ffffff;
-      color: #3680E8;
-      font-weight:normal;
-    }
 
   .news-year {
-    border: 1px solid #d9e6fb;
+    border: 1px solid rgba(106, 90, 205, 0.15);
     border-radius: 6px;
     margin-bottom: 12px;
-    background-color: #f4f8ff;
+    background-color: rgba(106, 90, 205, 0.06);
   }
 
   .news-year summary {
     cursor: pointer;
     list-style: none;
     padding: 10px 14px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #343434;
     display: flex;
@@ -77,7 +52,7 @@ layout: default
   }
 
   .news-year[open] summary {
-    background-color: #3680E8;
+    background-color: #6A5ACD;
     color: #ffffff;
     border-radius: 6px 6px 0 0;
   }
@@ -90,7 +65,7 @@ layout: default
     list-style: disc;
     padding: 10px 24px 14px;
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #343434;
     line-height: 1.6;
   }
@@ -107,7 +82,7 @@ layout: default
 
 
 <!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #3680E8; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 
 <script>
@@ -136,9 +111,9 @@ window.onscroll = function() {
     <img src="{{ site.logo | relative_url }}" alt="Portrait of Tanvir" class="profile-image" />
   </div>
   <div class="profile-body">
-    <h2 style=" font-size:18px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
+    <h2 style=" font-size:20px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
     </h2>
-      <p style= "font-size:14px; color:#343434;">
+      <p style= "font-size:16px; color:#343434;">
         Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of <a class= "urls" href="https://knu-brainai.github.io/professor/" target="_blank">Prof. Sangtae Ahn</a> in his <a class= "urls" href="https://knu-brainai.github.io/" target="_blank">BrainAI Lab</a>. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Prof. Khan Muhammad</a>. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i><strong>WACV'26, ICCV'25, CIKM'25, WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence</strong></i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his <a class= "urls" href="https://tanvirnwu.github.io/pages/publications" target="_blank">research outcomes</a> published at reputable venues.
         <br>
       </p>
@@ -148,7 +123,7 @@ window.onscroll = function() {
 
 
 
-<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
+<h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
 <details class="news-year" open>
   <summary><strong>2025</strong></summary>
   <ul class="news-items">
@@ -195,24 +170,3 @@ window.onscroll = function() {
     <li>[Dec 2018] Completed graduation with <strong>1<sup>st</sup> Merit Position</strong> from NWU, Bangladesh.</li>
   </ul>
 </details>
-<hr>
-
-
-<!-- Add the LinkedIn and Google Scholar icons and links -->
-<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">☏ Concat</h3>
-<p style="font-size:13px; color:#343434;">
-  <span style="vertical-align: middle;">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" height="18" style="vertical-align: middle;">
-     tanvirnwu[@]knu.ac.kr
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a  class="urls" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="18" height="18" style="vertical-align: middle;">
-    LinkedIn
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="urls" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" style="text-decoration: none; color: black;">
-    <img src="https://images.icon-icons.com/2108/PNG/512/google_scholar_icon_130918.png" alt="Google Scholar" width="18" height="18" style="vertical-align: middle;">
-    Google Scholar
-  </a>
-</p>
