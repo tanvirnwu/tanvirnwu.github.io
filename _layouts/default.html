@@ -21,7 +21,7 @@
                 {% endif %}
               {% endfor %}
               <li>
-                <a class="page-link" href="{{ '/assets/TanvirResume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Resume</a>
+                <button class="page-link resume-trigger" type="button" data-resume-src="{{ '/assets/TanvirResume.pdf' | relative_url }}">Resume</button>
               </li>
             </ul>
           </div>
@@ -32,6 +32,71 @@
           {{ content }}
         </div>
       </main>
+      <div class="resume-modal" id="resume-modal" aria-hidden="true">
+        <div class="resume-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+          <div class="resume-modal__header">
+            <h2 class="resume-modal__title" id="resume-modal-title">Resume</h2>
+            <button type="button" class="resume-modal__close" aria-label="Close resume viewer">
+              &times;
+            </button>
+          </div>
+          <div class="resume-modal__body">
+            <iframe id="resume-frame" title="Resume PDF" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
+    <script>
+      (function () {
+        const trigger = document.querySelector('.resume-trigger');
+        const modal = document.getElementById('resume-modal');
+        const closeButton = modal?.querySelector('.resume-modal__close');
+        const iframe = document.getElementById('resume-frame');
+        let lastFocused;
+
+        function handleKeydown(event) {
+          if (event.key === 'Escape') {
+            event.preventDefault();
+            closeModal();
+          }
+        }
+
+        function openModal() {
+          if (!modal) return;
+          lastFocused = document.activeElement;
+          const resumeSrc = trigger?.dataset.resumeSrc;
+          if (resumeSrc && iframe && !iframe.src) {
+            iframe.src = resumeSrc;
+          }
+          modal.classList.add('is-open');
+          modal.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('modal-open');
+          closeButton?.focus({ preventScroll: true });
+          document.addEventListener('keydown', handleKeydown);
+        }
+
+        function closeModal() {
+          if (!modal) return;
+          modal.classList.remove('is-open');
+          modal.setAttribute('aria-hidden', 'true');
+          document.body.classList.remove('modal-open');
+          if (iframe) {
+            iframe.src = '';
+          }
+          document.removeEventListener('keydown', handleKeydown);
+          if (lastFocused instanceof HTMLElement) {
+            lastFocused.focus({ preventScroll: true });
+          }
+        }
+
+        trigger?.addEventListener('click', openModal);
+        closeButton?.addEventListener('click', closeModal);
+        modal?.addEventListener('click', (event) => {
+          if (event.target === modal) {
+            closeModal();
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
