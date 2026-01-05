@@ -12,18 +12,31 @@
       <header class="site-header">
         <nav class="site-nav-bar">
           <div class="nav-inner">
-            <ul class="nav-links">
-              <li><a class="page-link{% if page.url == '/' or page.url == '/index.html' %} is-active{% endif %}" href="{{ '/' | relative_url }}">About</a></li>
-              {% for path in site.header_pages %}
-                {% assign my_page = site.pages | where: "path", path | first %}
-                {% if my_page %}
-                  <li><a class="page-link{% if page.url == my_page.url %} is-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                {% endif %}
-              {% endfor %}
-              <li>
-                <button class="page-link resume-trigger" type="button" data-resume-src="{{ '/assets/TanvirResume.pdf' | relative_url }}">Resume</button>
-              </li>
-            </ul>
+            <a class="nav-brand" href="{{ '/' | relative_url }}" aria-label="Home">
+              <img src="{{ '/assets/tanvir_logo.svg' | relative_url }}" alt="Tanvir logo" class="nav-logo">
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-collections">
+              Menu
+            </button>
+            <div class="nav-collections" id="nav-collections">
+              <ul class="nav-links nav-links--left">
+                <li><a class="page-link{% if page.url == '/' or page.url == '/index.html' %} is-active{% endif %}" href="{{ '/' | relative_url }}">About</a></li>
+                {% for path in site.header_pages %}
+                  {% assign my_page = site.pages | where: "path", path | first %}
+                  {% if my_page %}
+                    <li><a class="page-link{% if page.url == my_page.url %} is-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                  {% endif %}
+                {% endfor %}
+                <li>
+                  <button class="page-link resume-trigger" type="button" data-resume-src="{{ '/assets/TanvirResume.pdf' | relative_url }}">Resume</button>
+                </li>
+              </ul>
+              <ul class="nav-links nav-links--right">
+                <li>
+                  <button class="page-link contact-trigger" type="button">Contact</button>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </header>
@@ -42,6 +55,34 @@
           </div>
           <div class="resume-modal__body">
             <iframe id="resume-frame" title="Resume PDF" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="contact-modal" id="contact-modal" aria-hidden="true">
+        <div class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+          <div class="contact-modal__header">
+            <h2 class="contact-modal__title" id="contact-modal-title">Contact</h2>
+            <button type="button" class="contact-modal__close" aria-label="Close contact dialog">&times;</button>
+          </div>
+          <div class="contact-modal__body">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📧</span>
+                <span class="contact-text">tanvirnwu[@]knu.ac.kr</span>
+              </li>
+              <li class="contact-item">
+                <span class="contact-icon" aria-hidden="true">🏛️</span>
+                <span class="contact-text">Brain AI Lab, Kyungpook National University</span>
+              </li>
+              <li class="contact-item">
+                <span class="contact-icon" aria-hidden="true">💼</span>
+                <a class="contact-link" href="https://www.linkedin.com/in/tanvirnwu/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+              </li>
+              <li class="contact-item">
+                <span class="contact-icon" aria-hidden="true">🎓</span>
+                <a class="contact-link" href="https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en" target="_blank" rel="noreferrer noopener">Google Scholar</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -94,6 +135,112 @@
         modal?.addEventListener('click', (event) => {
           if (event.target === modal) {
             closeModal();
+          }
+        });
+      })();
+      (function () {
+        const trigger = document.querySelector('.contact-trigger');
+        const modal = document.getElementById('contact-modal');
+        const closeButton = modal?.querySelector('.contact-modal__close');
+        let lastFocused;
+
+        function handleKeydown(event) {
+          if (event.key === 'Escape') {
+            event.preventDefault();
+            closeModal();
+          }
+        }
+
+        function openModal() {
+          if (!modal) return;
+          lastFocused = document.activeElement;
+          modal.classList.add('is-open');
+          modal.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('modal-open');
+          closeButton?.focus({ preventScroll: true });
+          document.addEventListener('keydown', handleKeydown);
+        }
+
+        function closeModal() {
+          if (!modal) return;
+          modal.classList.remove('is-open');
+          modal.setAttribute('aria-hidden', 'true');
+          document.body.classList.remove('modal-open');
+          document.removeEventListener('keydown', handleKeydown);
+          if (lastFocused instanceof HTMLElement) {
+            lastFocused.focus({ preventScroll: true });
+          }
+        }
+
+        trigger?.addEventListener('click', openModal);
+        closeButton?.addEventListener('click', closeModal);
+        modal?.addEventListener('click', (event) => {
+          if (event.target === modal) {
+            closeModal();
+          }
+        });
+      })();
+      (function () {
+        const navContainer = document.getElementById('nav-collections');
+        const toggle = document.querySelector('.nav-toggle');
+        const navLinks = navContainer?.querySelectorAll('.page-link') || [];
+        const mobileQuery = window.matchMedia('(max-width: 768px)');
+
+        if (!navContainer || !toggle) return;
+
+        function isMobile() {
+          return mobileQuery.matches;
+        }
+
+        function closeMenu() {
+          navContainer.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+          document.removeEventListener('click', handleClickOutside);
+          document.removeEventListener('keydown', handleKeydown);
+        }
+
+        function openMenu() {
+          navContainer.classList.add('is-open');
+          toggle.setAttribute('aria-expanded', 'true');
+          document.addEventListener('click', handleClickOutside);
+          document.addEventListener('keydown', handleKeydown);
+        }
+
+        function handleClickOutside(event) {
+          if (!navContainer.contains(event.target) && !toggle.contains(event.target)) {
+            closeMenu();
+          }
+        }
+
+        function handleKeydown(event) {
+          if (event.key === 'Escape') {
+            closeMenu();
+          }
+        }
+
+        toggle.addEventListener('click', (event) => {
+          event.stopPropagation();
+          if (!isMobile()) {
+            return;
+          }
+          if (navContainer.classList.contains('is-open')) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.addEventListener('click', () => {
+            if (isMobile()) {
+              closeMenu();
+            }
+          });
+        });
+
+        mobileQuery.addEventListener('change', () => {
+          if (!isMobile()) {
+            closeMenu();
           }
         });
       })();
