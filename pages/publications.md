@@ -1,149 +1,79 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .accordion {
-      background-color: #6A5ACD;
-      color: white;
-      cursor: pointer;
-      padding: 12px;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 13px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-      margin-bottom: 5px;
-      width: 100%;
-      box-sizing: border-box; /* Ensures padding does not affect width */
-    }
-    .accordion:hover {
-      background-color: #E9E8F9;
-      color: #6A5ACD;
-    }
-    .accordion.active {
-      background-color: #E9E8F9;
-      color: #6A5ACD;
-    }
-    .panel {
-      padding: 0 15px;
-      display: none;
-      overflow: hidden;
-      background-color: #FFFFFF;
-      border-left: 0px solid #FFFFFF;
-      border-right: 0px solid #FFFFFF;
-      border-bottom: 0px solid #FFFFFF;
-      margin-bottom: 8px;
-      margin-top: 6px;
-      color: #343434;
-    }
-    .panel.default-open {
-      display: block;
-    }
-    .publication {
-  font-size: 13px;
-  margin-bottom: 5px;
-}
-    .publication + .publication {
-      margin-top: 10px;
-    }
-    .pdf-icon {
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
-      margin-left: 5px;
-    }
-  a{color:#6A5ACD;}
-  .urls {
-      color: #6A5ACD;
-    }
-    .urls:hover {
-      background-color: #ffffff;
-      color: #6A5ACD;
-      font-weight:normal;
-    }
-    p{color:#343434}
-  </style>
-</head>
-<body>
-
-
-
-<header style="background-color: white; padding: 0; margin-bottom: 0; position: relative; height: 36px; border-radius: 4px; display: flex; align-items: center;">
-  <nav style="margin: 0; padding: 0; width: 100%;">
-    <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; align-items: center; height: 100%;">
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
-          <strong>About</strong>
-        </a>
-      </li>
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/pages/publications" class="active-menu">
-  <strong>Publications</strong></a> </li>
-      <li style="margin: 0 20px 0 0; padding: 0; display: flex; align-items: center;"> <!-- Set margin-right to 20px -->
-        <a href="https://tanvirnwu.github.io/pages/datasets" style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
-          <strong>Datasets</strong>
-        </a>
-      </li>
-      <li style="margin: 0; padding: 0; display: flex; align-items: center;">
-  <a href="https://tanvirnwu.github.io/assets/TanvirResume.pdf" 
-     target="_blank" 
-     rel="noopener noreferrer"
-     style="font-size: 12px; color: #343434; text-decoration: none; padding: 9px 15px; border-radius: 4px; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, color 0.3s; display: block;">
-    <strong>Resume</strong>
-  </a>
-</li>
-    </ul>
-  </nav>
-</header>
+---
+layout: default
+title: Publications
+permalink: /pages/publications
+---
 
 <style>
-  .active-menu {
-  font-size: 12px;
-  color: white !important;  /* ✅ Forces text color to stay white */
-  background-color: #6A5ACD;
-  text-decoration: none;
-  padding: 9px 15px;
-  border-radius: 4px;
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, color 0.3s;
-  display: block;
-}
-
-.active-menu strong {
-  color: white !important; /* ✅ Forces text inside <strong> to be white */
-}
-
-.active-menu:hover {
-  background-color: #5548c8; /* ✅ Slightly darker shade on hover */
-}
-  /* CSS styles for hover effect */
-  a:hover {
-    background-color: #6A5ACD; /* Blue background on hover */
-    color: white; /* White text on hover */
+  body {
+    font-family: Arial, sans-serif;
   }
-
-  a:hover strong {
-    color: white; /* Ensure bold text inside links also turns white */
+  .accordion {
+    background-color: #6A5ACD;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
   }
-
-  li {
-    margin: 0; /* Remove any unnecessary margin */
-    padding: 0; /* Remove padding from list items */
+  .accordion:hover {
+    background-color: #E9E8F9;
+    color: #6A5ACD;
   }
-
+  .accordion.active {
+    background-color: #E9E8F9;
+    color: #6A5ACD;
+  }
+  .panel {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-left: 0px solid #FFFFFF;
+    border-right: 0px solid #FFFFFF;
+    border-bottom: 0px solid #FFFFFF;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    color: #343434;
+  }
+  .panel.default-open {
+    display: block;
+  }
+  .publication {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .publication + .publication {
+    margin-top: 10px;
+  }
+  .pdf-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
   a {
-    display: inline-block; /* Make the anchor display as a block to fill its parent */
-    height: 100%; /* Ensure the link fills the parent's height */
+    color: #6A5ACD;
+  }
+  .urls {
+    color: #6A5ACD;
+  }
+  .urls:hover {
+    background-color: #ffffff;
+    color: #6A5ACD;
+    font-weight: normal;
+  }
+  p {
+    color: #343434;
   }
 </style>
-
-
-
 <!-- Add the button here -->
 <button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
@@ -322,5 +252,3 @@ Md Bellal Hossain, Etu Podder, Abdullah Al-Mamun Bulbul, Himadri Shekhar Mondal,
   });
 </script>
 
-</body>
-</html>
