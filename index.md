@@ -133,6 +133,11 @@ window.onscroll = function() {
 
 
 <section class="about-hero">
+  <div class="hero-right">
+    <div class="portrait-wrapper">
+      <img src="{{ site.logo | relative_url }}" alt="Portrait of Md Tanvir Islam" class="portrait-image" />
+    </div>
+  </div>
   <div class="hero-left">
     <p class="hero-greeting">Hello!</p>
     <h1 class="hero-title">This is Tanvir Islam</h1>
@@ -146,11 +151,6 @@ window.onscroll = function() {
       <span class="skill-pill">Excel</span>
       <span class="skill-pill">MySQL</span>
       <span class="skill-pill">Tableau</span>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="portrait-wrapper">
-      <img src="{{ site.logo | relative_url }}" alt="Portrait of Md Tanvir Islam" class="portrait-image" />
     </div>
   </div>
 </section>
