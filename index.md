@@ -43,7 +43,7 @@ layout: default
     cursor: pointer;
     list-style: none;
     padding: 10px 14px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #343434;
     display: flex;
@@ -65,7 +65,7 @@ layout: default
     list-style: disc;
     padding: 10px 24px 14px;
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #343434;
     line-height: 1.6;
   }

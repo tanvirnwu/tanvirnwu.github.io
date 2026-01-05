@@ -34,7 +34,7 @@ a:focus {
     margin-top: -30px;
     margin-bottom: 3px;
   background-color: rgba(106, 90, 205, 0.1);
-  font-size: 10px;
+  font-size: 16px;
   color:#343434;
   border-left: 4px solid #6A5ACD;
   font-family: monospace;
@@ -115,7 +115,7 @@ a:focus {
       <h4><a href="https://github.com/tanvirnwu/HazeSpace2M" target="_blank">HazeSpace2M:</a> Large-scale Single Image Dehazing Dataset</h4>
 
         
-      <p style="text-align: justify; margin-top: -15px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      <p style="text-align: justify; margin-top: -15px; margin-bottom: -12px; font-size:16px; color:#343434;">
       HazeSpace2M is a collection of over 2 million images designed to enhance dehazing through haze type classification. HazeSpace2M includes diverse scenes with 10 haze intensity levels, featuring Fog, Cloud, and Environmental Haze.
       </p>
         
@@ -150,7 +150,7 @@ a:focus {
       <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">LoLI-Street:</a> Low-light Image Enhancement Dataset</h4>
 
         
-      <p style="text-align: justify; margin-top:-15px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      <p style="text-align: justify; margin-top:-15px; margin-bottom: -12px; font-size:16px; color:#343434;">
       The training consists of 30k, while validation has 3k paired low and high-light images. Moreover, we collected high-resolution videos (4K/8K at 60fps) from various cities under low-light conditions, extracting and manually reviewing frames to create the Real Low-light Testset (RLLT) of our LoLI-Street dataset. We used Photoshop v25.0 to generate the synthetic images of our dataset.</p>
         
       </div>     
@@ -184,7 +184,7 @@ a:focus {
       <h4><a href="https://github.com/tanvirnwu/TriFuse" target="_blank">CDC:</a> Crop Damage Classification</h4>
 
         
-      <p style="text-align: justify; margin-top:-15px; margin-bottom: -12px; font-size:14px; color:#343434;">
+      <p style="text-align: justify; margin-top:-15px; margin-bottom: -12px; font-size:16px; color:#343434;">
       CDC features train set contains 21k images of damaged and non-damaged classes of crops and a testset that contains 2k images each class having 1k images. In total it features 23k images suitable for training and testing models for identifying damaged crops effectively.</p>
         
       </div>     

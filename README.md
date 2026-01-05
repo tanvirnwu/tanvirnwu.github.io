@@ -43,7 +43,7 @@ layout: default
     cursor: pointer;
     list-style: none;
     padding: 10px 14px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #343434;
     display: flex;
@@ -65,7 +65,7 @@ layout: default
     list-style: disc;
     padding: 10px 24px 14px;
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #343434;
     line-height: 1.6;
   }
@@ -111,9 +111,9 @@ window.onscroll = function() {
     <img src="{{ site.logo | relative_url }}" alt="Portrait of Tanvir" class="profile-image" />
   </div>
   <div class="profile-body">
-    <h2 style=" font-size:18px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
+    <h2 style=" font-size:20px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
     </h2>
-      <p style= "font-size:14px; color:#343434;">
+      <p style= "font-size:16px; color:#343434;">
         Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of <a class= "urls" href="https://knu-brainai.github.io/professor/" target="_blank">Prof. Sangtae Ahn</a> in his <a class= "urls" href="https://knu-brainai.github.io/" target="_blank">BrainAI Lab</a>. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Prof. Khan Muhammad</a>. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i><strong>WACV'26, ICCV'25, CIKM'25, WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence</strong></i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his <a class= "urls" href="https://tanvirnwu.github.io/pages/publications" target="_blank">research outcomes</a> published at reputable venues.
         <br>
       </p>
@@ -123,7 +123,7 @@ window.onscroll = function() {
 
 
 
-<h3 style="font-size: 14px; color: #343434; margin-top: 40px;">📢 News</h3>
+<h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
 <details class="news-year" open>
   <summary><strong>2025</strong></summary>
   <ul class="news-items">
