@@ -133,7 +133,7 @@ window.onscroll = function() {
 
 <div class="profile-hero">
   <div class="profile-photo">
-    <img src="{{ site.logo | relative_url }}" alt="Portrait of Md Tanvir Islam" class="profile-image" />
+    <img src="{{ site.logo | relative_url }}" alt="Portrait of Tanvir" class="profile-image" />
   </div>
   <div class="profile-body">
     <h2 style=" font-size:18px; margin-top: 70px; color:#343434;"><strong>Md Tanvir Islam</strong><br>
