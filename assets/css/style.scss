@@ -172,9 +172,10 @@ body::after {
   display: none;
   border: none;
   background: transparent;
-  color: #343434;
-  font-size: 17px;
-  font-weight: 700;
+  color: #363636;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
   padding: 8px 6px;
   margin-left: auto;
@@ -202,9 +203,10 @@ body::after {
 }
 
 .nav-links .page-link {
-  font-size: 17px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
   font-weight: 600;
-  color: #343434;
+  color: #363636;
   text-decoration: none;
   border: none;
   background: transparent;
@@ -870,5 +872,29 @@ body.modal-open {
 
   .content-inner {
     padding: 24px clamp(14px, 6vw, 24px) 52px;
+  }
+
+  .skill-pills {
+    display: none;
+  }
+
+  .hero-greeting {
+    font-size: 16px;
+  }
+
+  .hero-title {
+    font-size: clamp(30px, 4vw, 43px);
+  }
+
+  .role-badge {
+    font-size: 11.2px;
+  }
+
+  .hero-description {
+    font-size: 12.8px;
+  }
+
+  .hero-read-more {
+    font-size: 12.8px;
   }
 }
