@@ -191,7 +191,7 @@ window.onscroll = function() {
 <div class="hero-description-modal" id="hero-description-modal" aria-hidden="true">
   <div class="hero-description-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="hero-description-modal-title">
     <div class="hero-description-modal__header">
-      <h2 class="hero-description-modal__title" id="hero-description-modal-title">About Tanvir Islam</h2>
+      <h2 class="hero-description-modal__title" id="hero-description-modal-title">Tanvir's Biography</h2>
       <button type="button" class="hero-description-modal__close modal-close" aria-label="Close full description">&times;</button>
     </div>
     <div class="hero-description-modal__body">

@@ -659,11 +659,11 @@ figure {
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.4);
-  padding: 16px;
+  padding: 25px;
   z-index: 1000;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.5s ease;
 }
 
 .hero-description-modal.is-open {
