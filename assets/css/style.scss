@@ -644,31 +644,40 @@ figure {
   z-index: 1;
 }
 
+
 .hero-description-block {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  position: relative;
 }
-.hero-description--clamped {
+
+.hero-description {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.hero-description__text {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   max-height: calc(1.7em * 3);
+  padding-right: 68px;
 }
 
 @supports not (-webkit-line-clamp: 3) {
-  .hero-description--clamped {
+  .hero-description__text {
     overflow: hidden;
   }
 }
 
 .hero-read-more {
-  align-self: flex-start;
-  padding: 0;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  padding: 0 0 0 8px;
   border: none;
-  background: none;
-  color: var(--primary-color);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 28%);
+  color: #6A5ACD;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
