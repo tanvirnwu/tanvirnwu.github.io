@@ -117,10 +117,13 @@ window.onscroll = function() {
     <p class="hero-greeting">Hello!</p>
     <h1 class="hero-title">This is Tanvir Islam</h1>
     <button class="role-badge" type="button">Research Fellow</button>
-    <p class="hero-description">
-      Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
-      dashboards, and databases to uncover insights, influence decisions, and build practical solutions for teams and clients.
-    </p>
+    <div class="hero-description-block">
+      <p class="hero-description hero-description--clamped" id="hero-description">
+        Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
+        dashboards, and databases to uncover insights, influence decisions, and build practical solutions for teams and clients.
+      </p>
+      <button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
+    </div>
     <div class="skill-pills">
       <span class="skill-pill">Computer Vision</span>
       <span class="skill-pill">Image Enhancement</span>
@@ -129,6 +132,70 @@ window.onscroll = function() {
     </div>
   </div>
 </section>
+<script>
+  (function () {
+    const description = document.getElementById('hero-description');
+    const readMoreButton = document.querySelector('.hero-read-more');
+    const modal = document.getElementById('hero-description-modal');
+    const modalDialog = modal?.querySelector('.hero-description-modal__dialog');
+    const modalClose = modal?.querySelector('.hero-description-modal__close');
+    const modalBody = document.getElementById('hero-description-full');
+    let lastFocused;
+
+    if (!description || !readMoreButton || !modal || !modalDialog || !modalClose || !modalBody) return;
+
+    const fullText = description.textContent?.trim() || '';
+    modalBody.textContent = fullText;
+
+    function handleKeydown(event) {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closeModal();
+      }
+    }
+
+    function openModal() {
+      lastFocused = document.activeElement;
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+      modalClose.focus({ preventScroll: true });
+      document.addEventListener('keydown', handleKeydown);
+    }
+
+    function closeModal() {
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('modal-open');
+      document.removeEventListener('keydown', handleKeydown);
+      if (lastFocused instanceof HTMLElement) {
+        lastFocused.focus({ preventScroll: true });
+      }
+    }
+
+    readMoreButton.addEventListener('click', openModal);
+    modalClose.addEventListener('click', closeModal);
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+    modalDialog.addEventListener('click', (event) => {
+      event.stopPropagation();
+    });
+  })();
+</script>
+<div class="hero-description-modal" id="hero-description-modal" aria-hidden="true">
+  <div class="hero-description-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="hero-description-modal-title">
+    <div class="hero-description-modal__header">
+      <h2 class="hero-description-modal__title" id="hero-description-modal-title">About Tanvir Islam</h2>
+      <button type="button" class="hero-description-modal__close" aria-label="Close full description">&times;</button>
+    </div>
+    <div class="hero-description-modal__body">
+      <p class="hero-description-modal__text" id="hero-description-full"></p>
+    </div>
+  </div>
+</div>
 <section class="news-section">
   <hr>
   <h3 class="news-heading">📢 News</h3>
