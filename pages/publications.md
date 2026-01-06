@@ -9,7 +9,7 @@ permalink: /pages/publications
     font-family: Arial, sans-serif;
   }
   .accordion {
-    background-color: #6A5ACD;
+    background-color: #3680E8;
     color: white;
     cursor: pointer;
     padding: 12px;
@@ -24,12 +24,12 @@ permalink: /pages/publications
     box-sizing: border-box;
   }
   .accordion:hover {
-    background-color: rgba(106, 90, 205, 0.12);
-    color: #6A5ACD;
+    background-color: rgba(54, 128, 232, 0.12);
+    color: #3680E8;
   }
   .accordion.active {
-    background-color: rgba(106, 90, 205, 0.12);
-    color: #6A5ACD;
+    background-color: rgba(54, 128, 232, 0.12);
+    color: #3680E8;
   }
   .panel {
     padding: 0 15px;
@@ -60,14 +60,14 @@ permalink: /pages/publications
     margin-left: 5px;
   }
   a {
-    color: #6A5ACD;
+    color: #3680E8;
   }
   .urls {
-    color: #6A5ACD;
+    color: #3680E8;
   }
   .urls:hover {
     background-color: #ffffff;
-    color: #6A5ACD;
+    color: #3680E8;
     font-weight: normal;
   }
   p {
@@ -75,7 +75,7 @@ permalink: /pages/publications
   }
 </style>
 <!-- Add the button here -->
-<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+<button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #3680E8; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 <script>
 function scrollToPosition() {

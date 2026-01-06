@@ -4,13 +4,13 @@ layout: default
 
 <style>
   a {
-    color: #6A5ACD;
+    color: #3680E8;
     text-decoration: none;
   }
 
   a:hover,
   a:focus {
-    color: #554cbf;
+    color: #2D6CC5;
     text-decoration: underline;
     background: transparent;
   }
@@ -21,22 +21,22 @@ layout: default
   }
 
   .urls {
-    color: #6A5ACD;
+    color: #3680E8;
   }
 
   .urls:hover,
   .urls:focus {
     background-color: transparent;
-    color: #6A5ACD;
+    color: #3680E8;
     font-weight: normal;
     text-decoration: underline;
   }
 
   .news-year {
-    border: 1px solid rgba(106, 90, 205, 0.15);
+    border: 1px solid rgba(54, 128, 232, 0.15);
     border-radius: 6px;
     margin-bottom: 12px;
-    background-color: rgba(106, 90, 205, 0.06);
+    background-color: rgba(54, 128, 232, 0.06);
   }
 
   .news-year summary {
@@ -52,7 +52,7 @@ layout: default
   }
 
   .news-year[open] summary {
-    background-color: #6A5ACD;
+    background-color: #3680E8;
     color: #ffffff;
     border-radius: 6px 6px 0 0;
   }
@@ -82,7 +82,7 @@ layout: default
 
 
 <!-- Add the button here -->
-  <button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6A5ACD; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
+  <button id="scrollButton" onclick="scrollToPosition()" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #3680E8; color: white; border: none; border-radius: 5px; cursor: pointer;">&#8593;</button>
 
 
 <script>
