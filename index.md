@@ -145,8 +145,8 @@ window.onscroll = function() {
 
     if (!description || !descriptionText || !readMoreButton || !modal || !modalDialog || !modalClose || !modalBody) return;
 
-    const fullText = descriptionText.textContent?.trim() || '';
-    modalBody.textContent = fullText;
+    const fullHTML = descriptionText.innerHTML?.trim() || '';
+    modalBody.innerHTML = fullHTML;
 
     function handleKeydown(event) {
       if (event.key === 'Escape') {
