@@ -117,9 +117,13 @@ window.onscroll = function() {
     <p class="hero-greeting">Hello!</p>
     <h1 class="hero-title">This is Tanvir!</h1>
     <button class="role-badge" type="button">Research Fellow</button>
-    <p class="hero-description">
-      Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of Prof. Sangtae Ahn in his BrainAI Lab. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of Prof. Khan Muhammad. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the ``Academic Excellence Award Winner'' in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as WACV'26, ICCV'25, CIKM'25, WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his research outcomes published at reputable venues.
-    </p>
+    <div class="hero-description-block">
+      <p class="hero-description hero-description--clamped" id="hero-description">
+        Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
+        dashboards, and databases to uncover insights, influence decisions, and build practical solutions for teams and clients.
+      </p>
+      <button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
+    </div>
     <div class="skill-pills">
       <span class="skill-pill">Computer Vision</span>
       <span class="skill-pill">Image Enhancement</span>
@@ -128,6 +132,70 @@ window.onscroll = function() {
     </div>
   </div>
 </section>
+<script>
+  (function () {
+    const description = document.getElementById('hero-description');
+    const readMoreButton = document.querySelector('.hero-read-more');
+    const modal = document.getElementById('hero-description-modal');
+    const modalDialog = modal?.querySelector('.hero-description-modal__dialog');
+    const modalClose = modal?.querySelector('.hero-description-modal__close');
+    const modalBody = document.getElementById('hero-description-full');
+    let lastFocused;
+
+    if (!description || !readMoreButton || !modal || !modalDialog || !modalClose || !modalBody) return;
+
+    const fullText = description.textContent?.trim() || '';
+    modalBody.textContent = fullText;
+
+    function handleKeydown(event) {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closeModal();
+      }
+    }
+
+    function openModal() {
+      lastFocused = document.activeElement;
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+      modalClose.focus({ preventScroll: true });
+      document.addEventListener('keydown', handleKeydown);
+    }
+
+    function closeModal() {
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('modal-open');
+      document.removeEventListener('keydown', handleKeydown);
+      if (lastFocused instanceof HTMLElement) {
+        lastFocused.focus({ preventScroll: true });
+      }
+    }
+
+    readMoreButton.addEventListener('click', openModal);
+    modalClose.addEventListener('click', closeModal);
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+    modalDialog.addEventListener('click', (event) => {
+      event.stopPropagation();
+    });
+  })();
+</script>
+<div class="hero-description-modal" id="hero-description-modal" aria-hidden="true">
+  <div class="hero-description-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="hero-description-modal-title">
+    <div class="hero-description-modal__header">
+      <h2 class="hero-description-modal__title" id="hero-description-modal-title">About Tanvir Islam</h2>
+      <button type="button" class="hero-description-modal__close" aria-label="Close full description">&times;</button>
+    </div>
+    <div class="hero-description-modal__body">
+      <p class="hero-description-modal__text" id="hero-description-full"></p>
+    </div>
+  </div>
+</div>
 <section class="news-section">
   <hr>
   <h3 class="news-heading">📢 News</h3>
