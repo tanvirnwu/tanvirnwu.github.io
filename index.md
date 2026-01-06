@@ -118,8 +118,7 @@ window.onscroll = function() {
     <h1 class="hero-title">This is Tanvir!</h1>
     <button class="role-badge" type="button">Research Fellow</button>
     <p class="hero-description">
-      Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
-      dashboards, and databases to uncover insights, influence decisions, and build practical solutions for teams and clients.
+      Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of Prof. Sangtae Ahn in his BrainAI Lab. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of Prof. Khan Muhammad. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the ``Academic Excellence Award Winner'' in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as WACV'26, ICCV'25, CIKM'25, WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his research outcomes published at reputable venues.
     </p>
     <div class="skill-pills">
       <span class="skill-pill">Computer Vision</span>
