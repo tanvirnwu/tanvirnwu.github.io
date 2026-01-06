@@ -519,7 +519,7 @@ figure {
 }
 
 .about-hero::before {
-  background-image: url('/assets/left_bg.svg');
+  background-image: url('/assets/left_bg.png');
   width: 42vw;
   max-width: 360px;
   height: 50vw;
@@ -529,7 +529,7 @@ figure {
 }
 
 .about-hero::after {
-  background-image: url('/assets/right_bg.svg');
+  background-image: url('/assets/right_bg.png');
   width: 42vw;
   max-width: 360px;
   height: 48vw;
