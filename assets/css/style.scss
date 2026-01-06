@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 :root {
-  --primary-color: #6a5acd;
+  --primary-color: #3680E8;
   --page-max: 1380px;
   --page-padding: clamp(18px, 4vw, 36px);
   --layout-gap: clamp(32px, 4vw, 48px);
@@ -637,7 +637,7 @@ figure {
   padding: 0;
   border: none;
   background: none;
-  color: #6A5ACD;
+  color: #3680E8;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
@@ -647,7 +647,7 @@ figure {
 .hero-read-more:hover,
 .hero-read-more:focus,
 .hero-read-more:active {
-  color: #554cbf;
+  color: #2D6CC5;
   outline: none;
   text-decoration: none;
 }
@@ -715,7 +715,7 @@ figure {
 
 .hero-description-modal__body a:hover,
 .hero-description-modal__body a:focus {
-  color: #554cbf;
+  color: #2D6CC5;
 }
 
 .hero-description-modal__text {
