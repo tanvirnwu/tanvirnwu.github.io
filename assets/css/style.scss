@@ -49,7 +49,7 @@ body::before {
   height: 50vw;
   max-height: 460px;
   top: clamp(360px, 42vh, 540px);
-  left: max(-140px, -14vw);
+  left: -14vw;
 }
 
 body::after {
@@ -59,7 +59,7 @@ body::after {
   height: 48vw;
   max-height: 420px;
   top: clamp(400px, 48vh, 580px);
-  right: max(-140px, -14vw);
+  right: -14vw;
 }
 
 @media (max-width: 768px) {
@@ -72,12 +72,32 @@ body::after {
 
   body::before {
     top: clamp(320px, 46vh, 520px);
-    left: max(-120px, -18vw);
+    left: -18vw;
   }
 
   body::after {
     top: clamp(360px, 54vh, 560px);
-    right: max(-120px, -18vw);
+    right: -18vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  body::before {
+    left: -140px;
+  }
+
+  body::after {
+    right: -140px;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 768px) {
+  body::before {
+    left: -120px;
+  }
+
+  body::after {
+    right: -120px;
   }
 }
 
