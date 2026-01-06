@@ -443,6 +443,12 @@ figure {
   max-width: 660px;
 }
 
+.about-hero .hero-description {
+  text-align: justify;
+  width: 100%;
+  max-width: none;
+}
+
 .skill-pills {
   display: flex;
   flex-wrap: wrap;
