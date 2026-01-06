@@ -179,6 +179,27 @@ body::after {
   cursor: pointer;
   padding: 8px 6px;
   margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle__icon {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+}
+
+.nav-toggle__icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  box-shadow: 0 7px 0 currentColor, 0 14px 0 currentColor;
 }
 
 .nav-links {
