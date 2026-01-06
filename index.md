@@ -118,33 +118,34 @@ window.onscroll = function() {
     <h1 class="hero-title">This is Tanvir!</h1>
     <button class="role-badge" type="button">Research Fellow</button>
     <div class="hero-description-block">
-      <p class="hero-description hero-description--clamped" id="hero-description">
-        Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of Prof. Sangtae Ahn in his BrainAI Lab. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of Prof. Khan Muhammad. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS).
+      <p class="hero-description" id="hero-description">
+        <span class="hero-description__text hero-description--clamped">
+          Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of Prof. Sangtae Ahn in his BrainAI Lab. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of Prof. Khan Muhammad. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS).
+        </span>
+        <button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
       </p>
-<button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
     </div>
-    <div class="skill-pills">
-      <span class="skill-pill">Computer Vision</span>
-      <span class="skill-pill">Image Enhancement</span>
-      <span class="skill-pill">Multimedia Security</span>
-      <span class="skill-pill">Health Informatics</span>
-    </div>
+    <p class="hero-interests">
+      <span class="hero-interests__label">Research Interests →</span>
+      <span class="hero-interests__list">Computer Vision, Image Enhancement, Multimedia Security, Health Informatics</span>
+    </p>
   </div>
 </section>
 <script>
-  (function () {
+  document.addEventListener('DOMContentLoaded', function () {
     const description = document.getElementById('hero-description');
-    const readMoreButton = document.querySelector('.hero-read-more');
+    const descriptionText = description?.querySelector('.hero-description__text');
+    const readMoreButton = description?.querySelector('.hero-read-more');
     const modal = document.getElementById('hero-description-modal');
     const modalDialog = modal?.querySelector('.hero-description-modal__dialog');
     const modalClose = modal?.querySelector('.hero-description-modal__close');
     const modalBody = document.getElementById('hero-description-full');
     let lastFocused;
 
-    if (!description || !readMoreButton || !modal || !modalDialog || !modalClose || !modalBody) return;
+    if (!description || !descriptionText || !readMoreButton || !modal || !modalDialog || !modalClose || !modalBody) return;
 
-    const fullText = description.textContent?.trim() || '';
-    modalBody.textContent = fullText;
+    const fullHTML = descriptionText.innerHTML?.trim() || '';
+    modalBody.innerHTML = fullHTML;
 
     function handleKeydown(event) {
       if (event.key === 'Escape') {
@@ -182,13 +183,13 @@ window.onscroll = function() {
     modalDialog.addEventListener('click', (event) => {
       event.stopPropagation();
     });
-  })();
+  });
 </script>
 <div class="hero-description-modal" id="hero-description-modal" aria-hidden="true">
   <div class="hero-description-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="hero-description-modal-title">
     <div class="hero-description-modal__header">
       <h2 class="hero-description-modal__title" id="hero-description-modal-title">About Tanvir Islam</h2>
-      <button type="button" class="hero-description-modal__close" aria-label="Close full description">&times;</button>
+      <button type="button" class="hero-description-modal__close modal-close" aria-label="Close full description">&times;</button>
     </div>
     <div class="hero-description-modal__body">
       <p class="hero-description-modal__text" id="hero-description-full"></p>
