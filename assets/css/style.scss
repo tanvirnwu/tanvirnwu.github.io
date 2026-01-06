@@ -242,13 +242,13 @@ body::after {
 .nav-links .page-link.is-active:focus,
 .nav-links .page-link.is-active:hover {
   color: var(--primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .nav-links .page-link:hover,
 .nav-links .page-link:focus {
   color: var(--primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Main content container */
@@ -637,13 +637,15 @@ figure {
   font: inherit;
   font-weight: 700;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .hero-read-more:hover,
-.hero-read-more:focus {
+.hero-read-more:focus,
+.hero-read-more:active {
   color: #554cbf;
   outline: none;
+  text-decoration: none;
 }
 
 .hero-description-modal {
