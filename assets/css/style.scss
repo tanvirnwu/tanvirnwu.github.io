@@ -614,13 +614,14 @@ figure {
 
 
 .hero-description-block {
-  position: relative;
+  width: 100%;
 }
 
 .hero-description {
   display: flex;
-  align-items: flex-start;
-  gap: 6px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
 }
 
 .hero-description__text {
@@ -639,12 +640,10 @@ figure {
 }
 
 .hero-read-more {
-  position: absolute;
-  right: 0;
-  bottom: 2px;
-  padding: 0 0 0 8px;
+  align-self: flex-end;
+  padding: 2px 0 0;
   border: none;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 28%);
+  background: none;
   color: #6A5ACD;
   font: inherit;
   font-weight: 700;
