@@ -463,7 +463,7 @@ figure {
   border-radius: 6px;
   background: #f4f4f5;
   color: #1f2937;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 500;
   border: none;
   box-shadow: none;
@@ -556,12 +556,7 @@ figure {
   color: var(--primary-color);
 }
 
-.hero-title {
-  margin: 0;
-  font-size: clamp(35px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
+
 
 
 
@@ -644,9 +639,10 @@ figure {
 
 .hero-title {
   margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
+  font-size: clamp(36px, 5vw, 54px);
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: #252525;
 }
 
 
@@ -788,12 +784,6 @@ figure {
   color: var(--primary-color);
 }
 
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
 
 .hero-description {
   margin: 0;
@@ -876,12 +866,6 @@ figure {
   color: var(--primary-color);
 }
 
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
 
 
 
@@ -960,12 +944,7 @@ figure {
   color: var(--primary-color);
 }
 
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
+
 
 .role-badge {
   align-self: flex-start;
@@ -973,8 +952,8 @@ figure {
   color: #ffffff;
   border: none;
   border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
+  padding: 8px 18px;
+  font-size: 15px;
   font-weight: 600;
   font-family: "Exo", sans-serif;
   letter-spacing: 0.1em;
