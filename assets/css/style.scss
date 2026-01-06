@@ -172,9 +172,10 @@ body::after {
   display: none;
   border: none;
   background: transparent;
-  color: #343434;
-  font-size: 17px;
-  font-weight: 700;
+  color: #363636;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
   padding: 8px 6px;
   margin-left: auto;
@@ -202,9 +203,10 @@ body::after {
 }
 
 .nav-links .page-link {
-  font-size: 17px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
   font-weight: 600;
-  color: #343434;
+  color: #363636;
   text-decoration: none;
   border: none;
   background: transparent;
@@ -517,50 +519,16 @@ figure {
   text-align: justify;
 }
 
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 12px;
-  border-radius: 6px;
-  font-family: "Exo", sans-serif;
-  background: #f4f4f5;
-  color: #1f2937;
+.hero-interests {
+  margin: 0;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
+  line-height: 1.6;
+  color: #010304;
+}
+
+.hero-interests__label {
   font-weight: 600;
-  border: none;
-  box-shadow: none;
-}
-
-.about-hero .role-badge,
-.about-hero .skill-pill {
-  border-radius: 6px;
-}
-
-.skill-pills .skill-pill:nth-child(1) {
-  background: #e8f0fe;
-  color: #1e3a8a;
-}
-
-.skill-pills .skill-pill:nth-child(2) {
-  background: #FFAB0040;
-  color: #FFAB00;
-}
-
-.skill-pills .skill-pill:nth-child(3) {
-  background: #fff3e0;
-  color: #c2410c;
-}
-
-.skill-pills .skill-pill:nth-child(4) {
-  background: #f3e8ff;
-  color: #6b21a8;
 }
 
 .about-hero {
@@ -644,12 +612,19 @@ figure {
   z-index: 1;
 }
 
+
 .hero-description-block {
+  width: 100%;
+}
+
+.hero-description {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   gap: 8px;
 }
-.hero-description--clamped {
+
+.hero-description__text {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -658,17 +633,17 @@ figure {
 }
 
 @supports not (-webkit-line-clamp: 3) {
-  .hero-description--clamped {
+  .hero-description__text {
     overflow: hidden;
   }
 }
 
 .hero-read-more {
-  align-self: flex-start;
-  padding: 0;
+  align-self: flex-end;
+  padding: 2px 0 0;
   border: none;
   background: none;
-  color: var(--primary-color);
+  color: #6A5ACD;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
@@ -861,5 +836,29 @@ body.modal-open {
 
   .content-inner {
     padding: 24px clamp(14px, 6vw, 24px) 52px;
+  }
+
+  .hero-greeting {
+    font-size: 16px;
+  }
+
+  .hero-title {
+    font-size: clamp(30px, 4vw, 43px);
+  }
+
+  .role-badge {
+    font-size: 11.2px;
+  }
+
+  .hero-description {
+    font-size: 12.8px;
+  }
+
+  .hero-read-more {
+    font-size: 12.8px;
+  }
+
+  .hero-interests {
+    font-size: 11.2px;
   }
 }
