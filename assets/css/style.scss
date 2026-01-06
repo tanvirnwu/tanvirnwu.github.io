@@ -1,6 +1,6 @@
 ---
 ---
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap");
 @import "{{ site.theme }}";
 
 :root {
@@ -179,6 +179,27 @@ body::after {
   cursor: pointer;
   padding: 8px 6px;
   margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle__icon {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+}
+
+.nav-toggle__icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  box-shadow: 0 7px 0 currentColor, 0 14px 0 currentColor;
 }
 
 .nav-links {
@@ -221,13 +242,13 @@ body::after {
 .nav-links .page-link.is-active:focus,
 .nav-links .page-link.is-active:hover {
   color: var(--primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .nav-links .page-link:hover,
 .nav-links .page-link:focus {
   color: var(--primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Main content container */
@@ -390,6 +411,8 @@ figure {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
 .resume-modal__header {
@@ -467,6 +490,8 @@ figure {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
 .contact-modal__header {
@@ -599,43 +624,31 @@ figure {
 }
 
 .hero-description {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 8px;
+  display: block;
 }
 
 .hero-description__text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  max-height: calc(1.7em * 3);
-  padding-right: 68px;
-}
-
-@supports not (-webkit-line-clamp: 3) {
-  .hero-description__text {
-    overflow: hidden;
-  }
+  display: inline;
 }
 
 .hero-read-more {
-  align-self: flex-end;
-  padding: 2px 0 0;
+  display: inline;
+  padding: 0;
   border: none;
   background: none;
   color: #6A5ACD;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .hero-read-more:hover,
-.hero-read-more:focus {
+.hero-read-more:focus,
+.hero-read-more:active {
   color: #554cbf;
   outline: none;
+  text-decoration: none;
 }
 
 .hero-description-modal {
@@ -668,6 +681,8 @@ figure {
   display: flex;
   flex-direction: column;
   position: relative;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
 .hero-description-modal__header {
