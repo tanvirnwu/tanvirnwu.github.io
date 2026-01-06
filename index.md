@@ -115,7 +115,7 @@ window.onscroll = function() {
   </div>
   <div class="hero-left">
     <p class="hero-greeting">Hello!</p>
-    <h1 class="hero-title">This is Tanvir Islam</h1>
+    <h1 class="hero-title">This is Tanvir!</h1>
     <button class="role-badge" type="button">Research Fellow</button>
     <div class="hero-description-block">
       <p class="hero-description hero-description--clamped" id="hero-description">
