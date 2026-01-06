@@ -507,9 +507,10 @@ figure {
 
 .hero-description {
   margin: 0;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 1.7;
-  color: #343434;
+  color: #010304;
   width: 100%;
   max-width: none;
   text-align: justify;
@@ -581,6 +582,7 @@ figure {
 
 .hero-greeting {
   margin: 0;
+  font-family: "Exo", sans-serif;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -590,6 +592,7 @@ figure {
 .hero-title {
   margin: 0;
   font-size: clamp(38px, 5vw, 54px);
+   font-family: "Exo", sans-serif;
   font-weight: 800;
   color: #111827;
 }
@@ -600,11 +603,11 @@ figure {
   color: #ffffff;
   border: none;
   border-radius: 999px;
-  padding: 8px 18px;
-  font-size: 15px;
-  font-weight: 600;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 450;
   font-family: "Exo", sans-serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
 }
 
