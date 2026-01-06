@@ -125,12 +125,10 @@ window.onscroll = function() {
         <button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
       </p>
     </div>
-    <div class="skill-pills">
-      <span class="skill-pill">Computer Vision</span>
-      <span class="skill-pill">Image Enhancement</span>
-      <span class="skill-pill">Multimedia Security</span>
-      <span class="skill-pill">Health Informatics</span>
-    </div>
+    <p class="hero-interests">
+      <span class="hero-interests__label">Research Interests →</span>
+      <span class="hero-interests__list">Computer Vision, Image Enhancement, Multimedia Security, Health Informatics</span>
+    </p>
   </div>
 </section>
 <script>

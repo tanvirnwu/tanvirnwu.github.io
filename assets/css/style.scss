@@ -519,50 +519,16 @@ figure {
   text-align: justify;
 }
 
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 12px;
-  border-radius: 6px;
-  font-family: "Exo", sans-serif;
-  background: #f4f4f5;
-  color: #1f2937;
+.hero-interests {
+  margin: 0;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
+  line-height: 1.6;
+  color: #010304;
+}
+
+.hero-interests__label {
   font-weight: 600;
-  border: none;
-  box-shadow: none;
-}
-
-.about-hero .role-badge,
-.about-hero .skill-pill {
-  border-radius: 6px;
-}
-
-.skill-pills .skill-pill:nth-child(1) {
-  background: #e8f0fe;
-  color: #1e3a8a;
-}
-
-.skill-pills .skill-pill:nth-child(2) {
-  background: #FFAB0040;
-  color: #FFAB00;
-}
-
-.skill-pills .skill-pill:nth-child(3) {
-  background: #fff3e0;
-  color: #c2410c;
-}
-
-.skill-pills .skill-pill:nth-child(4) {
-  background: #f3e8ff;
-  color: #6b21a8;
 }
 
 .about-hero {
@@ -874,10 +840,6 @@ body.modal-open {
     padding: 24px clamp(14px, 6vw, 24px) 52px;
   }
 
-  .skill-pills {
-    display: none;
-  }
-
   .hero-greeting {
     font-size: 16px;
   }
@@ -896,5 +858,9 @@ body.modal-open {
 
   .hero-read-more {
     font-size: 12.8px;
+  }
+
+  .hero-interests {
+    font-size: 11.2px;
   }
 }
