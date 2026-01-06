@@ -119,10 +119,9 @@ window.onscroll = function() {
     <button class="role-badge" type="button">Research Fellow</button>
     <div class="hero-description-block">
       <p class="hero-description hero-description--clamped" id="hero-description">
-        Doctoral research fellow focused on data-driven problem solving and impactful storytelling. I blend analytics,
-        dashboards, and databases to uncover insights, influence decisions, and build practical solutions for teams and clients.
+        Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of Prof. Sangtae Ahn in his BrainAI Lab. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of Prof. Khan Muhammad. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). 
+        <button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
       </p>
-      <button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
     </div>
     <div class="skill-pills">
       <span class="skill-pill">Computer Vision</span>
