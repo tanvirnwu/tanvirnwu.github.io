@@ -31,11 +31,11 @@
                     <li><a class="page-link{% if page.url == my_page.url %} is-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
                   {% endif %}
                 {% endfor %}
+              </ul>
+              <ul class="nav-links nav-links--right">
                 <li>
                   <button class="page-link resume-trigger" type="button" data-resume-src="{{ '/assets/TanvirResume.pdf' | relative_url }}">Resume</button>
                 </li>
-              </ul>
-              <ul class="nav-links nav-links--right">
                 <li>
                   <button class="page-link contact-trigger" type="button">Contact</button>
                 </li>
