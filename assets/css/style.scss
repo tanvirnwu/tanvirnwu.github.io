@@ -520,22 +520,34 @@ figure {
 
 .about-hero::before {
   background-image: url('/assets/left_bg.svg');
-  width: min(360px, 42vw);
+  width: 42vw;
+  max-width: 360px;
   height: 50vw;
   max-height: 460px;
-
   top: -48px;
-  left: max(-140px, -12vw);
+  left: -12vw;
 }
 
 .about-hero::after {
   background-image: url('/assets/right_bg.svg');
-  width: min(360px, 42vw);
+  width: 42vw;
+  max-width: 360px;
   height: 48vw;
-max-height: 420px;
-
+  max-height: 420px;
   top: 12px;
-  right: max(-140px, -10vw);
+  right: -10vw;
+}
+
+@media (min-width: 1167px) {
+  .about-hero::before {
+    left: -140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-hero::after {
+    right: -140px;
+  }
 }
 
 @media (max-width: 768px) {
