@@ -121,9 +121,8 @@ window.onscroll = function() {
       <p class="hero-description" id="hero-description">
         <span class="hero-description__text hero-description--clamped">
            Tanvir is a doctoral research fellow at Kyungpook National University (KNU), South Korea, doing research in Robot Manipulation under the supervision of <a class= "urls" href="https://knu-brainai.github.io/professor/" target="_blank">Prof. Sangtae Ahn</a> in his <a class= "urls" href="https://knu-brainai.github.io/" target="_blank">BrainAI Lab</a>. Tanvir completed his MS in Computer Science and Engineering at Sungkyunkwan University (SKKU) in South Korea, where he served as a Graduate Research Assistant at the VIS2KNOW Lab under the supervision of <a class= "urls" href="https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en" target="_blank">Prof. Khan Muhammad</a>. He has been recognized for his exceptional potential and awarded the prestigious Global Korea Scholarship (GKS). Based on his excellent academic and research performance, he was awarded the <i>``Academic Excellence Award Winner''</i> in 2024 by the NIIED, Government of South Korea. Currently, research assistant at VIS2KNOW Lab he is focusing on multiple emerging topics such as image dehazing, image enhancement, invisible watermarking, marked by several research outcomes published in high impactful conferences and journals such as <i><strong>WACV'26, ICCV'25, CIKM'25, WWW'25, ACM MM'24, ACCV'24, Alexandria Engineering Journal and Engineering Application of Artificial Intelligence</strong></i>. Md Tanvir Islam's passion for innovative applications of computer science and artificial intelligence is evident through his <a class= "urls" href="https://tanvirnwu.github.io/pages/publications" target="_blank">research outcomes</a> published at reputable venues.
-<button class="hero-read-more" type="button" aria-haspopup="dialog">…Read more</button>
-</span>
-        
+        </span>
+        <button class="hero-read-more" type="button" aria-haspopup="dialog">Read more</button>
       </p>
     </div>
     <p class="hero-interests">
@@ -145,8 +144,8 @@ window.onscroll = function() {
 
     if (!description || !descriptionText || !readMoreButton || !modal || !modalDialog || !modalClose || !modalBody) return;
 
-    const fullHTML = descriptionText.innerHTML?.trim() || '';
-    modalBody.innerHTML = fullHTML;
+    const fullText = descriptionText.textContent?.trim() || '';
+    modalBody.textContent = fullText;
 
     function handleKeydown(event) {
       if (event.key === 'Escape') {
