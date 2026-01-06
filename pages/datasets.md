@@ -7,25 +7,25 @@ permalink: /pages/datasets
 <style>
 
 a {
-  color:#6A5ACD;
+  color:#3680E8;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #554cbf;
+  color: #2D6CC5;
   text-decoration: underline;
   background: transparent;
 }
 
 .urls {
-  color: #6A5ACD;
+  color: #3680E8;
 }
 
 .urls:hover,
 .urls:focus {
   background-color: transparent;
-  color: #6A5ACD;
+  color: #3680E8;
   font-weight:normal;
   text-decoration: underline;
 }
@@ -33,10 +33,10 @@ a:focus {
   .bibtex-container {
     margin-top: -30px;
     margin-bottom: 3px;
-  background-color: rgba(106, 90, 205, 0.1);
+  background-color: rgba(54, 128, 232, 0.1);
   font-size: 16px;
   color:#343434;
-  border-left: 4px solid #6A5ACD;
+  border-left: 4px solid #3680E8;
   font-family: monospace;
   padding: 6px;
   white-space: pre-wrap;
@@ -55,7 +55,7 @@ a:focus {
 
 .toggle-button {
   cursor: pointer;
-  color: #6A5ACD;  /* ✅ Default color */
+  color: #3680E8;  /* ✅ Default color */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -63,14 +63,14 @@ a:focus {
 }
 
 .toggle-button:hover {
-  color: #554cbf !important;
+  color: #2D6CC5 !important;
   background-color: transparent;
   text-decoration: underline;
 }
 
 /* ✅ Ensures the color stays unchanged after clicking */
 .toggle-button:focus, .toggle-button:active {
-  color: #6A5ACD !important;
+  color: #3680E8 !important;
   outline: none;
 }
 
@@ -93,7 +93,7 @@ a:focus {
     }
 
     // ✅ Ensure the link color does not change after clicking
-    link.style.color = "#6A5ACD";
+    link.style.color = "#3680E8";
   }
 </script>
 
@@ -102,7 +102,7 @@ a:focus {
 
 
 <!--
-<h3 style="margin-top: 70px; color: #6A5ACD;">Image Enhancement</h3>
+<h3 style="margin-top: 70px; color: #3680E8;">Image Enhancement</h3>
 <hr> -->
 
 
