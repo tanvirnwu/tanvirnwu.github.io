@@ -599,30 +599,16 @@ figure {
 }
 
 .hero-description {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 8px;
+  display: block;
 }
 
 .hero-description__text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  max-height: calc(1.7em * 3);
-  padding-right: 68px;
-}
-
-@supports not (-webkit-line-clamp: 3) {
-  .hero-description__text {
-    overflow: hidden;
-  }
+  display: inline;
 }
 
 .hero-read-more {
-  align-self: flex-end;
-  padding: 2px 0 0;
+  display: inline;
+  padding: 0;
   border: none;
   background: none;
   color: #6A5ACD;
