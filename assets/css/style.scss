@@ -1,6 +1,6 @@
 ---
 ---
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap");
 @import "{{ site.theme }}";
 
 :root {
@@ -10,7 +10,7 @@
   --layout-gap: clamp(32px, 4vw, 48px);
   --profile-width: clamp(280px, 30vw, 320px);
   --nav-padding: 7px;
-  --nav-padding-top: 22px;
+  --nav-padding-top: 28px;
 }
 
 html {
@@ -25,8 +25,80 @@ body {
   font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 18px;
   color: #343434;
-  background: linear-gradient(135deg, rgba(106, 90, 205, 0.08), rgba(106, 90, 205, 0.04));
+  background: #ffffff;
   min-height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+body::before {
+  background-image: url('/assets/left_bg.png');
+  width: 42vw;
+  max-width: 360px;
+  height: 50vw;
+  max-height: 460px;
+  top: clamp(360px, 42vh, 540px);
+  left: -14vw;
+}
+
+body::after {
+  background-image: url('/assets/right_bg.png');
+  width: 42vw;
+  max-width: 360px;
+  height: 48vw;
+  max-height: 420px;
+  top: clamp(400px, 48vh, 580px);
+  right: -14vw;
+}
+
+@media (max-width: 768px) {
+  body::before,
+  body::after {
+    width: 72vw;
+    height: 72vw;
+    opacity: 0.35;
+  }
+
+  body::before {
+    top: clamp(320px, 46vh, 520px);
+    left: -18vw;
+  }
+
+  body::after {
+    top: clamp(360px, 54vh, 560px);
+    right: -18vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  body::before {
+    left: -140px;
+  }
+
+  body::after {
+    right: -140px;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 768px) {
+  body::before {
+    left: -120px;
+  }
+
+  body::after {
+    right: -120px;
+  }
 }
 
 .wrapper {
@@ -36,6 +108,8 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
 }
 
 /* Full-width navigation with constrained inner content */
@@ -73,23 +147,59 @@ body {
   position: relative;
 }
 
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.site-logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
 .nav-collections {
   display: flex;
   align-items: center;
   gap: 16px;
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .nav-toggle {
   display: none;
   border: none;
   background: transparent;
-  color: #343434;
-  font-size: 17px;
-  font-weight: 700;
+  color: #363636;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
   padding: 8px 6px;
   margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle__icon {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+}
+
+.nav-toggle__icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  box-shadow: 0 7px 0 currentColor, 0 14px 0 currentColor;
 }
 
 .nav-links {
@@ -114,9 +224,10 @@ body {
 }
 
 .nav-links .page-link {
-  font-size: 17px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
   font-weight: 600;
-  color: #343434;
+  color: #363636;
   text-decoration: none;
   border: none;
   background: transparent;
@@ -131,13 +242,13 @@ body {
 .nav-links .page-link.is-active:focus,
 .nav-links .page-link.is-active:hover {
   color: var(--primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .nav-links .page-link:hover,
 .nav-links .page-link:focus {
   color: var(--primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Main content container */
@@ -161,11 +272,6 @@ body {
   margin-top: clamp(16px, 4vw, 40px);
 }
 
-.about-hero,
-.contact-section {
-  width: 100%;
-}
-
 .news-heading {
   font-size: 20px;
   color: #343434;
@@ -173,6 +279,7 @@ body {
 }
 
 .contact-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -304,6 +411,8 @@ figure {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
 .resume-modal__header {
@@ -321,7 +430,10 @@ figure {
   font-weight: 700;
 }
 
-.resume-modal__close {
+.resume-modal__close,
+.contact-modal__close,
+.hero-description-modal__close,
+.modal-close {
   border: none;
   background: #f2f2f2;
   color: #343434;
@@ -334,20 +446,20 @@ figure {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  line-height: 1;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .resume-modal__close:hover,
-.resume-modal__close:focus {
+.resume-modal__close:focus,
+.contact-modal__close:hover,
+.contact-modal__close:focus,
+.hero-description-modal__close:hover,
+.hero-description-modal__close:focus,
+.modal-close:hover,
+.modal-close:focus {
   background: var(--primary-color);
   color: #ffffff;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(106, 90, 205, 0.25);
 }
 
 .contact-modal {
@@ -378,6 +490,8 @@ figure {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
 .contact-modal__header {
@@ -395,320 +509,43 @@ figure {
   font-weight: 700;
 }
 
-.contact-modal__close {
-  border: none;
-  background: #f2f2f2;
-  color: #343434;
-  width: 38px;
-  height: 38px;
-  border-radius: 8px;
-  font-size: 24px;
-  font-weight: 700;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.contact-modal__close:hover,
-.contact-modal__close:focus {
-  background: var(--primary-color);
-  color: #ffffff;
-}
-
 .contact-modal__body {
   padding: 18px 20px 22px;
 }
 
 .hero-description {
   margin: 0;
-  font-size: 17px;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
+  color: #010304;
+  width: 100%;
+  max-width: none;
+  text-align: justify;
 }
 
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+.hero-interests {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  color: #252525;
 }
 
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 16px;
-  border-radius: 400px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 13px;
+.hero-interests__label {
   font-weight: 600;
-  border: none;
-  box-shadow: none;
 }
 
-.skill-pills .skill-pill:nth-child(1) {
-  background: #e8f0fe;
-  color: #1e3a8a;
-}
-
-.skill-pills .skill-pill:nth-child(2) {
-  background: #e6fffa;
-  color: #0f766e;
-}
-
-.skill-pills .skill-pill:nth-child(3) {
-  background: #fff3e0;
-  color: #c2410c;
-}
-
-.skill-pills .skill-pill:nth-child(4) {
-  background: #f3e8ff;
-  color: #6b21a8;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portrait-wrapper {
-  position: relative;
-  width: clamp(260px, 34vw, 360px);
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-}
-
-.portrait-blob {
-  position: absolute;
-  inset: 12%;
-  background: radial-gradient(circle at 30% 30%, #ffd7c2 0%, #f6bfa1 55%, #f0ad8b 100%);
-  filter: drop-shadow(0 18px 40px rgba(240, 173, 139, 0.28));
-  border-radius: 56% 44% 60% 40% / 46% 55% 45% 54%;
-  z-index: 1;
-}
-
-.portrait-image {
-  position: relative;
-  z-index: 2;
-  width: 78%;
-  height: 78%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 6px solid #ffffff;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
-}
-
-/* About hero */
 .about-hero {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
-  align-items: center;
-  gap: clamp(28px, 5vw, 64px);
-  padding-top: clamp(24px, 6vw, 72px);
-  margin-bottom: clamp(20px, 4vw, 48px);
-}
-
-.hero-left {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.hero-greeting {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
-
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
-}
-
-.hero-description {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 3px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portrait-wrapper {
-  position: relative;
-  width: clamp(260px, 34vw, 360px);
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-}
-
-.portrait-blob {
-  position: absolute;
-  inset: 12%;
-  background: radial-gradient(circle at 30% 30%, #ffd7c2 0%, #f6bfa1 55%, #f0ad8b 100%);
-  filter: drop-shadow(0 18px 40px rgba(240, 173, 139, 0.28));
-  border-radius: 56% 44% 60% 40% / 46% 55% 45% 54%;
-  z-index: 1;
-}
-
-.portrait-image {
-  position: relative;
-  z-index: 2;
-  width: 78%;
-  height: 78%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 6px solid #ffffff;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
-}
-
-/* About hero */
-.about-hero {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
-  align-items: center;
-  gap: clamp(28px, 5vw, 64px);
-  padding-top: clamp(24px, 6vw, 72px);
-  margin-bottom: clamp(20px, 4vw, 48px);
-}
-
-.hero-left {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.hero-greeting {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
-
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
-}
-
-.hero-description {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portrait-wrapper {
-  width: clamp(260px, 34vw, 360px);
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-}
-
-.portrait-image {
   width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 6px solid #ffffff;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
-}
-
-/* About hero */
-.about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -717,10 +554,12 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
   margin: 0;
+  font-family: "Exo", sans-serif;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -730,6 +569,7 @@ figure {
 .hero-title {
   margin: 0;
   font-size: clamp(38px, 5vw, 54px);
+   font-family: "Exo", sans-serif;
   font-weight: 800;
   color: #111827;
 }
@@ -737,140 +577,22 @@ figure {
 .role-badge {
   align-self: flex-start;
   background: #ffab00;
-  color: #111827;
+  color: #ffffff;
   border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Exo", sans-serif;
+  letter-spacing: 0.2em;
   box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
-}
-
-.hero-description {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
 }
 
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.portrait-wrapper {
-  width: clamp(260px, 34vw, 360px);
-  display: grid;
-  place-items: center;
-}
-
-.portrait-image {
-  width: 100%;
-  height: auto;
-  border-radius: 0;
-  object-fit: contain;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
-}
-
-/* About hero */
-.about-hero {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
-  align-items: center;
-  gap: clamp(28px, 5vw, 64px);
-  padding-top: clamp(24px, 6vw, 72px);
-  margin-bottom: clamp(20px, 4vw, 48px);
-}
-
-.hero-left {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.hero-greeting {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
-
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
-}
-
-.hero-description {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -878,127 +600,6 @@ figure {
   display: grid;
   place-items: center;
   position: relative;
-}
-
-.portrait-image {
-  width: 100%;
-  height: auto;
-  border-radius: 18px;
-  object-fit: cover;
-  box-shadow: none;
-  background: transparent;
-  position: relative;
-  z-index: 1;
-}
-
-.portrait-wrapper::before {
-  content: "";
-  position: absolute;
-  inset: auto;
-  width: 86%;
-  aspect-ratio: 1;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 191, 143, 0.9), rgba(255, 163, 113, 0.6));
-  border-radius: 46% 54% 50% 58%;
-  filter: drop-shadow(0 18px 32px rgba(0, 0, 0, 0.1));
-  z-index: 0;
-  transform: translate(-6%, 6%);
-}
-
-/* About hero */
-.about-hero {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
-  align-items: center;
-  gap: clamp(28px, 5vw, 64px);
-  padding-top: clamp(24px, 6vw, 72px);
-  margin-bottom: clamp(20px, 4vw, 48px);
-}
-
-.hero-left {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.hero-greeting {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
-
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
-}
-
-.hero-description {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portrait-wrapper {
-  width: clamp(260px, 34vw, 360px);
-  display: grid;
-  place-items: center;
-  position: relative;
-}
-
-.portrait-image {
-  width: 100%;
-  height: auto;
-  border: none;
-  border-radius: 0;
-  object-fit: contain;
-  box-shadow: none;
-  background: transparent;
-  position: relative;
-  z-index: 1;
 }
 
 .portrait-wrapper::before,
@@ -1007,91 +608,6 @@ figure {
   display: none;
 }
 
-/* About hero */
-.about-hero {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
-  align-items: center;
-  gap: clamp(28px, 5vw, 64px);
-  padding-top: clamp(24px, 6vw, 72px);
-  margin-bottom: clamp(20px, 4vw, 48px);
-}
-
-.hero-left {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.hero-greeting {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-
-.hero-title {
-  margin: 0;
-  font-size: clamp(38px, 5vw, 54px);
-  font-weight: 800;
-  color: #111827;
-}
-
-.role-badge {
-  align-self: flex-start;
-  background: #ffab00;
-  color: #111827;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  box-shadow: 0 10px 30px rgba(255, 171, 0, 0.25);
-}
-
-.hero-description {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #343434;
-  max-width: 660px;
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skill-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: #f4f4f5;
-  color: #1f2937;
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portrait-wrapper {
-  width: clamp(260px, 34vw, 360px);
-  display: grid;
-  place-items: center;
-  position: relative;
-}
-
 .portrait-image {
   width: 100%;
   height: auto;
@@ -1101,6 +617,112 @@ figure {
   background: transparent;
   position: relative;
   z-index: 1;
+}
+
+
+.hero-description-block {
+  width: 100%;
+}
+
+.hero-description {
+  display: block;
+}
+
+.hero-description__text {
+  display: inline;
+}
+
+.hero-read-more {
+  display: inline;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #6A5ACD;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hero-read-more:hover,
+.hero-read-more:focus,
+.hero-read-more:active {
+  color: #554cbf;
+  outline: none;
+  text-decoration: none;
+}
+
+.hero-description-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 16px;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.hero-description-modal.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero-description-modal__dialog {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.18);
+  max-width: 760px;
+  width: min(760px, 100%);
+  max-height: 85vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+}
+
+.hero-description-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.hero-description-modal__title {
+  margin: 0;
+  font-size: 20px;
+  color: #111827;
+}
+
+.hero-description-modal__body {
+  padding: 18px;
+  overflow-y: auto;
+}
+
+.hero-description-modal__body a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero-description-modal__body a:hover,
+.hero-description-modal__body a:focus {
+  color: #554cbf;
+}
+
+.hero-description-modal__text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #343434;
+  text-align: justify;
 }
 
 .resume-modal__body {
@@ -1133,7 +755,7 @@ body.modal-open {
 
 @media (max-width: 768px) {
   .nav-inner {
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 
@@ -1182,17 +804,19 @@ body.modal-open {
     grid-template-columns: 1fr;
   }
 
+  .about-hero {
+    grid-template-areas:
+      "hero-image"
+      "hero-content";
+  }
+
   .profile-photo {
     max-width: 240px;
     margin: 0 auto;
   }
 
-  .hero-left {
-    order: 2;
-  }
-
   .hero-right {
-    order: 1;
+    justify-content: center;
   }
 }
 
@@ -1212,5 +836,32 @@ body.modal-open {
 
   .content-inner {
     padding: 24px clamp(14px, 6vw, 24px) 52px;
+  }
+
+  .hero-greeting {
+    font-size: 15px;
+  }
+
+  .hero-title {
+    font-size: clamp(30px, 4vw, 43px);
+  }
+
+  .role-badge {
+    font-size: 12px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .hero-read-more {
+    font-size: 13px;
+  }
+
+  .hero-interests {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
   }
 }
