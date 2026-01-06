@@ -19,7 +19,6 @@ author:
 header_pages:
   - pages/publications.md
   - pages/datasets.md
-  - pages/projects.md
 
 github: 
   is_project_page: false

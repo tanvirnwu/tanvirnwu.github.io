@@ -73,11 +73,25 @@ body {
   position: relative;
 }
 
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.site-logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
 .nav-collections {
   display: flex;
   align-items: center;
   gap: 16px;
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .nav-toggle {
@@ -429,6 +443,12 @@ figure {
   max-width: 660px;
 }
 
+.about-hero .hero-description {
+  text-align: justify;
+  width: 100%;
+  max-width: none;
+}
+
 .skill-pills {
   display: flex;
   flex-wrap: wrap;
@@ -440,13 +460,18 @@ figure {
   align-items: center;
   justify-content: center;
   padding: 10px 16px;
-  border-radius: 999px;
+  border-radius: 6px;
   background: #f4f4f5;
   color: #1f2937;
   font-size: 17px;
   font-weight: 700;
   border: none;
   box-shadow: none;
+}
+
+.about-hero .role-badge,
+.about-hero .skill-pill {
+  border-radius: 6px;
 }
 
 .skill-pills .skill-pill:nth-child(1) {
@@ -472,7 +497,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -506,9 +532,11 @@ figure {
 /* About hero */
 .about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -517,6 +545,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
@@ -578,7 +607,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -612,9 +642,11 @@ figure {
 /* About hero */
 .about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -623,6 +655,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
@@ -684,7 +717,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -706,9 +740,11 @@ figure {
 /* About hero */
 .about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -717,6 +753,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
@@ -778,7 +815,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -798,9 +836,11 @@ figure {
 /* About hero */
 .about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -809,6 +849,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
@@ -870,7 +911,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -907,9 +949,11 @@ figure {
 /* About hero */
 .about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -918,6 +962,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
@@ -979,7 +1024,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -1010,9 +1056,11 @@ figure {
 /* About hero */
 .about-hero {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-areas: "hero-image hero-content";
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
+  column-gap: clamp(20px, 4vw, 36px);
+  row-gap: clamp(16px, 3vw, 24px);
   padding-top: clamp(24px, 6vw, 72px);
   margin-bottom: clamp(20px, 4vw, 48px);
 }
@@ -1021,6 +1069,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  grid-area: hero-content;
 }
 
 .hero-greeting {
@@ -1082,7 +1131,8 @@ figure {
 .hero-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  grid-area: hero-image;
 }
 
 .portrait-wrapper {
@@ -1133,7 +1183,7 @@ body.modal-open {
 
 @media (max-width: 768px) {
   .nav-inner {
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 
@@ -1182,17 +1232,19 @@ body.modal-open {
     grid-template-columns: 1fr;
   }
 
+  .about-hero {
+    grid-template-areas:
+      "hero-image"
+      "hero-content";
+  }
+
   .profile-photo {
     max-width: 240px;
     margin: 0 auto;
   }
 
-  .hero-left {
-    order: 2;
-  }
-
   .hero-right {
-    order: 1;
+    justify-content: center;
   }
 }
 
