@@ -73,11 +73,25 @@ body {
   position: relative;
 }
 
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.site-logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
 .nav-collections {
   display: flex;
   align-items: center;
   gap: 16px;
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .nav-toggle {
@@ -1158,7 +1172,7 @@ body.modal-open {
 
 @media (max-width: 768px) {
   .nav-inner {
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 
