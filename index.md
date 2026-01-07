@@ -200,7 +200,6 @@ window.onscroll = function() {
   </div>
 </div>
 <section class="news-section">
-  <hr>
   <h3 class="news-heading">📢 News</h3>
   <details class="news-year" open>
     <summary><strong>2025</strong></summary>
