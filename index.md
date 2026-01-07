@@ -73,6 +73,13 @@ layout: default
   .news-items li {
     margin-bottom: 4px;
   }
+
+  @media (max-width: 640px) {
+    .news-year summary,
+    .news-items {
+      font-size: calc(15px * 0.85);
+    }
+  }
 </style>
 
 
@@ -200,7 +207,6 @@ window.onscroll = function() {
   </div>
 </div>
 <section class="news-section">
-  
   <h3 class="news-heading">📢 News</h3>
   <details class="news-year" open>
     <summary><strong>2025</strong></summary>
