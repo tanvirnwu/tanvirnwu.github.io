@@ -73,6 +73,13 @@ layout: default
   .news-items li {
     margin-bottom: 4px;
   }
+
+  @media (max-width: 640px) {
+    .news-year summary,
+    .news-items {
+      font-size: calc(15px * 0.85);
+    }
+  }
 </style>
 
 
