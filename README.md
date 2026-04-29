@@ -125,6 +125,12 @@ window.onscroll = function() {
 
 <h3 style="font-size: 16px; color: #343434; margin-top: 40px;">📢 News</h3>
 <details class="news-year" open>
+  <summary><strong>2026</strong></summary>
+  <ul class="news-items">
+    <li>[Apr 2026] One paper is accepted at <strong>IEEE Transactions on Industrial Informatics (TII) (Top 5%)</strong>.</li>
+  </ul>
+</details>
+<details class="news-year">
   <summary><strong>2025</strong></summary>
   <ul class="news-items">
     <li>[Dec 2025] Registered one <strong>US Patent</strong>.</li>
