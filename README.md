@@ -127,7 +127,7 @@ window.onscroll = function() {
 <details class="news-year" open>
   <summary><strong>2026</strong></summary>
   <ul class="news-items">
-    <li>[June 2026] One paper is accepted at <strong>IROS'26</strong>.</li>
+    <li>[June 2026] One paper is accepted at <strong>IROS'26 (Rank A)</strong>.</li>
     <li>[Apr 2026] One paper is accepted at <strong>IEEE Transactions on Industrial Informatics (TII) (Top 5%)</strong>.</li>
   </ul>
 </details>
