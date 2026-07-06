@@ -148,15 +148,32 @@ description: >-
   </div>
 </section>
 
-<!-- ============ Academic service (appears once _data/service.yml has entries) ============ -->
-{% assign service_entries = site.data.service | where_exp: "s", "s.venue" %}
-{% if service_entries.size > 0 %}
+<!-- ============ Academic service ============ -->
+{% assign svc = site.data.service %}
+{% if svc.conferences.size > 0 or svc.journals.size > 0 %}
 <section class="section-block reveal">
   <h2 class="section-heading">🧑‍⚖️ Academic Service</h2>
-  <ul class="service-list">
-    {% for s in service_entries %}
-    <li><strong>{{ s.role }}</strong> — {{ s.venue }}{% if s.years %} ({{ s.years }}){% endif %}</li>
-    {% endfor %}
-  </ul>
+  <div class="two-col">
+    {% if svc.conferences.size > 0 %}
+    <div class="service-group">
+      <h3 class="service-group__title">Conference Reviewer</h3>
+      <ul class="service-list">
+        {% for c in svc.conferences %}
+        <li><strong>{{ c.name }}</strong>{% if c.full %} — {{ c.full }}{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% if svc.journals.size > 0 %}
+    <div class="service-group">
+      <h3 class="service-group__title">Journal Reviewer</h3>
+      <ul class="service-chips">
+        {% for j in svc.journals %}
+        <li class="interest-chip">{{ j.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
 </section>
 {% endif %}

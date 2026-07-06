@@ -1,10 +1,21 @@
-# Academic service / reviewing. The "Academic Service" section on the home page
-# only appears once at least one entry below is uncommented/added.
-# TODO: fill in the venues you review for, e.g.:
-# - role: Reviewer
-#   venue: ACM Multimedia (ACM MM)
-#   years: 2024 — Present
-# - role: Reviewer
-#   venue: IEEE Transactions on Industrial Informatics
-#   years: "2026"
-[]
+# Academic service / reviewing. The section on the home page renders
+# automatically from these lists. Add or remove venues freely.
+conferences:
+  - name: ACCV
+    full: Asian Conference on Computer Vision
+  - name: CoRL
+    full: Conference on Robot Learning
+  - name: BMVC
+    full: British Machine Vision Conference
+journals:
+  - name: IEEE Transactions on Image Processing
+  - name: IEEE Journal of Biomedical and Health Informatics
+  - name: IEEE Open Journal of the Computer Society
+  - name: Pattern Recognition
+  - name: Information Fusion
+  - name: Engineering Applications of Artificial Intelligence
+  - name: Alexandria Engineering Journal
+  - name: PLOS Digital Health
+  - name: PLOS ONE
+  - name: Smart Agricultural Technology
+  - name: The Imaging Science Journal
