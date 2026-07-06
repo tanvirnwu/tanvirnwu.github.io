@@ -1,0 +1,368 @@
+# All publications, patents, and papers under review.
+# To add a paper: copy an entry, fill in the fields, done — the site updates automatically.
+# type: conference | journal | patent | review (under review/ongoing)
+# featured: true shows the paper in "Research Highlights" on the home page.
+# Use "TODO" for missing abstracts/bibtex — they are hidden until filled in.
+
+- id: specguard-iccv25
+  title: "SpecGuard: Spectral Projection-based Advanced Invisible Watermarking"
+  authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Khan Muhammad, Simon S. Woo"
+  venue: "International Conference on Computer Vision (ICCV 2025)"
+  venue_url: https://iccv.thecvf.com/
+  badge: "ICCV'25"
+  note: "Rank A* | Accepted, June 25, 2025"
+  year: 2025
+  type: conference
+  featured: true
+  links:
+    paper: https://github.com/tanvirnwu/SpecGuard_ICCV_2025/blob/36aa90de3d70c8621973e9417d0d9d28f72df4a9/assets/SpecGuard_ICCV_2025.pdf
+    code: https://github.com/tanvirnwu/SpecGuard_ICCV_2025
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: patent-us12287650
+  title: "Adaptive speed control for line-following robots and method thereof"
+  authors: "Abdul Khader Jilani Saudagar, Safkat Shahrier Swapnil, Sandip Kumer Sarker, Arpon Bose Dibya, <strong>Md Tanvir Islam</strong>, Md. Abu-Talha Roni, Hitoun A. Alsagri, Khan Muhammad"
+  venue: "U.S. Patent No. 12287650B1"
+  venue_url: https://patents.google.com/patent/US12287650B1/en
+  badge: "US Patent"
+  note: "Issued April 15, 2025"
+  year: 2025
+  type: patent
+  links:
+    paper: https://patentimages.storage.googleapis.com/83/0c/e4/d94e916d76bce1/US12287650B1.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: patent-us12277682
+  title: "Method for image dehazing of vehicular images"
+  authors: "<strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Abdul Khader Jilani Saudagar, Abdullah Altameem, Mohammed Abaoud, Khan Muhammad"
+  venue: "U.S. Patent No. 12277682"
+  venue_url: https://patents.google.com/patent/US12277682B1/en
+  badge: "US Patent"
+  note: "Issued April 15, 2025"
+  year: 2025
+  type: patent
+  links:
+    paper: https://patentimages.storage.googleapis.com/1e/71/7b/e48b713f4ca580/US12277682B1.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: road6-icmr25
+  title: "ROAD-6: A Diverse Dataset for Unexpected Hazard Recognition in Autonomous Vehicles"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Minh-Son Dao, Ik Hyun Lee, Shuai Liu, Khan Muhammad*"
+  venue: "ACM International Conference on Multimedia Retrieval (ICMR 2025)"
+  venue_url: https://www.icmr-2025.org/
+  badge: "ICMR'25"
+  note: "Rank B | Accepted"
+  year: 2025
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: patent-us12217398
+  title: "Apparatus and method for single image dehazing considering haze type classification"
+  authors: "<strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Abdul Khader Jilani Saudagar, Abdullah Altameem, Mohammed Abaoud, Khan Muhammad"
+  venue: "U.S. Patent No. 12217398"
+  venue_url: https://www.freepatentsonline.com/12217398.html
+  badge: "US Patent"
+  note: "Issued February 4, 2025"
+  year: 2025
+  type: patent
+  links:
+    paper: https://www.freepatentsonline.com/12217398.html
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: mexfic-aej
+  title: "MEXFIC: A Meta Ensemble eXplainable Approach for AI-Synthesized Fake Image Classification"
+  authors: "<strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Ahmed Ibrahim Alzahrani, Khan Muhammad*"
+  venue: "Alexandria Engineering Journal"
+  venue_url: https://www.sciencedirect.com/journal/alexandria-engineering-journal
+  badge: "AEJ"
+  note: "SCIE | AR: 13% | IF: 6.2, Q1"
+  year: 2025
+  type: journal
+  featured: true
+  links:
+    paper: https://www.sciencedirect.com/science/article/pii/S111001682401617X?via%3Dihub
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: cdc-eaai
+  title: "Resource Constraint Crop Damage Classification Using Depth Channel Shuffling"
+  authors: "<strong>Md Tanvir Islam</strong>, Safkat Shahrier Swapnil, Md Masum Billal, Asif Karim*, Niusha Shafiabady, Md. Mehedi Hassan*"
+  venue: "Engineering Applications of Artificial Intelligence"
+  venue_url: https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence
+  badge: "EAAI"
+  note: "SCIE | IF: 7.5, Q1"
+  year: 2025
+  type: journal
+  links:
+    paper: https://www.sciencedirect.com/science/article/abs/pii/S0952197625001174?dgcid=coauthor
+    dataset: https://www.kaggle.com/datasets/tanvirnwu/crop-damage-classification-dataset-cdc-dataset
+  abstract: "TODO"
+  bibtex: |
+    @article{islam2025resource,
+      title={Resource constraint crop damage classification using depth channel shuffling},
+      author={Islam, Md Tanvir and Swapnil, Safkat Shahrier and Billal, Md Masum and Karim, Asif and Shafiabady, Niusha and Hassan, Md Mehedi},
+      journal={Engineering Applications of Artificial Intelligence},
+      volume={144},
+      pages={110117},
+      year={2025},
+      publisher={Elsevier}
+    }
+
+- id: sadre-www25
+  title: "SADRE: Saliency-Aware Diffusion Reconstruction for Effective Invisible Watermark Removal"
+  authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Simon S. Woo*"
+  venue: "The Web Conference (WWW) 2025"
+  venue_url: https://www2025.thewebconf.org/short-papers
+  badge: "WWW'25"
+  note: "BK: 3 | Rank A* | Accepted"
+  year: 2025
+  type: conference
+  featured: true
+  links:
+    paper: https://github.com/tanvirnwu/SADRE/blob/main/assets/SADRE_Paper.pdf
+    code: https://github.com/tanvirnwu/SADRE
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: knee-oa-tmi
+  title: "Noise-Resilient Knee Osteoarthritis Severity Detection in X-rays Using YOLO"
+  authors: "<strong>Md Tanvir Islam<sup>1,*</sup></strong>, Faiyaz Fahim<sup>1</sup>, Abdullah Al Ghalib"
+  venue: "IEEE Transactions on Medical Imaging"
+  venue_url: https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence
+  badge: "IEEE TMI"
+  note: "SCIE | IF: 8.9, Q1 | Under Review"
+  year: 2025
+  type: review
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: hazespace2m-mm24
+  title: "HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing"
+  authors: "<strong>Md Tanvir Islam</strong>, Nasir Rahim, Khan Muhammad*"
+  venue: "Proceedings of the 32nd ACM Multimedia (ACM MM 2024), Melbourne, Australia"
+  venue_url: https://2024.acmmm.org/
+  badge: "ACM MM'24"
+  note: "AR: 26% | BK IF: 4.0 | Rank: A*"
+  year: 2024
+  type: conference
+  featured: true
+  links:
+    paper: https://dl.acm.org/doi/abs/10.1145/3664647.3681382
+    code: https://github.com/tanvirnwu/HazeSpace2M
+    dataset: https://github.com/tanvirnwu/HazeSpace2M
+  abstract: "TODO"
+  bibtex: |
+    @inproceedings{Tanvir2024hazespace2m,
+      title={HazeSpace2M: A Dataset for Haze Aware Single Image Dehazing},
+      author={Islam, Md Tanvir and Rahim, Nasir and Anwar, Saeed and Saqib Muhammad},
+      booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+      year={2024},
+      doi={10.1145/3664647.3681382}
+    }
+
+- id: loli-street-accv24
+  title: "LoLI-Street: Benchmarking Low-Light Image Enhancement and Beyond"
+  authors: "<strong>Md Tanvir Islam</strong>, Inzamamul Alam, Simon S. Woo, Saeed Anwar, IK Hyun Lee, Khan Muhammad*"
+  venue: "Asian Conference on Computer Vision (ACCV 2024)"
+  venue_url: https://accv2024.org/
+  badge: "ACCV'24"
+  note: "AR: 32% | BK IF: 1.0 | Rank: B"
+  year: 2024
+  type: conference
+  featured: true
+  links:
+    paper: https://openaccess.thecvf.com/content/ACCV2024/html/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.html
+    dataset: https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street
+  abstract: "TODO"
+  bibtex: |
+    @InProceedings{Islam_2024_ACCV,
+        author    = {Islam, Md Tanvir and Alam, Inzamamul and Woo, Simon S. and Anwar, Saeed and Lee, IK Hyun and Muhammad, Khan},
+        title     = {LoLI-Street: Benchmarking Low-light Image Enhancement and Beyond},
+        booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+        month     = {December},
+        year      = {2024},
+        pages     = {1250-1267}
+    }
+
+- id: roberta-gcn
+  title: "RoBERTa-GCN: A Novel Approach for Combating Fake News in Bangla Using Advanced Language Processing and Graph Convolutional Networks"
+  authors: "Mejbah Ahammad, AL Sani, Khalilur, <strong>Md Tanvir Islam</strong>, Muztafizur"
+  venue: "IEEE Access"
+  venue_url: https://ieeeaccess.ieee.org/
+  badge: "IEEE Access"
+  note: "SCIE | IF: 3.4, Q1"
+  year: 2024
+  type: journal
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/10677406/
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: thyroid-miet24
+  title: "A Novel Feature Selection Pipeline for Accurate Thyroid Cancer Recurrence Prediction"
+  authors: "<strong>Md Tanvir Islam*</strong>, Samiul Bari"
+  venue: "MIET 2024"
+  venue_url: https://confmiet.org/index.php
+  badge: "MIET'24"
+  note: "Scopus Indexed double peer blind review conference"
+  year: 2024
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: apriori-icicc20
+  title: "An empirical study on diabetes mellitus prediction using apriori algorithm"
+  authors: "<strong>Md Tanvir Islam</strong>, M. Raihan"
+  venue: "International Conference on Innovative Computing and Communications: Proceedings of ICICC 2020, Volume 2, Springer Singapore, 2021"
+  venue_url: https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48
+  badge: "ICICC'20"
+  year: 2021
+  type: conference
+  links:
+    paper: https://link.springer.com/chapter/10.1007/978-981-15-5148-2_48
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: rf-diabetes-icccnt20
+  title: "Typical and non-typical diabetes disease prediction using random forest algorithm"
+  authors: "<strong>Md Tanvir Islam</strong>, M. Raihan"
+  venue: "2020 11th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/9225430
+  badge: "ICCCNT'20"
+  year: 2020
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/9225430
+    pdf: /assets/papers/Typical_and_Non_Typical_Diabetes_Disease.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: ensemble-diabetes-icccnt20
+  title: "Diabetes mellitus prediction using different ensemble machine learning approaches"
+  authors: "<strong>Md Tanvir Islam</strong>, M. Raihan"
+  venue: "2020 11th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/9225551
+  badge: "ICCCNT'20"
+  year: 2020
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/9225551
+    pdf: https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/373328971_Diabetes_Mellitus_Prediction_using_Different_Ensemble_Machine_Learning_Approaches/links/64e622d240289f7a0faeefe9/Diabetes-Mellitus-Prediction-using-Different-Ensemble-Machine-Learning-Approaches.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: student-behavior-icca20
+  title: "A machine learning approach to identify the correlation and association among the students' educational behavior"
+  authors: "<strong>Md Tanvir Islam</strong>, M. Raihan"
+  venue: "Proceedings of the International Conference on Computing Advancements, 2020"
+  venue_url: https://dl.acm.org/doi/abs/10.1145/3377049.3377130
+  badge: "ICCA'20"
+  year: 2020
+  type: conference
+  links:
+    paper: https://dl.acm.org/doi/abs/10.1145/3377049.3377130
+    pdf: https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/340081186_A_Machine_Learning_Approach_to_Identify_the_Correlation_and_Association_among_the_Students'_Educational_Behavior/links/64e61f9b40289f7a0faeef7a/A-Machine-Learning-Approach-to-Identify-the-Correlation-and-Association-among-the-Students-Educational-Behavior.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: ann-diabetes-ijcci19
+  title: "Diabetes mellitus risk prediction using artificial neural network"
+  authors: "M Raihan, Nasif Alvi, <strong>Md Tanvir Islam</strong>"
+  venue: "Proceedings of International Joint Conference on Computational Intelligence: IJCCI 2019, Springer Singapore, 2020"
+  venue_url: https://link.springer.com/chapter/10.1007/978-981-15-3607-6_7
+  badge: "IJCCI'19"
+  year: 2020
+  type: conference
+  links:
+    paper: https://link.springer.com/chapter/10.1007/978-981-15-3607-6_7
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: behavior-mining-icccnt20
+  title: "Human behavior analysis using association rule mining techniques"
+  authors: "M. Raihan, <strong>Md Tanvir Islam</strong>"
+  venue: "11th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE, 2020"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/9225662
+  badge: "ICCCNT'20"
+  year: 2020
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/9225662
+    pdf: https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/344695418_Human_Behavior_Analysis_using_Association_Rule_Mining_Techniques/links/64e61e8a0acf2e2b520d7a6c/Human-Behavior-Analysis-using-Association-Rule-Mining-Techniques.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: empirical-diabetes-icccnt19
+  title: "An empirical study on diabetes mellitus prediction for typical and non-typical cases using machine learning approaches"
+  authors: "<strong>Md Tanvir Islam</strong>, M. Raihan"
+  venue: "10th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE, 2019"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/8944528
+  badge: "ICCCNT'19"
+  year: 2019
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8944528
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: ensemble-ml-cisiot19
+  title: "Diabetes Mellitus Prediction Using Ensemble Machine Learning Techniques"
+  authors: "<strong>Md Tanvir Islam</strong>, M. Raihan"
+  venue: "International Conference on Computational Intelligence, Security and Internet of Things, Springer Singapore, 2019"
+  venue_url: https://link.springer.com/chapter/10.1007/978-981-15-3666-3_37
+  badge: "CISIoT'19"
+  year: 2019
+  type: conference
+  links:
+    paper: https://link.springer.com/chapter/10.1007/978-981-15-3666-3_37
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: safeguard-icccnt19
+  title: "Safeguard: A prototype of an application programming interface to save the disaster affected people"
+  authors: "Promila Ghosh, M Raihan, <strong>Md Tanvir Islam</strong>"
+  venue: "10th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE, 2019"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/8944883
+  badge: "ICCCNT'19"
+  year: 2019
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8944883
+    pdf: https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/338361572_Safeguard_A_Prototype_of_An_Application_Programming_Interface_to_Save_the_Disaster_Affected_People/links/64e6202d0453074fbda94f96/Safeguard-A-Prototype-of-An-Application-Programming-Interface-to-Save-the-Disaster-Affected-People.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: kmeans-diabetes-icccnt19
+  title: "An empirical study to predict diabetes mellitus using K-means and hierarchical clustering techniques"
+  authors: "M. Raihan, <strong>Md Tanvir Islam</strong>"
+  venue: "10th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE, 2019"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/8944552
+  badge: "ICCCNT'19"
+  year: 2019
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8944552
+    pdf: https://www.researchgate.net/profile/Md-Tanvir-Islam-6/publication/338369241_An_Empirical_Study_to_Predict_Diabetes_Mellitus_using_K-Means_and_Hierarchical_Clustering_Techniques/links/64e6200f434d3f628c432fd5/An-Empirical-Study-to-Predict-Diabetes-Mellitus-using-K-Means-and-Hierarchical-Clustering-Techniques.pdf
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: cyanide-icccnt19
+  title: "Identification of cyanide within hollow core photonics crystal fiber"
+  authors: "Md Bellal Hossain, Etu Podder, Abdullah Al-Mamun Bulbul, Himadri Shekhar Mondal, M Raihan, <strong>Md Tanvir Islam</strong>"
+  venue: "10th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IEEE, 2019"
+  venue_url: https://ieeexplore.ieee.org/abstract/document/8944499
+  badge: "ICCCNT'19"
+  year: 2019
+  type: conference
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8944499
+  abstract: "TODO"
+  bibtex: "TODO"

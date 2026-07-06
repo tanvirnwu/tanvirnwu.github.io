@@ -1,0 +1,22 @@
+# Contact & profile links. Edit here — used by nav, hero, contact modal, and footer.
+name: Md Tanvir Islam
+short_name: Tanvir
+role: Research Fellow
+email_display: tanvirnwu[@]knu.ac.kr
+affiliation: Brain AI Lab, Kyungpook National University
+resume: /assets/TanvirResume.pdf
+
+links:
+  - label: Google Scholar
+    id: scholar
+    url: https://scholar.google.com/citations?user=UvINe-sAAAAJ&hl=en
+  - label: GitHub
+    id: github
+    url: https://github.com/tanvirnwu
+  - label: LinkedIn
+    id: linkedin
+    url: https://www.linkedin.com/in/tanvirnwu/
+  # TODO: Replace with your real OpenReview profile URL, then uncomment.
+  # - label: OpenReview
+  #   id: openreview
+  #   url: https://openreview.net/profile?id=~Md_Tanvir_Islam1

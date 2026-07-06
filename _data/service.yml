@@ -1,0 +1,10 @@
+# Academic service / reviewing. The "Academic Service" section on the home page
+# only appears once at least one entry below is uncommented/added.
+# TODO: fill in the venues you review for, e.g.:
+# - role: Reviewer
+#   venue: ACM Multimedia (ACM MM)
+#   years: 2024 — Present
+# - role: Reviewer
+#   venue: IEEE Transactions on Industrial Informatics
+#   years: "2026"
+[]

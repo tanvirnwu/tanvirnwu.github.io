@@ -1,0 +1,102 @@
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: clamp(28px, 5vw, 56px);
+  padding: clamp(8px, 2vw, 24px) 0;
+}
+
+.hero-left { flex: 1; min-width: 0; }
+
+.hero-right { flex-shrink: 0; }
+
+.portrait-wrapper {
+  width: clamp(200px, 26vw, 300px);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--surface);
+  outline: 2px solid var(--accent-border);
+  box-shadow: var(--shadow);
+  background: var(--surface-2);
+}
+
+.portrait-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-greeting {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 12px;
+}
+
+.role-badge {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  margin-bottom: 18px;
+  cursor: default;
+}
+
+.hero-description {
+  color: var(--text-soft);
+  font-size: 1rem;
+  max-width: 62ch;
+}
+
+.hero-read-more {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.hero-interests {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 14px;
+
+  &__label { font-weight: 700; color: var(--text); }
+}
+
+.interest-chip {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 4px 12px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 820px) {
+  .about-hero { flex-direction: column-reverse; text-align: center; }
+  .hero-interests { justify-content: center; }
+  .hero-actions { justify-content: center; }
+  .hero-description { margin-left: auto; margin-right: auto; }
+}

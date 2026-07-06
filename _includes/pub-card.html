@@ -1,0 +1,37 @@
+{%- comment -%}
+Renders one publication card. Usage: {% include pub-card.html pub=pub %}
+{%- endcomment -%}
+<article class="pub-card reveal" data-type="{{ include.pub.type }}" data-year="{{ include.pub.year }}"
+         data-search="{{ include.pub.title | downcase | escape }} {{ include.pub.authors | strip_html | downcase | escape }} {{ include.pub.venue | downcase | escape }}">
+  <div class="pub-card__badges">
+    <span class="pub-badge pub-badge--{{ include.pub.type }}">{{ include.pub.badge | default: include.pub.type | capitalize }}</span>
+    <span class="pub-year">{{ include.pub.year }}</span>
+    {% if include.pub.type == "review" %}<span class="pub-badge pub-badge--status">Under Review</span>{% endif %}
+  </div>
+  <h3 class="pub-card__title">{{ include.pub.title }}</h3>
+  <p class="pub-card__authors">{{ include.pub.authors }}</p>
+  <p class="pub-card__venue">
+    {% if include.pub.venue_url %}<a class="urls" href="{{ include.pub.venue_url }}" target="_blank" rel="noreferrer noopener">{{ include.pub.venue }}</a>{% else %}{{ include.pub.venue }}{% endif %}
+    {% if include.pub.note %}<span class="pub-card__note">({{ include.pub.note }})</span>{% endif %}
+  </p>
+  <div class="pub-card__actions">
+    {% if include.pub.links.paper %}<a class="btn btn--small" href="{{ include.pub.links.paper }}" target="_blank" rel="noreferrer noopener">Paper</a>{% endif %}
+    {% if include.pub.links.pdf %}<a class="btn btn--small" href="{{ include.pub.links.pdf | relative_url }}" target="_blank" rel="noreferrer noopener">PDF</a>{% endif %}
+    {% if include.pub.links.code %}<a class="btn btn--small" href="{{ include.pub.links.code }}" target="_blank" rel="noreferrer noopener">Code</a>{% endif %}
+    {% if include.pub.links.dataset %}<a class="btn btn--small" href="{{ include.pub.links.dataset }}" target="_blank" rel="noreferrer noopener">Dataset</a>{% endif %}
+    {% if include.pub.abstract and include.pub.abstract != "TODO" %}
+      <button class="btn btn--small btn--ghost abstract-toggle" type="button" aria-expanded="false">Abstract</button>
+    {% endif %}
+    {% if include.pub.bibtex and include.pub.bibtex != "TODO" %}
+      <button class="btn btn--small btn--ghost bibtex-copy" type="button" data-bibtex-target="bibtex-{{ include.pub.id }}">Copy BibTeX</button>
+    {% endif %}
+  </div>
+  {% if include.pub.abstract and include.pub.abstract != "TODO" %}
+    <div class="pub-card__abstract" hidden>
+      <p>{{ include.pub.abstract }}</p>
+    </div>
+  {% endif %}
+  {% if include.pub.bibtex and include.pub.bibtex != "TODO" %}
+    <pre class="pub-card__bibtex" id="bibtex-{{ include.pub.id }}" hidden>{{ include.pub.bibtex | escape }}</pre>
+  {% endif %}
+</article>

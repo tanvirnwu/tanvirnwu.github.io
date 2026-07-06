@@ -1,25 +1,31 @@
-theme: jekyll-theme-minimal
+title: Md Tanvir Islam
+description: >-
+  Md Tanvir Islam — doctoral research fellow at Kyungpook National University
+  (Brain AI Lab). Research in Computer Vision, Image Enhancement, Multimedia
+  Security, and Health Informatics.
+url: "https://tanvirnwu.github.io"
+baseurl: ""
+lang: en-US
 
-# title: "&nbsp;"
-title: " "
-# description: [A short description of your site's purpose]
-# show_downloads: [false]
-github:
-  zip_url: https://fb.com/
-  another_url: https://fb.com/
-  
+# Portrait used in the hero and social-share cards.
 logo: /assets/tanvir8.png
 
 author:
-  name: Tanvir
-  email: <tanvirnwu@g.skku.edu>
-
-# github_username: " "
+  name: Md Tanvir Islam
+  email: tanvirnwu@knu.ac.kr
 
 header_pages:
   - pages/publications.md
   - pages/datasets.md
 
-github: 
-  is_project_page: false
-  
+plugins:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Backup
+  - README.md
+  - REDESIGN_PROMPT.md
+  - style.css

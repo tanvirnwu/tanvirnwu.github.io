@@ -1,0 +1,53 @@
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  margin-top: clamp(40px, 8vw, 80px);
+  padding: clamp(28px, 5vw, 44px) var(--page-padding) 20px;
+}
+
+.footer-inner {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 4px;
+  color: var(--text);
+}
+
+.footer-affiliation, .footer-email {
+  color: var(--text-faint);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+
+  a { color: var(--text-soft); font-size: 0.92rem; font-weight: 500; }
+
+  a:hover { color: var(--accent); }
+}
+
+.footer-copy {
+  max-width: var(--page-max);
+  margin: 24px auto 0;
+  color: var(--text-faint);
+  font-size: 0.82rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}

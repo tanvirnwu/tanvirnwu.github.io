@@ -1,0 +1,181 @@
+// ---- Stats row ----
+.pub-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+  margin: 18px 0 26px;
+}
+
+.pub-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+
+  &__num {
+    font-family: var(--font-display);
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--accent);
+    display: block;
+  }
+
+  &__label { color: var(--text-faint); font-size: 0.85rem; }
+}
+
+// ---- Filters ----
+.pub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.filter-group { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.filter-chip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-soft);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+  &:hover { border-color: var(--accent-border); color: var(--accent); }
+
+  &.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+}
+
+.pub-search {
+  flex: 1;
+  min-width: 200px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  padding: 9px 18px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+  &::placeholder { color: var(--text-faint); }
+}
+
+.pub-empty {
+  color: var(--text-faint);
+  text-align: center;
+  padding: 40px 0;
+  display: none;
+}
+
+// ---- Publication cards ----
+.pub-year-group { margin-bottom: 10px; }
+
+.pub-year-heading {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin: 26px 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+}
+
+.pub-list { display: flex; flex-direction: column; gap: 14px; }
+
+.pub-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  box-shadow: var(--shadow-soft);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover { border-color: var(--accent-border); box-shadow: var(--shadow); }
+
+  &__badges { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+
+  &__title { font-size: 1.05rem; margin: 0 0 6px; }
+
+  &__authors { color: var(--text-soft); font-size: 0.92rem; margin: 0 0 4px; }
+
+  &__venue { color: var(--text-faint); font-size: 0.9rem; margin: 0 0 12px; }
+
+  &__note { color: var(--text-faint); }
+
+  &__actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  &__abstract {
+    margin-top: 12px;
+    padding: 12px 16px;
+    background: var(--surface-2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius-small) var(--radius-small) 0;
+    color: var(--text-soft);
+    font-size: 0.92rem;
+
+    p { margin: 0; }
+  }
+
+  &__bibtex {
+    margin: 12px 0 0;
+    padding: 12px 16px;
+    background: var(--surface-2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius-small) var(--radius-small) 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    color: var(--text-soft);
+  }
+
+  &.is-hidden { display: none; }
+}
+
+.pub-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  padding: 2px 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+
+  &--patent { background: rgba(16, 163, 127, 0.12); color: #0e9573; border-color: rgba(16, 163, 127, 0.3); }
+
+  &--journal { background: rgba(168, 85, 247, 0.12); color: #9333ea; border-color: rgba(168, 85, 247, 0.3); }
+
+  &--review, &--status { background: rgba(245, 158, 11, 0.14); color: #d97706; border-color: rgba(245, 158, 11, 0.32); }
+}
+
+html[data-theme="dark"] {
+  .pub-badge--patent { color: #34d399; }
+  .pub-badge--journal { color: #c084fc; }
+  .pub-badge--review, .pub-badge--status { color: #fbbf24; }
+}
+
+.pub-year {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-faint);
+}
+
+.pub-meta-notes {
+  color: var(--text-faint);
+  font-size: 0.88rem;
+
+  strong { color: var(--text-soft); }
+}

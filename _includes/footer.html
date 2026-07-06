@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-identity">
+      <p class="footer-name">{{ site.data.profiles.name }}</p>
+      <p class="footer-affiliation">{{ site.data.profiles.affiliation }}</p>
+      <p class="footer-email">{{ site.data.profiles.email_display }}</p>
+    </div>
+    <ul class="footer-links">
+      {% for link in site.data.profiles.links %}
+        <li><a href="{{ link.url }}" target="_blank" rel="noreferrer noopener">{{ link.label }}</a></li>
+      {% endfor %}
+      <li><a href="{{ site.data.profiles.resume | relative_url }}" target="_blank" rel="noopener">Resume (PDF)</a></li>
+    </ul>
+  </div>
+  <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.data.profiles.name }}. All rights reserved.</p>
+</footer>

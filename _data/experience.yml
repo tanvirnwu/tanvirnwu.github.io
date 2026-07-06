@@ -1,0 +1,16 @@
+# Experience timeline (derived from the biography — adjust dates/details as needed).
+- role: Doctoral Research Fellow
+  org: Brain AI Lab, Kyungpook National University (KNU), South Korea
+  org_url: https://knu-brainai.github.io/
+  period: Apr 2025 — Present
+  detail: >-
+    Research in Robot Manipulation under the supervision of
+    Prof. Sangtae Ahn. Joined as Research Intern in April 2025.
+
+- role: Graduate Research Assistant
+  org: VIS2KNOW Lab, Sungkyunkwan University (SKKU), South Korea
+  org_url: https://scholar.google.co.kr/citations?user=k5oUZyQAAAAJ&hl=en
+  period: During MS  # TODO: add exact years
+  detail: >-
+    Research on image dehazing, image enhancement, and invisible watermarking
+    under the supervision of Prof. Khan Muhammad.

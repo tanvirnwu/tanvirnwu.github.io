@@ -1,0 +1,44 @@
+// Design tokens — single source of truth for colors, spacing, type.
+:root {
+  --accent: #3680e8;
+  --accent-strong: #2d6cc5;
+  --accent-soft: rgba(54, 128, 232, 0.1);
+  --accent-border: rgba(54, 128, 232, 0.22);
+
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --surface-2: #eef3fb;
+  --text: #1f2733;
+  --text-soft: #4c5a6b;
+  --text-faint: #7b8798;
+  --border: #e2e8f1;
+  --shadow: 0 10px 30px rgba(23, 43, 77, 0.08);
+  --shadow-soft: 0 2px 10px rgba(23, 43, 77, 0.06);
+  --nav-bg: rgba(255, 255, 255, 0.82);
+
+  --page-max: 1180px;
+  --page-padding: clamp(18px, 4vw, 36px);
+  --radius: 14px;
+  --radius-small: 8px;
+
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Sora", "Inter", system-ui, sans-serif;
+}
+
+html[data-theme="dark"] {
+  --accent: #5b9bf5;
+  --accent-strong: #82b4f8;
+  --accent-soft: rgba(91, 155, 245, 0.14);
+  --accent-border: rgba(91, 155, 245, 0.32);
+
+  --bg: #0d1220;
+  --surface: #161d30;
+  --surface-2: #1d2740;
+  --text: #e8edf6;
+  --text-soft: #b3bfd1;
+  --text-faint: #8592a7;
+  --border: #273250;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-soft: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --nav-bg: rgba(13, 18, 32, 0.82);
+}
