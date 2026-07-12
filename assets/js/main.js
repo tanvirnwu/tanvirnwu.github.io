@@ -259,16 +259,21 @@
   });
 })();
 
-/* News: reveal earlier years */
+/* Research updates: year tabs */
 (function () {
-  var newsToggle = document.getElementById('news-toggle');
-  if (!newsToggle) return;
-  newsToggle.addEventListener('click', function () {
-    var expanded = newsToggle.getAttribute('aria-expanded') === 'true';
-    document.querySelectorAll('.news-flow__group--earlier').forEach(function (g) {
-      g.hidden = expanded;
+  var tabs = document.querySelectorAll('.news-tab');
+  if (!tabs.length) return;
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var year = tab.getAttribute('data-news-year');
+      tabs.forEach(function (t) {
+        var active = t === tab;
+        t.classList.toggle('is-active', active);
+        t.setAttribute('aria-pressed', String(active));
+      });
+      document.querySelectorAll('.news-flow__group').forEach(function (g) {
+        g.hidden = g.getAttribute('data-year') !== year;
+      });
     });
-    newsToggle.setAttribute('aria-expanded', String(!expanded));
-    newsToggle.textContent = expanded ? 'Show earlier \u2193' : 'Show less \u2191';
   });
 })();

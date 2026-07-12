@@ -27,7 +27,14 @@
   &__links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
 }
 
-// ---- News: continuous milestone timeline ----
+// ---- News: year tabs + milestone timeline ----
+.news-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
 .news-flow {
   position: relative;
   padding-left: 40px;
@@ -40,30 +47,6 @@
     bottom: 8px;
     width: 2px;
     background: var(--accent-border);
-  }
-}
-
-.news-flow__group { margin-bottom: 20px; }
-.news-flow__group:last-child { margin-bottom: 0; }
-
-.news-flow__year {
-  position: relative;
-  display: inline-block;
-  margin: 0 0 14px -40px;
-  background: var(--surface-2);
-  color: var(--accent-strong);
-  border: 1px solid var(--accent-border);
-  border-radius: var(--radius-small);
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  font-weight: 700;
-  padding: 3px 12px;
-  z-index: 1;
-
-  &--current {
-    background: var(--accent);
-    color: var(--btn-text);
-    border-color: var(--accent);
   }
 }
 
@@ -107,7 +90,6 @@
   font-weight: 600;
 }
 
-.news-flow__actions { margin: 18px 0 0; padding-left: 40px; }
 
 // ---- Awards ----
 .awards-grid {
