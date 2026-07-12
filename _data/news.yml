@@ -6,8 +6,16 @@
       text: "One paper is accepted at <strong>IROS'26 (Rank A)</strong>."
       highlight: true
     - date: Apr 2026
+      text: "Registered one <strong>US Patent</strong> on child monitoring and risk management (No. 12602980)."
+      highlight: true
+    - date: Apr 2026
       text: "One paper is accepted at <strong>IEEE Transactions on Industrial Informatics (TII) (Top 5%)</strong>."
       highlight: true
+    - date: Mar 2026
+      text: "One paper is published in <strong>Biomedical Signal Processing and Control (Elsevier, SCIE)</strong> as the corresponding author."
+      highlight: true
+    - date: Jan 2026
+      text: "One book chapter is published in <strong>Cybersecurity for Healthcare Systems in the Internet of Medical Things Era (Academic Press)</strong>."
 
 - year: 2025
   items:
