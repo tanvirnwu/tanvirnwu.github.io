@@ -277,3 +277,19 @@
     });
   });
 })();
+
+/* Hero: rotating portrait stack */
+(function () {
+  var stack = document.querySelector('.portrait-stack');
+  if (!stack) return;
+  var imgs = stack.querySelectorAll('.portrait-stack__img');
+  if (imgs.length < 2) return;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var i = 0;
+  setInterval(function () {
+    if (reduce.matches || document.hidden) return;
+    imgs[i].classList.remove('is-active');
+    i = (i + 1) % imgs.length;
+    imgs[i].classList.add('is-active');
+  }, 5000);
+})();

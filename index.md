@@ -41,8 +41,19 @@ description: >-
     </div>
   </div>
   <div class="hero-right reveal">
+    {% assign portraits = site.static_files | where_exp: "f", "f.path contains '/assets/portraits/'" | sort: "path" %}
     <div class="portrait-blob">
+      {% if portraits.size > 1 %}
+      <div class="portrait-stack">
+        {% for photo in portraits %}
+        <img src="{{ photo.path | relative_url }}" alt="Portrait of Md Tanvir Islam" class="portrait-image portrait-stack__img{% if forloop.first %} is-active{% endif %}" width="320" height="320"{% if forloop.first %} fetchpriority="high"{% else %} loading="lazy"{% endif %} />
+        {% endfor %}
+      </div>
+      {% elsif portraits.size == 1 %}
+      <img src="{{ portraits.first.path | relative_url }}" alt="Portrait of Md Tanvir Islam" class="portrait-image" width="320" height="320" fetchpriority="high" />
+      {% else %}
       <img src="{{ site.logo | relative_url }}" alt="Portrait of Md Tanvir Islam" class="portrait-image" width="320" height="320" fetchpriority="high" />
+      {% endif %}
     </div>
   </div>
 </section>
