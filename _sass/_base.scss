@@ -48,12 +48,12 @@ img { max-width: 100%; height: auto; }
   left: -9999px;
   top: 0;
   background: var(--accent);
-  color: #fff;
+  color: var(--btn-text);
   padding: 10px 16px;
   border-radius: 0 0 var(--radius-small) 0;
   z-index: 200;
 
-  &:focus { left: 0; color: #fff; text-decoration: none; }
+  &:focus { left: 0; color: var(--btn-text); text-decoration: none; }
 }
 
 .page-shell {
@@ -85,7 +85,7 @@ img { max-width: 100%; height: auto; }
   align-items: center;
   gap: 6px;
   background: var(--accent);
-  color: #fff;
+  color: var(--btn-text);
   border: 1px solid var(--accent);
   border-radius: 999px;
   padding: 9px 20px;
@@ -98,7 +98,7 @@ img { max-width: 100%; height: auto; }
   &:hover, &:focus {
     background: var(--accent-strong);
     border-color: var(--accent-strong);
-    color: #fff;
+    color: var(--btn-text);
     text-decoration: none;
     transform: translateY(-1px);
     box-shadow: var(--shadow-soft);
@@ -132,7 +132,7 @@ img { max-width: 100%; height: auto; }
   border-radius: 50%;
   border: none;
   background: var(--accent);
-  color: #fff;
+  color: var(--btn-text);
   font-size: 1.1rem;
   cursor: pointer;
   box-shadow: var(--shadow);

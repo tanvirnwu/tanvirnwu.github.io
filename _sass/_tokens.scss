@@ -1,20 +1,22 @@
 // Design tokens — single source of truth for colors, spacing, type.
+// Palette: muted steel blue (light) / desaturated slate (dark).
 :root {
-  --accent: #3680e8;
-  --accent-strong: #2d6cc5;
-  --accent-soft: rgba(54, 128, 232, 0.1);
-  --accent-border: rgba(54, 128, 232, 0.22);
+  --accent: #4c6b8f;
+  --accent-strong: #3a5675;
+  --accent-soft: rgba(76, 107, 143, 0.09);
+  --accent-border: rgba(76, 107, 143, 0.22);
+  --btn-text: #ffffff;
 
-  --bg: #f7f9fc;
+  --bg: #f8f9fa;
   --surface: #ffffff;
-  --surface-2: #eef3fb;
-  --text: #1f2733;
-  --text-soft: #4c5a6b;
-  --text-faint: #7b8798;
-  --border: #e2e8f1;
-  --shadow: 0 10px 30px rgba(23, 43, 77, 0.08);
-  --shadow-soft: 0 2px 10px rgba(23, 43, 77, 0.06);
-  --nav-bg: rgba(255, 255, 255, 0.82);
+  --surface-2: #f1f4f7;
+  --text: #20262d;
+  --text-soft: #4d5761;
+  --text-faint: #7d858e;
+  --border: #e4e8ec;
+  --shadow: 0 10px 30px rgba(30, 41, 54, 0.06);
+  --shadow-soft: 0 2px 10px rgba(30, 41, 54, 0.05);
+  --nav-bg: rgba(255, 255, 255, 0.85);
 
   --page-max: 1180px;
   --page-padding: clamp(18px, 4vw, 36px);
@@ -26,19 +28,20 @@
 }
 
 html[data-theme="dark"] {
-  --accent: #5b9bf5;
-  --accent-strong: #82b4f8;
-  --accent-soft: rgba(91, 155, 245, 0.14);
-  --accent-border: rgba(91, 155, 245, 0.32);
+  --accent: #87a9c9;
+  --accent-strong: #a9c4de;
+  --accent-soft: rgba(135, 169, 201, 0.13);
+  --accent-border: rgba(135, 169, 201, 0.3);
+  --btn-text: #10151d;
 
-  --bg: #0d1220;
-  --surface: #161d30;
-  --surface-2: #1d2740;
-  --text: #e8edf6;
-  --text-soft: #b3bfd1;
-  --text-faint: #8592a7;
-  --border: #273250;
+  --bg: #0f141c;
+  --surface: #171d26;
+  --surface-2: #1e2631;
+  --text: #e7ebf0;
+  --text-soft: #b4bdc7;
+  --text-faint: #86909b;
+  --border: #2a3441;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
   --shadow-soft: 0 2px 10px rgba(0, 0, 0, 0.3);
-  --nav-bg: rgba(13, 18, 32, 0.82);
+  --nav-bg: rgba(15, 20, 28, 0.85);
 }

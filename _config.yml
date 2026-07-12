@@ -29,3 +29,4 @@ exclude:
   - README.md
   - REDESIGN_PROMPT.md
   - style.css
+  - scripts

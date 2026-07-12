@@ -64,9 +64,9 @@
 
 .news-year[open] summary {
   background: var(--accent);
-  color: #fff;
+  color: var(--btn-text);
 
-  &::after { transform: rotate(180deg); color: #fff; }
+  &::after { transform: rotate(180deg); color: var(--btn-text); }
 }
 
 .news-timeline {
@@ -127,7 +127,7 @@
   margin-left: 6px;
   font-size: 0.72rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--btn-text);
   background: var(--accent);
   border-radius: 999px;
   padding: 1px 8px;

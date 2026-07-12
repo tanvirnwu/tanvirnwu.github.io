@@ -3,6 +3,8 @@
 # type: conference | journal | patent | review (under review/ongoing)
 # featured: true shows the paper in "Research Highlights" on the home page.
 # Use "TODO" for missing abstracts/bibtex — they are hidden until filled in.
+# thumbnail: /assets/pubs/<id>.webp — optional teaser figure shown on the card
+#   (recommended ~600×450 WebP, 4:3; omit the field for a text-only card).
 
 - id: specguard-iccv25
   title: "SpecGuard: Spectral Projection-based Advanced Invisible Watermarking"

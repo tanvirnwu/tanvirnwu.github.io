@@ -50,7 +50,7 @@
 
   &:hover { border-color: var(--accent-border); color: var(--accent); }
 
-  &.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  &.is-active { background: var(--accent); border-color: var(--accent); color: var(--btn-text); }
 }
 
 .pub-search {
@@ -141,6 +141,32 @@
   }
 
   &.is-hidden { display: none; }
+
+  // Card with a teaser figure: thumbnail left, content right.
+  &--thumb {
+    display: grid;
+    grid-template-columns: 168px minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+  }
+
+  &__thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius-small);
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+  }
+
+  &__body { min-width: 0; }
+}
+
+@media (max-width: 620px) {
+  .pub-card--thumb { grid-template-columns: 1fr; }
+  .pub-card__thumb img { aspect-ratio: 16 / 9; }
 }
 
 .pub-badge {
@@ -154,17 +180,17 @@
   color: var(--accent);
   border: 1px solid var(--accent-border);
 
-  &--patent { background: rgba(16, 163, 127, 0.12); color: #0e9573; border-color: rgba(16, 163, 127, 0.3); }
+  &--patent { background: rgba(46, 125, 100, 0.1); color: #2e7d64; border-color: rgba(46, 125, 100, 0.26); }
 
-  &--journal { background: rgba(168, 85, 247, 0.12); color: #9333ea; border-color: rgba(168, 85, 247, 0.3); }
+  &--journal { background: rgba(109, 90, 156, 0.1); color: #6d5a9c; border-color: rgba(109, 90, 156, 0.26); }
 
-  &--review, &--status { background: rgba(245, 158, 11, 0.14); color: #d97706; border-color: rgba(245, 158, 11, 0.32); }
+  &--review, &--status { background: rgba(166, 124, 54, 0.11); color: #96703a; border-color: rgba(166, 124, 54, 0.28); }
 }
 
 html[data-theme="dark"] {
-  .pub-badge--patent { color: #34d399; }
-  .pub-badge--journal { color: #c084fc; }
-  .pub-badge--review, .pub-badge--status { color: #fbbf24; }
+  .pub-badge--patent { color: #8ec7b3; }
+  .pub-badge--journal { color: #b7a8d9; }
+  .pub-badge--review, .pub-badge--status { color: #d3b184; }
 }
 
 .pub-year {

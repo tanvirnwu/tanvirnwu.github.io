@@ -19,11 +19,16 @@ description: >-
 {% assign review_count = pubs | where: "type", "review" | size %}
 
 <!-- Stats -->
+{% assign gs = site.data.scholar %}
 <div class="pub-stats reveal">
   <div class="pub-stat"><span class="pub-stat__num">{{ conference_count }}</span><span class="pub-stat__label">Conference Papers</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ journal_count }}</span><span class="pub-stat__label">Journal Articles</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ patent_count }}</span><span class="pub-stat__label">Patents</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ review_count }}</span><span class="pub-stat__label">Under Review</span></div>
+  {% if gs.citations %}
+  <div class="pub-stat" title="Google Scholar, updated {{ gs.updated }}"><span class="pub-stat__num">{{ gs.citations }}</span><span class="pub-stat__label">Citations</span></div>
+  <div class="pub-stat" title="Google Scholar, updated {{ gs.updated }}"><span class="pub-stat__num">{{ gs.h_index }}</span><span class="pub-stat__label">h-index</span></div>
+  {% endif %}
 </div>
 
 <!-- Filters + search -->
