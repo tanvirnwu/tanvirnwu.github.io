@@ -3,8 +3,8 @@ layout: default
 title: Publications
 permalink: /pages/publications
 description: >-
-  Publications, patents, and papers under review by Md Tanvir Islam —
-  ICCV, WACV, ACM MM, WWW, CIKM, ACCV, and SCIE journals.
+  Publications and patents by Md Tanvir Islam —
+  ICCV, WACV, IROS, ACM MM, WWW, CIKM, ACCV, and SCIE journals.
 ---
 
 <h1 class="section-heading">📄 Publications</h1>
@@ -12,11 +12,10 @@ description: >-
 <p class="pub-meta-notes"><strong>Disclaimer:</strong> All papers are for personal use only. Reproduction or distribution without permission from the copyright holders is prohibited.</p>
 <p class="pub-meta-notes"><strong><sup>1</sup></strong>Equal Contributions | <strong><sup>*</sup></strong>Corresponding Author | <strong>BK:</strong> Brain Korea | <strong>AR:</strong> Acceptance Rate</p>
 
-{% assign pubs = site.data.publications %}
+{% assign pubs = site.data.publications | where_exp: "p", "p.type != 'review'" %}
 {% assign conference_count = pubs | where: "type", "conference" | size %}
 {% assign journal_count = pubs | where: "type", "journal" | size %}
 {% assign patent_count = pubs | where: "type", "patent" | size %}
-{% assign review_count = pubs | where: "type", "review" | size %}
 
 <!-- Stats -->
 {% assign gs = site.data.scholar %}
@@ -24,7 +23,6 @@ description: >-
   <div class="pub-stat"><span class="pub-stat__num">{{ conference_count }}</span><span class="pub-stat__label">Conference Papers</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ journal_count }}</span><span class="pub-stat__label">Journal Articles</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ patent_count }}</span><span class="pub-stat__label">Patents</span></div>
-  <div class="pub-stat"><span class="pub-stat__num">{{ review_count }}</span><span class="pub-stat__label">Under Review</span></div>
   {% if gs.citations %}
   <div class="pub-stat" title="Google Scholar, updated {{ gs.updated }}"><span class="pub-stat__num">{{ gs.citations }}</span><span class="pub-stat__label">Citations</span></div>
   <div class="pub-stat" title="Google Scholar, updated {{ gs.updated }}"><span class="pub-stat__num">{{ gs.h_index }}</span><span class="pub-stat__label">h-index</span></div>
@@ -38,7 +36,6 @@ description: >-
     <button class="filter-chip" type="button" data-filter-type="conference">Conferences</button>
     <button class="filter-chip" type="button" data-filter-type="journal">Journals</button>
     <button class="filter-chip" type="button" data-filter-type="patent">Patents</button>
-    <button class="filter-chip" type="button" data-filter-type="review">Under Review</button>
   </div>
   <input class="pub-search" id="pub-search" type="search" placeholder="Search title, author, venue…" aria-label="Search publications">
 </div>
