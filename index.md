@@ -55,7 +55,7 @@ description: >-
 </div>
 
 <!-- ============ Research highlights ============ -->
-{% assign featured = site.data.publications | where: "featured", true %}
+{% assign featured = site.data.publications | where: "featured", true | sort: "featured_order" %}
 {% if featured.size > 0 %}
 <section class="section-block reveal">
   <h2 class="section-heading">🔬 Research Highlights</h2>
@@ -64,7 +64,8 @@ description: >-
     <article class="highlight-card">
       <div class="highlight-card__badges">
         <span class="pub-badge pub-badge--{{ pub.type }}">{{ pub.badge }}</span>
-        <span class="pub-year">{{ pub.year }}</span>
+        {% if pub.rank %}<span class="pub-badge pub-badge--rank">{{ pub.rank | replace: "A*", "A<sup>*</sup>" }}</span>{% endif %}
+        {% assign yy = pub.year | append: "" | slice: 2, 2 %}{% unless pub.badge contains yy %}<span class="pub-year">{{ pub.year }}</span>{% endunless %}
       </div>
       <h3 class="highlight-card__title">{{ pub.title }}</h3>
       <p class="highlight-card__venue">{{ pub.venue }}</p>
@@ -90,7 +91,6 @@ description: >-
       <li class="news-item{% if item.highlight %} news-item--highlight{% endif %}">
         <span class="news-date">{{ item.date }}</span>
         {{ item.text }}
-        {% if item.highlight %}<span class="news-flag">★</span>{% endif %}
       </li>
       {% endfor %}
     </ul>

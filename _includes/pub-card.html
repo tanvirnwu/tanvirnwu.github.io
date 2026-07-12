@@ -12,7 +12,8 @@ Optional: pub.thumbnail — path to a teaser figure (e.g. /assets/pubs/my-paper.
   <div class="pub-card__body">
     <div class="pub-card__badges">
       <span class="pub-badge pub-badge--{{ include.pub.type }}">{{ include.pub.badge | default: include.pub.type | capitalize }}</span>
-      <span class="pub-year">{{ include.pub.year }}</span>
+      {% if include.pub.rank %}<span class="pub-badge pub-badge--rank">{{ include.pub.rank | replace: "A*", "A<sup>*</sup>" }}</span>{% endif %}
+      {% assign yy = include.pub.year | append: "" | slice: 2, 2 %}{% unless include.pub.badge contains yy %}<span class="pub-year">{{ include.pub.year }}</span>{% endunless %}
       {% if include.pub.type == "review" %}<span class="pub-badge pub-badge--status">Under Review</span>{% endif %}
     </div>
     <h3 class="pub-card__title">{{ include.pub.title }}</h3>

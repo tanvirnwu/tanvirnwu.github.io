@@ -6,19 +6,63 @@
 # thumbnail: /assets/pubs/<id>.webp — optional teaser figure shown on the card
 #   (recommended ~600×450 WebP, 4:3; omit the field for a text-only card).
 
+- id: sureflow-iros26
+  title: "SUREFlow: State-space Uncertainty-aware REsidual Flow Matching for Robust Robot Manipulation"
+  authors: "<strong>Md Tanvir Islam</strong>, Sai Navaneet Peddapalli, Sangmoon Lee, Sangtae Ahn*"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)"
+  badge: "IROS'26"
+  rank: "Rank A"
+  note: "Accepted"
+  year: 2026
+  type: conference
+  featured: true
+  featured_order: 1
+  links:
+    code: https://github.com/tanvirnwu/SUREFlow_IROS_2026
+  abstract: "Generative vision-language-action policies have advanced robot manipulation, but they often exhibit instability under noise, partial observability, and stochastic initial conditions. During extended rollouts, small velocity errors accumulate, degrading execution reliability. Existing diffusion and flow-based policies typically assume homoscedastic residuals and lack explicit uncertainty modeling within action generation, limiting robustness during iterative rollout. We propose SUREFlow, a state-space uncertainty-aware residual flow matching framework built on a Mamba backbone. The method jointly predicts action velocities and input-dependent residual uncertainty, enabling selective refinement of unreliable action dimensions without environment feedback while preserving computational efficiency. On LIBERO, SUREFlow achieves 92.5% average success rate (SR), outperforming the Mamba-based MaIL by 34.2%. On LIBERO-PRO, it attains around 49% SR using only 179M parameters, achieving performance comparable to large VLAs with 3-7B parameters."
+  bibtex: "TODO"
+
+- id: spikerain-wacv26
+  title: "SpikeRain: Towards Energy-Efficient Single Image Deraining with Spiking Neural Networks"
+  authors: "<strong>Md Tanvir Islam</strong>, Inzamamul Alam, Sambit Bakshi, Khan Muhammad*, Javier Del Ser, Sangtae Ahn*"
+  venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2026)"
+  venue_url: https://wacv.thecvf.com/
+  badge: "WACV'26"
+  rank: "Rank A"
+  note: "Accepted"
+  year: 2026
+  type: conference
+  featured: true
+  featured_order: 4
+  links:
+    paper: https://openaccess.thecvf.com/content/WACV2026/html/Islam_SpikeRain_Towards_Energy-Efficient_Single_Image_Deraining_with_Spiking_Neural_Networks_WACV_2026_paper.html
+    code: https://github.com/tanvirnwu/SpikeRain_WACV_2025
+  abstract: "TODO"
+  bibtex: |
+    @InProceedings{Islam_2026_WACV,
+      author    = {Islam, Md Tanvir and Alam, Inzamamul and Bakshi, Sambit and Muhammad, Khan and Del Ser, Javier and Ahn, Sangtae},
+      title     = {SpikeRain: Towards Energy-Efficient Single Image Deraining with Spiking Neural Networks},
+      booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+      month     = {March},
+      year      = {2026},
+      pages     = {1094-1105}
+    }
+
 - id: specguard-iccv25
   title: "SpecGuard: Spectral Projection-based Advanced Invisible Watermarking"
   authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Khan Muhammad, Simon S. Woo"
   venue: "International Conference on Computer Vision (ICCV 2025)"
   venue_url: https://iccv.thecvf.com/
   badge: "ICCV'25"
-  note: "Rank A* | Accepted, June 25, 2025"
+  rank: "Rank A*"
+  note: "Accepted, June 25, 2025"
   year: 2025
   type: conference
   featured: true
+  featured_order: 5
   links:
     paper: https://github.com/tanvirnwu/SpecGuard_ICCV_2025/blob/36aa90de3d70c8621973e9417d0d9d28f72df4a9/assets/SpecGuard_ICCV_2025.pdf
-    code: https://github.com/tanvirnwu/SpecGuard_ICCV_2025
+    code: https://github.com/inzamamulDU/SpecGuard_ICCV_2025
   abstract: "TODO"
   bibtex: "TODO"
 
@@ -56,7 +100,8 @@
   venue: "ACM International Conference on Multimedia Retrieval (ICMR 2025)"
   venue_url: https://www.icmr-2025.org/
   badge: "ICMR'25"
-  note: "Rank B | Accepted"
+  rank: "Rank B"
+  note: "Accepted"
   year: 2025
   type: conference
   links: {}
@@ -83,10 +128,12 @@
   venue: "Alexandria Engineering Journal"
   venue_url: https://www.sciencedirect.com/journal/alexandria-engineering-journal
   badge: "AEJ"
-  note: "SCIE | AR: 13% | IF: 6.2, Q1"
+  rank: "IF: 6.8 | SCIE | Top 5%"
+  note: "AR: 13%"
   year: 2025
   type: journal
   featured: true
+  featured_order: 6
   links:
     paper: https://www.sciencedirect.com/science/article/pii/S111001682401617X?via%3Dihub
   abstract: "TODO"
@@ -122,10 +169,10 @@
   venue: "The Web Conference (WWW) 2025"
   venue_url: https://www2025.thewebconf.org/short-papers
   badge: "WWW'25"
-  note: "BK: 3 | Rank A* | Accepted"
+  rank: "Rank A*"
+  note: "BK: 3 | Accepted"
   year: 2025
   type: conference
-  featured: true
   links:
     paper: https://github.com/tanvirnwu/SADRE/blob/main/assets/SADRE_Paper.pdf
     code: https://github.com/tanvirnwu/SADRE
@@ -151,10 +198,12 @@
   venue: "Proceedings of the 32nd ACM Multimedia (ACM MM 2024), Melbourne, Australia"
   venue_url: https://2024.acmmm.org/
   badge: "ACM MM'24"
-  note: "AR: 26% | BK IF: 4.0 | Rank: A*"
+  rank: "Rank A*"
+  note: "AR: 26% | BK IF: 4.0"
   year: 2024
   type: conference
   featured: true
+  featured_order: 3
   links:
     paper: https://dl.acm.org/doi/abs/10.1145/3664647.3681382
     code: https://github.com/tanvirnwu/HazeSpace2M
@@ -175,12 +224,15 @@
   venue: "Asian Conference on Computer Vision (ACCV 2024)"
   venue_url: https://accv2024.org/
   badge: "ACCV'24"
-  note: "AR: 32% | BK IF: 1.0 | Rank: B"
+  rank: "Rank B"
+  note: "AR: 32% | BK IF: 1.0"
   year: 2024
   type: conference
   featured: true
+  featured_order: 2
   links:
     paper: https://openaccess.thecvf.com/content/ACCV2024/html/Islam_LoLI-Street_Benchmarking_Low-light_Image_Enhancement_and_Beyond_ACCV_2024_paper.html
+    code: https://github.com/tanvirnwu/TriFuse_ACCV_2024
     dataset: https://www.kaggle.com/datasets/tanvirnwu/loli-street-low-light-image-enhancement-of-street
   abstract: "TODO"
   bibtex: |
