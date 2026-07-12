@@ -60,6 +60,30 @@ description: >-
   </div>
 </div>
 
+<!-- ============ Research updates ============ -->
+<section class="news-section section-block reveal">
+  <h2 class="section-heading">📢 Research Updates</h2>
+  <div class="news-tabs" aria-label="Filter updates by year">
+    {% for group in site.data.news %}
+    <button class="filter-chip news-tab{% if forloop.first %} is-active{% endif %}" type="button" data-news-year="{{ group.year }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ group.year }}</button>
+    {% endfor %}
+  </div>
+  <div class="news-flow">
+    {% for group in site.data.news %}
+    <div class="news-flow__group" data-year="{{ group.year }}"{% unless forloop.first %} hidden{% endunless %}>
+      <ul class="news-flow__list">
+        {% for item in group.items %}
+        <li class="news-flow__item{% if item.highlight %} news-flow__item--highlight{% endif %}">
+          <span class="news-flow__date">{{ item.date }}</span>
+          <span class="news-flow__text">{{ item.text }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
 <!-- ============ Research highlights ============ -->
 {% assign featured = site.data.publications | where: "featured", true | sort: "featured_order" %}
 {% if featured.size > 0 %}
@@ -85,30 +109,6 @@ description: >-
   </div>
 </section>
 {% endif %}
-
-<!-- ============ News timeline ============ -->
-<section class="news-section section-block reveal">
-  <h2 class="section-heading">📢 Research Updates</h2>
-  <div class="news-tabs" aria-label="Filter updates by year">
-    {% for group in site.data.news %}
-    <button class="filter-chip news-tab{% if forloop.first %} is-active{% endif %}" type="button" data-news-year="{{ group.year }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ group.year }}</button>
-    {% endfor %}
-  </div>
-  <div class="news-flow">
-    {% for group in site.data.news %}
-    <div class="news-flow__group" data-year="{{ group.year }}"{% unless forloop.first %} hidden{% endunless %}>
-      <ul class="news-flow__list">
-        {% for item in group.items %}
-        <li class="news-flow__item{% if item.highlight %} news-flow__item--highlight{% endif %}">
-          <span class="news-flow__date">{{ item.date }}</span>
-          <span class="news-flow__text">{{ item.text }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endfor %}
-  </div>
-</section>
 
 <!-- ============ Awards ============ -->
 {% if site.data.awards.size > 0 %}
