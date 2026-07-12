@@ -3,19 +3,19 @@
 - year: 2026
   items:
     - date: June 2026
-      text: "One paper is accepted at <strong>IROS'26 (Rank A)</strong>."
+      text: "Robot Manipulation paper is accepted at <strong>IROS'26 (Rank A)</strong>."
       highlight: true
     - date: Apr 2026
-      text: "Registered one <strong>US Patent</strong> on child monitoring and risk management (No. 12602980)."
+      text: "Registered one <strong>US Patent</strong> on child monitoring and risk management."
       highlight: true
     - date: Apr 2026
-      text: "One paper is accepted at <strong>IEEE Transactions on Industrial Informatics (TII) (Top 5%)</strong>."
+      text: "One paper is accepted at <strong>IEEE Transactions on Industrial Informatics (TII) (IF: 9.8 | Top 5%)</strong>."
       highlight: true
     - date: Mar 2026
-      text: "One paper is published in <strong>Biomedical Signal Processing and Control (Elsevier, SCIE)</strong> as the corresponding author."
+      text: "Published in <strong>Biomedical Signal Processing and Control (IF: 5.7 | SCIE)</strong> as corresponding author."
       highlight: true
     - date: Jan 2026
-      text: "One book chapter is published in <strong>Cybersecurity for Healthcare Systems in the Internet of Medical Things Era (Academic Press)</strong>."
+      text: "Book chapter is published in <strong>Cybersecurity for Healthcare Systems in the Internet of Medical Things Era (Academic Press)</strong>."
 
 - year: 2025
   items:
