@@ -89,19 +89,26 @@ description: >-
 <!-- ============ News timeline ============ -->
 <section class="news-section section-block reveal">
   <h2 class="section-heading">📢 News</h2>
-  {% for group in site.data.news %}
-  <details class="news-year"{% if forloop.first %} open{% endif %}>
-    <summary><strong>{{ group.year }}</strong></summary>
-    <ul class="news-timeline">
-      {% for item in group.items %}
-      <li class="news-item{% if item.highlight %} news-item--highlight{% endif %}">
-        <span class="news-date">{{ item.date }}</span>
-        {{ item.text }}
-      </li>
-      {% endfor %}
-    </ul>
-  </details>
-  {% endfor %}
+  <div class="news-flow">
+    {% for group in site.data.news %}
+    <div class="news-flow__group{% unless forloop.first %} news-flow__group--earlier{% endunless %}"{% unless forloop.first %} hidden{% endunless %}>
+      <span class="news-flow__year{% if forloop.first %} news-flow__year--current{% endif %}">{{ group.year }}</span>
+      <ul class="news-flow__list">
+        {% for item in group.items %}
+        <li class="news-flow__item{% if item.highlight %} news-flow__item--highlight{% endif %}">
+          <span class="news-flow__date">{{ item.date }}</span>
+          <span class="news-flow__text">{{ item.text }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  {% if site.data.news.size > 1 %}
+  <p class="news-flow__actions">
+    <button class="btn btn--outline btn--small" id="news-toggle" type="button" aria-expanded="false">Show earlier ↓</button>
+  </p>
+  {% endif %}
 </section>
 
 <!-- ============ Awards ============ -->

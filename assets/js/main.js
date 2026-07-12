@@ -258,3 +258,17 @@
     });
   });
 })();
+
+/* News: reveal earlier years */
+(function () {
+  var newsToggle = document.getElementById('news-toggle');
+  if (!newsToggle) return;
+  newsToggle.addEventListener('click', function () {
+    var expanded = newsToggle.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.news-flow__group--earlier').forEach(function (g) {
+      g.hidden = expanded;
+    });
+    newsToggle.setAttribute('aria-expanded', String(!expanded));
+    newsToggle.textContent = expanded ? 'Show earlier \u2193' : 'Show less \u2191';
+  });
+})();
