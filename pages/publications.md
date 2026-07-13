@@ -3,7 +3,7 @@ layout: default
 title: Publications
 permalink: /pages/publications
 description: >-
-  Publications and patents by Md Tanvir Islam —
+  Publications, patents, and book chapters by Md Tanvir Islam —
   ICCV, WACV, IROS, ACM MM, WWW, CIKM, ACCV, and SCIE journals.
 ---
 
@@ -16,6 +16,7 @@ description: >-
 {% assign conference_count = pubs | where: "type", "conference" | size %}
 {% assign journal_count = pubs | where: "type", "journal" | size %}
 {% assign patent_count = pubs | where: "type", "patent" | size %}
+{% assign chapter_count = pubs | where: "type", "chapter" | size %}
 
 <!-- Stats -->
 {% assign gs = site.data.scholar %}
@@ -23,6 +24,7 @@ description: >-
   <div class="pub-stat"><span class="pub-stat__num">{{ conference_count }}</span><span class="pub-stat__label">Conference Papers</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ journal_count }}</span><span class="pub-stat__label">Journal Articles</span></div>
   <div class="pub-stat"><span class="pub-stat__num">{{ patent_count }}</span><span class="pub-stat__label">Patents</span></div>
+  <div class="pub-stat"><span class="pub-stat__num">{{ chapter_count }}</span><span class="pub-stat__label">Book Chapters</span></div>
   {% if gs.citations %}
   <div class="pub-stat" title="Google Scholar, updated {{ gs.updated }}"><span class="pub-stat__num">{{ gs.citations }}</span><span class="pub-stat__label">Citations</span></div>
   <div class="pub-stat" title="Google Scholar, updated {{ gs.updated }}"><span class="pub-stat__num">{{ gs.h_index }}</span><span class="pub-stat__label">h-index</span></div>
@@ -36,6 +38,7 @@ description: >-
     <button class="filter-chip" type="button" data-filter-type="conference">Conferences</button>
     <button class="filter-chip" type="button" data-filter-type="journal">Journals</button>
     <button class="filter-chip" type="button" data-filter-type="patent">Patents</button>
+    <button class="filter-chip" type="button" data-filter-type="chapter">Chapters</button>
   </div>
   <input class="pub-search" id="pub-search" type="search" placeholder="Search title, author, venue…" aria-label="Search publications">
 </div>

@@ -1,6 +1,6 @@
 # All publications, patents, and papers under review.
 # To add a paper: copy an entry, fill in the fields, done — the site updates automatically.
-# type: conference | journal | patent | review (under review/ongoing)
+# type: conference | journal | chapter | patent | review (under review/ongoing)
 # featured: true shows the paper in "Research Highlights" on the home page.
 # Use "TODO" for missing abstracts/bibtex — they are hidden until filled in.
 # thumbnail: /assets/pubs/<id>.webp — optional teaser figure shown on the card
@@ -48,6 +48,57 @@
       pages     = {1094-1105}
     }
 
+- id: crop-tii26
+  title: "Resource-Efficient Neural Network for Crop Damage Classification in Precision Agriculture"
+  authors: "<strong>Md Tanvir Islam</strong>, Shehzad Ali, Abdul Khader Jilani Saudagar, Mohammad Hijji, Yazeed M. Alkhrijah, Khan Muhammad, et al."
+  venue: "IEEE Transactions on Industrial Informatics"
+  venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
+  badge: "IEEE TII"
+  rank: "IF: 9.8 | Top 5%"
+  year: 2026
+  type: journal
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: resp-bspc26
+  title: "Embedded Machine Learning Framework for Respiratory Disease Detection"
+  authors: "Mehadi Hasan Bijoy, Mohtasin Fuad, HM Nahid Kawsar, <strong>Md Tanvir Islam</strong>*, Kamrul Hasan, Sangtae Ahn"
+  venue: "Biomedical Signal Processing and Control, vol. 113, 109132 (Elsevier)"
+  venue_url: https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control
+  badge: "BSPC"
+  rank: "IF: 5.7 | SCIE, Q1"
+  note: "Corresponding author"
+  year: 2026
+  type: journal
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: patent-us12602980
+  title: "System and method for child monitoring and risk management"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Abdul Khader Jilani Saudagar, Abdullah M Albarrak, Khan Muhammad"
+  venue: "U.S. Patent No. 12602980"
+  venue_url: https://patents.google.com/?q=12602980
+  badge: "US Patent"
+  note: "Issued April 14, 2026"
+  year: 2026
+  type: patent
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: iomt-chapter26
+  title: "Securing Real-Time Patient Monitoring in IoMT Blockchain and Federated Learning Integration"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Khan Muhammad"
+  venue: "Cybersecurity for Healthcare Systems in the Internet of Medical Things Era, Academic Press, pp. 147–169"
+  badge: "Book Chapter"
+  year: 2026
+  type: chapter
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
 - id: specguard-iccv25
   title: "SpecGuard: Spectral Projection-based Advanced Invisible Watermarking"
   authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Khan Muhammad, Simon S. Woo"
@@ -63,6 +114,129 @@
   links:
     paper: https://github.com/tanvirnwu/SpecGuard_ICCV_2025/blob/36aa90de3d70c8621973e9417d0d9d28f72df4a9/assets/SpecGuard_ICCV_2025.pdf
     code: https://github.com/inzamamulDU/SpecGuard_ICCV_2025
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: specxnet-mm25
+  title: "SpecXNet: A Dual-Domain Convolutional Network for Robust Deepfake Detection"
+  authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Simon S. Woo"
+  venue: "Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM 2025), pp. 11667–11676"
+  venue_url: https://acmmm2025.org/
+  badge: "ACM MM'25"
+  rank: "Rank A*"
+  year: 2025
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: hazard-mm25
+  title: "Towards Hazardous Activity Recognition for A Novel Real-World Dataset"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, M Xiong, Minh-Son Dao, Saeed Anwar, Sambit Bakshi, Khan Muhammad"
+  venue: "Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM 2025), pp. 5326–5335"
+  venue_url: https://acmmm2025.org/
+  badge: "ACM MM'25"
+  rank: "Rank A*"
+  year: 2025
+  type: conference
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3746027.3754795
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: iard-cikm25
+  title: "IARD: Intruder Activity Recognition Dataset for Threat Detection"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Saeed Anwar, Javier Del Ser, Khan Muhammad"
+  venue: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025)"
+  venue_url: https://cikm2025.org/
+  badge: "CIKM'25"
+  rank: "Rank A"
+  year: 2025
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: diabd-aej25
+  title: "DiaBD: A Novel Benchmark Dataset for Diabetes Prediction"
+  authors: "<strong>Md Tanvir Islam</strong>, ASM Miah, M. Raihan, MI Kabir, Mehadi Hasan Bijoy, Anupam Kumar Bairagi, et al."
+  venue: "Alexandria Engineering Journal"
+  venue_url: https://www.sciencedirect.com/journal/alexandria-engineering-journal
+  badge: "AEJ"
+  rank: "IF: 6.8 | SCIE | Top 5%"
+  year: 2025
+  type: journal
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: cabad-aej25
+  title: "CABAD: A Video Dataset for Benchmarking Child Aggression Recognition"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Mohammad Hijji, Khan Muhammad"
+  venue: "Alexandria Engineering Journal, vol. 127, pp. 1143–1157"
+  venue_url: https://www.sciencedirect.com/journal/alexandria-engineering-journal
+  badge: "AEJ"
+  rank: "IF: 6.8 | SCIE | Top 5%"
+  year: 2025
+  type: journal
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: traffic-ecce25
+  title: "Real-Time Traffic Sign Detection for Autonomous Vehicles Using YOLOv11"
+  authors: "MS Alam, A Sani, <strong>Md Tanvir Islam</strong>, AK Ghosh, A Chowdhury"
+  venue: "International Conference on Electrical, Computer and Communication Engineering (ECCE 2025)"
+  badge: "ECCE'25"
+  year: 2025
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: dengue-qpain25
+  title: "Dengue Outbreak Prediction in Bangladesh Based on Meteorological Factors"
+  authors: "S Bari, S Shailee, FT Joyanti, <strong>Md Tanvir Islam</strong>"
+  venue: "International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN 2025)"
+  badge: "QPAIN'25"
+  year: 2025
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: nid-bim25
+  title: "Network Intrusion Detection Using Machine Learning for 5G-IoT Security"
+  authors: "Mehadi Hasan Bijoy, <strong>Md Tanvir Islam</strong>, AI Sunny"
+  venue: "International Conference on Big Data, IoT and Machine Learning (BIM 2025), pp. 408–422"
+  badge: "BIM'25"
+  year: 2025
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: patent-us12485924
+  title: "Method and system for controlling autonomous vehicles"
+  authors: "Shehzad Ali, <strong>Md Tanvir Islam</strong>, Ik Hyun Lee, Abdul Khader Jilani Saudagar, Khan Muhammad"
+  venue: "U.S. Patent No. 12485924"
+  venue_url: https://patents.google.com/?q=12485924
+  badge: "US Patent"
+  note: "Issued 2025"
+  year: 2025
+  type: patent
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: neural-chapter25
+  title: "Neural Dynamics: Unraveling the Complexity of Brain Activity"
+  authors: "R Haque, <strong>Md Tanvir Islam</strong>"
+  venue: "Brain Networks in Neuroscience: Personalization Unveiled via Artificial Intelligence"
+  badge: "Book Chapter"
+  year: 2025
+  type: chapter
+  links: {}
   abstract: "TODO"
   bibtex: "TODO"
 

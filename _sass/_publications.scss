@@ -185,6 +185,8 @@
   &--journal { background: rgba(109, 90, 156, 0.1); color: #6d5a9c; border-color: rgba(109, 90, 156, 0.26); }
 
   &--review, &--status { background: rgba(166, 124, 54, 0.11); color: #96703a; border-color: rgba(166, 124, 54, 0.28); }
+
+  &--chapter { background: rgba(60, 110, 130, 0.1); color: #3c6e82; border-color: rgba(60, 110, 130, 0.26); }
 }
 
 .pub-badge--rank {
@@ -199,6 +201,7 @@ html[data-theme="dark"] {
   .pub-badge--patent { color: #8ec7b3; }
   .pub-badge--journal { color: #b7a8d9; }
   .pub-badge--review, .pub-badge--status { color: #d3b184; }
+  .pub-badge--chapter { color: #93c2d3; }
 }
 
 .pub-year {
