@@ -20,7 +20,14 @@
   links:
     code: https://github.com/tanvirnwu/SUREFlow_IROS_2026
   abstract: "Generative vision-language-action policies have advanced robot manipulation, but they often exhibit instability under noise, partial observability, and stochastic initial conditions. During extended rollouts, small velocity errors accumulate, degrading execution reliability. Existing diffusion and flow-based policies typically assume homoscedastic residuals and lack explicit uncertainty modeling within action generation, limiting robustness during iterative rollout. We propose SUREFlow, a state-space uncertainty-aware residual flow matching framework built on a Mamba backbone. The method jointly predicts action velocities and input-dependent residual uncertainty, enabling selective refinement of unreliable action dimensions without environment feedback while preserving computational efficiency. On LIBERO, SUREFlow achieves 92.5% average success rate (SR), outperforming the Mamba-based MaIL by 34.2%. On LIBERO-PRO, it attains around 49% SR using only 179M parameters, achieving performance comparable to large VLAs with 3-7B parameters."
-  bibtex: "TODO"
+  bibtex: |
+    @InProceedings{sureflow2026_IROS,
+      author    = {Islam, Md Tanvir and Peddapalli, Sai Navaneet and Lee, Sangmoon and Ahn, Sangtae},
+      title     = {SUREFlow: State-space Uncertainty-aware REsidual Flow Matching for Robust Robot Manipulation},
+      booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots & Systems (IROS)},
+      month     = {September},
+      year      = {2026}
+    }
 
 - id: spikerain-wacv26
   title: "SpikeRain: Towards Energy-Efficient Single Image Deraining with Spiking Neural Networks"
