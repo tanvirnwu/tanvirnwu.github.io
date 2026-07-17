@@ -125,7 +125,8 @@ description: >-
 {% if site.data.awards.size > 0 %}
 <section class="section-block reveal">
   <h2 class="section-heading">🏆 Awards &amp; Honors</h2>
-  <div class="awards-grid">
+  <div class="awards-carousel">
+    <div class="awards-track" id="awards-track" tabindex="0" aria-label="Awards carousel">
     {% for award in site.data.awards %}
     <div class="award-card{% if award.highlight %} award-card--highlight{% endif %}">
       <div class="award-card__col">
@@ -138,6 +139,13 @@ description: >-
       </div>
     </div>
     {% endfor %}
+    </div>
+    <button class="awards-nav awards-nav--prev" type="button" aria-label="Previous award" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <button class="awards-nav awards-nav--next" type="button" aria-label="Next award">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
   </div>
 </section>
 {% endif %}

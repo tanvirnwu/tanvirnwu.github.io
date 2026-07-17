@@ -293,3 +293,25 @@
     imgs[i].classList.add('is-active');
   }, 5000);
 })();
+
+/* Awards carousel arrows */
+(function () {
+  var track = document.getElementById('awards-track');
+  if (!track) return;
+  var prev = document.querySelector('.awards-nav--prev');
+  var next = document.querySelector('.awards-nav--next');
+  if (!prev || !next) return;
+  var step = function () {
+    var card = track.querySelector('.award-card');
+    return card ? card.getBoundingClientRect().width + 16 : 260;
+  };
+  var update = function () {
+    prev.hidden = track.scrollLeft <= 4;
+    next.hidden = track.scrollLeft >= track.scrollWidth - track.clientWidth - 4;
+  };
+  prev.addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); });
+  next.addEventListener('click', function () { track.scrollBy({ left: step(), behavior: 'smooth' }); });
+  track.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update, { passive: true });
+  update();
+})();
