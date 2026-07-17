@@ -102,36 +102,30 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 12px;
+  padding: 18px 20px;
   box-shadow: var(--shadow-soft);
   display: flex;
   gap: 14px;
-  align-items: stretch;
+  align-items: flex-start;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 
   &:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 
   &__col {
-    background: var(--accent-soft);
-    border-radius: var(--radius-small);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 4px;
-    min-width: 58px;
-    padding: 8px 6px;
+    gap: 6px;
+    min-width: 44px;
     flex-shrink: 0;
-    transition: background 0.25s ease;
   }
-
-  &:hover &__col { background: var(--accent-border); }
 
   &__year {
     font-family: var(--font-display);
     font-weight: 700;
     color: var(--accent-strong);
-    font-size: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.3;
   }
 
   &__trophy {
@@ -143,7 +137,7 @@
 
   &:hover &__trophy { animation: trophy-wiggle 0.6s ease; }
 
-  &__body { padding: 6px 4px; }
+  &__body { padding: 0; }
 
   &__title { font-weight: 600; color: var(--text); margin: 0 0 2px; }
 
