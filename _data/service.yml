@@ -1,6 +1,8 @@
 # Academic service / reviewing. The section on the home page renders
 # automatically from these lists. Add or remove venues freely.
 conferences:
+  - name: AAAI
+    full: AAAI Conference on Artificial Intelligence
   - name: ACCV
     full: Asian Conference on Computer Vision
   - name: CoRL
