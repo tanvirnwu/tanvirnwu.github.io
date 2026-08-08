@@ -16,7 +16,22 @@
   year: 2026
   type: conference
   links: {}
-  abstract: "TODO"
+  abstract: >-
+    Recent progress in text-to-image diffusion highlights the need for invisible,
+    tamper-resilient watermarking that maintains both visual fidelity and prompt
+    alignment. Existing approaches often compromise on robustness, imperceptibility,
+    or scalability, with many introducing semantic drift that weakens provenance
+    guarantees. To address this, we introduce NullGuard, a training-free,
+    plug-and-play watermarking framework that embeds cryptographically keyed signals
+    in the null-space of pretrained diffusion Jacobians, using user-specific rotations
+    to define imperceptible directions. A lightweight Gauss-Newton pivot refinement,
+    constrained by a perceptual mask, perturbs only watermark-relevant components
+    while preserving global semantics, and a calibrated keyed forward likelihood-gap
+    test detects watermarks, achieving up to 99% detection accuracy under attacks
+    such as blurring and JPEG compression, with PSNR >= 45 dB. Extensive evaluations
+    on MS-COCO and DiffusionDB demonstrate that NullGuard surpasses state-of-the-art
+    (SOTA) methods in robustness, invisibility, and semantic alignment, offering a
+    scalable foundation for provenance-aware diffusion governance.
   bibtex: "TODO"
 
 - id: gaussvla-bmvc26
@@ -29,7 +44,23 @@
   year: 2026
   type: conference
   links: {}
-  abstract: "TODO"
+  abstract: >-
+    Vision-Language-Action (VLA) models encode visual observations as flat 2D patch
+    tokens that carry no intrinsic geometric structure, and augmenting them with dense
+    monocular depth injects per-pixel scalar values that encode neither surface
+    orientation nor geometric confidence. This leaves the policy with limited structured
+    spatial reasoning for action prediction. We propose GaussVLA, a mamba-based VLA
+    that incorporates two custom modules: Gaussian Spatial Tokenizer (GST) to lift frozen
+    semantic and depth features into compact 3D Gaussian tokens, pools geometrically
+    salient regions with learned queries, and Depth-Aware Chain-of-Thought (DA-CoT)
+    that performs structured, non-autoregressive geometric reasoning under language and
+    flow-time conditioning. Across both simulation and real-world evaluations, GaussVLA
+    demonstrates strong spatial-manipulation performance while remaining parameter
+    efficient. On LIBERO, it achieves 93.5% average success and 100.0% success on the
+    Spatial suite with only 200M parameters, improving over SpatialVLA by 19.7% relative
+    average success while remaining significantly more parameter-efficient. Our
+    experimental results suggest that geometry-aware representations can provide a
+    practical path toward more efficient and deployable robot manipulation.
   bibtex: "TODO"
 
 - id: hnh40k-bmvc26
@@ -42,7 +73,23 @@
   year: 2026
   type: conference
   links: {}
-  abstract: "TODO"
+  abstract: >-
+    Robust deployment of gesture-driven interfaces hinges on a brittle front-end
+    hand-versus-non-hand pre-filter. Existing gesture corpora optimize positive-class
+    diversity but supply only incidental negatives, leaving deep models prone to
+    overconfident false activations on visually confusing distractors such as faces,
+    electronics, and indoor clutter. We address this gap with a benchmarking and beyond
+    paradigm. We introduce HNH40K, a balanced RGB benchmark of 40,448 images at 192x160
+    from 40 subject-disjoint participants, equipped with a three-tier risk-aware negative
+    taxonomy. Profiling 16 backbones (CNN, Transformer, SSM, SNN) at four scales exposes
+    severe calibration errors and FPR divergence hidden by standard gesture data. We then
+    propose a Cascaded Risk-Aware Filter that achieves computational asymmetry: a
+    lightweight CNN stem rapidly handles easy negatives, while a conditional Transformer
+    Structural Scrutinizer resolves structural ambiguities on a confidence-gated hard
+    tail. We optimize the cascade using a new Risk-Weighted Focal Loss (RWFL) that anchors
+    the dataset's risk taxonomy directly in the gradient. At 0.159M parameters and 0.076G
+    FLOPs, our filter attains 99.95% accuracy, ROC-AUC 99.99%, FPR 5x10^-4, and a 0.45
+    drop under high-risk distractors at 837 FPS, dominating every benchmarked backbone.
   bibtex: "TODO"
 
 - id: sureflow-iros26
