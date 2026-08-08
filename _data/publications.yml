@@ -6,6 +6,45 @@
 # thumbnail: /assets/pubs/<id>.webp — optional teaser figure shown on the card
 #   (recommended ~600×450 WebP, 4:3; omit the field for a text-only card).
 
+- id: nullguard-bmvc26
+  title: "NullGuard: Null-Space Embedding for Driftless Invisible Image Watermarking"
+  authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Juhun Lee, Sangtae Ahn, Simon S. Woo"
+  venue: "British Machine Vision Conference (BMVC 2026)"
+  badge: "BMVC'26"
+  rank: "Rank A"
+  note: "Accepted"
+  year: 2026
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: gaussvla-bmvc26
+  title: "GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model"
+  authors: "Md Selim Sarowar, <strong>Md Tanvir Islam</strong>, Sungho Kim*, Sangtae Ahn"
+  venue: "British Machine Vision Conference (BMVC 2026)"
+  badge: "BMVC'26"
+  rank: "Rank A"
+  note: "Accepted"
+  year: 2026
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
+- id: hnh40k-bmvc26
+  title: "HNH40K: A Robust Dataset and Risk-Weighted Learning for Hand Filtering"
+  authors: "Ashikuzzaman, Md Selim Sarowar, <strong>Md Tanvir Islam</strong>, Fath U Min Ullah, Hayoung Oh, Sambit Bakshi, Sangtae Ahn, Khan Muhammad"
+  venue: "British Machine Vision Conference (BMVC 2026)"
+  badge: "BMVC'26"
+  rank: "Rank A"
+  note: "Accepted"
+  year: 2026
+  type: conference
+  links: {}
+  abstract: "TODO"
+  bibtex: "TODO"
+
 - id: sureflow-iros26
   title: "SUREFlow: State-space Uncertainty-aware REsidual Flow Matching for Robust Robot Manipulation"
   authors: "<strong>Md Tanvir Islam</strong>, Sai Navaneet Peddapalli, Sangmoon Lee, Sangtae Ahn*"

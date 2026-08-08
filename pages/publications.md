@@ -4,7 +4,7 @@ title: Publications
 permalink: /pages/publications
 description: >-
   Publications, patents, and book chapters by Md Tanvir Islam —
-  ICCV, WACV, IROS, ACM MM, WWW, CIKM, ACCV, and SCIE journals.
+  BMVC, ICCV, WACV, IROS, ACM MM, WWW, CIKM, ACCV, and SCIE journals.
 ---
 
 <h1 class="section-heading">📄 Publications</h1>
