@@ -12,7 +12,7 @@ description: >-
     <p class="hero-kicker">{{ site.data.profiles.role }} · {{ site.data.profiles.affiliation }}</p>
     <h1 class="hero-title">Md Tanvir Islam</h1>
     <p class="hero-lede">
-      Researching <strong>robot manipulation</strong>, <strong>computer vision</strong>, and <strong>multimedia security</strong> with publications at IROS, ICCV, WACV, ACM&nbsp;MM, ACCV, and IEEE&nbsp;TII.
+      Researching <strong>robot manipulation</strong>, <strong>computer vision</strong>, and <strong>multimedia security</strong> with publications at BMVC, IROS, ICCV, WACV, ACM&nbsp;MM, ACCV, and IEEE&nbsp;TII.
       <a class="hero-read-more" id="hero-read-more" href="#" role="button" aria-haspopup="dialog">Full bio ↬</a>
     </p>
     <p class="hero-interests">
