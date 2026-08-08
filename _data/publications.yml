@@ -8,7 +8,7 @@
 
 - id: nullguard-bmvc26
   title: "NullGuard: Null-Space Embedding for Driftless Invisible Image Watermarking"
-  authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Juhun Lee, Sangtae Ahn, Simon S. Woo"
+  authors: "Inzamamul Alam, <strong>Md Tanvir Islam</strong>, Juhun Lee, Sangtae Ahn, Simon S. Woo*"
   venue: "British Machine Vision Conference (BMVC 2026)"
   badge: "BMVC'26"
   rank: "Rank A"
@@ -65,7 +65,7 @@
 
 - id: hnh40k-bmvc26
   title: "HNH40K: A Robust Dataset and Risk-Weighted Learning for Hand Filtering"
-  authors: "Ashikuzzaman, Md Selim Sarowar, <strong>Md Tanvir Islam</strong>, Fath U Min Ullah, Hayoung Oh, Sambit Bakshi, Sangtae Ahn, Khan Muhammad"
+  authors: "Ashikuzzaman, Md Selim Sarowar, <strong>Md Tanvir Islam</strong>, Fath U Min Ullah, Hayoung Oh, Sambit Bakshi, Sangtae Ahn*, Khan Muhammad*"
   venue: "British Machine Vision Conference (BMVC 2026)"
   badge: "BMVC'26"
   rank: "Rank A"
@@ -143,7 +143,7 @@
 
 - id: crop-tii26
   title: "Resource-Efficient Neural Network for Crop Damage Classification in Precision Agriculture"
-  authors: "<strong>Md Tanvir Islam</strong>, Shehzad Ali, Abdul Khader Jilani Saudagar, Mohammad Hijji, Yazeed M. Alkhrijah, Khan Muhammad, et al."
+  authors: "<strong>Md Tanvir Islam</strong>, Shehzad Ali, Abdul Khader Jilani Saudagar, Mohammad Hijji, Yazeed M. Alkhrijah, Khan Muhammad"
   venue: "IEEE Transactions on Industrial Informatics"
   venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
   badge: "IEEE TII"
