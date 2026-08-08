@@ -3,6 +3,9 @@
 - year: 2026
   items:
     - date: June 2026
+      text: "Our three papers are accepted at <strong>BMVC'26 (Rank A)</strong>."
+      highlight: true
+    - date: June 2026
       text: "Robot Manipulation paper is accepted at <strong>IROS'26 (Rank A)</strong>."
       highlight: true
     - date: Apr 2026
