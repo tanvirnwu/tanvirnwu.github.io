@@ -15,7 +15,8 @@
   note: "Accepted"
   year: 2026
   type: conference
-  links: {}
+  links:
+    paper: https://openreview.net/forum?id=cNEshxVcWg
   abstract: >-
     Recent progress in text-to-image diffusion highlights the need for invisible,
     tamper-resilient watermarking that maintains both visual fidelity and prompt
@@ -43,7 +44,8 @@
   note: "Accepted"
   year: 2026
   type: conference
-  links: {}
+  links:
+    paper: https://arxiv.org/abs/2608.24959
   abstract: >-
     Vision-Language-Action (VLA) models encode visual observations as flat 2D patch
     tokens that carry no intrinsic geometric structure, and augmenting them with dense
